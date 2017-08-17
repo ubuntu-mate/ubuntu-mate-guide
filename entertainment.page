@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="entertainment">
+
+<info>
+  <link type="guide" xref="applications"/>
+  <link type="next" xref="games"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="faq"/>
+  <desc>Entertainment Applications: Rhythmbox, Shotwell, VLC.</desc>
+</info>
+
+<title>1.4.4 Entertainment Applications</title>
+
+<p>Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <link xref="security#software">Software Centers</link> offer many, many more to choose from.</p>
+
+<section id="rhythmbox">
+<title><link xref="ghelp:/usr/share/help/C/rythmbox/index.docbook"><app>Rhythmbox</app></link></title>
+
+<p><media type="image" src="figures/rhythmbox.png" width="32"/> <app>Rhythmbox</app> is a very easy to use music playing and management program which supports a wide range of audio formats (including mp3 and ogg). Originally inspired by Apple's iTunes, the current version also supports Internet Radio, iPod integration and generic portable audio player support, Audio CD burning, Audio CD playback, music sharing, and Podcasts. For help topics on this application, <link xref="ghelp:/usr/share/help/C/rythmbox/index.docbook">see the <app>Rhythmbox</app> manual.</link></p>
+</section> 
+
+<section id="shotwell">
+<title><link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page"><app>Shotwell</app></link></title>
+
+<p><media type="image" src="figures/shotwell.png" width="32"/> <app>Shotwell</app> is a digital photo organiser. It allows you to import photos from disk or camera, organise them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage a lot of different image formats, also including raw CR2 files. For help topics on this application, <link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page">see the <app>Shotwell</app> manual.</link></p>
+</section> 
+
+<section id="vlc">
+<title><app>VLC</app></title>
+
+<p><media type="image" src="figures/vlc.png" width="32"/> <app>VLC</app> is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, podcasts, and multimedia streams from various network sources. VLC can also be used as a streaming server that duplicates the stream it reads and multi-casts them through the network to other clients, or serves them through HTTP. VLC has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. For information about <app>VLC</app> <link href="https://wiki.videolan.org/Documentation:VLC_for_dummies">see VideoLan's VLC Introduction.</link></p>
+</section> 
+
+</page>

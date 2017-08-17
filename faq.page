@@ -1,0 +1,121 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="faq">
+
+<info>
+  <link type="guide" xref="index"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="about"/>
+  <desc>Frequently asked questions.</desc>
+</info>
+
+<title>3. FAQ</title>
+
+<p><media type="image" src="figures/system.png" width="32"/><media type="image" src="figures/ubuntu-mate.png" height="32"/> </p>
+
+
+<section id="whatis">
+<title>What is Ubuntu MATE exactly?</title>
+
+<p>See our <link type="guide" xref="ubuntu-mate"> What is Ubuntu MATE?</link> page in this help system.</p>
+</section> 
+
+<section id="canonical">
+<title>Is Ubuntu MATE an official Canonical project?</title>
+
+<p>No, it is an Ubuntu community project.</p>
+</section> 
+
+<section id="who">
+<title>OK, so <em>who is</em> behind Ubuntu MATE?</title>
+
+<p>Take a look at our <link href="https://ubuntu-mate.org/team/">team page</link> on the website to see the all-star cast who have made Ubuntu MATE possible.</p>
+</section> 
+
+<section id="flavour">
+<title>Is Ubuntu MATE an official Ubuntu "flavour"?</title>
+
+<p>Ubuntu MATE 15.04 and onward are <em>official</em> Ubuntu flavours.</p>
+<p>Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are <em>unofficial</em> builds.</p>
+</section> 
+
+<section id="14.04LTS">
+<title>Will you be making a 14.04 LTS version of Ubuntu MATE?</title>
+
+<p>We have, although it is not an official build. You can get it here:</p>
+<p> · <link href="https://ubuntu-mate.org/trusty/">Ubuntu MATE 14.04.2 LTS</link></p>
+<p>We have also posted a <link href="https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/">HOW-TO for installing your own Ubuntu MATE 14.04 from scratch.</link></p>
+</section>
+
+<section id="xyz">
+<title>Why is <em>xyz</em> application installed by default when I prefer <em>abc</em> application?</title>
+
+<p>In general, the default application selection follows what shipped in Ubuntu 14.04. The only reason we deviate from the default Ubuntu applications is if they are not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies.</p>
+<p>The reason for using the default applications as shipped by Ubuntu is the Ubuntu staff support the default applications. The Ubuntu MATE team is rather small so sharing the support responsibility makes sense, both for us and our users.</p>
+</section> 
+
+<section id="abc">
+<title>Why is <em>xyz</em> application installed default when <em>abc</em> application is better?</title>
+
+<p>See the answer to the question above.</p>
+</section>
+
+<section id="mypc">
+<title>Will Ubuntu MATE run on my computer?</title>
+
+<p>If you have a computer from Entroware, System 76, ZaReason or Think Penguin then Ubuntu MATE will absolutely run on your computer. Computers from major vendors such as Acer, ASUS, Dell, HP and Lenovo will most likely run Ubuntu MATE just fine too.</p>
+
+<p>Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era, can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.</p>
+</section> 
+
+<section id="itunes">
+<title>Can I use <app>iTunes</app> on Ubuntu MATE?</title>
+
+<p>No. This is one of those programs that is specifically designed by Apple NOT to run on Linux. Although Mac OS X has its roots in the same UNIX philosophy as Linux, OS X is not the same as Linux, and applications written for Apple's operating system do not automatically run on Linux. There are, however plenty of alternative media players that will play music, create play lists, sync with mobile devices, and retrieve, manage and play podcasts. <app>Rhythmbox</app> is provided with Ubuntu MATE and can play any of the music or podcasts in your <app>iTunes</app> library.</p>
+</section> 
+
+<section id="safe">
+<title>Is Ubuntu MATE secure and safe to use?</title>
+
+<p>Ubuntu MATE is designed with security in mind. Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously. The updates include security patches for Ubuntu MATE and all of its components. Security updates for all of its installed applications are also provided on the same schedule. This ensures that you have the latest protection for all of your computer's software, as soon as it's available!</p>
+</section>
+
+<section id="secure">
+<title>Is Ubuntu MATE more secure than other operating systems?</title>
+
+<p>We think that security on Linux systems like Ubuntu MATE is superior. Ubuntu MATE users are not administrators by default. Administrators ("root" users) on any computer system have permission to do anything they want, including the ability to damage the system.</p>
+
+<p>For example, other operating systems look at the name of a file to determine which program should open it, then immediately attempt to open it! That design makes it easy for an intruder to attack a computer. Ubuntu MATE opens a file based on what the file is, not based on its name. So even if a malicious program disguises its identity by using the name "Last Will and Testament.txt" Ubuntu MATE will recognise the file as a program. The system provides a warning that the file is not a text file, but that it is a program that will be run if you give it permission to continue. To be extra secure, Ubuntu MATE requires you to provide your administrator password before that permission is granted. Every single time.</p>
+</section> 
+
+<section id="virus">
+<title>Can Ubuntu MATE get computer viruses and malware?</title>
+
+<p>Ubuntu MATE can get viruses and other infections… but it doesn't. Rapid and timely updates ensure that there are very few, if any threats to Linux systems like Ubuntu MATE that persist in the wild. In reality, there have been very few "public" infections in the last 10 years that can affect Ubuntu MATE. They are no longer a threat to anyone installing or using a modern Linux distribution today. Ubuntu MATE is designed to make it difficult for viruses, root kits and other malware to be installed and run without conscious intervention by you, the user. Even if you do accidentally invite in an infection, chances are it's designed to attack Windows and won't do much, if any damage to Ubuntu MATE.</p>
+</section> 
+
+<section id="free">
+<title>How can Ubuntu MATE be free?</title>
+
+<p>What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source. Open Source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free, in the truest sense of the word.</p>
+
+<p>Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the licence gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the licence to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.</p>
+
+<p>Many of the users of Linux are corporations that use the operating system to run their businesses, or include it within their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. These improvements are given back to the Linux community and Ubuntu MATE improves as a result.</p>
+
+<p>This is how we can continually improve and grow without having to charge our users money.</p>
+</section> 
+
+<section id="contact">
+<title>I've got a question. Where do I ask?</title>
+
+<p>Ask the <link href="https://ubuntu-mate.org/community/">Ubuntu MATE community</link>.</p>
+</section>
+
+<section id="future">
+<title>What has Ubuntu MATE got planned for the future?</title>
+
+<p>Hopefully our <link href="https://ubuntu-mate.org/roadmap/">roadmap</link> outlines some of what we have planned. If you have any ideas yourself, we'd love to hear from you.</p>
+</section>
+
+</page>

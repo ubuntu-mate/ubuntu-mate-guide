@@ -1,0 +1,34 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="index">
+<title>Ubuntu MATE Help</title>
+
+<info>
+  <revision version="0.1" date="2016-11-02" status="incomplete"/>
+
+  <link type="next" xref="ubuntu-mate"/>
+
+  <credit type="copyright">
+    <name>Ubuntu MATE Team</name>
+    <email its:translate="no">goinglinux@gmail.com</email>
+    <years>2016</years>
+  </credit>
+
+  <credit type="author">
+    <name>Larry Bushey</name>
+  </credit>
+
+  <credit type="publisher">
+    <name><link href="http://ubuntu-mate.org">Ubuntu MATE</link></name>
+  </credit>
+
+  <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  <credit type="trademark">
+    <name>Ubuntu is a trademark of Canonical Ltd. </name>
+  </credit>
+</info>
+
+<p><media type="image" src="figures/system.png" width="48"/><media type="image" src="figures/ubuntu-mate.png" height="48"/></p>
+
+</page>

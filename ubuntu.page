@@ -1,0 +1,23 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="ubuntu">
+
+<info>
+  <link type="guide" xref="ubuntu-mate"/>
+  <link type="next" xref="mate-desktop"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="faq"/>
+  <desc>What is Ubuntu?</desc>
+</info>
+
+<title>1.1 Ubuntu</title>
+<p><media type="image" src="figures/ubuntu.png" width="32"/> <link href="http://www.ubuntu.com/">Ubuntu</link> is one of, if not the, largest deployed <link href="https://en.wikipedia.org/wiki/Linux">Linux</link> based desktop operating systems in the world. Linux is at the heart of Ubuntu and makes it possible to create secure, powerful and versatile operating systems, such as Ubuntu and Android. Android is now in the hands of billions of people around the world and it’s also powered by Linux.</p>
+
+<p>Ubuntu is available in a number of different flavours, each coming with its own desktop environment. Ubuntu MATE takes the Ubuntu base operating system and adds the <link href="http://mate-desktop.org/">MATE Desktop.</link></p>
+
+<note style="tip">
+  <p>The name "<app>Ubuntu</app>" is pronounced <em>oǒ'boǒntoō</em>. According to <link href="https://www.ubuntu.com/about/about-ubuntu">The Ubuntu Story</link>, "Ubuntu is an ancient African word meaning 'humanity to others'. It also means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers."</p>
+</note>
+
+
+</page>

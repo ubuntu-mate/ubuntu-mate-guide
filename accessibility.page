@@ -1,0 +1,19 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="accessibility">
+
+<info>
+  <link type="guide" xref="applications"/>
+  <link type="next" xref="about"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="faq"/>
+  <desc>Accessibility Applications: </desc>
+</info>
+
+<title>1.4.7 Accessibility</title>
+<p><media type="image" src="figures/a11y.png" width="32"/> Making an accessible operating system was a key priority when the Ubuntu MATE founders initially set out the goals of the project.</p>
+
+<p>Ubuntu MATE is never going to be able to offer the comprehensive integration of assistive technologies that <link href="http://sonargnulinux.com/">Sonar GNU/Linux</link> provides. But Ubuntu MATE will continue to follow their lead so that Ubuntu MATE is a viable desktop solution where computer access is shared within a household or business where individual needs differ.</p>
+
+</page>

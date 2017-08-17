@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="community">
+
+<info>
+  <link type="guide" xref="support"/>
+  <link type="next" xref="faq"/>
+  <desc>Getting the help you need to use Ubuntu MATE.</desc>
+</info>
+
+<title>2.5.2 The Ubuntu MATE Community</title>
+
+<p><media type="image" src="figures/community.png" width="32"/> Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. </p>
+
+<p>The <link href="https://ubuntu-mate.org/community/">Community page on the Ubuntu MATE website</link> provides options in three categories for getting involved. </p>
+
+<section id="discussion">
+<title>Discussion</title>
+
+<p>Join the conversation and get involved. Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community.</p>
+
+<p>Ubuntu MATE also has its own IRC channel, <link href="https://ubuntu-mate.org/irc/">#ubuntu-mate</link>, on the <link href="http://freenode.net/">Freenode</link> network. The #ubuntu-mate channel is also home to matey, probably the smartest IRC bot in the world, EVER!</p>
+</section> 
+
+<section id="social">
+<title>Social Networks</title>
+
+<p>Ubuntu MATE is active on <link href="https://plus.google.com/communities/108331279007926658904">Google+</link>, <link href="https://twitter.com/ubuntu_mate">Twitter</link> and <link href="https://www.facebook.com/UbuntuMATEedition/">Facebook</link>.</p>
+</section> 
+
+<section id="development">
+<title>Development</title>
+
+<p>This is where you can get involved with Ubuntu MATE development. </p>
+
+<p>This is where you can get involved with  and with MATE Desktop development.</p>
+
+<p>Found a Bug? This is where you'll find a link to submit your detailed and reproducible bug reports to Launchpad so that the relevant developers can fix them in future updates.</p>
+</section> 
+
+</page>

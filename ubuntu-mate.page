@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="ubuntu-mate">
+
+<info>
+  <link type="guide" xref="index"/>
+  <link type="next" xref="ubuntu"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="faq"/>
+  <desc>A detailed discussion of Ubuntu MATE and how to use its major applications.</desc>
+</info>
+
+<title>1. What is Ubuntu MATE?</title>
+
+<p><media type="image" src="figures/system.png" width="32"/><media type="image" src="figures/ubuntu-mate.png" height="32"/> </p>
+
+<p>Ubuntu MATE is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's OS X and Google's Chrome OS.</p>
+
+<p>If you are new to Ubuntu MATE, or only casually acquainted with Linux based distributions, it can be difficult to understand how a Linux operating system compares with other computer systems that you may already be familiar with. Hopefully this manual will help demystify Ubuntu MATE for new-comers and provide a reference for all users.</p>
+
+<section id="modern">
+<title>Modern and Full-Featured</title>
+
+<p>Ubuntu MATE is a modern computer operating system, with an attractive and easy to understand user interface. Its update manager keeps not only the operating system itself, but all of its installed applications updated to the current release. The operating system is more secure, and better supported than operating systems that come pre-installed on most home computer hardware today.</p>
+</section> 
+
+<section id="flexible">
+<title>Pre-Configured Yet Flexible</title>
+
+<p>Using Ubuntu MATE provides you with the freedom to run a complete, full-featured operating system, pre-configured with most, if not all, of the applications you will need for your daily computing - or to change anything about the way it looks, the way it works, or the applications it runs to suit your taste.</p>
+</section> 
+
+<section id="security">
+<title>Built-In Security</title>
+
+<p>Ubuntu MATE is designed with security in mind. Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously. The updates include security patches for Ubuntu MATE and all of its components. Security updates for all of its installed applications are also provided on the same schedule. This ensures that you have the latest protection for all of your computer's software -- as soon as it's available!</p>
+</section>
+
+
+</page>

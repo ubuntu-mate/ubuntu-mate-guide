@@ -1,0 +1,34 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="productivity">
+
+<info>
+  <link type="guide" xref="applications"/>
+  <link type="next" xref="document-management"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="faq"/>
+  <desc>Productivity Applications: Firefox, Thunderbird, LibreOffice</desc>
+</info>
+
+<title>1.4.2 Productivity Applications</title>
+<p><media type="image" src="figures/firefox.png" width="32"/> <app>Firefox</app> delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. <link href="https://support.mozilla.org/en-US/products/firefox">Read more about <app>Firefox</app>.</link></p>
+
+<p><media type="image" src="figures/thunderbird.png" width="32"/> <app>Thunderbird</app> is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier than ever before. It supports different mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of mails with tagging and virtual folders. It also features unrivalled extensibility. <link href="https://www.mozilla.org/en-US/thunderbird">Read more about <app>Thunderbird</app>.</link></p>
+
+<p><media type="image" src="figures/libreoffice.png" width="32"/> <app>LibreOffice</app> is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft(R) Office; its clean interface and powerful tools let you unleash your creativity and grow your productivity. LibreOffice embeds several applications that make it the most powerful Free and Open Source Office suite on the market. <link href="https://www.libreoffice.org/get-help/documentation/">Read more about <app>LibreOffice</app>.</link></p>
+
+<tree>
+  <item>
+    <item><media type="image" src="figures/writer.png"/> <app>Writer</app>, the word processor.</item>
+    <item><media type="image" src="figures/calc.png"/> <app>Calc</app>, the spreadsheet application.</item>
+    <item><media type="image" src="figures/impress.png"/> <app>Impress</app>, the presentation engine.</item>
+    <item><media type="image" src="figures/draw.png"/> <app>Draw</app>, the drawing and flowcharting application.</item>
+    <item><media type="image" src="figures/base.png"/> <app>Base</app>, the database and database frontend.</item>
+    <item><media type="image" src="figures/math.png"/> <app>Math</app>, for editing mathematics.</item>
+  </item>
+</tree>
+
+<p><media type="image" src="figures/phone.svg" width="32"/> Currently Ubuntu MATE has the essential mobile device support you'd expect. You can plug in a phone, media player or digital camera and the device is automatically detected and mounted, you can then access the files on it or sync content.</p>
+
+</page>
