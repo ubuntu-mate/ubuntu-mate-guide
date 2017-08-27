@@ -4,14 +4,14 @@
 <title>Ubuntu MATE Help</title>
 
 <info>
-  <revision version="0.1" date="2016-11-02" status="incomplete"/>
+  <revision version="0.1" date="2017-05-05" status="incomplete"/>
 
   <link type="next" xref="ubuntu-mate"/>
 
   <credit type="copyright">
     <name>Ubuntu MATE Team</name>
     <email its:translate="no">goinglinux@gmail.com</email>
-    <years>2016</years>
+    <years>2017</years>
   </credit>
 
   <credit type="author">

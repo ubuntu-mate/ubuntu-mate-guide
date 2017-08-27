@@ -15,30 +15,26 @@
 <p><media type="image" src="figures/mate.png" width="32"/> Wikipedia says that a <link href="https://en.wikipedia.org/wiki/Desktop_environment">Desktop Environment</link> is:</p>
 
 <quote>
-  <cite>Wikipedia (09 Nov 2016)</cite>
-  <p>...an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files.</p>
+  <cite>Wikipedia (07 May 2017)</cite>
+  <p>... an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...</p>
 </quote>
 
-<p>The MATE Desktop is one such implementation of a desktop environment and includes a file manager which can connect you to your local and networked files, a text editor, calculator, archive manager, image viewer, document viewer, system monitor and terminal. All of which are highly customisable and managed via a control centre. Complete documentation for the MATE Desktop Environment and its applications <link xref="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">can be found in the MATE <app>Desktop User Guide</app>.</link></p>
+<p>The MATE Desktop is one such implementation of a desktop environment and includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor and terminal. All of which are highly customisable and managed via a control centre. Complete documentation for the MATE Desktop Environment and its applications <link xref="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">can be found in the MATE <app>Desktop User Guide</app>.</link></p>
 
 <p>MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors, which means if you’ve ever used <link href="http://www.microsoft.com/">Microsoft Windows</link> or <link href="http://www.apple.com/">Apple Mac OS</link>, it will feel very familiar.</p>
 
-<p>The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that MATE Desktop is tried, tested and very reliable. </p>
+<p>The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that the MATE Desktop is tried, tested and very reliable. </p>
 
 <note style="tip">
   <p>The name "<app>MATE</app>" is pronounced <em>Ma-Tay</em>. It comes from the <link href="https://en.wikipedia.org/wiki/Yerba_mate">yerba maté</link> plant, native to South America.</p>
 </note>
 
+<p>The MATE Desktop provides you with essential features that you'd expect in a computer desktop environment, all of which are highly customisable and managed by the <link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook"><app>Control Center</app></link>:</p>
+
 <section id="caja">
 <title>File Browser (<link xref="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml"><app>Caja</app></link>)</title> 
 
 <p><media type="image" src="figures/file-manager.svg" width="32"/> The <app>Caja</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Caja</gui></guiseq>, lets you organise files and folders, both on your computer and online. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml">see the <app>Caja</app> manual.</link></p>
-</section>
-
-<section id="galculator">
-<title>Calculator (<app>galculator</app>)</title>
-
-<p><media type="image" src="figures/galculator.png" width="32"/> The <app>galculator</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Galculator</gui></guiseq>, is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. Documentation for this application is available at the <link href="http://galculator.mnim.org/"><app>galculator</app> webpage.</link></p>
 </section>
 
 <section id="pluma">
@@ -80,7 +76,7 @@
 <section id="control-center">
 <title><link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook"><app>Control Center</app></link></title>
 
-<p><media type="image" src="figures/control-centre.png" width="32"/> The <app>Control Center</app> provides a single window from which to launch all preference tools. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook">see the <app>Control Center</app> manual.</link></p>
+<p><media type="image" src="figures/control-centre.png" width="32"/> The <app>Control Center</app>, found in the Ubuntu MATE menus at <guiseq><gui>System</gui><gui>Control Center</gui></guiseq>, provides a single window from which to launch all of the MATE preference tools. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook">see the <app>Control Center</app> manual.</link></p>
 </section>
 
 </page>

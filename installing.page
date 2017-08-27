@@ -51,19 +51,34 @@
 
   <item><p>Start the computer and watch the screen to determine which function key to press to change the boot device. The message flashes by quickly, right at the bottom edge of the screen, but the most frequently used keys are <key>F1</key>, <key>F2</key>, <key>F4</key>, <key>F12</key> and the <key>Del</key> key. It depends on your computer's manufacturer. If your computer boots up normally and you don't see Ubuntu MATE startup, shut down and try again. </p></item>
 
-  <item><p>When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that let's you boot using the USB stick. That's usually the <key>Enter</key> or <key>F10</key>. If you need help, try this article from How-To Geek: "<link href="http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/">How to Boot Your Computer From a Disc or USB Drive</link>"</p></item> 
+  <item><p>When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that let's you boot using the USB stick. That's usually the <key>Enter</key> or <key>F10</key> key. If you need help, try this article from How-To Geek: "<link href="http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/">How to Boot Your Computer From a Disc or USB Drive</link>"</p></item> 
 
-  <item><p>Once the computer has started loading Ubuntu MATE, you will be given some options. Select the option: <gui>Try Ubuntu MATE</gui>.</p></item>
+  <item><p>Once the computer has started loading Ubuntu MATE, you will be given some options. Select the option: <gui>Try Ubuntu MATE</gui>.</p>
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/try-um.jpg" width="100%"/></p></td>
+  </tr>
+</table></item>
 
-  <item><p>Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now is a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double click the installation icon on the desktop. </p></item>
+  <item><p>Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double click the installation icon on the desktop. </p></item>
 
   <item><p>You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the Network Manager icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the pass code, click the <key>Connect</key> button and you will be connected.</p></item>
 
-  <item><p>To begin the installation, double-click the <app>Install Ubuntu MATE</app> icon on the desktop. </p></item>
+  <item><p>To begin the installation, double-click the <app>Install Ubuntu MATE</app> icon on the desktop. </p>
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/install-um.jpg" width="100%"/></p></td>
+  </tr>
+</table></item>
 
   <item><p>Select your language. Press the <key>Continue</key> button.</p></item>
 
-  <item><p>If you have an Internet connection, choose the option to download updates while installing. For first time Ubuntu MATE users, you should also choose the option to install third-party software to ensure a smooth transition to your new operating system. Press the <key>Continue</key> button.</p></item>
+  <item><p>If you have an Internet connection, choose the option to download updates while installing. For first time Ubuntu MATE users, you should also choose the option to install third-party software to ensure a smooth transition to your new operating system. Press the <key>Continue</key> button.</p>
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/install-extras.jpg" width="100%"/></p></td>
+  </tr>
+</table></item>
 
   <item><p>If you are sure that you want to completely erase every trace of your previous operating system, choose the option: <gui>Erase disk and install Ubuntu MATE</gui>. If you are not sure, then choose the option: <gui>Install Ubuntu MATE alongside</gui> your original operating system. This will allow you to choose which operating system to use when you start your computer. If you chose to install along side, the press the <key>Continue</key> button.</p></item>
 

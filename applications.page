@@ -11,12 +11,12 @@
 </info>
 
 <title>1.4 Powerful Applications</title>
-<p><media type="image" src="figures/synaptic.png" width="32"/> While MATE Desktop provides the essential user interfaces to control and use a computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. Naturally you’ll also find a firewall, backup application, document/photo scanner and printer management all included in Ubuntu MATE. </p>
+<p><media type="image" src="figures/synaptic.png" width="32"/> While MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. Naturally you'll also find a firewall, a backup application, a document/photo scanner, and printer management all included in Ubuntu MATE. </p>
 
 <section id="welcome">
 <title><link xref="welcome">Ubuntu MATE Welcome</link></title>
 
-<p><media type="image" src="figures/system.png" width="32"/> <app>Ubuntu MATE Welcome</app> is a utility unique to Ubuntu MATE that helps orientate users with their new operating system. It guides users through post-install configuration such as installing drivers and adding language support. Welcome provides a one-click installation from a highly curated list of best-in-class software to "get stuff done". </p>
+<p><media type="image" src="figures/system.png" width="32"/> <app>Ubuntu MATE Welcome</app>, found in the Ubuntu MATE menus at <guiseq><gui>System</gui><gui>Welcome</gui></guiseq>, is a utility unique to Ubuntu MATE that helps orientate users with their new operating system. It guides users through post-install configuration such as installing drivers and adding language support. Welcome provides a one-click installation from a highly curated list of best-in-class software to "get stuff done". </p>
 </section> 
 
 <section id="productivity">
@@ -34,7 +34,7 @@
 
 <p><media type="image" src="figures/printer.svg" width="32"/> Printing on Ubuntu MATE is simple and easy. In most cases you simply connect your printer via USB cable and Ubuntu MATE immediately configures it for use. Printing to a network printer is almost as easy.</p>
 
-<p><media type="image" src="figures/scanner.png" width="32"/> The <app>Simple Scan</app> application, found in the <gui>Graphics</gui> menu, provides a simple and easy way to scan you documents. Once you scanner is connected via USB or over the network, configuration is usually automatic. Load your document, press <key>Scan</key>, then save the image.</p>
+<p><media type="image" src="figures/scanner.png" width="32"/> The <app>Simple Scan</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Simple Scan</gui></guiseq>, provides a simple and easy way to scan you documents. Once you scanner is connected via USB or over the network, configuration is usually automatic. Load your document, press <key>Scan</key>, then save the image.</p>
 
 <p><media type="image" src="figures/application-pdf.png" width="32"/> Whether you are scanning a page, writing a book, or saving a web page, PDF creation on Ubuntu MATE is built-in. Most applications allow you to save or export a document as a PDF from the application menus. If the application you use doesn't offer that directly, you can always print the document as a PDF file.</p>
 </section> 

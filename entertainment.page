@@ -16,9 +16,9 @@
 <p>Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <link xref="security#software">Software Centers</link> offer many, many more to choose from.</p>
 
 <section id="rhythmbox">
-<title><link xref="ghelp:/usr/share/help/C/rythmbox/index.docbook"><app>Rhythmbox</app></link></title>
+<title><link xref="ghelp:/usr/share/help/C/rhythmbox/index.docbook"><app>Rhythmbox</app></link></title>
 
-<p><media type="image" src="figures/rhythmbox.png" width="32"/> <app>Rhythmbox</app> is a very easy to use music playing and management program which supports a wide range of audio formats (including mp3 and ogg). Originally inspired by Apple's iTunes, the current version also supports Internet Radio, iPod integration and generic portable audio player support, Audio CD burning, Audio CD playback, music sharing, and Podcasts. For help topics on this application, <link xref="ghelp:/usr/share/help/C/rythmbox/index.docbook">see the <app>Rhythmbox</app> manual.</link></p>
+<p><media type="image" src="figures/rhythmbox.png" width="32"/> <app>Rhythmbox</app> is a very easy to use music playing and management program which supports a wide range of audio formats (including mp3 and ogg). Originally inspired by Apple's iTunes, the current version also supports Internet Radio, iPod integration and generic portable audio player support, Audio CD burning, Audio CD playback, music sharing, and Podcasts. For help topics on this application, <link xref="ghelp:/usr/share/help/C/rhythmbox/index.docbook">see the <app>Rhythmbox</app> manual.</link></p>
 </section> 
 
 <section id="shotwell">
