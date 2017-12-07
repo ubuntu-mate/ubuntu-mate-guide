@@ -1,0 +1,94 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="software">
+
+<info>
+  <link type="guide" xref="applications"/>
+  <link type="next" xref="personalization"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Installing Linux software applications from trusted sources.</desc>
+</info>
+
+<title>3.08 Installing Additional Applications</title>
+<p><media type="image" src="apps/ubuntu-software-center.png" width="32"/> Almost every software package that is available and tested for Ubuntu MATE is available in the online software repositories (software catalog). The concept of software repositories is likely not all that familiar to long-time users switching from Windows, since classic Windows users normally had to go to a brick and mortar store, or go online to purchase new software for the Microsoft operating system. For macOS users however, the concept of the Apple App Store is similar in concept to the software repositories. Both contain trusted applications verified to run on their respective operating systems. Unlike most software in the App Store, the vast majority of Linux applications are neither proprietary nor expensive.</p>
+
+<p>The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and are variably referred to as "the software catalog," "the software library," "the software center," "software sources," or simply "software repositories." These repositories contain almost ALL of the full-featured, free and open source software that has been tested for installation on Ubuntu MATE and other Ubuntu derivatives. And they won't put spyware and viruses on your computer!</p>
+
+<p>To install software on Ubuntu MATE, you normally use the <app>Software Boutique</app>. You can also use the software center or the <app>Synaptic</app> package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the <app>Software Boutique</app> returns no results.</p>
+
+<section id="trusted">
+<title>Trusted Sources</title>
+
+<p>The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and most are free of charge. When you use Ubuntu MATE, those applications as well as security updates, driver updates, application updates, software upgrades and operating system upgrades are all available from trusted sources so you won't need to search the Internet for software. No more risking malware, junkware, or ransomware as a result of downloading from the wrong site! Ubuntu's software catalog is the ultimate in a trusted source!</p>
+
+<p>There are several ways to obtain software from the software catalog. Ubuntu MATE's own <app>Software Boutique</app> is a carefully curated selection of the best-in-class applications from the Ubuntu repositories, chosen because they integrate well, complement Ubuntu MATE and enable you to personalize your computing experience. When you first install Ubuntu MATE, the <app>Software Boutique</app> is the main graphical application you will use to install software. Other applications are also available to explore the complete Ubuntu software catalog. You have full access to the entire library at any time using the command line, but in order to obtain software from the complete software catalog using a graphical application that lets you browse through it, you will need to enable one or more of the software center applications from within the <app>Software Boutique</app>.</p>
+
+<note>
+ <p>Note: Installing applications from the command line is discussed in a little more detail in <link xref="terminal#example">Installing Applications Using the Command Line</link>.</p>
+</note>
+</section> 
+
+<section id="boutique">
+<title>Software Boutique</title>
+
+<p>The Software Boutique's curated selection of the most popular applications lets you:</p>
+<tree>
+ <item>
+  <item> • Select from the list of Ubuntu MATE's recommended software, tested for the distribution.</item>
+  <item> • Use simple tools to manage software packages installed on your system.</item>
+  <item> • Install a software center or package manager with even more powerful ways to obtain additional software for your computer.</item>
+ </item>
+</tree>
+
+<p>To launch the <app>Software Boutique</app> from the menus, choose <guiseq><gui>System</gui><gui>Administration</gui><gui>Software Boutique</gui></guiseq>.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/software-boutique-window.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="software-centers">
+<title>Software Centers</title>
+
+<p>If you don't find what you're looking for in the <app>Software Boutique</app>, install one of the available Software Centers to explore the complete Ubuntu software catalog. Choose the "More Software" category using the icons across the top of the Software Boutique's main window. The selection labeled simply "Software" installs a graphical application that lets you browse, install and update additional software applications and system extensions from the Ubuntu software repositories.</p>
+
+<p>The <app>Synaptic Package Manager</app> is a graphical package management application that lets you install software onto your computer and manage the software that is already installed. It allows you to search, install, upgrade, and remove packages using the software repositories. It also lets you add more software sources, modify repository settings, view changelogs, and even lock a package to a specific version.</p>
+
+<p>Ubuntu MATE always has security in mind. Regardless of how you choose to install software, you are always asked for your password before anything can be installed. This is a list of some of the most popular software selections available from the repositories:</p>
+
+<tree>
+ <item>
+  <item> • Codecs, libdvdcss2</item>
+  <item> • Dropbox for file sharing</item>
+  <item> • Gimp advanced image editor</item>
+  <item> • The Google Chrome browser</item>
+  <item> • Google Music Manager</item>
+  <item> • InSync Google Drive application</item>
+  <item> • Minecraft</item>
+  <item> • Skype for Linux</item>
+  <item> • The Steam gaming platform</item>
+  <item> • The Software application</item>
+  <item> • SpiderOakONE offsite backup</item>
+  <item> • Spotify for music</item>
+  <item> • Synaptic package manager</item>
+  <item> • Syncthing for file synchronization</item>
+  <item> • Telegram messaging app</item>
+  <item> • Ubuntu SDK</item>
+  <item> • Get download manager</item>
+  <item> • VeraCrypt file and folder encryption</item>
+  <item> • VirtualBox 5.0 virtual machine</item>
+ </item>
+</tree>
+
+<p>There is much more available. You can browse by the application's name or by function -- what the application does. Because the vast majority of the software available in the repositories is free, you can try applications and if you don't like them, or if they don't do what you expect them to do, you can uninstall them just as easily.</p>
+</section> 
+
+</page>

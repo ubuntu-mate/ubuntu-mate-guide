@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="engrampa">
+
+<info>
+  <link type="guide" xref="mate-apps"/>
+  <link type="next" xref="eom"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Create, view, modify, or unpack zipped files or compressed archive files.</desc>
+</info>
+
+<title>2.04 Archive Manager (Engrampa)</title>
+<p><media type="image" src="apps/engrampa.png" width="32"/> You can use the <app>Engrampa Archive Manager</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Engrampa Archive Manager</gui></guiseq>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.</p>
+
+<p>The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. <app>Archive Manager</app> supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more.</p>
+
+<p>The <app>Archive Manager</app> window contains the elements listed in the sections below. </p>
+
+<note style="tip">
+ <p>For help topics on this application, see the <link xref="ghelp:/usr/share/help/C/engrampa/index.docbook"><app>Archive Manager</app> manual</link> by pressing <key>F1</key> while <app>Archive Manager</app> is open.</p>
+</note>
+
+<section id="menu">
+<title>Menu Bar</title>
+
+<p>The menus on the menubar contain all of the commands you need to work with files in <app>Archive Manager</app>. Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <app>Archive Manager</app> window.</p>
+</section> 
+
+<section id="toolbar">
+<title>Toolbar</title>
+
+<p>The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar.</p>
+</section>
+
+<section id="using">
+<title>Using Archive Manager</title>
+
+<p>To create a new archive file, you can choose <gui>Open</gui> from the menu, click and drag one or more files or folders from the <app>Caja File Browser</app> window into the <app>Archive Manager</app> window, or right-click one or more files in <app>Caja</app> and selecting <gui>Compress</gui> from the menu.</p>
+
+<p>To expand a compressed file's contents, you start by opening the archive by double- clicking it in the <app>File Browser</app>. Next, you can choose one or more files in the <app>Archive Manager</app> window and either choose <gui>Extract</gui> from the menu or drag them to the desktop or other location where you want the files to end up.</p>
+</section> 
+
+</page>

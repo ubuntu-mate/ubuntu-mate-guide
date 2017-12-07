@@ -1,36 +1,78 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="entertainment">
 
 <info>
   <link type="guide" xref="applications"/>
   <link type="next" xref="games"/>
   <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Entertainment Applications: Rhythmbox, Shotwell, VLC.</desc>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Entertainment Applications: Rhythmbox, Shotwell, VLC.</desc>
 </info>
 
-<title>1.4.4 Entertainment Applications</title>
+<title>3.04 Entertainment Applications</title>
 
 <p>Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <link xref="security#software">Software Centers</link> offer many, many more to choose from.</p>
 
 <section id="rhythmbox">
-<title><link xref="ghelp:/usr/share/help/C/rhythmbox/index.docbook"><app>Rhythmbox</app></link></title>
+<title>Rhythmbox Music and Podcast Manager</title>
 
-<p><media type="image" src="figures/rhythmbox.png" width="32"/> <app>Rhythmbox</app> is a very easy to use music playing and management program which supports a wide range of audio formats (including mp3 and ogg). Originally inspired by Apple's iTunes, the current version also supports Internet Radio, iPod integration and generic portable audio player support, Audio CD burning, Audio CD playback, music sharing, and Podcasts. For help topics on this application, <link xref="ghelp:/usr/share/help/C/rhythmbox/index.docbook">see the <app>Rhythmbox</app> manual.</link></p>
+<p><media type="image" src="apps/rhythmbox.png" width="32"/> <app>Rhythmbox</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Sound &amp; Video</gui><gui>Rhythmbox</gui></guiseq>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's iTunes, Rhythmbox is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts. </p>
+
+<p>Subscribe to a podcast with Rhythmbox</p>
+<steps>
+ <item><p>Click <gui>Podcasts</gui> in the <app>Rhythmbox</app>'s left panel.</p></item>
+ <item><p>Click the <key>Add</key> button in the button bar. The search panel opens.</p></item>
+ <item><p>Type a search term or you can type or paste the link for the podcast feed into the search field.
+ <table width="100%" frame="all"> 
+   <tr>
+     <td><p><media type="image" src="figures/rhythmbox-podcast-search.png" width="100%"/></p></td>
+   </tr>
+ </table>
+</p></item>
+ <item><p>Click <key>Search</key>. Podcasts matching your search appear in a list below the search.</p></item>
+ <item><p>Select the podcast you want from the list and click <key>Subscribe</key>. The episodes are added to the playlist and <app>Rhythmbox</app> immediately begins downloading the latest episode into a folder named for the podcast within your Music folder. <app>Rhythmbox</app> checks periodically for new episodes of each podcast and downloads them for you.</p></item>
+ <item><p>Click <key>Close</key> to hide the search panel.</p></item>
+</steps>
+
+<p>To play an episode, select one from the list and press the <key>Play</key> button. You may wish to click on the header of the <gui>Date</gui> field to sort the episodes so that the latest episode is at the top of the list. As long as you have an Internet connection, you can play any of the older episodes without downloading them. Right-click any episode in the list to see an option to download that episode.</p>
+
+<p>For more information on how to use the playlist and other features of <app>Rhythmbox</app>, see the <link xref="ghelp:/usr/share/help/C/rhythmbox/index.docbook">Rhythmbox Music Player Manual</link> by pressing <key>F1</key> while <app>Rhythmbox</app> is open. </p>
 </section> 
 
 <section id="shotwell">
-<title><link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page"><app>Shotwell</app></link></title>
+<title>Shotwell Digital Photo Organizer</title>
 
-<p><media type="image" src="figures/shotwell.png" width="32"/> <app>Shotwell</app> is a digital photo organiser. It allows you to import photos from disk or camera, organise them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage a lot of different image formats, also including raw CR2 files. For help topics on this application, <link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page">see the <app>Shotwell</app> manual.</link></p>
+<p><media type="image" src="apps/shotwell.png" width="32"/> <app>Shotwell</app> Shotwell, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Shotwell</gui></guiseq>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.</p>
+
+<p>When you first launch <app>Shotwell</app>, it scans your computer for photos and imports them so that you can use <app>Shotwell</app> to organize them. Once you have all the photos from your computer's hard drive within <app>Shotwell</app>, you can import new files by choosing <guiseq><gui>File</gui><gui>Import From Folder</gui></guiseq> from the menus, or by dragging and dropping them onto the <app>Shotwell</app> window, or by connecting a camera to your computer and choosing to import the photos from there. </p>
+
+<p>With <app>Shotwell</app>, you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
+<app>Shotwell</app> also provides the ability to edit the photos themselves. You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle.</p>
+
+<p>Of course, you can share your photos from <app>Shotwell</app> by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.</p>
+
+<p>To learn more about how to use each of the features of <app>Shotwell</app>, see the <link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page">Shotwell Photo Manager Manual</link> by pressing <key>F1</key> while <app>Shotwell</app> is open.</p>
 </section> 
 
 <section id="vlc">
-<title><app>VLC</app></title>
+<title>VLC Media Player</title>
 
-<p><media type="image" src="figures/vlc.png" width="32"/> <app>VLC</app> is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, podcasts, and multimedia streams from various network sources. VLC can also be used as a streaming server that duplicates the stream it reads and multi-casts them through the network to other clients, or serves them through HTTP. VLC has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. For information about <app>VLC</app> <link href="https://wiki.videolan.org/Documentation:VLC_for_dummies">see VideoLan's VLC Introduction.</link></p>
+<p><media type="image" src="apps/vlc.png" width="32"/> <app>VLC</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Sound &amp; Video</gui><gui>VLC</gui></guiseq> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <app>VLC</app> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. </p>
+
+<p><app>VLC</app> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.</p>
+
+<p>For additional information about <app>VLC</app> and how it works, see VideoLan's <link href="https://wiki.videolan.org/Documentation:VLC_for_dummies">VLC Introduction.</link></p>
+ <table width="100%" frame="all"> 
+   <tr>
+     <td><p><media type="image" src="figures/vlc-video.png" width="100%"/></p></td>
+   </tr>
+ </table>
+
 </section> 
 
 </page>

@@ -1,61 +1,105 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="welcome">
 
 <info>
   <link type="guide" xref="applications"/>
   <link type="next" xref="productivity"/>
   <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Ubuntu MATE's Welcome Application.</desc>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Ubuntu MATE's Welcome Application.</desc>
 </info>
 
-<title>1.4.1 Ubuntu MATE Welcome</title>
-<p><media type="image" src="figures/system.png" width="32"/> Ubuntu MATE Welcome is a utility unique to Ubuntu MATE that helps orientate users with their new operating system. It guides users through post-install configuration such as installing drivers and adding language support. Welcome provides a one-click installation from a highly curated list of best-in-class software to "get stuff done". </p>
+<title>3.01 Ubuntu MATE Welcome</title>
+<p><media type="image" src="apps/system.png" width="32"/> Developed by the Ubuntu MATE team, the Ubuntu MATE <app>Welcome</app> application is a utility that helps you to get comfortable with your new operating system. It guides you in a step-by-step fashion through post-install configuration such as installing drivers and adding language support.</p>
 
 <table width="100%" frame="all"> 
   <tr>
-    <td><p><media type="image" src="figures/welcome.jpg" width="100%"/></p></td>
+    <td><p><media type="image" src="figures/UbuntuMateWelcome.png" width="100%"/></p></td>
   </tr>
 </table>
 
-<section id="introduce">
-<title>Introduce new users to the operating system</title>
+<p><app>Welcome</app> introduces new users to the operating system, highlights key features of Ubuntu MATE, provides quick guidelines on getting started and displays the computer system's specifications. <app>Welcome</app> also introduces users to the Ubuntu MATE Community with links to the community forums, social networks, the Ubuntu MATE store with branded products for sale, and details on donating to the project. <app>Welcome</app> also includes access to the <app>Software Boutique</app>. It is exactly the same <app>Software Boutique</app> available from the menus and is provided at startup for convenience. </p>
 
-<tree>
-  <item>
-    <item> · Highlight key features of Ubuntu MATE and GNU/Linux.</item>
-    <item> · Provide quick guidelines on getting started.</item>
-    <item> · Provide quick installation guidance.</item>
-    <item> · Inform users of their system's specifications.</item>
-  </item>
-</tree>
+<section id="updates">
+<title>Getting Started: Updates and Extras</title>
+
+<p>One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release, is to click on the <gui>Getting Started</gui> button in the <app>Welcome</app> application and choose the <gui>Updates &amp; Extras</gui> topic. This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support. It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/updates-extras.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>Don't be surprised when you are asked for your password. You are performing updates and installing software. Ubuntu MATE is just keeping you safe. Clicking the <key>Next</key> button in the upper right of the window takes you to the next topic, <gui>Drivers</gui>.</p>
 </section> 
 
-<section id="grow">
-<title>Grow the Ubuntu MATE Community</title>
+<section id="drivers">
+<title>Getting Started: Drivers</title>
 
-<tree>
-  <item>
-    <item> · Links to the community forums and social networks.</item>
-    <item> · Inform of Ubuntu MATE branded products for sale.</item>
-    <item> · Provide details on donating to the project.</item>
-  </item>
-</tree>
+<p>Most drivers for Linux distributions like Ubuntu MATE are already provided as part of the Linux kernel. The kernel is the foundational part of the operating system that makes Linux Linux. While a wide range of hardware is compatible with Ubuntu MATE as a result, your computer hardware may include components and peripherals that require proprietary drivers to function properly. When you were installing Ubuntu MATE, you were asked if you wanted to download and use third-party software. If you ticked the checkbox to do that, clicking the <key>Additional Drivers</key> button reveals which, if any, proprietary drivers have already been installed and enabled for you. If you did not purchase your computer with Linux pre-installed, you may find that clicking <key>Install Firmware Package</key> is required to get some devices to work correctly.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/drivers.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered. What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret. (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers.</p>
+
+<p>Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <app>Welcome</app> application, or in <gui>Software &amp; Update</gui> (available in the <guiseq><gui>System</gui><gui>Administration</gui></guiseq> menu) under the <gui>Additional Drivers</gui> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary driver for your hardware when it's installed, but you have the choice of which driver works best for you. </p>
+
+<p>If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <gui>Additional Drivers</gui> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <gui>Displaying Your System Information</gui>. </p>
+
+<p>If there is nothing there in <gui>Additional Drivers</gui> to improve the performance of your hardware device, you may find something on the hardware manufacturer's site. You may need to install proprietary manufacturer drivers using the command line if you choose to use them. If you do, be careful to follow the installation instructions carefully, and before you install, make a system backup and understand how to uninstall just in case the proprietary drivers don't work. DO NOT simply search for drivers using drivers.com or other third party sites. When you use third party sources, there is no guarantee that you aren't getting something that will inject malware or corrupt your system. If you are unsure, or if you simply can't figure it out, you are better off asking about it in Ubuntu MATE forums and looking for someone else that has some advice or experience. Or you could just settle for the lower performance of the reverse-engineered driver. Of course, if you happen to be an expert in a device that doesn't have drivers in the kernel, the open source community would appreciate you sharing your expertise to help develop high-performance open source drivers for inclusion in the kernel.</p>
 </section> 
 
-<section id="software">
-<title>Software Boutique</title>
+<section id="printers">
+<title>Getting Started: Setting Up Printers</title>
 
-<tree>
-  <item>
-    <item> · From a pick of Ubuntu MATE's recommended software tested for the distribution.</item>
-    <item> · Simple tools to manage packages on the system.</item>
-    <item> · Install a package manager, such as Ubuntu Software Center.</item>
-  </item>
-</tree>
+<p>Setting up a printer is often as simple as plugging in its USB cable, or connecting it and your computer's Wi-Fi to your home wireless network. For more on printing see the <link xref="document-management">Document Management</link> topic. Click on <gui>Read more on printing</gui> in the "Getting Started" window to discover Linux-compatible printers that can be detected and setup automatically.</p>
 
-<p>The installation options include Steam, Google Chrome, Dropbox, Spotify, Syncthing, Telegram, uGet, Minecraft, Gimp (with CMYK support), InSync, SpiderOakONE, Skype, Google Music Manager, VeraCrypt, Ubuntu SDK, Codecs, libdvdcss2, VirtualBox 5.0, AppGrid, Ubuntu Software Centre and many others.</p>
 </section> 
+
+<section id="utilities">
+<title>Getting Started: Additional Utilities</title>
+
+<p>In <gui>Software Utilities for Peripherals</gui> you will find applications that you can install from the Ubuntu repositories to help with specific needs.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/solaar-window.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>One useful example is <app>Solaar</app>, which is a utility for pairing and unpairing Logitech Unifying Receivers with Logitech peripherals like mice and keyboards. Click the <key>Install</key> button below the description of the software utility you want to download and install.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/unifying-receiver.png" width="100%"/></p></td>
+  </tr>
+</table>
+</section>
+
+<section id="specs">
+<title>Getting Started: System Specifications</title>
+
+<p>When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first. Take finding a list of your system hardware for example. In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the <gui>My Computer</gui> desktop icon and selected <gui>Properties</gui>. With Windows 10, you click the Windows logo in the taskbar, then select <guiseq><gui>Settings</gui><gui>System</gui><gui>About</gui></guiseq>. Neither is likely to be very intuitive if you have only ever used a Mac. On Apple's macOS, you select <gui>About This Mac</gui> from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications. Linux, too, has graphical tools to display information about your computer's hardware. Ubuntu MATE provides system specifications in the <app>Welcome</app> application. From the menu, select <guiseq><gui>System</gui><gui>Welcome</gui><gui>Getting Started</gui><gui>System Specifications</gui></guiseq>.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/system-specs.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<note style="tip">
+ <p>This graphical method presents a nice browseable list of information, but with a terminal and a few commands, you can really dig under the hood of your Ubuntu MATE computer's hardware. You can also use the command line to reveal some additional information stored in text files on your hard drive. For a discussion about how to do this, see the topic <link xref="terminal#sys-info">Display Your System Info Using The Command Line</link>.</p>
+</note>
+</section>  
+
 </page>

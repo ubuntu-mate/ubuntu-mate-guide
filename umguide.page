@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="umguide">
+
+<info>
+  <link type="guide" xref="support"/>
+  <link type="next" xref="website"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Getting the help you need while using Ubuntu MATE.</desc>
+</info>
+
+<title>6.01 The Ubuntu MATE Guide</title>
+
+<p><media type="image" src="apps/community.png" width="32"/> The <app>Ubuntu MATE Guide</app>, found in the <app>Ubuntu MATE Guide</app> menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Ubuntu MATE Guide</gui></guiseq>, is for users needing a little extra help while learning to use Ubuntu MATE. The guide is divided into these main topics followed by a list of frequently asked questions (FAQ):</p>
+
+<tree>
+ <item>
+  <item> • Overview: Ubuntu MATE is modern, full-featured, flexible and secure.</item>
+  <item> • MATE's Applications: Applications provided by the MATE Desktop Environment.</item>
+  <item> • Ubuntu MATE's Applications: Pre-configured with applications you use for daily computing.</item>
+  <item> • Personalizing Ubuntu MATE: Making Ubuntu MATE your own.</item>
+  <item> • About the Ubuntu MATE Project: The Ubuntu MATE project, objectives, hardware requirements, and downloading &amp; installing Ubuntu MATE.</item>
+  <item> • Keyboard shortcuts: Some common keyboard shortcuts using Ubuntu MATE, and equivalents you may have used with your previous operating system.</item>
+  <item> • FAQ: Frequently asked questions.</item>
+ </item>
+</tree> 
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/UMGuide.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</page>

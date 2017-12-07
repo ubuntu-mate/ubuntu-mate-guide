@@ -6,12 +6,16 @@
   <link type="guide" xref="about"/>
   <link type="next" xref="installing"/>
   <link type="seealso" xref="ubuntu-mate"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Choosing the right version and downloading the .iso file.</desc>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Choosing the right version and downloading the .iso file.</desc>
 </info>
 
-<title>2.3 Downloading Ubuntu MATE</title>
-<p><media type="image" src="figures/direct-download.png" width="32"/> The Ubuntu MATE website's <link href="https://ubuntu-mate.org/download/">download page</link> gives you several options for downloading an ".iso image file" that you can use to create a CD, DVD or USB drive that allows you to try Ubuntu MATE without changing your computer at all, with an option to install it permanently later. You will need at least 512MB of RAM to install from this image.</p>
+<title>5.03 Downloading Ubuntu MATE</title>
+<p><media type="image" src="apps/direct-download.png" width="32"/> The Ubuntu MATE website's <link href="https://ubuntu-mate.org/download/">download page</link> gives you several options for downloading an ".iso image file" that you can use to create a CD, DVD or USB drive that allows you to try Ubuntu MATE without changing your computer at all, with an option to install it permanently later. You will need at least 512MB of RAM to install from this image.</p>
 
 <table width="100%" frame="all"> 
   <tr>
@@ -54,7 +58,7 @@
 <p>Once you have determined which version to download, scroll down the web page to the section labeled <gui>Via Direct Download</gui>. </p>
   <steps>
     <item><p>Click on the link for the file name that ends in ".iso".</p> 
-          <p><media type="image" src="figures/direct-download.png" height="25"/> <file>ubuntu-mate-16.04.1-desktop-amd64.iso</file></p> </item>
+          <p><media type="image" src="apps/direct-download.png" height="25"/> <file>ubuntu-mate-16.04.1-desktop-amd64.iso</file></p> </item>
     <item><p>Select a location for your downloaded file, if prompted, and click <gui>Save</gui> to begin your download.</p></item>
   </steps>
 

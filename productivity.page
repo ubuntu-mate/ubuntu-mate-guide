@@ -1,34 +1,97 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="productivity">
 
 <info>
   <link type="guide" xref="applications"/>
   <link type="next" xref="document-management"/>
   <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Productivity Applications: Firefox, Thunderbird, LibreOffice</desc>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Productivity Applications: Firefox, Thunderbird, LibreOffice</desc>
 </info>
 
-<title>1.4.2 Productivity Applications</title>
-<p><media type="image" src="figures/firefox.png" width="32"/> <app>Firefox</app> delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. <link href="https://support.mozilla.org/en-US/products/firefox">Read more about <app>Firefox</app>.</link></p>
+<title>3.02 Productivity Applications</title>
+<p>Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the <app>Software Boutique</app> or using one of Ubuntu MATE's other software management applications, and install from there. See the topic <link xref="software">Installing Additional Applications</link> for more information about installing software.</p>
 
-<p><media type="image" src="figures/thunderbird.png" width="32"/> <app>Thunderbird</app> is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier than ever before. It supports different mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of mails with tagging and virtual folders. It also features unrivalled extensibility. <link href="https://www.mozilla.org/en-US/thunderbird">Read more about <app>Thunderbird</app>.</link></p>
+<p>Unlike with Windows and macOS, Ubuntu MATE provides you with all of the pre-installed applications at no charge. And the vast majority of the software available in the software repositories is also free of charge. Here is a sampling of some of the productivity applications you'll find as soon as you start using Ubuntu MATE.</p>
 
-<p><media type="image" src="figures/libreoffice.png" width="32"/> <app>LibreOffice</app> is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft(R) Office; its clean interface and powerful tools let you unleash your creativity and grow your productivity. LibreOffice embeds several applications that make it the most powerful Free and Open Source Office suite on the market. <link href="https://www.libreoffice.org/get-help/documentation/">Read more about <app>LibreOffice</app>.</link></p>
+<section id="firefox">
+<title>Firefox Web Browser</title>
+
+<p><media type="image" src="apps/firefox.png" width="32"/> Pre-installed with Ubuntu MATE, <app>Firefox</app> is a popular application on almost any computing platform that delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. <app>Firefox</app> also provides features such as changing your home page, searching the web, bookmarking a site, and using a private browsing mode. You can also synchronize your <app>Firefox</app> bookmarks, history, passwords and more between your devices.  <link href="https://support.mozilla.org/en-US/products/firefox">Read more about <app>Firefox</app>.</link></p>
+
+</section>
+
+<section id="thunderbird">
+<title>Thunderbird Email Client</title>
+
+<p><media type="image" src="apps/thunderbird.png" width="32"/> Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <app>Yahoo Mail</app> and Google's <app>Gmail</app> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <app>Thunderbird</app> is a cross-platform email client that works on Linux and macOS as well as on Windows.</p>
+
+<p><app>Thunderbird</app> is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. </p>
+
+<p>If you use the automatic account configuration, setting up a new account with Thunderbird is easy. All you need to do is provide your username and password for your email provider and your email address. <app>Thunderbird</app> works very nicely with <app>Gmail</app> and even synchronizes messages between <app>Thunderbird</app> on your computer and <app>Gmail</app>. <link href="https://www.mozilla.org/en-US/thunderbird">Read more about <app>Thunderbird</app>.</link></p>
+</section>
+
+<section id="libreoffice">
+<title>LibreOffice Office Productivity Suite</title>
+
+<p><media type="image" src="apps/libreoffice.png" width="32"/> <app>LibreOffice</app> is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft's office suite and is compatible with Google's online office suite. Like many office suites, <app>LibreOffice</app> includes several applications, but unlike other suites, it contains applications like <app>Base</app> and <app>Math</app>, as a basic part of the suite. <app>LibreOffice</app> is also truly full-featured, unlike the online versions of office productivity apps that provide only the basic functions most people use. Basic capabilities are fine until you need to use one of those "advanced" features. Then you'll be looking for something with all the features. The Document Foundation (the organization behind <app>LibreOffice</app>) maintains an excellent set of documentation online for <app>LibreOffice</app> at the <link href="https://www.libreoffice.org/get-help/documentation/"><app>LibreOffice</app> website.</link></p>
 
 <tree>
   <item>
-    <item><media type="image" src="figures/writer.png"/> <app>Writer</app>, the word processor.</item>
-    <item><media type="image" src="figures/calc.png"/> <app>Calc</app>, the spreadsheet application.</item>
-    <item><media type="image" src="figures/impress.png"/> <app>Impress</app>, the presentation engine.</item>
-    <item><media type="image" src="figures/draw.png"/> <app>Draw</app>, the drawing and flowcharting application.</item>
-    <item><media type="image" src="figures/base.png"/> <app>Base</app>, the database and database frontend.</item>
-    <item><media type="image" src="figures/math.png"/> <app>Math</app>, for editing mathematics.</item>
+    <item><media type="image" src="apps/writer.png"/> <app>Writer</app>, the word processor. </item>
+    <item>---- Compare with Microsoft <app>Word</app> and Google <app>Documents</app>.</item>
+    <item><media type="image" src="apps/calc.png"/> <app>Calc</app>, the spreadsheet application. </item>
+    <item>---- Compare with Microsoft <app>Excel</app> and Google <app>Sheets</app>.</item>
+    <item><media type="image" src="apps/impress.png"/> <app>Impress</app>, the presentation engine. </item>
+    <item>---- Compare with Microsoft <app>PowerPoint</app> and Google <app>Slides</app>.</item>
+    <item><media type="image" src="apps/draw.png"/> <app>Draw</app>, the drawing and flowcharting application. </item>
+    <item>---- Compare with Microsoft <app>Visio</app> and with inserting a drawing into a Google document.</item>
+    <item><media type="image" src="apps/base.png"/> <app>Base</app>, the database and database frontend. </item>
+    <item>---- Compare with Microsoft <app>Access</app>.</item>
+    <item><media type="image" src="apps/math.png"/> <app>Math</app>, for editing mathematics. </item>
+    <item>---- Compare with Microsoft <app>Equation Editor</app> and the <app>Auto-Latex</app> Google Docs add-on.</item>
   </item>
 </tree>
+</section>
 
-<p><media type="image" src="figures/phone.svg" width="32"/> Currently Ubuntu MATE has the essential mobile device support you'd expect. You can plug in a phone, media player or digital camera and the device is automatically detected and mounted. You can then access the files on it or sync content.</p>
+<section id="bluetooth">
+<title>Bluetooth Connectivity</title>
+
+<p><media type="image" src="apps/bluetooth.png" width="32"/> Ubuntu MATE provides the software you need to support Bluetooth connections to headphones, mice, keyboards, or other computing devices. </p>
+
+<p>In order to use a Bluetooth device like a mouse or a headset, you first need to connect (pair) your computer and the device. Before you begin, make sure Bluetooth is enabled. Some computers allow you to disable Bluetooth from BIOS/UEFI. Check your BIOS settings to ensure that, if you have this setting, Bluetooth is enabled. Some laptops have a function key or other button that toggles Bluetooth and/or Wifi on and off. If your computer has this capability, make sure that Bluetooth is enabled in that way as well.</p>
+
+<steps>
+  <item><p>Right-click the <gui>Bluetooth</gui> icon in the upper panel and select <gui>Set Up New Device</gui>.</p></item>
+  <item><p>Make the other Bluetooth device discoverable or visible and place it within 30 feet (about 10 meters) of your computer. Click <key>Continue</key>. Your computer will begin searching for devices.</p></item>
+  <item><p>If there are too many devices listed, use the <gui>Device type</gui> drop-down to display only a single type of device in the list.</p></item>
+  <item><p>Click <gui>PIN options</gui> to set how a PIN will be delivered to the other device.</p>
+  <p>Note: The automatic PIN setting will use a six-digit numerical code. A device with no input keys or screen, such as a mouse or headset, may require a specific PIN such as 0000, or no PIN at all. Check your device's manual for the proper setting.</p></item>
+  <item><p>Choose an appropriate PIN setting for your device, then click <key>Close</key>.</p></item>
+  <item><p>Click <key>Continue</key> to proceed. If you did not choose a preset PIN, the PIN will be displayed on the screen.</p></item>
+  <item><p>If required, confirm the PIN on your other device. The device should show you the PIN you see on your computer screen or may prompt you to enter the PIN. Confirm the PIN on the device, then click <key>Matches</key>.</p>
+  <p>Note: You need to finish your entry within about 20 seconds on most devices, or the connection will not be completed. If that happens, return to the device list and start again.</p></item>
+  <item><p>A message appears when the connection successfully completes. Click <key>Close</key>.</p></item>
+</steps>
+</section>
+
+<section id="caffeine">
+<title>Caffeine</title>
+
+<p><media type="image" src="apps/caffeine.svg" width="32"/> With a coffee cup for an icon, <app>Caffeine</app> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply right-click on the icon and choose <gui>Activate</gui> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Right-click the icon again and choose <gui>Deactivate</gui> to go back to normal. </p>
+
+<p><app>Caffeine</app> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <app>Software Boutique</app> for one-click installation.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/caffeine-enable.png" width="100%"/></p></td>
+  </tr>
+</table>
+</section>
 
 </page>

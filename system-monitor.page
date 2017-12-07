@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="system-monitor">
+
+<info>
+  <link type="guide" xref="mate-apps"/>
+  <link type="next" xref="terminal"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Display basic system information and monitor system processes, usage of system resources and file systems, and modify the behaviour of your system.</desc>
+</info>
+
+<title>2.08 MATE System Monitor</title>
+<p><media type="image" src="apps/system-monitor.png" width="32"/> The <app>MATE System Monitor</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE System Monitor</gui></guiseq>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <app>MATE System Monitor</app> to modify the behavior of your system.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/sysmon_system.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>The <gui>System</gui> tab shows information about the computer's hardware and software, as shown above. The <gui>Processes</gui> tab, shown below, shows information about active processes (applications, utilities, etc.) and how they relate to each other. You can stop, end, or kill a process or otherwise control active processes. </p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/sysmon_processes.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>The <gui>Resources</gui> tab displays current CPU, memory, and network usage. <gui>File Systems</gui> lists all mounted file systems and basic information about each. </p>
+
+<note style="tip">
+ <p>For help topics on this application, see the <link xref="ghelp:/usr/share/help/C/mate-system-monitor/index.docbook"><app>MATE System Monitor</app> manual</link> by pressing <key>F1</key> while <app>MATE System Monitor</app> is open.</p>
+</note>
+
+</page>

@@ -1,0 +1,25 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="personalization">
+
+<info>
+  <link type="guide" xref="index"/>
+  <link type="next" xref="panel-layouts"/>
+  <desc>Making Ubuntu MATE your own.</desc>
+</info>
+
+<title>4. Personalizing Ubuntu MATE</title>
+
+<p><media type="image" src="apps/control-centre.png" width="32"/> Although you can do some basic tweaking out of the box with other operating systems, Linux is infinitely more configurable than Mac or Windows. Sure you can get add-on software to personalize your Windows desktop quite a bit, but Ubuntu MATE, provides the customization tools built right in, with additional utilities just a few clicks away in the software repositories (free software store). What makes Ubuntu MATE so much more flexible is that it is designed to be customizable.</p>
+
+<p>So, what can you do with Ubuntu MATE? From simply changing the background desktop image (wallpaper) to altering the menu position, to making your desktop a virtual "dashboard" for displaying the health and performance of your computer's hardware, Ubuntu MATE can do it. You can even revamp the Ubuntu MATE desktop to make it look and behave convincingly like macOS or Windows. Covering all of the possibilities for customization would fill entire book, so this section will simply give you some ideas as to what can be done, and it will be up to you to explore on your own how you can configure your system to make it look and work the way that best suits your style.</p> 
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/control_center_smaller.jpeg" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <app>MATE Tweak</app> tool to do just that, to transform the look and feel of your computer. The MATE Tweak application is found in the Ubuntu MATE menus at <guiseq><gui>System</gui><gui>Control Center</gui><gui>MATE Tweak</gui></guiseq>, and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are! </p>
+
+</page>

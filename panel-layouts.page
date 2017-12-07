@@ -1,0 +1,118 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="panel-layouts">
+
+<info>
+  <link type="guide" xref="personalization"/>
+  <link type="next" xref="background"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Choosing and changing panel layouts.</desc>
+</info>
+
+<title>4.01 Panel Layouts</title>
+
+<section id="panel-layouts">
+<title>Choosing and Changing Panel Layouts</title>
+
+<p><media type="image" src="apps/desktop.png" width="32"/> One of the quickest ways to change the look and feel of Ubuntu MATE is to select a different panel layout using <app>MATE Tweak</app>. Each panel layout is distinctive and provides a different desktop workflow.</p>
+
+<p>Of course, since this is Linux, with any of these seven layouts, you can move the panels to the sides of your screen if you like, you can add or remove a dock, and you can control which icons appear in the panels. You can also choose which icons display on your desktop, or none at all. You can control whether the windows show some animation or snap into position when they open. You can even change whether the window controls for Close, Minimize and Maximize appear on the left, like macOS, or on the right, like Windows.</p>
+</section>
+
+<section id="traditional">
+<title>Traditional (Ubuntu-MATE) Layout</title>
+
+<p>When you first install Ubuntu-MATE, you'll be using its own layout, named Traditional, which has a classic look of Linux with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the traditional way -- that is 'traditional' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the <app>MATE Tweak</app> "Panel" options.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/traditional-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="contemporary">
+<title>Contemporary Layout</title>
+
+<p>The Contemporary layout has the classic look of Ubuntu MATE's default Traditional layout, with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. A significant difference from the Traditional layout is that, in the Contemporary layout, each application's menu always appears in the top panel rather than within the individual application's window. Called the "Global Menu," this feature was introduced for Ubuntu MATE 17.10 and is implemented in the traditional way Apple handles menus for its application windows.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/contemporary-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="redmond">
+<title>Redmond Layout</title>
+
+<p>The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen. Each application's menu appears at the top of that application's window in the traditional Windows way. Another distinctive feature of the Redmond layout is the "advanced menu" that provides a configurable list of favorite applications as well as an optional simple list of all applications. This will be familiar to users of the Linux Mint distribution.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/redmond-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section>
+
+<section id="cupertino">
+<title>Cupertino Layout</title>
+
+<p>The Cupertino layout is similar to Apple's macOS with a panel at the top of the screen and a dock at the bottom. The dock is used to display the pinned and open applications, and to launch applications. Of course, this layout uses the Global Menu so that the application menus always appear in the top panel rather than on the application windows, in the traditional macOS way. You'll notice one distinctive difference between the Cupertino layout's Ubuntu MATE logo icon in the top left corner and macOS's Apple logo icon. Instead of a small menu gives you access to some basic Apple system tools, the Ubuntu MATE icon gives you access to the entire menu of applications, utilities, and system tools.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/cupertino-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="pantheon">
+<title>Pantheon Layout</title>
+
+<p>The Pantheon layout is a blend of the Contemporary layout and the Cupertino layout. It has both a menu in the top left and a dock at the bottom of the screen to display pinned and running applications. Each application's menu appears at the top of that application's window, just as it does in the Redmond layout.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/pantheon-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="mutiny">
+<title>Mutiny Layout</title>
+
+<p>If you have tried other Ubuntu flavors and you like the look of the Unity desktop, you'll find the Mutiny layout familiar. It mimics, as closely as possible, the Unity 7 interface used in traditional Ubuntu through 2017. Mutiny uses the Global Menu which displays application menus in the top panel and not in the application windows. Mutiny also has a dock of icons on the left of the screen to launch applications, show pinned applications, and show running applications.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/mutiny-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+<section id="netbook">
+<title>Netbook Layout</title>
+
+<p>Designed specifically for small screens, the compact Netbook layout has a single taskbar, menu, clock, and list of open applications at the top of the screen. There is no dock or panel at the bottom. That way everything is accessible no matter how small your screen. </p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/netbook-layout.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+</section> 
+
+</page>

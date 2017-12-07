@@ -1,0 +1,79 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="power-management">
+
+<info>
+  <link type="guide" xref="personalization"/>
+  <link type="next" xref="screensaver"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Setting the power options and managing battery life.</desc>
+</info>
+
+<title>4.07 Power Management</title>
+
+<section id="power">
+<title>Strategies for Maximizing Battery Life</title>
+
+<p><media type="image" src="apps/mate-power-manager.png" width="32"/> Today you can install Linux on almost any computer hardware -- Mac or Windows PC. With a computer like one from designed-for-Linux lines such as System76, Entroware, OpenSourcePC, or Dell XPS Developer Edition, you can be sure you'll have the "just works" experience with whatever version of Linux you choose to install. But whether you choose a computer with Linux pre-installed, or you install it on hardware you already own, out-of-the-box laptop battery life can sometimes be disappointing. Here are some things you can do to improve your laptop's longevity when you don't have a connection to AC power.</p>
+</section>
+
+<section id="power-management">
+<title>1. Adjust power management settings</title>
+
+<p>The Power Management Settings, found in the <app>Control Panel</app>, allows you to control when the computer sleeps or hibernates, and how the display behaves. Focus on the <gui>On Battery Power</gui> settings. If your laptop doesn't behave when hibernating, use the "sleep" or "suspend" setting when closing the lid and when the computer is idle. </p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/PM_Battery.jpeg" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>In addition to using the sleep and suspend settings, reducing the backlight brightness and dimming the screen while idle can reduce the battery drain while operating on battery power.</p>
+</section> 
+
+<section id="brightness">
+<title>2. Adjust screen brightness</title>
+
+<p>A laptop's biggest battery usage is typically in powering the LCD screen. The brighter the screen, the more power is consumed. On some models, reducing backlight brightness from 100% to about 50% or even 30% provides enough illumination to see the screen comfortably except when outdoors, and dramatically improves battery life. That adjustment is usually controlled by hardware keys on your keyboard. If you can find a brightness setting that allows you to easily read the screen, but no brighter, then you'll extend your on-battery time for sure. You'll find the software-based brightness adjustment on the <gui>On AC Power</gui> tab. Its setting applies to both when you are on AC (mains) power and when you are on battery. However, if you also choose <gui>Reduce backlight brightness</gui> on the <gui>On Battery Power</gui> tab, then when using battery power, your display is actually adjusted to 50% of the display brightness you choose.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/PM_AC.jpeg" width="100%"/></p></td>
+  </tr>
+</table>
+</section>
+
+<section id="conserve">
+<title>3. Turn off what you don't use</title>
+
+<p>Don't use a Bluetooth mouse, keyboard or headphones? Turn off your Bluetooth adapter by right-clicking on the Bluetooth icon in the top panel and selecting <gui>Turn Bluetooth Off</gui>. The computer uses power searching for Bluetooth devices. Turn off similar settings for other devices or services (like WiFi) that you never or rarely use.</p>
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/blootooth-off.jpeg" width="100%"/></p></td>
+  </tr>
+</table>
+</section>
+
+<section id="tlp">
+<title>4. Use TLP</title>
+
+<p>TLP is an advanced power management utility for Linux that can improve your battery life tremendously. TLP optimizes power settings automatically on startup and every time you change the power source. The Ubuntu MATE 16.04 release came with the TLP command-line utility pre-installed and pre-configured. If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the Software Center for TLP. It'll likely be there, ready to install. The screenshot, below, shows the default configuration of TLP on a Dell XPS 13.</p>
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/tlp-stat.png" width="100%"/></p></td>
+  </tr>
+</table>
+</section> 
+
+<section id="">
+<title>5. Get a new battery</title>
+
+<p>Although today's battery technology is vastly superior to that of just a few years ago, batteries have a finite lifetime. They don't develop a "memory" when you "top them up" like they used to, but they do have a limited number of full charge cycles they can handle before they expire. If your laptop's battery will no longer hold a charge, maybe it's time to replace it. Hopefully, your model allows you to do that. If not, you may be tethered to AC power until you can replace your computer.</p>
+</section>
+
+</page>

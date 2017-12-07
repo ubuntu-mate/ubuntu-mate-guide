@@ -1,0 +1,92 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="terminal">
+
+<info>
+  <link type="guide" xref="mate-apps"/>
+  <link type="next" xref="control-center"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Access a UNIX shell in the MATE environment and type commands at a command line prompt.</desc>
+</info>
+
+<title>2.09 MATE Terminal</title>
+<p><media type="image" src="apps/terminal.png" width="32"/> <app>MATE Terminal</app> is a terminal emulation application that can be found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE Terminal</gui></guiseq>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt.</p>
+
+<p>Although the <app>MATE Terminal</app> can be used to launch graphical applications by simply typing the name of the application and pressing the <key>Enter</key> key, you normally use it to run applications that are not designed to be run as graphical applications. These text-based applications, known as command-line programs, can be used to create scripts and other programs, get and install additional software from the software catalog, check the status of your computer's hardware and installed software, and many, many other things. In fact, years before graphical applications were made popular for computing, computer users checked email, communicated with other computers, shared files, photos, and programs, and even browsed early versions of the Internet from terminal applications very similar to the <app>MATE Terminal</app>.</p>
+
+<section id="example">
+<title>Example: Installing Applications Using the Command Line</title>
+
+<p>As an example of how to use the command line, let's look at the <app>apt</app> application. It is a powerful command-line tool which can be used to install new software packages, upgrade existing software packages, update the package list index, and even upgrade the entire Ubuntu MATE system.</p>
+
+<note>
+ <p>Note: For additional information about the <app>apt</app> application, type the following in a terminal window:</p>
+<p><code>man apt</code></p>
+</note>
+
+<p>It's good practice to ensure that you have the latest changes made in the Ubuntu software repositories before installing software. The apt command can be used to update the index of available software packages that is on your computer. To do this, type the following in the terminal window:</p>
+
+<code>sudo apt update</code>
+
+<note>
+ <p>Note: When you use "sudo" you are telling Linux that you want to run the command as administrator, so for security purposes, you will be asked for your password the first time you use "sudo" in a terminal session.</p>
+ <p>Also note that what you type in the terminal is case-sensitive. "Install" is not the same as "install." As far as the terminal is concerned, they are two entirely different words.</p>
+</note>
+
+<p>Installing software using the apt tool is quite simple, provided you know the name of the application, and provided it is available in the software catalog. For example, to install the audio recording and editing application <app>Audacity</app>, type the following into a terminal window at the command prompt:</p>
+
+<code>sudo apt install audacity</code>
+
+<p>To uninstall (remove) an application is just as easy. To remove the <app>Audacity</app> application installed in the previous example, type the following:</p> 
+
+<code>sudo apt remove audacity</code>
+
+<p>Adding the "--purge" option to "apt remove" will remove the package configuration files as well. This may or may not do what you want, so use it with caution. Here's how that looks using our same example:</p>
+
+<code>sudo apt remove --purge audacity</code>
+
+<p>Over time, updated versions of packages currently installed on your computer may become available from the package repositories. To use the command line to upgrade the applications on your system, first update the package index:</p>
+
+<code>sudo apt update</code>
+
+<p>When that command has finished running, type the following to complete the upgrade: </p>
+
+<code>sudo apt upgrade</code>
+
+</section> 
+
+<section id="sys-info">
+<title>Display Your System Info Using The Command Line</title>
+
+<p>Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is  </p>
+<code>inxi -F</code>
+
+<p>as shown below. For a more verbose set of information, use </p>
+<code>inxi -Frmxx</code>
+
+<p>For just the very basic info, type simply </p>
+<code>inxi</code>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/inxi.png" width="100%"/></p></td>
+  </tr>
+ </table>
+
+<p>You can also type the "list hardware" command, <app>lshw</app>, at the command line without any switches or options, but the text file it generates runs on forever, and is a little difficult to follow in the terminal. It needs to run as root (administrator), so you'll need to type "sudo" in front of the command. The command listed below runs lshw with the -html option to create an html file. Open it in a browser and you have a nice "web page" with all of your hardware specs. </p>
+
+<code>sudo lshw -html>myhardware.html</code>
+
+<p>When you run this command, it can detect and report on your touch screen, if you have one, attached USB storage drives, and even the micro-SD card on a mobile phone if you have one charging on a USB port!</p>
+</section>
+
+<note>
+ <p>How to use terminal and command-line programs is a topic that has been explored in many books. One popular and excellent book on this topic is <link href="https://www.amazon.com/dp/1593273894"><em>The Linux Command Line: A Complete Introduction</em></link> by William E. Shotts Jr. Another source of information on using the terminal is the <link xref="ghelp:/usr/share/help/C/mate-terminal/index.docbook">MATE Terminal</link> manual contained within the MATE Desktop User Guide. It's provided with Ubuntu MATE. To go there directly, open the <app>MATE Terminal</app> application from the menu, then press the <key>F1</key> key on your keyboard to open the manual.</p>
+</note>
+
+</page>

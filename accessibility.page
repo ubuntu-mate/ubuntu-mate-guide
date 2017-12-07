@@ -1,19 +1,119 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="accessibility">
 
 <info>
   <link type="guide" xref="applications"/>
-  <link type="next" xref="about"/>
+  <link type="next" xref="software"/>
   <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
   <link type="seealso" xref="faq"/>
-  <desc>Accessibility Applications: </desc>
+  <desc>Enabling accessibility applications, and using the Orca screen reader and the Onboard on-screen keyboard.</desc>
 </info>
 
-<title>1.4.7 Accessibility</title>
-<p><media type="image" src="figures/a11y.png" width="32"/> Making an accessible operating system was a key priority when the Ubuntu MATE founders initially set out the goals of the project.</p>
+<title>3.07 Accessibility</title>
+<p><media type="image" src="apps/a11y.png" width="32"/> Accessibility is a key priority for Ubuntu MATE. When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution.</p>
 
-<p>Ubuntu MATE is never going to be able to offer the comprehensive integration of assistive technologies that <link href="http://sonargnulinux.com/">Sonar GNU/Linux</link> provides. But Ubuntu MATE will continue to follow their lead so that Ubuntu MATE is a viable desktop solution where computer access is shared within a household or business where individual needs differ.</p>
+<p>Preference settings for basic accessibility setting are found in the <app>Control Center</app> at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Assistive Technology</gui></guiseq>. From there you can enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/accessibilty.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or other input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. When you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "<link href="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</link>."</p>
+
+<section id="accessibility-on-startup">
+<title>Enabling Accessibility at Startup</title>
+
+<p>When Ubuntu MATE is first installed as your computer's operating system, it is pre- configured so that both Orca, the screen reader, and Onboard, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. </p>
+
+<p>If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off Orca and Onboard. You can also use Orca's keyboard shortcut <key>Alt</key> + <key>Super</key> + <key>S</key> to enable the screen reader to assist in the login process.</p>
+</section> 
+
+<section id="orca">
+<title>Orca Screen Reader</title>
+
+<p><media type="image" src="apps/gnome-orca.png" width="32"/> The Orca screen reader is a free, open source, flexible, and extensible screen reader that provides you with access to the graphical desktop via user-customizable combinations of speech and/or braille. It is pre-installed in Ubuntu MATE for blind and low vision users. At the login screen, and after Ubuntu MATE starts, you toggle the screen reader off and on by pressing <key>Alt</key> + <key>Super</key> + <key>S</key>.</p>
+
+<p>With some other Linux distributions, getting Orca to work can be tricky. With Ubuntu MATE all the setup is done for you. It also works nicely with pretty much all of the pre-installed software, including the LibreOffice office suite and the Firefox browser.</p>
+
+<p>For complete information about using and configuring the Orca screen reader, refer to the website <link href="https://help.gnome.org/users/orca/stable/">https://help.gnome.org/users/orca/stable/</link>.</p>
+
+<p>The Orca documentation on the website occasionally refers to the "Orca Modifier" key. The key that Orca uses by default as the "Orca Modifier" depends on whether you are using Orca's "Laptop" keyboard layout or its "Desktop" keyboard layout:</p>
+<p>You can use the "Orca Modifier" key to get to Orca's help. Press <key>Orca Modifier</key> + <key>H</key> to enter "learn mode".</p>
+
+<note style="tip">
+  <p>If you are using Orca's "Laptop" layout, the default Orca Modifier will be <key>CapsLock</key>.</p>
+  <p>f you are using Orca's "Desktop" layout, for the Orca Modifier you can use either the normal <key>Insert</key> key or the KeyPad+<key>Insert</key>. On US keyboards, KeyPad+<key>Insert</key> is the same key as the <key>0</key> (zero) on the numeric keypad.</p>
+</note>
+
+<p>You can use the "Orca Modifier" key to get to Orca's help. Press <key>Orca Modifier</key> + <key>H</key> to enter "learn mode".</p>
+<note style="tip"> 
+  <p>To view Orca's documentation, press <key>F1</key>.</p>
+  <p>To hear a list of Orca's shortcuts, press <key>F2</key>.</p>
+  <p>To hear a list of Orca's shortcuts for the current application, press <key>F3</key>.</p>
+</note>
+
+<p>To learn more about how to use Orca to read documents and websites, see the web page:
+<link href="https://help.gnome.org/users/orca/stable/#reading">https://help.gnome.org/users/orca/stable/#reading.</link></p>
+
+<p>You may find that the screen reader speaks too slowly or too quickly for you. You can adjust the rate at which Orca speaks, and make other adjustments as well, in <app>Orca Preferences</app>. To get to the <app>Orca Preferences</app> screens, press <key>Orca Modifier</key> + <key>Spacebar</key>. If you find yourself needing to adjust the speed frequently, you might want to bind (map) the "increase the rate" and "decrease the rate" commands to specific keys. That way you can more easily make these adjustments. To review (and setup) the keyboard shortcuts and commands that Orca uses, you will want to refer to the documentation on key bindings on this web page: <link href="https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en">https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en</link>.</p>
+
+<p>This is just a small sampling of the documentation that is available to you on the Orca site. Browse around. Discover what this powerful tool can do!</p>
+
+</section> 
+
+<section id="onboard">
+<title>Onboard On-Screen Keyboard</title>
+
+<p><media type="image" src="apps/onboard.svg" width="32"/> Onboard is the name of Ubuntu MATE's on-screen keyboard. Onboard is pre-installed in Ubuntu MATE and is available at the press of a few keys for anyone requiring the use of an on-screen keyboard in place of a traditional hardware keyboard. In addition to supporting mobility-impaired users, Onboard provides support for tablet and touch-screen computers. To turn Onboard off or on again from the hardware keyboard, press <key>Alt</key> + <key>Super</key> + <key>K</key>.</p>
+
+<p>You can also enable Onboard so that it is available on-screen right at startup:</p>
+
+<steps>
+ <item><p>Open the <app>Assistive Technologies Preference</app> tool, found at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Assistive Technology</gui></guiseq>.</p></item>
+ <item><p>Check the box labeled <gui>Enable assistive technologies</gui>.</p></item>
+ <item><p>Click the <key>Preferred Applications</key> button.</p></item>
+ <item><p>Select the <gui>Accessibility</gui> tab.</p></item>
+ <item><p>Check the box labeled <gui>Run at start</gui> and click <key>Close</key>.</p></item>
+
+<p>Additional settings and preferences for <app>Onboard</app> are listed in the <app>Control Panel</app> in the <gui>Personal</gui>" section as <gui>Onboard Settings</gui>.</p>
+</steps>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/enable-onboard.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>Additional settings and preferences for Onboard are listed in the <app>Control Panel</app> in the <gui>Personal</gui> section as <gui>Onboard Settings</gui>.</p>
+
+</section> 
+
+<section id="magnifier">
+<title>Screen Magnifier</title>
+
+<p><media type="image" src="apps/a11y.png" width="32"/> If you are a low vision user and you require screen magnification, Ubuntu MATE has two magnification options already built in. To turn on or off the default screen magnifier, press <key>Alt</key> + <key>Super</key> + <key>M</key>. Once you have the magnification turned on you can zoom into a portion of the screen by pressing <key>Alt</key> + <key>Super</key> + <key>+</key> . To zoom out, press <key>Alt</key> + <key>Super</key> + <key>-</key> (the minus key).</p>
+
+<p>An alternative screen magnifier is available if you have the <app>Compiz</app> window manager enabled using <app>MATE Tweak</app>. <app>Compiz</app> is preconfigured to allow you to zoom in and out by scrolling while holding down the <key>Super</key> key. The <app>Compiz</app> screen magnifier is on and available at all times for you to use. No need to toggle the zoom function on and off. It zooms the entire screen at once, not just a small section of the screen. The zoomed screen follows the motion of the mouse so that you can easily move around to any portion of the screen. For these reasons, this may be a better screen magnifier.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/compiz.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>To switch to the <app>Compiz</app> window manager, from the <gui>System</gui> menu, select <guiseq><gui>Preferences</gui><gui>Look and Feel</gui><gui>MATE Tweak</gui><gui>Windows</gui></guiseq>. For the window manager setting, select <key>Compiz (Advanced GPU accelerated desktop effects)</key>. Confirm the change when prompted. If the setting is unavailable, your hardware is not capable of the advanced acceleration required to use <app>Compiz</app> and the default screen magnifier is available.</p>
+
+<note>
+ <p>Note: Onboard and Orca accessibility features and keyboard shortcuts remain fully available with Compiz enabled.</p>
+</note>
+</section>
 
 </page>

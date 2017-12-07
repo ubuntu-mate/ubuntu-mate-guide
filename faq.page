@@ -4,20 +4,18 @@
 
 <info>
   <link type="guide" xref="index"/>
-  <link type="seealso" xref="ubuntu-mate"/>
-  <link type="seealso" xref="about"/>
-  <desc>Frequently asked questions.</desc>
+ <desc>Frequently asked questions.</desc>
 </info>
 
-<title>3. FAQ</title>
+<title>8. FAQ</title>
 
-<p><media type="image" src="figures/system.png" width="32"/><media type="image" src="figures/ubuntu-mate.png" height="32"/> </p>
+<p><media type="image" src="apps/system.png" width="32"/><media type="image" src="figures/ubuntu-mate.png" height="32"/> </p>
 
 
 <section id="whatis">
 <title>What is Ubuntu MATE exactly?</title>
 
-<p>See our <link type="guide" xref="ubuntu-mate"> What is Ubuntu MATE?</link> page in this help system.</p>
+<p>See the <link type="guide" xref="ubuntu-mate"> What is Ubuntu MATE?</link> page in this guide.</p>
 </section> 
 
 <section id="canonical">
@@ -43,7 +41,7 @@
 <title>Will you be making a 14.04 LTS version of Ubuntu MATE?</title>
 
 <p>We have, although it is not an official build. You can get it here:</p>
-<p> · <link href="https://ubuntu-mate.org/trusty/">Ubuntu MATE 14.04.2 LTS</link></p>
+<p> • <link href="https://ubuntu-mate.org/trusty/">Ubuntu MATE 14.04.2 LTS</link></p>
 <p>We have also posted a <link href="https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/">HOW-TO for installing your own Ubuntu MATE 14.04 from scratch.</link></p>
 </section>
 

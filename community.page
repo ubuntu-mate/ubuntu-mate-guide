@@ -1,16 +1,22 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="community">
 
 <info>
   <link type="guide" xref="support"/>
-  <link type="next" xref="faq"/>
-  <desc>Getting the help you need to use Ubuntu MATE.</desc>
+  <link type="next" xref="wiki"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Getting the help you need from the Ubuntu MATE community.</desc>
 </info>
 
-<title>2.5.2 The Ubuntu MATE Community</title>
+<title>6.03 The Ubuntu MATE Community</title>
 
-<p><media type="image" src="figures/community.png" width="32"/> Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. </p>
+<p><media type="image" src="apps/community.png" width="32"/> Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. </p>
 
 <p>The <link href="https://ubuntu-mate.org/community/">Community page on the Ubuntu MATE website</link> provides options in three categories for getting involved. </p>
 

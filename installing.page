@@ -6,16 +6,20 @@
   <link type="guide" xref="about"/>
   <link type="next" xref="support"/>
   <link type="seealso" xref="ubuntu-mate"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Preparing installation media and installing Ubuntu MATE.</desc>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Preparing installation media and installing Ubuntu MATE.</desc>
 </info>
 
-<title>2.4 Installing Ubuntu MATE</title>
+<title>5.04 Installing Ubuntu MATE</title>
 
 <section id="media">
 <title>Creating Installation Media</title>
 
-<p><media type="image" src="figures/dvd.png" height="32"/> The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing <em>anything at all</em> on your computer. When you shut down and remove the "live" media, your computer is back to normal.</p>
+<p><media type="image" src="apps/dvd.png" height="32"/> The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing <em>anything at all</em> on your computer. When you shut down and remove the "live" media, your computer is back to normal.</p>
 
 <p>The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can not be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, OSX and Ubuntu, see the "<link href="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</link>" article on Ubuntu help.</p>
 

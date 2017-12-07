@@ -1,0 +1,33 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="control-center">
+
+<info>
+  <link type="guide" xref="mate-apps"/>
+  <link type="next" xref="applications"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>A single window from which to launch all of the MATE preference tools.</desc>
+</info>
+
+<title>2.10 MATE Control Center</title>
+<p><media type="image" src="apps/control-centre.png" width="32"/> The <app>Control Center</app> provides you with a single window that houses all of the major Ubuntu MATE preference tools. These tools let you tweak the way things look and behave, manage software updates, and make adjustments to the printing system, among other things.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/control_center.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>Simply click the icon for the preference you want to adjust. Each of these preferences are also available under the <guiseq><gui>System</gui><gui>Preferences</gui></guiseq> menu. The sub-menus correspond to the Groups in the <app>Control Center</app>.</p>
+
+<p>You'll also find many of the settings and selections you can make from within the Ubuntu MATE Welcome application are also available in the <app>Control Center</app>. The <app>Control Center</app> simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer.</p>
+
+<note style="tip">
+ <p>For more help on this application, see the <gui>Configuring Your Desktop</gui> topic in the <link xref="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">MATE Desktop User Guide</link>.</p>
+</note>
+</page>

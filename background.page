@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="background">
+
+<info>
+  <link type="guide" xref="personalization"/>
+  <link type="next" xref="themes"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Changing the desktop background (wallpaper).</desc>
+</info>
+
+<title>4.02 Desktop Background</title>
+
+<section id="background">
+<title>Changing the Desktop Background</title>
+
+<p><media type="image" src="apps/appearance.png" width="32"/> Most desktop environments allow you to change the background wallpaper by right-clicking
+on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception. </p>
+
+<steps> 
+ <item><p>Right-click the desktop and choose <gui>Change Desktop Background</gui>. If you prefer, you can use the menus: <guiseq><gui>System</gui><gui>Control Center</gui><gui>Appearance</gui><gui>Background</gui></guiseq>.</p></item>
+ <item><p>Select the image you want to use.</p></item>
+ <item><p>If you have a picture on your computer's hard drive that you want to use, click the <key>Add</key> button, locate the file, and then click <key>Open</key>.</p></item>
+ <item><p>Your background changes immediately. Click <key>Close</key>.</p></item>
+</steps>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/change-background.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<note>
+ <p>Note: You can use the link on the lower left to download more images from the Internet. Always make sure you use only trusted sites to obtain new background images.</p>
+</note>
+</section>
+
+</page>

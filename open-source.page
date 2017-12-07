@@ -1,17 +1,21 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="open-source">
 
 <info>
   <link type="guide" xref="ubuntu-mate"/>
-  <link type="next" xref="applications"/>
+  <link type="next" xref="mate-apps"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
-  <link type="seealso" xref="faq"/>
-  <desc>Open source software is software that can be freely used, changed, and shared by anyone</desc>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Open source software is software that can be freely used, changed, and shared by anyone</desc>
 </info>
 
-<title>1.3 Open Source</title>
-<p><media type="image" src="figures/osi.png" width="64"/> </p>
+<title>1.04 Open Source</title>
+<p><media type="image" src="apps/osi.png" width="64"/> </p>
 
 <p>What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source. Open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free, in the truest sense of the word.</p>
 
@@ -21,6 +25,6 @@
 
 <p>Unlike Windows, and OSX, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.</p>
 
-<p>Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organisation that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.</p>
+<p>Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.</p>
 
 </page>

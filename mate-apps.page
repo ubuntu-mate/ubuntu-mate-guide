@@ -1,0 +1,15 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="mate-apps">
+
+<info>
+  <link type="guide" xref="index"/>
+  <link type="next" xref="caja"/>
+  <desc>Applications provided by the MATE Desktop Environment.</desc>
+</info>
+
+<title>2. MATE's Applications</title>
+
+<p><media type="image" src="apps/mate.png" width="32"/> The MATE Desktop provides you with essential features that you'd expect in a computer desktop environment, including some basic applications and utilities, all of which are highly customizable and managed by the <link xref="control-center"><app>Control Center</app></link>:</p>
+
+</page>

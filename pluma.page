@@ -1,0 +1,86 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="pluma">
+
+<info>
+  <link type="guide" xref="mate-apps"/>
+  <link type="next" xref="calculator"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Create and edit text files.</desc>
+</info>
+
+<title>2.02 Text Editor (Pluma)</title>
+<p><media type="image" src="apps/text-editor.png" width="32"/> The <app>Pluma</app> text editor, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Pluma Text Editor</gui></guiseq>, enables you to create and edit text files. The aim of <app>Pluma</app> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.</p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/pluma.png" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p>The <app>Pluma</app> window contains the elements listed in the sections below. </p>
+
+<note style="tip">
+ <p>For help topics on this application, see the <link xref="ghelp:/usr/share/help/C/pluma/index.docbook"><app>Pluma</app> manual</link> by pressing <key>F1</key> while <app>Pluma</app> is open.</p>
+</note>
+
+<section id="menu-bar">
+<title>Menu Bar</title>
+
+<p>The menus on the menubar contain all of the commands you need to work with files in Pluma. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <app>Pluma</app> window.</p>
+</section>
+
+<section id="toolbar">
+<title>Toolbar</title>
+
+<p>The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar.</p>
+</section>
+
+<section id="display">
+<title>Display Area</title>
+
+<p>The display area is where the text of the file you are editing is displayed.</p>
+</section>
+
+<section id="status">
+<title>Status Bar</title>
+
+<p>The status bar is at the bottom of the window and displays information about how you are using <app>Pluma</app>. The status bar display includes the following information: Cursor position is the line number and column number where the cursor is located. Edit mode is changed using the <key>Insert</key> key on your keyboard. If the editor is in insert mode, the status bar contains the text "INS." If the editor is in overwrite mode, the status bar contains the text "OVR."</p>
+</section> 
+
+<section id="side">
+<title>Side Pane</title>
+
+<p>By default, the side pane is not shown. To show it, choose <guiseq><gui>View</gui><gui>Side Pane</gui></guiseq>. The side pane displays a list of open documents and other information depending on which plugins are enabled.</p>
+</section> 
+
+<section id="bottom">
+<title>Bottom Pane</title>
+
+<p>The bottom pane is used by programming tools such as the <app>Python Console</app> plugin to display output. By default, the bottom pane is not shown. To show it, choose <guiseq><gui>View</gui><gui>Bottom Pane</gui></guiseq>. When you right-click in the <app>Plumal</app> window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in <app>Pluma</app> can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the appendix for a list of common keyboard shortcuts.</p>
+</section> 
+
+<section id="new-doc">
+<title>Creating a New Document</title>
+
+<p>To create a new document, choose <guiseq><gui>File</gui><gui>New</gui></guiseq>. <app>Pluma</app> displays a new blank document in the display area. </p>
+</section> 
+
+<section id="open-doc">
+<title>Opening a File</title>
+
+<p>If you have the <app>Caja</app> file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose <guiseq><gui>File</gui><gui>Open</gui></guiseq> to display the "Open File" dialog. Navigate to the folder that contains your file, then select the file that you want to open and click <gui>Open</gui>. The file is displayed in the <app>Pluma</app> window. You can open multiple files in <app>Pluma</app>. The application adds a tab for each open file to the window above the display area. </p>
+</section>
+
+<section id="save-doc">
+<title>Saving a File</title>
+
+<p>To save changes to a file you have opened and/or already saved, choose <guiseq><gui>File</gui><gui>Save</gui></guiseq>. To save a new file or to save an existing file under a new filename, choose <guiseq><gui>File</gui><gui>Save As</gui></guiseq>. Enter a name for your file and click <gui>Save</gui>. To save all of the files that are currently open in <app>Pluma</app>, choose <guiseq><gui>Documents</gui><gui>Save All</gui></guiseq>. To close all of the files that are currently open in <app>Pluma</app>, choose <guiseq><gui>Documents</gui><gui>Close All</gui></guiseq>. If you have any open files with unsaved edits, you will be prompted to save them before that file is closed.</p>
+</section>
+
+</page>

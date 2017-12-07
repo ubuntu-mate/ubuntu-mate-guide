@@ -1,82 +1,35 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="topic"
       id="mate-desktop">
 
 <info>
   <link type="guide" xref="ubuntu-mate"/>
   <link type="next" xref="open-source"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="applications"/>
+  <link type="seealso" xref="personalization"/>
   <link type="seealso" xref="about"/>
-  <link type="seealso" xref="faq"/>
-
-  <desc>The MATE desktop environment</desc>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>The MATE desktop environment</desc>
 </info>
 
-<title>1.2 The MATE desktop</title>
-<p><media type="image" src="figures/mate.png" width="32"/> Wikipedia says that a <link href="https://en.wikipedia.org/wiki/Desktop_environment">Desktop Environment</link> is:</p>
+<title>1.03 The MATE desktop</title>
+<p><media type="image" src="apps/mate.png" width="32"/> Wikipedia says that a <link href="https://en.wikipedia.org/wiki/Desktop_environment">Desktop Environment</link> is:</p>
 
 <quote>
-  <cite>Wikipedia (07 May 2017)</cite>
+  <cite>Wikipedia (20 Nov 2017)</cite>
   <p>... an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...</p>
 </quote>
 
-<p>The MATE Desktop is one such implementation of a desktop environment and includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor and terminal. All of which are highly customisable and managed via a control centre. Complete documentation for the MATE Desktop Environment and its applications <link xref="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">can be found in the MATE <app>Desktop User Guide</app>.</link></p>
+<p>The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications <link xref="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">in the MATE <app>Desktop User Guide</app>.</link></p>
 
-<p>MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors, which means if you’ve ever used <link href="http://www.microsoft.com/">Microsoft Windows</link> or <link href="http://www.apple.com/">Apple Mac OS</link>, it will feel very familiar.</p>
+<p>The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <link href="http://www.microsoft.com/">Microsoft Windows</link> or <link href="http://www.apple.com/">Apple macOS</link>, the MATE Desktop will feel very familiar.</p>
 
-<p>The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that the MATE Desktop is tried, tested and very reliable. </p>
+<p>The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that MATE Desktop is tried, tested, and very reliable. </p>
 
 <note style="tip">
   <p>The name "<app>MATE</app>" is pronounced <em>Ma-Tay</em>. It comes from the <link href="https://en.wikipedia.org/wiki/Yerba_mate">yerba maté</link> plant, native to South America.</p>
 </note>
-
-<p>The MATE Desktop provides you with essential features that you'd expect in a computer desktop environment, all of which are highly customisable and managed by the <link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook"><app>Control Center</app></link>:</p>
-
-<section id="caja">
-<title>File Browser (<link xref="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml"><app>Caja</app></link>)</title> 
-
-<p><media type="image" src="figures/file-manager.svg" width="32"/> The <app>Caja</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Caja</gui></guiseq>, lets you organise files and folders, both on your computer and online. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml">see the <app>Caja</app> manual.</link></p>
-</section>
-
-<section id="pluma">
-<title>Text Editor (<link xref="ghelp:/usr/share/help/C/pluma/index.docbook"><app>Pluma</app></link>)</title>
-
-<p><media type="image" src="figures/text-editor.svg" width="32"/> The <app>Pluma</app> text editor, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Pluma Text Editor</gui></guiseq>, enables you to create and edit text files. The aim of Pluma is to be a simple and easy to use text editor. More powerful features can be enabled with different plugins, allowing a variety of tasks related to text-editing. For help topics on this application, <link xref="ghelp:/usr/share/help/C/pluma/index.docbook">see the <app>Pluma</app> manual.</link></p>
-</section>
-
-<section id="engrampa">
-<title>Archive Manager (<link xref="ghelp:/usr/share/help/C/engrampa/index.docbook"><app>Engrampa</app></link>)</title>
-
-<p><media type="image" src="figures/engrampa.png" width="32"/> You can use the <app>Engrampa</app> Archive Manager application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Engrampa Archive Manager</gui></guiseq>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as "zipped files" or "compressed files," an archive can contain many files, folders, and subfolders, usually in compressed form. For help topics on this application, <link xref="ghelp:/usr/share/help/C/engrampa/index.docbook">see the <app>Engrampa</app> manual.</link></p>
-</section>
-
-<section id="eom">
-<title>Image Viewer (<link xref="ghelp:/usr/share/help/C/eom/index.docbook"><app>Eye of MATE</app></link>)</title>
-
-<p><media type="image" src="figures/eom.png" width="32"/> The <app>Eye of MATE</app> Image Viewer application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Eye of MATE Image Viewer</gui></guiseq>, enables you to view single image files, as well as large image collections. For help topics on this application, <link xref="ghelp:/usr/share/help/C/eom/index.docbook">see the <app>Eye of MATE</app> manual.</link></p>
-</section>
-
-<section id="atril">
-<title>Document Viewer (<link xref="ghelp:/usr/share/help/C/atril/index.docbook"><app>Atril</app></link>) </title>
-
-<p><media type="image" src="figures/atril.png" width="32"/> The <app>Atril</app> Document Viewer, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Office</gui><gui>Atril Document Viewer</gui></guiseq>, enables you to view documents of various formats like Portable Document Format (PDF) files and PostScript files. For help topics on this application, <link xref="ghelp:/usr/share/help/C/atril/index.docbook">see the <app>Atril</app> manual.</link></p>
-</section>
-
-<section id="system-monitor">
-<title><link xref="ghelp:/usr/share/help/C/mate-system-monitor/index.docbook"><app>MATE System Monitor</app></link></title>
-
-<p><media type="image" src="figures/system-monitor.png" width="32"/> The <app>MATE System Monitor</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE System Monitor</gui></guiseq>, enables you to display basic system information and monitor system processes, usage of system resources, and file systems. You can also use <app>MATE System Monitor</app> to modify the behaviour of your system. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-system-monitor/index.docbook">see the <app>MATE System Monitor</app> manual.</link></p>
-</section>
-
-<section id="terminal">
-<title><link xref="ghelp:/usr/share/help/C/mate-terminal/index.docbook"><app>MATE Terminal</app></link></title>
-
-<p><media type="image" src="figures/terminal.svg" width="32"/> MATE Terminal is a terminal emulation application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE Terminal</gui></guiseq>, that you can use to access a UNIX shell in the MATE environment. It interprets and executes the commands that you type at a command line prompt. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-terminal/index.docbook">see the <app>MATE Terminal</app> manual.</link></p>
-</section>
-
-<section id="control-center">
-<title><link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook"><app>Control Center</app></link></title>
-
-<p><media type="image" src="figures/control-centre.png" width="32"/> The <app>Control Center</app>, found in the Ubuntu MATE menus at <guiseq><gui>System</gui><gui>Control Center</gui></guiseq>, provides a single window from which to launch all of the MATE preference tools. For help topics on this application, <link xref="ghelp:/usr/share/help/C/mate-control-center/index.docbook">see the <app>Control Center</app> manual.</link></p>
-</section>
 
 </page>
