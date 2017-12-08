@@ -58,7 +58,7 @@
 <p>Once you have determined which version to download, scroll down the web page to the section labeled <gui>Via Direct Download</gui>. </p>
   <steps>
     <item><p>Click on the link for the file name that ends in ".iso".</p> 
-          <p><media type="image" src="apps/direct-download.png" height="25"/> <file>ubuntu-mate-16.04.1-desktop-amd64.iso</file></p> </item>
+          <p><media type="image" src="apps/direct-download.png" height="25"/> <file>ubuntu-mate-18.04-desktop-amd64.iso</file></p> </item>
     <item><p>Select a location for your downloaded file, if prompted, and click <gui>Save</gui> to begin your download.</p></item>
   </steps>
 
