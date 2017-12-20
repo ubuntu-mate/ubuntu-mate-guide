@@ -16,7 +16,15 @@
 
 <title>6.01 The Ubuntu MATE Guide</title>
 
-<p><media type="image" src="apps/community.png" width="32"/> The <app>Ubuntu MATE Guide</app>, found in the <app>Ubuntu MATE Guide</app> menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Ubuntu MATE Guide</gui></guiseq>, is for users needing a little extra help while learning to use Ubuntu MATE. The guide is divided into these main topics followed by a list of frequently asked questions (FAQ):</p>
+<p><media type="image" src="apps/community.png" width="32"/> The <app>Ubuntu MATE Guide</app>, found in the <app>Ubuntu MATE Guide</app> menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Ubuntu MATE Guide</gui></guiseq>, is for users needing a little extra help while learning to use Ubuntu MATE. </p>
+
+<p>In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. </p>
+
+<note style="tip">
+  <p>Many of the applications available in Ubuntu MATE are also available in other flavors of Ubuntu and in other distributions (versions) of Linux.</p>
+</note>
+
+<p>The guide is divided into these main topics:</p>
 
 <tree>
  <item>
@@ -25,6 +33,7 @@
   <item> • Ubuntu MATE's Applications: Pre-configured with applications you use for daily computing.</item>
   <item> • Personalizing Ubuntu MATE: Making Ubuntu MATE your own.</item>
   <item> • About the Ubuntu MATE Project: The Ubuntu MATE project, objectives, hardware requirements, and downloading &amp; installing Ubuntu MATE.</item>
+  <item> • Support: Getting the help you need to use Ubuntu MATE.</item>
   <item> • Keyboard shortcuts: Some common keyboard shortcuts using Ubuntu MATE, and equivalents you may have used with your previous operating system.</item>
   <item> • FAQ: Frequently asked questions.</item>
  </item>
