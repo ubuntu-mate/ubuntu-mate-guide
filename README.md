@@ -48,10 +48,10 @@ put it in your bashrc alias
 alias ppage='pug -O ~/.pug/options-page.json -E "page" -P'
 ```
 
-convert your new page
+convert your pug file to page mallard format
 
 ```
-ppage new-page.page
+ppage new-page.pug
 ```
 
 previewing documentation
