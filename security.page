@@ -14,7 +14,7 @@
   <link type="seealso" xref="faq"/>  <desc>Security: Updates, Infection Insulation, Built-in Security, Trusted Software.</desc>
 </info>
 
-<title>3.06 Security</title>
+<title>3.07 Security</title>
 
 <p><media type="image" src="apps/security.png" width="32"/> Ubuntu MATE, and other distributions of the Linux operating system, are more secure, and better supported than the operating systems pre-installed on most home computer hardware today. Linux is backed by many large corporations, as well as independent developers and users, many of whom are focused on ensuring and improving the security that is built into the operating system. The built-in updater provided with Ubuntu MATE provides security updates for both its software applications and the operating system. Vulnerabilities are patched more quickly and are delivered automatically and more frequently than the two most popular desktop operating systems.</p>
 

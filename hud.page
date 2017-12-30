@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="hud">
+
+<info>
+  <link type="guide" xref="applications"/>
+  <link type="next" xref="productivity"/>
+  <link type="seealso" xref="ubuntu-mate"/>
+  <link type="seealso" xref="mate-apps"/>
+  <link type="seealso" xref="personalization"/>
+  <link type="seealso" xref="about"/>
+  <link type="seealso" xref="support"/>
+  <link type="seealso" xref="shortcuts"/>
+  <link type="seealso" xref="faq"/>  <desc>Ubuntu MATE's HUD lets you search for and run menu items without your fingers leaving the keyboard.</desc>
+</info>
+
+<title>3.02 Heads-Up Display</title>
+<p><media type="image" src="apps/system.png" width="32"/> Introduced in Ubuntu MATE 16.10 the heads-up display (HUD) provides a way to search for and run menu-bar commands without your fingers ever leaving the keyboard.</p>
+
+<p>So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit or Tools on your favorite browser, you can just search for it rather than scrolling through the menus.</p>
+
+<p>Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino and Mutiny panel layouts.</p>
+
+<section id="using_hud">
+<title>Using the HUD</title>
+
+<p>In order to use the HUD, you must be using one of three <link xref="panel-layouts">panel layouts</link>: Contemporary, Cupertino, or Mutiny. The HUD is activated by just pressing <key>Alt</key>. The HUD overlays on top of the active application, allowing you to find the menu selection you want by simply typing. When you have found the menu item you want to use, simply press <key>Enter</key> to activate it. </p>
+
+<table width="100%" frame="all"> 
+  <tr>
+    <td><p><media type="image" src="figures/mate-hud.gif" width="100%"/></p></td>
+  </tr>
+</table>
+
+<p></p>
+</section> 
+
+</page>

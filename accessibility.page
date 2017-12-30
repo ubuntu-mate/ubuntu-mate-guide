@@ -15,7 +15,7 @@
   <desc>Enabling accessibility applications, and using the Orca screen reader and the Onboard on-screen keyboard.</desc>
 </info>
 
-<title>3.07 Accessibility</title>
+<title>3.08 Accessibility</title>
 <p><media type="image" src="apps/a11y.png" width="32"/> Accessibility is a key priority for Ubuntu MATE. When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution.</p>
 
 <p>Preference settings for basic accessibility setting are found in the <app>Control Center</app> at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Assistive Technology</gui></guiseq>. From there you can enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.</p>

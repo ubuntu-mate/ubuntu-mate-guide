@@ -14,7 +14,7 @@
   <link type="seealso" xref="faq"/>  <desc>Installing Linux software applications from trusted sources.</desc>
 </info>
 
-<title>3.08 Installing Additional Applications</title>
+<title>3.09 Installing Additional Applications</title>
 <p><media type="image" src="apps/ubuntu-software-center.png" width="32"/> Almost every software package that is available and tested for Ubuntu MATE is available in the online software repositories (software catalog). The concept of software repositories is likely not all that familiar to long-time users switching from Windows, since classic Windows users normally had to go to a brick and mortar store, or go online to purchase new software for the Microsoft operating system. For macOS users however, the concept of the Apple App Store is similar in concept to the software repositories. Both contain trusted applications verified to run on their respective operating systems. Unlike most software in the App Store, the vast majority of Linux applications are neither proprietary nor expensive.</p>
 
 <p>The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and are variably referred to as "the software catalog," "the software library," "the software center," "software sources," or simply "software repositories." These repositories contain almost ALL of the full-featured, free and open source software that has been tested for installation on Ubuntu MATE and other Ubuntu derivatives. And they won't put spyware and viruses on your computer!</p>

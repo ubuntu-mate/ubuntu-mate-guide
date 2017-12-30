@@ -14,7 +14,7 @@
   <link type="seealso" xref="faq"/>  <desc>Productivity Applications: Firefox, Thunderbird, LibreOffice</desc>
 </info>
 
-<title>3.02 Productivity Applications</title>
+<title>3.03 Productivity Applications</title>
 <p>Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the <app>Software Boutique</app> or using one of Ubuntu MATE's other software management applications, and install from there. See the topic <link xref="software">Installing Additional Applications</link> for more information about installing software.</p>
 
 <p>Unlike with Windows and macOS, Ubuntu MATE provides you with all of the pre-installed applications at no charge. And the vast majority of the software available in the software repositories is also free of charge. Here is a sampling of some of the productivity applications you'll find as soon as you start using Ubuntu MATE.</p>
