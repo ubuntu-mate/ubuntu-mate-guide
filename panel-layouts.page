@@ -66,7 +66,7 @@
 <section id="cupertino">
 <title>Cupertino Layout</title>
 
-<p>The Cupertino layout is similar to Apple's macOS with a panel at the top of the screen and a dock at the bottom. The dock is used to display the pinned and open applications, and to launch applications. Of course, this layout uses the Global Menu so that the application menus always appear in the top panel rather than on the application windows, in the traditional macOS way. You'll notice one distinctive difference between the Cupertino layout's Ubuntu MATE logo icon in the top left corner and macOS's Apple logo icon. Instead of a small menu gives you access to some basic Apple system tools, the Ubuntu MATE icon gives you access to the entire menu of applications, utilities, and system tools.</p>
+<p>The Cupertino layout is similar to Apple's macOS with a panel at the top of the screen and a dock at the bottom. The dock is used to display the pinned and open applications, and to launch applications. Of course, this layout uses the Global Menu so that the application menus always appear in the top panel rather than on the application windows, in the traditional macOS way. You'll notice one distinctive difference between the Cupertino layout's Ubuntu MATE logo icon in the top left corner, and macOS's Apple logo icon. Instead of a small menu that gives you access to some basic Apple system tools, the Ubuntu MATE icon gives you access to the entire menu of applications, utilities, and system tools.</p>
 
 <table width="100%" frame="all"> 
   <tr>

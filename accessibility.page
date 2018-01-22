@@ -50,7 +50,7 @@
 
 <note style="tip">
   <p>If you are using Orca's "Laptop" layout, the default Orca Modifier will be <key>CapsLock</key>.</p>
-  <p>f you are using Orca's "Desktop" layout, for the Orca Modifier you can use either the normal <key>Insert</key> key or the KeyPad+<key>Insert</key>. On US keyboards, KeyPad+<key>Insert</key> is the same key as the <key>0</key> (zero) on the numeric keypad.</p>
+  <p>If you are using Orca's "Desktop" layout, for the Orca Modifier you can use either the normal <key>Insert</key> key or the KeyPad+<key>Insert</key>. On US keyboards, KeyPad+<key>Insert</key> is the same key as the <key>0</key> (zero) on the numeric keypad.</p>
 </note>
 
 <p>You can use the "Orca Modifier" key to get to Orca's help. Press <key>Orca Modifier</key> + <key>H</key> to enter "learn mode".</p>
@@ -82,8 +82,6 @@
  <item><p>Click the <key>Preferred Applications</key> button.</p></item>
  <item><p>Select the <gui>Accessibility</gui> tab.</p></item>
  <item><p>Check the box labeled <gui>Run at start</gui> and click <key>Close</key>.</p></item>
-
-<p>Additional settings and preferences for <app>Onboard</app> are listed in the <app>Control Panel</app> in the <gui>Personal</gui>" section as <gui>Onboard Settings</gui>.</p>
 </steps>
 
 <table width="100%" frame="all"> 

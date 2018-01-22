@@ -39,11 +39,11 @@
 <section id="backups">
 <title>Backups (Déjà Dup)</title>
 
-<p><media type="image" src="apps/deja-dup.png" width="32"/>Ubuntu MATE comes pre-installed with a Backup utility called <app>Déjà Dup</app>. The application is found in the Control Center at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Backups</gui></guiseq>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.</p>
+<p><media type="image" src="apps/deja-dup.png" width="32"/> Ubuntu MATE comes pre-installed with a Backup utility called <app>Déjà Dup</app>. The application is found in the Control Center at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Backups</gui></guiseq>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.</p>
 
 <p>If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. <app>Déjà Dup</app> even lets you automate your backups for added convenience and safety. </p>
 
-<p>In the event your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <link xref="ghelp:/usr/share/help/C/deja-dup/index"><app>Déjà Dup</app> manual</link> by pressing <key>F1</key> while <app>Déjà Dup</app> is open.</p>
+<p>In the event your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <link xref="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page"><app>Déjà Dup</app> manual</link> by pressing <key>F1</key> while <app>Déjà Dup</app> is open.</p>
 
 <table width="100%" frame="all"> 
   <tr>
@@ -138,7 +138,7 @@
 <section id="firewall">
 <title>Firewall</title>
 
-<p><media type="image" src="apps/gufw.svg" width="32"/>Ubuntu MATE's <app>Firewall Configuration</app> utility (Gufw), found in the Control Center at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Firewall Configuration</gui></guiseq>, provides uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because, by default Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:</p> 
+<p><media type="image" src="apps/gufw.svg" width="32"/> Ubuntu MATE's <app>Firewall Configuration</app> utility (Gufw), found in the Control Center at <guiseq><gui>System</gui><gui>Control Center</gui><gui>Firewall Configuration</gui></guiseq>, provides uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because, by default Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:</p> 
 <p> • <gui>Status=On</gui></p>
 <p> • <gui>Incoming=Deny</gui></p>
 <p> • <gui>Outgoing=Allow</gui></p> 

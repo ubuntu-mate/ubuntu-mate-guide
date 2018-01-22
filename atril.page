@@ -32,7 +32,7 @@
 </note>
 
 <section id="menubar">
-<title>Menubar</title>
+<title>Menu Bar</title>
 
 <p>The menus on the menubar contain all of the commands you need to work with documents in <app>Atril</app>. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <app>Document Viewer</app> window.</p>
 </section> 

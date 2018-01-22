@@ -58,7 +58,7 @@
 <section id="pdf">
 <title>PDF Creation</title>
 
-<p><media type="image" src="apps/PDF-export.jpeg" width="32"/> Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to Save As PDF or Export to PDF. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration.Whether you are scanning a page, writing a book, or saving a web page, PDF creation on Ubuntu MATE is built-in. Most applications provide a menu selection to <gui>Save As PDF</gui> or <gui>Export to PDF</gui>. If the application you use does not offer one of those options, you can always print the document as a PDF file. Ubuntu MATE has PDF printing built-in.</p>
+<p><media type="image" src="apps/PDF-export.jpeg" width="32"/> Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to Save As PDF or Export to PDF. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration. Most applications provide a menu selection to <gui>Save As PDF</gui> or <gui>Export to PDF</gui>. If the application you use does not offer one of those options, you can always print the document as a PDF file. Ubuntu MATE has PDF printing built-in.</p>
 
 <table width="100%" frame="all"> 
   <tr>

@@ -62,7 +62,7 @@
 <section id="bottom">
 <title>Bottom Pane</title>
 
-<p>The bottom pane is used by programming tools such as the <app>Python Console</app> plugin to display output. By default, the bottom pane is not shown. To show it, choose <guiseq><gui>View</gui><gui>Bottom Pane</gui></guiseq>. When you right-click in the <app>Plumal</app> window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in <app>Pluma</app> can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the appendix for a list of common keyboard shortcuts.</p>
+<p>The bottom pane is used by programming tools such as the <app>Python Console</app> plugin to display output. By default, the bottom pane is not shown. To show it, choose <guiseq><gui>View</gui><gui>Bottom Pane</gui></guiseq>. When you right-click in the <app>Pluma</app> window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in <app>Pluma</app> can be performed with the menu, with the toolbar, or with keyboard shortcuts. See <link type="guide" xref="shortcuts">Keyboard Shortcuts</link> for a list of common keyboard shortcuts.</p>
 </section> 
 
 <section id="new-doc">

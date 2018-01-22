@@ -16,7 +16,7 @@
 
 <title>3.05 Entertainment Applications</title>
 
-<p>Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <link xref="security#software">Software Centers</link> offer many, many more to choose from.</p>
+<p>Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <link xref="software#software-centers">Software Centers</link> offer many, many more to choose from.</p>
 
 <section id="rhythmbox">
 <title>Rhythmbox Music and Podcast Manager</title>
@@ -56,7 +56,7 @@
 
 <p>Of course, you can share your photos from <app>Shotwell</app> by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.</p>
 
-<p>To learn more about how to use each of the features of <app>Shotwell</app>, see the <link xref="ghelp:/usr/share/gnome/help/shotwell/C/index.page">Shotwell Photo Manager Manual</link> by pressing <key>F1</key> while <app>Shotwell</app> is open.</p>
+<p>To learn more about how to use each of the features of <app>Shotwell</app>, see the <link xref="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</link> by pressing <key>F1</key> while <app>Shotwell</app> is open.</p>
 </section> 
 
 <section id="vlc">
