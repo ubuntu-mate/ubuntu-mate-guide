@@ -83,10 +83,11 @@
 <code>sudo lshw -html>myhardware.html</code>
 
 <p>When you run this command, it can detect and report on your touch screen, if you have one, attached USB storage drives, and even the micro-SD card on a mobile phone if you have one charging on a USB port!</p>
-</section>
 
 <note>
  <p>How to use terminal and command-line programs is a topic that has been explored in many books. One popular and excellent book on this topic is <link href="https://www.amazon.com/dp/1593273894"><em>The Linux Command Line: A Complete Introduction</em></link> by William E. Shotts Jr. Another source of information on using the terminal is the <link xref="ghelp:/usr/share/help/C/mate-terminal/index.docbook">MATE Terminal</link> manual contained within the MATE Desktop User Guide. It's provided with Ubuntu MATE. To go there directly, open the <app>MATE Terminal</app> application from the menu, then press the <key>F1</key> key on your keyboard to open the manual.</p>
 </note>
+
+</section>
 
 </page>
