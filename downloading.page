@@ -42,9 +42,9 @@
   <item><tree>
   <item>
     "Support" includes:
-    <item>· Updates for potential security issues and bugs (not new versions of software)</item>
-    <item>· Availability of Commercial support contracts from Canonical</item>
-    <item>· Support by Landscape, Canonical's server management tool set designed for enterprises</item>
+    <item>• Updates for potential security issues and bugs (not new versions of software)</item>
+    <item>• Availability of Commercial support contracts from Canonical</item>
+    <item>• Support by Landscape, Canonical's server management tool set designed for enterprises</item>
   </item>
 </tree></item>
   <item><p>Ubuntu MATE's LTS release (five year support) is the best choice for most users. It is well-supported and will run all the software you depend on. It's regularly updated with new hardware support and performance improvements, so you don't need to be concerned that everything will work properly.</p></item>
