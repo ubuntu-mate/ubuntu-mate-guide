@@ -15,7 +15,7 @@
 </info>
 
 <title>2.02 Text Editor (Pluma)</title>
-<p><media type="image" src="apps/text-editor.png" width="32"/> The <app>Pluma</app> text editor, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Pluma Text Editor</gui></guiseq>, enables you to create and edit text files. The aim of <app>Pluma</app> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.</p>
+<p><media type="image" src="apps/text-editor.png" width="32"/> The <app>Pluma</app> text editor, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Accessories</gui><gui>Pluma Text Editor</gui></guiseq>, enables you to create and edit text files. The aim of <app>Pluma</app> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.</p>
 
 <table width="100%" frame="all"> 
   <tr>

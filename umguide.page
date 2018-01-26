@@ -16,7 +16,7 @@
 
 <title>6.01 The Ubuntu MATE Guide</title>
 
-<p><media type="image" src="apps/community.png" width="32"/> The <app>Ubuntu MATE Guide</app>, found in the <app>Ubuntu MATE Guide</app> menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Ubuntu MATE Guide</gui></guiseq>, is for users needing a little extra help while learning to use Ubuntu MATE. </p>
+<p><media type="image" src="apps/community.png" width="32"/> The <app>Ubuntu MATE Guide</app>, found in the <app>Ubuntu MATE Guide</app> menus at <guiseq><gui>Menu</gui><gui>System Tools</gui><gui>Ubuntu MATE Guide</gui></guiseq>, is for users needing a little extra help while learning to use Ubuntu MATE. </p>
 
 <p>In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. </p>
 

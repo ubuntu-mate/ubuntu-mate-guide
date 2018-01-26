@@ -15,7 +15,7 @@
 </info>
 
 <title>2.08 MATE System Monitor</title>
-<p><media type="image" src="apps/system-monitor.png" width="32"/> The <app>MATE System Monitor</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE System Monitor</gui></guiseq>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <app>MATE System Monitor</app> to modify the behavior of your system.</p>
+<p><media type="image" src="apps/system-monitor.png" width="32"/> The <app>MATE System Monitor</app>, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>System Tools</gui><gui>MATE System Monitor</gui></guiseq>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <app>MATE System Monitor</app> to modify the behavior of your system.</p>
 
 <table width="100%" frame="all"> 
   <tr>

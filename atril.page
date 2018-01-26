@@ -15,7 +15,7 @@
 </info>
 
 <title>2.06 Document Viewer (Atril)</title>
-<p><media type="image" src="apps/atril.png" width="32"/> The <app>Atril Document Viewer</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Office</gui><gui>Atril Document Viewer</gui></guiseq>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.</p>
+<p><media type="image" src="apps/atril.png" width="32"/> The <app>Atril Document Viewer</app>, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Office</gui><gui>Atril Document Viewer</gui></guiseq>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.</p>
 
 <p>You can open the <app>Atril Document Viewer</app> from the menus, or more simply by double- clicking on the file you want to open in the <app>Caja</app> file manager. To zoom in and out, you can use the keyboard shortcuts <key>Ctrl</key> + <key>+</key> (the plus key) and <key>Ctrl</key> + <key>-</key> (the minus key). You can also hold the <key>Ctrl</key> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <gui>Fit Page Width</gui> and <gui>Best Fit</gui> among others.</p>
 

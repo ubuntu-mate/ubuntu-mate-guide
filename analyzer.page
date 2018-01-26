@@ -15,7 +15,7 @@
 </info>
 
 <title>2.07 MATE Disk Usage Analyzer</title>
-<p><media type="image" src="apps/disk-usage-analyzer.png" width="32"/> The <app>MATE Disk Usage Analyzer</app>, found at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>MATE Disk Usage Analyzer</gui></guiseq>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.</p>
+<p><media type="image" src="apps/disk-usage-analyzer.png" width="32"/> The <app>MATE Disk Usage Analyzer</app>, found at <guiseq><gui>Menu</gui><gui>System Tools</gui><gui>MATE Disk Usage Analyzer</gui></guiseq>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.</p>
 
 <table width="100%" frame="all"> 
   <tr>

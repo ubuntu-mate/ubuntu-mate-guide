@@ -15,7 +15,7 @@
 </info>
 
 <title>2.03 MATE Calculator</title>
-<p><media type="image" src="apps/calculator.png" width="32"/> The <app>MATE Calculator</app> application can be found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>MATE Calculator</gui></guiseq>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. <app>MATE Calculator</app> has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.</p>
+<p><media type="image" src="apps/calculator.png" width="32"/> The <app>MATE Calculator</app> application can be found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Accessories</gui><gui>MATE Calculator</gui></guiseq>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. <app>MATE Calculator</app> has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.</p>
 
 <table width="100%" frame="all"> 
   <tr>

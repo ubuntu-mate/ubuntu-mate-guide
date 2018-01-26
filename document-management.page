@@ -52,7 +52,7 @@
 <section id="scanning">
 <title>Scanning</title>
 
-<p><media type="image" src="apps/scanner.png" width="32"/> The <app>Simple Scan</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Simple Scan</gui></guiseq>, provides a simple and easy way to scan your documents. Once you scanner is connected via USB or over the network, configuration is usually automatic. Using Simple Scan is as easy as: load your document, press <app>Simple Scan's</app> <key>Scan</key> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <link xref="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</link> by pressing <key>F1</key> while <app>Simple Scan</app> is open.</p>
+<p><media type="image" src="apps/scanner.png" width="32"/> The <app>Simple Scan</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Graphics</gui><gui>Simple Scan</gui></guiseq>, provides a simple and easy way to scan your documents. Once you scanner is connected via USB or over the network, configuration is usually automatic. Using Simple Scan is as easy as: load your document, press <app>Simple Scan's</app> <key>Scan</key> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <link xref="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</link> by pressing <key>F1</key> while <app>Simple Scan</app> is open.</p>
 </section> 
 
 <section id="pdf">

@@ -15,7 +15,7 @@
 </info>
 
 <title>2.01 File Browser (Caja)</title>
-<p><media type="image" src="apps/file-manager.png" width="32"/> The <app>Caja</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>System Tools</gui><gui>Caja</gui></guiseq>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <app>Caja</app> lets you manage them all.</p>
+<p><media type="image" src="apps/file-manager.png" width="32"/> The <app>Caja</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>System Tools</gui><gui>Caja</gui></guiseq>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <app>Caja</app> lets you manage them all.</p>
 
 <p>Using the file manager you can do the following:</p>
 <tree>

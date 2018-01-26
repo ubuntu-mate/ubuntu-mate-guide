@@ -21,7 +21,7 @@
 <section id="rhythmbox">
 <title>Rhythmbox Music and Podcast Manager</title>
 
-<p><media type="image" src="apps/rhythmbox.png" width="32"/> <app>Rhythmbox</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Sound &amp; Video</gui><gui>Rhythmbox</gui></guiseq>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's iTunes, Rhythmbox is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts. </p>
+<p><media type="image" src="apps/rhythmbox.png" width="32"/> <app>Rhythmbox</app>, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Sound &amp; Video</gui><gui>Rhythmbox</gui></guiseq>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's iTunes, Rhythmbox is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts. </p>
 
 <p>Subscribe to a podcast with Rhythmbox</p>
 <steps>
@@ -47,7 +47,7 @@
 <section id="shotwell">
 <title>Shotwell Digital Photo Organizer</title>
 
-<p><media type="image" src="apps/shotwell.png" width="32"/> <app>Shotwell</app> Shotwell, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Shotwell</gui></guiseq>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.</p>
+<p><media type="image" src="apps/shotwell.png" width="32"/> <app>Shotwell</app> Shotwell, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Graphics</gui><gui>Shotwell</gui></guiseq>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.</p>
 
 <p>When you first launch <app>Shotwell</app>, it scans your computer for photos and imports them so that you can use <app>Shotwell</app> to organize them. Once you have all the photos from your computer's hard drive within <app>Shotwell</app>, you can import new files by choosing <guiseq><gui>File</gui><gui>Import From Folder</gui></guiseq> from the menus, or by dragging and dropping them onto the <app>Shotwell</app> window, or by connecting a camera to your computer and choosing to import the photos from there. </p>
 
@@ -62,7 +62,7 @@
 <section id="vlc">
 <title>VLC Media Player</title>
 
-<p><media type="image" src="apps/vlc.png" width="32"/> <app>VLC</app>, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Sound &amp; Video</gui><gui>VLC</gui></guiseq> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <app>VLC</app> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. </p>
+<p><media type="image" src="apps/vlc.png" width="32"/> <app>VLC</app>, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Sound &amp; Video</gui><gui>VLC</gui></guiseq> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <app>VLC</app> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. </p>
 
 <p><app>VLC</app> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.</p>
 

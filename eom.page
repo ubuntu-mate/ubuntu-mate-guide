@@ -15,7 +15,7 @@
 </info>
 
 <title>2.05 Image Viewer (Eye of MATE)</title>
-<p><media type="image" src="apps/eom.png" width="32"/> The <app>Eye of MATE Image Viewer</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Graphics</gui><gui>Eye of MATE Image Viewer</gui></guiseq>, enables you to view single image files, as well as large image collections.</p>
+<p><media type="image" src="apps/eom.png" width="32"/> The <app>Eye of MATE Image Viewer</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Graphics</gui><gui>Eye of MATE Image Viewer</gui></guiseq>, enables you to view single image files, as well as large image collections.</p>
 
 <p>The <app>Image Viewer</app> can open a wide variety of image file formats including animated graphics (ANI), bitmaps (BMP, PNG, ICO, PCX, WBMP, XBM, XPM), vector graphics (SVG), and other popular formats like JPEG, GIF, TIFF, and more. Files can be saved in BMP, ICO, JPEG and PNG formats.</p>
 

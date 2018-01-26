@@ -15,7 +15,7 @@
 </info>
 
 <title>2.04 Archive Manager (Engrampa)</title>
-<p><media type="image" src="apps/engrampa.png" width="32"/> You can use the <app>Engrampa Archive Manager</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Engrampa Archive Manager</gui></guiseq>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.</p>
+<p><media type="image" src="apps/engrampa.png" width="32"/> You can use the <app>Engrampa Archive Manager</app> application, found in the Ubuntu MATE menus at <guiseq><gui>Menu</gui><gui>Accessories</gui><gui>Engrampa Archive Manager</gui></guiseq>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.</p>
 
 <p>The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. <app>Archive Manager</app> supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more.</p>
 

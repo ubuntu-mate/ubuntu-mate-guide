@@ -24,7 +24,7 @@
 <p>These are the steps to follow:</p>
 <steps> 
  <item><p>Locate the application in the menu. For the word processor application, select
-<guiseq><gui>Applications</gui><gui>Office</gui></guiseq>.</p></item>
+<guiseq><gui>Menu</gui><gui>Office</gui></guiseq>.</p></item>
  <item><p>Now locate, but do not click on the LibreOffice Writer icon.</p></item>
  <item><p>Right-click on <gui>LibreOffice Writer</gui>.</p></item>
  <item><p>From the context menu that appears select <gui>Add this launcher to desktop</gui>.</p>
