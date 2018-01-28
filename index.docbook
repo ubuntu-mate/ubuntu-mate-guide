@@ -95,75 +95,6 @@
 
   </articleinfo>
 
-<!-- Template Samples - You can remove this comment section for final publication.
-      References: 
-      https://books.google.com/books?id=llxmBgAAQBAJ&pg=PA0#v=onepage&q&f=false
-      https://help.ubuntu.com/community/DocBookReference
-      http://tdg.docbook.org/tdg/5.1/
-  <sect1>
-
-      <title>The title of Section One</title>
-      <para>
-        The paragraph of text. For information, 
-        see <xref linkend="install_packages"/>. This uses a reference to 
-        the next section.
-      </para>
-      <para>#
-        Use itemized list, orderedlist, variablelist and calloutlist tags outside of the para tag.
-      </para>
-      <itemizedlist>
-        <listitem>
-          First item in the list.
-        </listitem>
-        <listitem>
-          second item on the list.
-        </listitem>
-      </itemizedlist>
-
-      <para>
-        Leading white space is preserved with terminal 
-        input/output, so justify left when using the screen and programlisting 
-        tags. Use the literal tag when preserving white space in-line.
-      </para>
-<screen>
-user = myusername
-password = password123
-</screen>
-
-      <para>
-        <inlinemediaobject>icon.png</inlinemediaobject> A comment about the following image:
-        <mediaobject>
-           <imageobject>
-              <imagedata fileref="bigscreenshot.png" format="PNG"/>
-           </imageobject>
-        </mediaobject>
-      </para>
-
-     <sect2 id="install_packages" xreflabel="installing the needed packages">
-       <title>Tile of Section Two</title>
-       <para>
-         This section appears on the same page as Section One. You can have 
-         up to five nested sections. The ID allows you to link to that section 
-         from other parts of the document.
-       </para>
-
-       <warning>
-        <title>
-          Please Note
-        </title>
-        <para>
-          You can create the note and warning types below. 
-        </para>
-       </warning>
-
-         <caution>This displays a diamond icon containing an exclamation mark.</caution>  
-         <note>This displays a pinned note icon.</note>
-         <tip>This displays the info icon.</tip>
-         <warning>This displays a diamond icon containing an exclamation mark.</warning>
-         <important>This displays a star icon.</important>     </sect2>
-   </sect1>
--->
-
 <!-- Beginning of Document ================================================ -->
 <para>
     <mediaobject>
@@ -177,7 +108,7 @@ password = password123
 </para>
 <!-- Overview ============================================================= -->
     <sect1 id="page.overview">
-    <title>1. Overview</title>
+    <title>--- 1. Overview ---</title>
       <para>
             <mediaobject>
               <imageobject>
@@ -189,10 +120,10 @@ password = password123
             </mediaobject>
       </para>
       <para>
-<application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS and Google's Chrome OS. Ubuntu MATE is a distribution (variation) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
+<application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
       </para>
       <para>
-If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentaion is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
+If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
       </para>
         <sect2 id="modern">
         <title>Modern and Full-Featured</title>
@@ -230,7 +161,7 @@ Ubuntu MATE is designed with security in mind. Unlike operating systems that upd
     </sect1>
 
     <sect1 id="page.linux">
-    <title>1.1 So You've Discovered Linux!</title>
+    <title>So You've Discovered Linux!</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -275,7 +206,7 @@ Neither Microsoft nor Apple will let you upgrade that perfectly-functioning comp
     </sect1>
 
     <sect1 id="page.ubuntu">
-    <title>1.2 Ubuntu</title>
+    <title>Ubuntu</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -288,7 +219,7 @@ Neither Microsoft nor Apple will let you upgrade that perfectly-functioning comp
 Ubuntu MATE is created from <ulink url="http://www.ubuntu.com/">Ubuntu</ulink>, one of the, if not the, largest deployed <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> based desktop operating systems in the world. Linux is at the heart of Ubuntu and makes it possible to create secure, powerful and versatile operating systems, such as Ubuntu and Android. Android is now in the hands of billions of people around the world and it’s also powered by Linux.
       </para>
       <para>
-Ubuntu is developed by Canonical, Ltd. and is available in a number of different flavours, each coming with its own desktop environment. Started as a community-developed project, Ubuntu MATE takes the Ubuntu base operating system and adds the <ulink url="http://mate-desktop.org/">MATE Desktop</ulink>. Today, Ubuntu MATE is an official flavor of Ubuntu Linux.
+Ubuntu is developed by Canonical, Ltd. and is available in a number of different flavors, each coming with its own desktop environment. Started as a community-developed project, Ubuntu MATE takes the Ubuntu base operating system and adds the <ulink url="http://mate-desktop.org/">MATE Desktop</ulink>. Today, Ubuntu MATE is an official flavor of Ubuntu Linux.
       </para>
 
         <tip>
@@ -299,7 +230,7 @@ Ubuntu is developed by Canonical, Ltd. and is available in a number of different
     </sect1>
 
     <sect1 id="page.mate-desktop">
-    <title>1.3 The MATE Desktop</title>
+    <title>The MATE Desktop</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -317,7 +248,7 @@ Wikipedia says that a <ulink url="https://en.wikipedia.org/wiki/Desktop_environm
         </blockquote>
 
         <para>
-The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications <ulink url="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">in the MATE <application>Desktop User Guide</application>.</ulink>
+The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications <ulink url="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">in the MATE <application>Desktop User Guide</application>.</ulink>
         </para>
         <para>
 The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <ulink url="http://www.microsoft.com/">Microsoft Windows</ulink> or <ulink url="http://www.apple.com/">Apple macOS</ulink>, the MATE Desktop will feel very familiar.
@@ -336,7 +267,7 @@ The name "<application>MATE</application>" is pronounced <emphasis>Ma-Tay</empha
     </sect1>
 
     <sect1 id="page.open-source">
-    <title>1.4 Open Source</title>
+    <title>Open Source</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -346,16 +277,16 @@ The name "<application>MATE</application>" is pronounced <emphasis>Ma-Tay</empha
             The OSI icon.
           </textobject>
         </inlinemediaobject>
-What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source. Open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free, in the truest sense of the word.
+What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source. Open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell, Ubuntu MATE is free, in the truest sense of the word.
       </para>
       <para>
-Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the licence gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the licence to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
+Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
       </para>
       <para>
-This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses, or include it within their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
+This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
       </para>
       <para>
-Unlike Windows, and OSX, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
+Unlike Windows and OSX, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
       </para>
       <para>
 Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.
@@ -364,7 +295,7 @@ Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or applicati
 
 <!-- MATE's Applications ================================================== -->
     <sect1 id="page.mate-apps">
-    <title>2. MATE's Applications</title>
+    <title>--- 2. MATE's Applications ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -421,7 +352,7 @@ The MATE Desktop provides you with essential features that you'd expect in a com
     </sect1>
 
     <sect1 id="page.caja">
-    <title>2.1 File Browser (Caja)</title>
+    <title>File Browser (Caja)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -484,7 +415,7 @@ In addition to the folder contents, the browser window displays a toolbar with c
     </sect1>
 
     <sect1 id="page.pluma">
-    <title>2.2 Text Editor (Pluma)</title>
+    <title>Text Editor (Pluma)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -578,7 +509,7 @@ To save changes to a file you have opened and/or already saved, choose <menuchoi
     </sect1>
 
     <sect1 id="page.calculator">
-    <title>2.3 MATE Calculator</title>
+    <title>MATE Calculator</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -614,7 +545,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
     </sect1>
 
     <sect1 id="page.engrampa">
-    <title>2.4 Archive Manager (Engrampa)</title>
+    <title>Archive Manager (Engrampa)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -651,16 +582,16 @@ The toolbar contains icon buttons that represent a subset of the commands that y
         <sect2 id="engrampa-using">
         <title>Using Archive Manager</title>
           <para>
-To create a new archive file, you can choose <guimenuitem>Open</guimenuitem> from the menu, click and drag one or more files or folders from the <application>Caja File Browser</application> window into the Archive Manager window, or right-click one or more files in Caja and selecting <guimenuitem>Compress</guimenuitem> from the menu.
+To create a new archive file, you can choose <guimenuitem>Open</guimenuitem> from the menu, click and drag one or more files or folders from the <application>Caja File Browser</application> window into the Archive Manager window, or right-click one or more files in Caja and select <guimenuitem>Compress</guimenuitem> from the menu.
           </para>
           <para>
-To expand a compressed file's contents, you start by opening the archive by double- clicking it in the <application>File Browser</application>. Next, you can choose one or more files in the Archive Manager window and either choose <guimenuitem>Extract</guimenuitem> from the menu or drag them to the desktop or other location where you want the files to end up.
+To expand a compressed file's contents, you start by opening the archive by double-clicking it in the <application>File Browser</application>. Next, you can choose one or more files in the Archive Manager window and either choose <guimenuitem>Extract</guimenuitem> from the menu or drag them to the desktop or other location where you want the files to end up.
           </para>
         </sect2>
     </sect1>
 
     <sect1 id="page.eom">
-    <title>2.5 Image Viewer (Eye of MATE)</title>
+    <title>Image Viewer (Eye of MATE)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -705,7 +636,7 @@ Image Viewer has features to help you view your images. You can zoom in and out 
 The collection view allows you to view and edit large image collections. In this view, image operations can be applied to all selected images at once.
           </para>
           <para>
-Image Viewer has special support for digital camera pictures and displays EXIF metadata recorded with the image. All modifications made in JPEG images are lossless. That is, saving rotated and flipped JPEG images will not recompress the image. Beside this, all available metadata (like EXIF) will be preserved and updated accordingly.
+Image Viewer has special support for digital camera pictures and displays EXIF metadata recorded with the image. All modifications made in JPEG images are lossless. That is, saving rotated and flipped JPEG images will not recompress the image. Besides this, all available metadata (like EXIF) will be preserved and updated accordingly.
           </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -726,7 +657,7 @@ Image Viewer has special support for digital camera pictures and displays EXIF m
     </sect1>
 
     <sect1 id="page.atril">
-    <title>2.6 Document Viewer (Atril)</title>
+    <title>Document Viewer (Atril)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -740,7 +671,7 @@ The <application>Atril Document Viewer</application>, found in the Ubuntu MATE m
         </para>
 
         <para>
-You can open the Atril Document Viewer from the menus, or more simply by double- clicking on the file you want to open in the Caja file manager. To zoom in and out, you can use the keyboard shortcuts <keycap>Ctrl</keycap> + <keycap>+</keycap> (the plus key) and <keycap>Ctrl</keycap> + <keycap>-</keycap> (the minus key). You can also hold the <keycap>Ctrl</keycap> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <guibutton>Fit Page Width</guibutton> and <guibutton>Best Fit</guibutton> among others.
+You can open the Atril Document Viewer from the menus, or more simply by double-clicking on the file you want to open in the Caja file manager. To zoom in and out, you can use the keyboard shortcuts <keycap>Ctrl</keycap> + <keycap>+</keycap> (the plus key) and <keycap>Ctrl</keycap> + <keycap>-</keycap> (the minus key). You can also hold the <keycap>Ctrl</keycap> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <guibutton>Fit Page Width</guibutton> and <guibutton>Best Fit</guibutton> among others.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -787,7 +718,7 @@ Depending on the type of file you are opening, the left pane of the Atril window
     </sect1>
 
     <sect1 id="page.baobab">
-    <title>2.7 MATE Disk Usage Analyzer (Baobab)</title>
+    <title>MATE Disk Usage Analyzer (Baobab)</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -838,7 +769,7 @@ The toolbar contains icon buttons that represent a subset of the commands that y
     </sect1>
 
     <sect1 id="page.system-monitor">
-    <title>2.8 MATE System Monitor</title>
+    <title>MATE System Monitor</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -895,7 +826,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
     </sect1>
 
     <sect1 id="page.terminal">
-    <title>2.9 MATE Terminal</title>
+    <title>MATE Terminal</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -924,7 +855,7 @@ man apt
 </screen>
           </note>
           <para>
-It's good practice to ensure that you have the latest changes made in the Ubuntu software repositories before installing software. The apt command can be used to update the index of available software packages that is on your computer. To do this, type the following in the terminal window:
+It's good practice to ensure that you have the latest changes made in the Ubuntu software repositories before installing software. The apt command can be used to update the index of available software packages that are on your computer. To do this, type the following in the terminal window:
           </para>
 <screen>
 sudo apt update
@@ -935,7 +866,7 @@ sudo apt update
 When you use "sudo" you are telling Linux that you want to run the command as administrator, so for security purposes, you will be asked for your password the first time you use "sudo" in a terminal session.
             </para>
             <para>
-Also note that what you type in the terminal is case-sensitive. "Install" is not the same as "install." As far as the terminal is concerned, they are two entirely different words.
+Also, note that what you type in the terminal is case-sensitive. "Install" is not the same as "install." As far as the terminal is concerned, they are two entirely different words.
             </para>
           </note>
         <para>
@@ -1004,12 +935,12 @@ inxi
             </tgroup>
           </informaltable>
           <para>
-You can also type the "list hardware" command, <application>lshw</application>, at the command line without any switches or options, but the text file it generates runs on forever, and is a little difficult to follow in the terminal. It needs to run as root (administrator), so you'll need to type "sudo" in front of the command. The command listed below runs lshw with the -html option to create an html file. Open it in a browser and you have a nice "web page" with all of your hardware specs. 
+You can also type the "list hardware" command, <application>lshw</application>, at the command line without any switches or options, but the text file it generates runs on forever and is a little difficult to follow in the terminal. It needs to run as root (administrator), so you'll need to type "sudo" in front of the command. The command listed below runs lshw with the -html option to create an html file. Open it in a browser and you have a nice "web page" with all of your hardware specs. 
           </para>
 <screen>
 sudo lshw -html>myhardware.html
 </screen>
-          <para>When you run this command, it can detect and report on your touch screen, if you have one, attached USB storage drives, and even the micro-SD card on a mobile phone if you have one charging on a USB port!
+          <para>When you run this command, it can detect and report on your touchscreen, if you have one, attached USB storage drives, and even the micro-SD card on a mobile phone if you have one charging on a USB port!
           </para>
           <note>
           <title>Note</title> 
@@ -1021,7 +952,7 @@ How to use terminal and command-line programs is a topic that has been explored 
     </sect1>
 
     <sect1 id="page.control-center">
-    <title>2.10 MATE Control Center</title>
+    <title>MATE Control Center</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1049,7 +980,7 @@ The <application>Control Center</application> provides you with a single window 
             </tgroup>
           </informaltable>
       <para>
-Simply click the icon for the preference you want to adjust. Each of these preferences are also available under the <menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The sub-menus correspond to the Groups in the Control Center.
+Simply click the icon for the preference you want to adjust. Each of these preferences is also available under the <menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The sub-menus correspond to the Groups in the Control Center.
       </para>
       <para>
 You'll also find many of the settings and selections you can make from within the Ubuntu MATE Welcome application are also available in the Control Center. The Control Center simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer.
@@ -1064,7 +995,7 @@ For more help on this application, see the <guimenuitem>Configuring Your Desktop
 
 <!-- Ubuntu MATE's Applications =========================================== -->
     <sect1 id="page.applications">
-    <title>3. Ubuntu MATE's Applications</title>
+    <title>--- 3. Ubuntu MATE's Applications ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1074,15 +1005,15 @@ For more help on this application, see the <guimenuitem>Configuring Your Desktop
             The application package manager icon.
           </textobject>
         </inlinemediaobject>
-While the MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. These additional applications include productivity and office applications, applications for managing the documents you create, entertainment and games, accessibility, and more. Naturally you'll also find a firewall, a backup application, a document/photo scanner, printer management, and designed-in security, all included in Ubuntu MATE. 
+While the MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. These additional applications include productivity and office applications, applications for managing the documents you create, entertainment and games, accessibility, and more. Naturally, you'll also find a firewall, a backup application, a document/photo scanner, printer management, and designed-in security, all included in Ubuntu MATE. 
       </para>
       <para>
-If that's not enough, Ubuntu MATE's <application>Software Boutique</application> and optional <application>Software Centers</application> provide searchable access to additonal software choices from Ubuntu's repositories. The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and the majority of them are free of charge.
+If that's not enough, Ubuntu MATE's <application>Software Boutique</application> and optional <application>Software Centers</application> provide searchable access to additional software choices from Ubuntu's repositories. The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and the majority of them are free of charge.
       </para>
     </sect1>
 
     <sect1 id="applications-welcome">
-    <title>3.1 Ubuntu MATE Welcome</title>
+    <title>Ubuntu MATE Welcome</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1116,7 +1047,7 @@ Welcome introduces new users to the operating system, highlights key features of
         <sect2 id="welcome-updates">
         <title>Getting Started: Updates and Extras</title>
           <para>
-One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release, is to click on the <guimenuitem>Getting Started</guimenuitem> button in the Welcome application and choose the <guimenuitem>Updates &amp; Extras</guimenuitem> topic. This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support. It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped.
+One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release is to click on the <guimenuitem>Getting Started</guimenuitem> button in the Welcome application and choose the <guimenuitem>Updates &amp; Extras</guimenuitem> topic. This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support. It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1161,13 +1092,13 @@ Most drivers for Linux distributions like Ubuntu MATE are already provided as pa
 The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered. What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret. (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers.
           </para>
           <para>
-Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the Welcome application, or in <guimenuitem>Software &amp; Update</guimenuitem> (available in the <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem></menuchoice> menu) under the <guilabel>Additional Drivers</guilabel> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary driver for your hardware when it's installed, but you have the choice of which driver works best for you. 
+Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the Welcome application, or in <guimenuitem>Software &amp; Update</guimenuitem> (available in the <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem></menuchoice> menu) under the <guilabel>Additional Drivers</guilabel> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
           </para>
           <para>
 If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <guimenuitem>Additional Drivers</guimenuitem> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <guimenuitem>Displaying Your System Information</guimenuitem>. 
           </para>
           <para>
-If there is nothing there in <guimenuitem>Additional Drivers</guimenuitem> to improve the performance of your hardware device, you may find something on the hardware manufacturer's site. You may need to install proprietary manufacturer drivers using the command line if you choose to use them. If you do, be careful to follow the installation instructions carefully, and before you install, make a system backup and understand how to uninstall just in case the proprietary drivers don't work. DO NOT simply search for drivers using drivers.com or other third party sites. When you use third party sources, there is no guarantee that you aren't getting something that will inject malware or corrupt your system. If you are unsure, or if you simply can't figure it out, you are better off asking about it in Ubuntu MATE forums and looking for someone else that has some advice or experience. Or you could just settle for the lower performance of the reverse-engineered driver. Of course, if you happen to be an expert in a device that doesn't have drivers in the kernel, the open source community would appreciate you sharing your expertise to help develop high-performance open source drivers for inclusion in the kernel.
+If there is nothing there in <guimenuitem>Additional Drivers</guimenuitem> to improve the performance of your hardware device, you may find something on the hardware manufacturer's site. You may need to install proprietary manufacturer drivers using the command line if you choose to use them. If you do, be careful to follow the installation instructions carefully, and before you install, make a system backup and understand how to uninstall just in case the proprietary drivers don't work. DO NOT simply search for drivers using drivers.com or other third-party sites. When you use third-party sources, there is no guarantee that you aren't getting something that will inject malware or corrupt your system. If you are unsure, or if you simply can't figure it out, you are better off asking about it in Ubuntu MATE forums and looking for someone else that has some advice or experience. Or you could just settle for the lower performance of the reverse-engineered driver. Of course, if you happen to be an expert in a device that doesn't have drivers in the kernel, the open source community would appreciate you sharing your expertise to help develop high-performance open source drivers for inclusion in the kernel.
           </para>
         </sect2>
         <sect2 id="welcome-printers">
@@ -1179,7 +1110,7 @@ Setting up a printer is often as simple as plugging in its USB cable, or connect
         <sect2 id="welcome-utilities">
         <title>Getting Started: Additional Utilities</title>
           <para>
-In <guimenuitem>Software Utilities for Peripherals</guimenuitem> you will find applications that you can install from the Ubuntu repositories to help with specific needs.
+In <guimenuitem>Software Utilities for Peripherals</guimenuitem>, you will find applications that you can install from the Ubuntu repositories to help with specific needs.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1245,7 +1176,7 @@ This graphical method presents a nice browseable list of information, but with a
      </sect1>
 
     <sect1 id="applications-hud">
-    <title>3.2 Heads-Up Display</title>
+    <title>Heads-Up Display</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1261,7 +1192,7 @@ Introduced in Ubuntu MATE 16.10 the heads-up display (HUD) provides a way to sea
 So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit or Tools on your favorite browser, you can just search for it rather than scrolling through the menus.
       </para>
       <para>
-Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino and Mutiny panel layouts.
+Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino, and Mutiny panel layouts.
       </para>
         <sect2 id="applications-using-hud">
         <title>Using the HUD</title>
@@ -1287,9 +1218,9 @@ In order to use the HUD, you must be using one of three panel layouts: Contempor
     </sect1>
 
     <sect1 id="applications-productivity">
-    <title>3.3 Productivity Applications</title>
+    <title>Productivity Applications</title>
       <para>
-Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the <application>Software Boutique</application> or using one of Ubuntu MATE's other software management applications, and install from there. See the topic <xref linkend="applications-software"/> for more information about installing software.
+Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the <application>Software Boutique</application> or by using one of Ubuntu MATE's other software management applications, then you can install it from there. See the topic <xref linkend="applications-software"/> for more information about installing software.
       </para>
       <para>
 Unlike with Windows and macOS, Ubuntu MATE provides you with all of the pre-installed applications at no charge. And the vast majority of the software available in the software repositories is also free of charge. Here is a sampling of some of the productivity applications you'll find as soon as you start using Ubuntu MATE.
@@ -1322,7 +1253,7 @@ Pre-installed with Ubuntu MATE, <application>Firefox</application> is a popular 
 Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <application>Yahoo Mail</application> and Google's <application>Gmail</application> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <application>Thunderbird</application> is a cross-platform email client that works on Linux and macOS as well as on Windows.
       </para>
       <para>
-Thunderbird is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
+Thunderbird is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
       </para>
       <para>
 If you use the automatic account configuration, setting up a new account with Thunderbird is easy. All you need to do is provide your username and password for your email provider and your email address. Thunderbird works very nicely with Gmail and even synchronizes messages between Thunderbird on your computer and Gmail. <ulink url="https://www.mozilla.org/en-US/thunderbird">Read more about Thunderbird.</ulink>
@@ -1510,7 +1441,7 @@ Caffeine is not installed out-of-the-box with Ubuntu MATE, but it is available a
     </sect1>
 
     <sect1 id="applications-document-management">
-    <title>3.4 Document Management</title>
+    <title>Document Management</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1605,7 +1536,7 @@ For added control, you can install the <application>HP Linux Imaging and Printin
             Scanning icon.
           </textobject>
         </inlinemediaobject>
-The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once you scanner is connected via USB or over the network, configuration is usually automatic. Using Simple Scan is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</ulink> by pressing <keycap>F1</keycap> while Simple Scan is open.
+The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. Using Simple Scan is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</ulink> by pressing <keycap>F1</keycap> while Simple Scan is open.
           </para>
         </sect2>
         <sect2 id="document-management-pdf">
@@ -1640,7 +1571,7 @@ Whether you are scanning a page, writing a book, or saving a web page, you somet
     </sect1>
 
     <sect1 id="applications-entertainment">
-    <title>3.5 Entertainment Applications</title>
+    <title>Entertainment Applications</title>
       <para>
 Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <xref linkend="software-software-centers"/> offer many, many more to choose from.
       </para>
@@ -1767,7 +1698,7 @@ For additional information about VLC and how it works, see VideoLan's <ulink url
     </sect1>
 
     <sect1 id="applications-games">
-    <title>3.6 Games</title>
+    <title>Games</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1777,10 +1708,10 @@ For additional information about VLC and how it works, see VideoLan's <ulink url
             Steam icon.
           </textobject>
         </inlinemediaobject>
-In the last few years Linux has become a first class gaming platform thanks to <ulink url="http://www.valvesoftware.com/">Valve</ulink> bringing the <ulink url="http://store.steampowered.com/"><application>Steam</application></ulink> platform to Linux. At the time of writing Steam has more than 2000 high quality indie and AAA titles available for Linux. Ubuntu MATE is fully compatible with Steam for Linux.
+In the last few years, Linux has become a first-class gaming platform thanks to <ulink url="http://www.valvesoftware.com/">Valve</ulink> bringing the <ulink url="http://store.steampowered.com/"><application>Steam</application></ulink> platform to Linux. At the time of writing, Steam has more than 2000 high-quality indie and AAA titles available for Linux. Ubuntu MATE is fully compatible with Steam for Linux.
       </para>
       <para>
-While Steam is a major step forward for gaming on Linux, there are also many high quality and enjoyable Open Source games titles available for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if you like flight simulators, motor racing, first person shooters, jump and run or card games, you'll find something to keep you entertained.
+While Steam is a major step forward for gaming on Linux, there are also many high quality and enjoyable Open Source games titles available for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if you like flight simulators, motor racing, first-person shooters, jump and run or card games, you'll find something to keep you entertained.
       </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1800,7 +1731,7 @@ While Steam is a major step forward for gaming on Linux, there are also many hig
     </sect1>
 
     <sect1 id="applications-security">
-    <title>3.7 Security</title>
+    <title>Security</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1810,7 +1741,7 @@ While Steam is a major step forward for gaming on Linux, there are also many hig
             Security icon.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE, and other distributions of the Linux operating system, are more secure, and better supported than the operating systems pre-installed on most home computer hardware today. Linux is backed by many large corporations, as well as independent developers and users, many of whom are focused on ensuring and improving the security that is built into the operating system. The built-in updater provided with Ubuntu MATE provides security updates for both its software applications and the operating system. Vulnerabilities are patched more quickly and are delivered automatically and more frequently than the two most popular desktop operating systems.
+Ubuntu MATE, and other distributions of the Linux operating system are more secure, and better supported than the operating systems pre-installed on most home computer hardware today. Linux is backed by many large corporations, as well as independent developers and users, many of whom are focused on ensuring and improving the security that is built into the operating system. The built-in updater provided with Ubuntu MATE provides security updates for both its software applications and the operating system. Vulnerabilities are patched more quickly and are delivered automatically and more frequently than the two most popular desktop operating systems.
           </para>
           <para>
 Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously. The updates include security patches for Ubuntu MATE and its installed applications and are all provided on the same frequent schedule. This ensures that you have the latest protection for all of your computer's software -- as soon as it's available!
@@ -1859,7 +1790,7 @@ Ubuntu MATE comes pre-installed with a Backup utility called <application>Déjà
 If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. Déjà Dup even lets you automate your backups for added convenience and safety. 
           </para>
           <para>
-In the event your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <ulink url="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page">Déjà Dup manual</ulink> by pressing <keycap>F1</keycap> while Déjà Dup is open.
+In the event that your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <ulink url="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page">Déjà Dup manual</ulink> by pressing <keycap>F1</keycap> while Déjà Dup is open.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1883,7 +1814,7 @@ In the event your computer has a digital disaster, or you are concerned that it 
 Years ago, the only realistic way to perform a backup on a home computer was to save the data onto CDs, DVDs, Zip Drives, Jaz Drives or (worse still) floppy disks! Today, your best option is to use online storage or an external hard drive. The focus of this topic is on making backups to hardware devices. If you don't have a network attached storage (NAS) drive on your home network, you can readily purchase an external drive with multiple terabytes (TB) of storage capacity, or even an inexpensive portable USB external drive with a terabyte or more of storage -- large enough to hold the data from most computers' hard drives today.
           </para>
           <para>
-On a typical recordable CD you can store up to 700 megabytes (MB) of information while DVDs can store up to 8.4 gigabytes (GB). Blu-ray discs are a more recent type of optical media. They can hold up to 50GB of data. With the size of files these days, you might get one or two video files on a DVD. If you have a file that is larger than 700MB, like a moderate <application>LibreOffice Impress</application> presentation file, or a <application>Writer</application> document with graphics, an ordinary CD has no hope of holding even one whole file.
+On a typical recordable CD, you can store up to 700 megabytes (MB) of information while DVDs can store up to 8.4 gigabytes (GB). Blu-ray discs are a more recent type of optical media. They can hold up to 50GB of data. With the size of files these days, you might get one or two video files on a DVD. If you have a file that is larger than 700MB, like a moderate <application>LibreOffice Impress</application> presentation file, or a <application>Writer</application> document with graphics, an ordinary CD has no hope of holding even one whole file.
           </para>
           <para>
 When backing-up data files, it is not always necessary to backup every file you have on your hard drive, although it's a good idea to do so monthly. On your Ubuntu MATE computer, few files, if any, outside of your "home" folder need to be backed-up at all. If a disaster were to happen, and you lost your computer or your hard drive, you could simply reinstall the Ubuntu MATE operating system and your applications in well under an hour, then restore the backed-up contents of your "home" folder. Your "home" folder contains the information that you have created yourself, including your mail file, and the settings and preferences for most of your applications. 
@@ -1934,7 +1865,7 @@ An equivalent to a network drive (well, sort of...) is an online (off-site) stor
 One way to backup inexpensively is to get a large firewire or USB 3.0 external hard drive and copy everything in your "home" folder to it on a regular basis. And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE.
           </para>
           <para>
-At least monthly, you should make a complete backup of everything important on your hard drive either by using backup software, or by simply copying to a second hard drive or a network drive. Linux applications such as the pre-installed Ubuntu MATE <application>Backup</application> (<application>Déjà Dup</application>) application can automate these backups for you. You do this so that if your computer or hard drive were to be stolen, destroyed or damaged beyond repair, you would have a "disaster recovery" copy. From a "disaster recovery" copy, you could restore your entire "home" folder to the condition it was in, at the time of your last backup. If you do such a complete backup monthly, the worst case would be that you would have to restore less than a month's worth of additional data from your incremental data backups. (Incremental backups contain only what has changed since your last full backup.)
+At least monthly, you should make a complete backup of everything important on your hard drive either by using backup software or by simply copying to a second hard drive or a network drive. Linux applications such as the pre-installed Ubuntu MATE <application>Backup</application> (<application>Déjà Dup</application>) application can automate these backups for you. You do this so that if your computer or hard drive were to be stolen, destroyed or damaged beyond repair, you would have a "disaster recovery" copy. From a "disaster recovery" copy, you could restore your entire "home" folder to the condition it was in, at the time of your last backup. If you do such a complete backup monthly, the worst case would be that you would have to restore less than a month's worth of additional data from your incremental data backups. (Incremental backups contain only what has changed since your last full backup.)
           </para>
         </sect2>
         <sect2 id="security-how-often">
@@ -1963,7 +1894,7 @@ Don't wait. Setup a scheduled backup right now -- or you will wish you had!
             Updater icon.
           </textobject>
         </inlinemediaobject>
-The <application>Software Updater</application> available from the <application>Ubuntu MATE Welcome</application> app or from the menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice>, is the update manager for your system. Ubuntu MATE periodically checks to see if new software and security updates are available for your computer. The updates are for Ubuntu MATE, all of its components, and all of your installed applications. This ensures that you have the latest updates and protection for all of your computer's software as soon as it's available, not just once a month like other operating systems.
+The <application>Software Updater</application> available from the <application>Ubuntu MATE Welcome</application> app or from the menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice> is the update manager for your system. Ubuntu MATE periodically checks to see if new software and security updates are available for your computer. The updates are for Ubuntu MATE, all of its components, and all of your installed applications. This ensures that you have the latest updates and protection for all of your computer's software as soon as it's available, not just once a month like other operating systems.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1999,7 +1930,7 @@ After you launch the Software Updater from the menus, if updates are available, 
             </tgroup>
           </informaltable>
           <para>
-You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the Software Updater screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, the select the <guilabel>Updates</guilabel> tab.
+You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the Software Updater screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -2048,7 +1979,7 @@ You can also choose to be notified whenever there is a new release of Ubuntu MAT
             Firewall icon.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the Control Center at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because, by default Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
+Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the Control Center at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides an uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
           </para>
           <itemizedlist> 
             <listitem><emphasis>Status=On</emphasis></listitem>
@@ -2077,7 +2008,7 @@ No need to set the firewall to autostart. After you change the settings they wil
     </sect1>
 
     <sect1 id="applications-accessibility">
-    <title>3.8 Accessibility</title>
+    <title>Accessibility</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -2108,12 +2039,12 @@ Preference settings for basic accessibility setting are found in the <applicatio
             </tgroup>
           </informaltable>
           <para>
-Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or other input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. When you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "<emphasis><ulink url="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</ulink></emphasis>."
+Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. When you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "<emphasis><ulink url="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</ulink></emphasis>."
           </para>
         <sect2 id="accessibility-enable-at-startup">
         <title>Enabling Accessibility at Startup</title>
           <para>
-When Ubuntu MATE is first installed as your computer's operating system, it is pre- configured so that both Orca, the screen reader, and Onboard, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. 
+When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both Orca, the screen reader, and Onboard, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. 
           </para>
           <para>
 If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off Orca and Onboard. You can also use Orca's keyboard shortcut <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap> to enable the screen reader to assist in the login process.
@@ -2274,7 +2205,7 @@ To switch to the <application>Compiz</application> window manager, from the <gui
     </sect1>
 
     <sect1 id="applications-software">
-    <title>3.9 Installing Additional Applications</title>
+    <title>Installing Additional Applications</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -2284,7 +2215,7 @@ To switch to the <application>Compiz</application> window manager, from the <gui
             Software Center icon.
           </textobject>
         </inlinemediaobject>
-Almost every software package that is available and tested for Ubuntu MATE is available in the online software repositories (software catalog). The concept of software repositories is likely not all that familiar to long-time users switching from Windows, since classic Windows users normally had to go to a brick and mortar store, or go online to purchase new software for the Microsoft operating system. For macOS users however, the concept of the Apple App Store is similar in concept to the software repositories. Both contain trusted applications verified to run on their respective operating systems. Unlike most software in the App Store, the vast majority of Linux applications are neither proprietary nor expensive.
+Almost every software package that is available and tested for Ubuntu MATE is available in the online software repositories (software catalog). The concept of software repositories is likely not all that familiar to long-time users switching from Windows since classic Windows users normally had to go to a brick and mortar store or go online to purchase new software for the Microsoft operating system. For macOS users, however, the concept of the Apple App Store is similar in concept to the software repositories. Both contain trusted applications verified to run on their respective operating systems. Unlike most software in the App Store, the vast majority of Linux applications are neither proprietary nor expensive.
       </para>
       <para>
 The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and are variably referred to as "the software catalog," "the software library," "the software center," "software sources," or simply "software repositories." These repositories contain almost ALL of the full-featured, free and open source software that has been tested for installation on Ubuntu MATE and other Ubuntu derivatives. And they won't put spyware and viruses on your computer!
@@ -2295,7 +2226,7 @@ To install software on Ubuntu MATE, you normally use the <application>Software B
         <sect2 id="software-trusted">
         <title>Trusted Sources</title>
           <para>
-The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and most are free of charge. When you use Ubuntu MATE, those applications as well as security updates, driver updates, application updates, software upgrades and operating system upgrades are all available from trusted sources so you won't need to search the Internet for software. No more risking malware, junkware, or ransomware as a result of downloading from the wrong site! Ubuntu's software catalog is the ultimate in a trusted source!
+The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and most are free of charge. When you use Ubuntu MATE, those applications, as well as security updates, driver updates, application updates, software upgrades and operating system upgrades, are all available from trusted sources so you won't need to search the Internet for software. No more risking malware, junkware, or ransomware as a result of downloading from the wrong site! Ubuntu's software catalog is the ultimate in a trusted source!
       </para>
       <para>
 There are several ways to obtain software from the software catalog. Ubuntu MATE's own <application>Software Boutique</application> is a carefully curated selection of the best-in-class applications from the Ubuntu repositories, chosen because they integrate well, complement Ubuntu MATE and enable you to personalize your computing experience. When you first install Ubuntu MATE, the <application>Software Boutique</application> is the main graphical application you will use to install software. Other applications are also available to explore the complete Ubuntu software catalog. You have full access to the entire library at any time using the command line, but in order to obtain software from the complete software catalog using a graphical application that lets you browse through it, you will need to enable one or more of the software center applications from within the <application>Software Boutique</application>.
@@ -2376,7 +2307,7 @@ There is much more available. You can browse by the application's name or by fun
 
 <!-- Personalizing Ubuntu MATE ============================================ -->
     <sect1 id="personalization">
-    <title>4. Personalizing Ubuntu MATE</title>
+    <title>--- 4. Personalizing Ubuntu MATE ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -2386,10 +2317,10 @@ There is much more available. You can browse by the application's name or by fun
             Software Center icon.
           </textobject>
         </inlinemediaobject>
-Although you can do some basic tweaking out of the box with other operating systems, Linux is infinitely more configurable than Mac or Windows. Sure you can get add-on software to personalize your Windows desktop quite a bit, but Ubuntu MATE, provides the customization tools built right in, with additional utilities just a few clicks away in the software repositories (free software store). What makes Ubuntu MATE so much more flexible is that it is designed to be customizable.
+Although you can do some basic tweaking out of the box with other operating systems, Linux is infinitely more configurable than Mac or Windows. Sure you can get add-on software to personalize your Windows desktop quite a bit, but Ubuntu MATE provides the customization tools built right in, with additional utilities just a few clicks away in the software repositories (free software store). What makes Ubuntu MATE so much more flexible is that it is designed to be customizable.
       </para>
       <para>
-So, what can you do with Ubuntu MATE? From simply changing the background desktop image (wallpaper) to altering the menu position, to making your desktop a virtual "dashboard" for displaying the health and performance of your computer's hardware, Ubuntu MATE can do it. You can even revamp the Ubuntu MATE desktop to make it look and behave convincingly like macOS or Windows. Covering all of the possibilities for customization would fill entire book, so this section will simply give you some ideas as to what can be done, and it will be up to you to explore on your own how you can configure your system to make it look and work the way that best suits your style.
+So, what can you do with Ubuntu MATE? From simply changing the background desktop image (wallpaper) to altering the menu position, to making your desktop a virtual "dashboard" for displaying the health and performance of your computer's hardware, Ubuntu MATE can do it. You can even revamp the Ubuntu MATE desktop to make it look and behave convincingly like macOS or Windows. Covering all of the possibilities for customization would fill an entire book, so this section will simply give you some ideas as to what can be done, and it will be up to you to explore on your own how you can configure your system to make it look and work the way that best suits your style.
         </para> 
           <informaltable frame="all">
             <tgroup cols="1">
@@ -2407,12 +2338,12 @@ So, what can you do with Ubuntu MATE? From simply changing the background deskto
             </tgroup>
           </informaltable>
         <para>
-As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The MATE Tweak application is found in the Ubuntu MATE menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice>, and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
+As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The MATE Tweak application is found in the Ubuntu MATE menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice> and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
       </para>
     </sect1>
 
     <sect1 id="personalization-panel-layouts">
-    <title>4.1 Panel Layouts </title>
+    <title>Panel Layouts </title>
       <para>
       </para>
         <sect2 id="panel-layouts-changing">
@@ -2582,7 +2513,7 @@ Designed specifically for small screens, the compact Netbook layout has a single
     </sect1>
 
     <sect1 id="personalization-background">
-    <title>4.2 Desktop Background</title>
+    <title>Desktop Background</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -2625,7 +2556,7 @@ You can use the link on the lower left to download more images from the Internet
     </sect1>
 
     <sect1 id="personalization-themes">
-    <title>4.3 Themes</title>
+    <title>Themes</title>
       <para>
 
       </para>
@@ -2672,7 +2603,7 @@ You can use the link on the lower left to download more themes from the Internet
     </sect1>
 
     <sect1 id="personalization-panels">
-    <title>4.4 Panels</title>
+    <title>Panels</title>
       <sect2 id="panels-modify">
         <title>Modifying the Panels</title>
           <para>
@@ -2760,7 +2691,7 @@ Right-click the new panel you just created (or any existing panel) and choose <g
     </sect1>
 
     <sect1 id="personalization-icons">
-    <title>4.5 Desktop, Panel, and Menu Icons</title>
+    <title>Desktop, Panel, and Menu Icons</title>
       <sect2 id="icons-icons">
       <title>Create Application Icons From the Menus</title>
         <para>
@@ -2868,7 +2799,7 @@ If you want to create System icons for such things as your "Computer," your "Hom
 Ubuntu MATE provides you with the ability to edit the main menu in the top panel. This can be very helpful if, for example, you have created a bash script that you want to launch from the menu like any other application. You can even give it a custom icon.
         </para> 
         <para>
-          <emphasis>Using a Scipt:</emphasis>
+          <emphasis>Using a Script:</emphasis>
         </para>
         <para>
 In this example, you'll see how a custom icon can be added to run a script that can be used to toggle on and off 100% screen brightness and a sleep delay. Remember, this is just one example of how you can add something to the menus. You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application. It's up to you. To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the <application>Pluma</application> text editor application. The <application>Pluma</application> theme has been switched to a brighter one using its <guimenuitem>Preferences</guimenuitem> settings to make the text easier to read here.
@@ -2989,7 +2920,7 @@ Close the editor to begin using your new menu entry.
     </sect1>
 
     <sect1 id="personalization-display">
-    <title>4.6 Display Setting</title>
+    <title>Display Setting</title>
       <sect2 id="display-displays">
       <title>Multiple Displays</title>
         <para>
@@ -3079,7 +3010,7 @@ Click on <keycap>Keep This Configuration</keycap> to confirm your changes.
     </sect1>
 
     <sect1 id="personalization-power">
-    <title>4.7 Power Management</title>
+    <title>Power Management</title>
         <sect2 id="power-strategies">
         <title>Strategies for Maximizing Battery Life</title>
           <para>
@@ -3190,7 +3121,7 @@ Although today's battery technology is vastly superior to that of just a few yea
     </sect1>
 
     <sect1 id="personalization-screensaver">
-    <title>4.8 Screensaver</title>
+    <title>Screensaver</title>
       <sect2 id="screensaver-battery-life">
       <title>Strategies for Maximizing Battery Life</title>
         <para>
@@ -3227,7 +3158,7 @@ The screensaver settings can be found at <menuchoice><guimenu>System</guimenu><g
 
 <!-- About the Ubuntu MATE Project ======================================== -->
     <sect1 id="page.about">
-    <title>5. About the Ubuntu MATE Project</title>
+    <title>--- 5. About the Ubuntu MATE Project ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3237,7 +3168,7 @@ The screensaver settings can be found at <menuchoice><guimenu>System</guimenu><g
             Ubuntu MATE logo.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop environment. It is ideal for those who want the most out of their computers and prefer a traditional desktop metaphor. With modest hardware requirements it is suitable for modern workstations, single board computers and older hardware alike. Ubuntu MATE makes modern computers fast and old computers usable.
+Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop environment. It is ideal for those who want the most out of their computers and prefer a traditional desktop metaphor. With modest hardware requirements, it is suitable for modern workstations, single board computers and older hardware alike. Ubuntu MATE makes modern computers fast and old computers usable.
       </para>
         <sect2 id="about-why">
         <title>Why Ubuntu MATE?</title>
@@ -3249,7 +3180,7 @@ Ubuntu MATE is a desktop distribution (variation) of GNU/Linux -- a dependable, 
 on most of the world's fastest and most powerful supercomputers
             </listitem>
             <listitem>
-on many of, if not most of, the computers that make up the backbone of Internet
+on many of, if not most of, the computers that make up the backbone of the Internet
             </listitem>
             <listitem>
 and on corporate servers that require stability and reliability
@@ -3270,7 +3201,7 @@ Using Ubuntu MATE provides you with the freedom to run a complete, full-featured
     </sect1>
 
     <sect1 id="about-objectives">
-    <title>5.1 Objectives</title>
+    <title>Objectives</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3305,13 +3236,13 @@ Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately fami
 When possible contribute to Debian so both the Debian and Ubuntu communities benefit.
         </listitem>
         <listitem>
-Software selection will favour functionality and stability over lightness and whimsy.
+Software selection will favor functionality and stability over lightness and whimsy.
         </listitem>
       </itemizedlist>
     </sect1>
 
     <sect1 id="about-hardware">
-    <title>5.2 Hardware Requirements</title>
+    <title>Hardware Requirements</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3329,7 +3260,7 @@ Software selection will favour functionality and stability over lightness and wh
             Nvidia logo.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era, can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system. Of course Ubuntu MATE will run much more efficiently if your computer meets or surpasses the recommended requirements.
+Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system. Of course, Ubuntu MATE will run much more efficiently if your computer meets or surpasses the recommended requirements.
       </para>
           <informaltable frame="bottom" pgwide="1">
             <tgroup cols="2" rowsep="1" colsep="1">
@@ -3366,7 +3297,7 @@ Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu
                   <entry>Keyboard and mouse (or other pointing device)</entry>
                 </row>
                 <row>
-                  <entry>Video adaptor and monitor with 1024 x 768 or higher resolution</entry>
+                  <entry>Video adapter and monitor with 1024 x 768 or higher resolution</entry>
                   <entry>3D capable video adaptor and wide screen monitor with 1366 x 768 or higher resolution</entry>
                 </row>
                 <row>
@@ -3383,7 +3314,7 @@ Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu
     </sect1>
 
     <sect1 id="about-downloading">
-    <title>5.3 Downloading Ubuntu MATE</title>
+    <title>Downloading Ubuntu MATE</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3423,7 +3354,7 @@ Choose <emphasis>64-bit</emphasis> if your computer has more than 3GB of RAM, wi
             </listitem>
             <listitem>
               <para>
-Choose <emphasis>32-bit</emphasis> if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for ageing PCs with low-RAM resources, and older Intel-based Apple Macintosh systems.
+Choose <emphasis>32-bit</emphasis> if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for aging PCs with low-RAM resources, and older Intel-based Apple Macintosh systems.
               </para>
             </listitem>
             <listitem>
@@ -3433,12 +3364,12 @@ Choose <emphasis>PowerPC</emphasis> if you have an older generation PowerPC-base
             </listitem>
             <listitem>
               <para>
-The <emphasis>Raspberry Pi</emphasis> version is for aarch32 (ARMv7) computers, like: Raspberry Pi 2 and Raspberry Pi 3.
+The <emphasis>Raspberry Pi</emphasis> version is for aarch32 (ARMv7) computers, like Raspberry Pi 2 and Raspberry Pi 3.
               </para>
             </listitem>
           </orderedlist>
             <para>
-<emphasis role="bold">Your second decision is between the version labelled Long Term Support (LTS) release, and a normal release. Here is some information about each that will help you choose the right release for you. </emphasis>
+<emphasis role="bold">Your second decision is between the version labeled Long Term Support (LTS) release and a normal release. Here is some information about each that will help you choose the right release for you. </emphasis>
            </para>
           <orderedlist>
             <listitem>
@@ -3468,19 +3399,19 @@ Availability of Commercial support contracts from Canonical
                 </listitem>
                 <listitem>
                   <para>
-Support by Landscape, Canonical's server management tool set designed for enterprises
+Support by Landscape, Canonical's server management toolset designed for enterprises
                   </para>
                 </listitem>
               </itemizedlist>
             </listitem>
             <listitem>
               <para>
-Ubuntu MATE's LTS release (five year support) is the best choice for most users. It is well-supported and will run all the software you depend on. It's regularly updated with new hardware support and performance improvements, so you don't need to be concerned that everything will work properly.
+Ubuntu MATE's LTS release (five-year support) is the best choice for most users. It is well-supported and will run all the software you depend on. It's regularly updated with new hardware support and performance improvements, so you don't need to be concerned that everything will work properly.
               </para>
             </listitem>
             <listitem>
               <para>
-If you are a developer who needs the latest versions of certain packages, the "normal" six-month release cycle (nine month support) might be for you. If you want to be on the bleeding edge, have the latest versions of all your software, and use the latest features before they make it to the LTS version of Ubuntu MATE, choose the "normal" cycle of six-month releases. Note that the "bleeding edge" refers to the fact that some of these latest versions may not perform as reliably as the versions supported within the LTS releases.
+If you are a developer who needs the latest versions of certain packages, the "normal" six-month release cycle (nine-month support) might be for you. If you want to be on the bleeding edge, have the latest versions of all your software, and use the latest features before they make it to the LTS version of Ubuntu MATE, choose the "normal" cycle of six-month releases. Note that the "bleeding edge" refers to the fact that some of these latest versions may not perform as reliably as the versions supported within the LTS releases.
               </para>
             </listitem>
           </orderedlist>
@@ -3515,14 +3446,14 @@ Select a location for your downloaded file, if prompted, and click <guimenuitem>
           </orderedlist>
         <note>
         <title>Note</title> 
-          <para>Now that you have the file, the next topic will discuss how to prepare installation media, and how to try Ubuntu MATE without changing your computer at all, or to install Ubuntu MATE permanently onto your computer.
+          <para>Now that you have the file, the next topic will discuss how to prepare installation media. It also describes how to try Ubuntu MATE without changing your computer at all, or to install Ubuntu MATE permanently onto your computer.
           </para>
         </note>
         </sect2>
     </sect1>
 
     <sect1 id="downloading-installing">
-    <title>5.4 Installing Ubuntu MATE</title>
+    <title>Installing Ubuntu MATE</title>
       <sect2 id="installing-media">
       <title>Creating Installation Media</title>
         <para>
@@ -3537,13 +3468,13 @@ Select a location for your downloaded file, if prompted, and click <guimenuitem>
 The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing <emphasis>anything at all</emphasis> on your computer. When you shut down and remove the "live" media, your computer is back to normal.
         </para>
         <para>
-The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can not be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, OSX and Ubuntu, see the "<ulink url="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</ulink>" article on Ubuntu help.
+The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, OSX, and Ubuntu, see the "<ulink url="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</ulink>" article on Ubuntu help.
         </para>
         <para>
 Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows. This is a link to the official Canonical (parent company behind Ubuntu) method for <ulink url="https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows">Creating a bootable USB stick on Windows</ulink> using a tool called Rufus.
         </para>
         <para>
-A popular cross-platform (Windows, OSX and Linux) app for creating a "live" USB drive is <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>. This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "<ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>."
+A popular cross-platform (Windows, OSX, and Linux) app for creating a "live" USB drive is <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>. This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "<ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>."
         </para>
       </sect2>
       <sect2 id="installing-preparation">
@@ -3573,7 +3504,7 @@ If your computer has a recovery partition, if you format over the recovery parti
       <sect2 id="installing-installing">
       <title>Installing</title>
         <para>
-Now that you've created the installation media, you've done your backup, and you've planned for recovery (you DID do all that right?) you are ready to install, or just try, Ubuntu MATE. For most relatively modern computer, the installation process will take well under an hour to complete. Stay connected to the Internet to install all available updates. Plug your device into a power source if it is running on battery power.
+Now that you've created the installation media, you've done your backup, and you've planned for recovery (you DID do all that right?) you are ready to install (or just try) Ubuntu MATE. For most relatively modern computer, the installation process will take well under an hour to complete. Stay connected to the Internet to install all available updates. Plug your device into a power source if it is running on battery power.
         </para>
         <orderedlist>
           <listitem>
@@ -3593,7 +3524,7 @@ Start the computer and watch the screen to determine which function key to press
           </listitem>
           <listitem>
             <para>
-When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that let's you boot using the USB stick. That's usually the <keycap>Enter</keycap> or <keycap>F10</keycap> key. If you need help, try this article from How-To Geek: "<ulink url="http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/">How to Boot Your Computer From a Disc or USB Drive</ulink>"
+When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that lets you boot using the USB stick. That's usually the <keycap>Enter</keycap> or <keycap>F10</keycap> key. If you need help, try this article from How-To Geek: "<ulink url="http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/">How to Boot Your Computer From a Disc or USB Drive</ulink>"
             </para>
           </listitem>
           <listitem>
@@ -3618,12 +3549,12 @@ Once the computer has started loading Ubuntu MATE, you will be given some option
           </listitem>
           <listitem>
             <para>
-Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double click the installation icon on the desktop. 
+Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double-click the installation icon on the desktop. 
             </para>
           </listitem>
           <listitem>
             <para>
-You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the Network Manager icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the pass code, click the <keycap>Connect</keycap> button and you will be connected.
+You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the Network Manager icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the passcode, click the <keycap>Connect</keycap> button and you will be connected.
             </para>
           </listitem>
           <listitem>
@@ -3653,7 +3584,7 @@ Select your language. Press the <keycap>Continue</keycap> button.
           </listitem>
           <listitem>
             <para>
-If you have an Internet connection, choose the option to download updates while installing. For first time Ubuntu MATE users, you should also choose the option to install third-party software to ensure a smooth transition to your new operating system. Press the <keycap>Continue</keycap> button.
+If you have an Internet connection, choose the option to download updates while installing. For first-time Ubuntu MATE users, you should also choose the option to install third-party software to ensure a smooth transition to your new operating system. Press the <keycap>Continue</keycap> button.
             </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -3673,7 +3604,7 @@ If you have an Internet connection, choose the option to download updates while 
           </listitem>
           <listitem>
             <para>
-If you are sure that you want to completely erase every trace of your previous operating system, choose the option: <guimenuitem>Erase disk and install Ubuntu MATE</guimenuitem>. If you are not sure, then choose the option: <guimenuitem>Install Ubuntu MATE alongside</guimenuitem> your original operating system. This will allow you to choose which operating system to use when you start your computer. If you chose to install along side, the press the <keycap>Continue</keycap> button.
+If you are sure that you want to completely erase every trace of your previous operating system, choose the option: <guimenuitem>Erase disk and install Ubuntu MATE</guimenuitem>. If you are not sure, then choose the option: <guimenuitem>Install Ubuntu MATE alongside</guimenuitem> your original operating system. This will allow you to choose which operating system to use when you start your computer. If you chose to install alongside, then press the <keycap>Continue</keycap> button.
             </para>
           </listitem>
           <listitem>
@@ -3698,7 +3629,7 @@ Choose your preferred keyboard layout. Press the <keycap>Continue</keycap> butto
           </listitem>
           <listitem>
             <para>
-Enter your full name, a name for your computer, a user name and a password. You will use the username and password when you log into your computer. Press the <keycap>Continue</keycap> button.
+Enter your full name, a name for your computer, a username, and a password. You will use the username and password when you log into your computer. Press the <keycap>Continue</keycap> button.
             </para>
           </listitem>
           <listitem>
@@ -3722,7 +3653,7 @@ When prompted, remove the installation medium, then press <keycap>Enter</keycap>
 
 <!-- Support ============================================================== -->
     <sect1 id="page.support">
-    <title>6. Support</title>
+    <title>--- 6. Support ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3737,7 +3668,7 @@ If you can't find the answer in this guide, many of the answers are available in
     </sect1>
 
     <sect1 id="support-guide">
-    <title>6.1 The Ubuntu MATE Guide</title>
+    <title>The Ubuntu MATE Guide</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3789,7 +3720,7 @@ The guide is divided into these main topics:
     </sect1>
 
     <sect1 id="support-website">
-    <title>6.2 The Ubuntu MATE Website</title>
+    <title>The Ubuntu MATE Website</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3843,13 +3774,13 @@ Click the <ulink url="https://ubuntu-mate.org/download/"><guilabel>Download</gui
         <sect2 id="website-team">
         <title>Team</title>
           <para>
-The <ulink url="https://ubuntu-mate.org/team/"><guilabel>Team</guilabel></ulink> link lists the troupe of all-star international caberet artists responsible for making Ubuntu MATE a thing.
+The <ulink url="https://ubuntu-mate.org/team/"><guilabel>Team</guilabel></ulink> link lists the troupe of all-star international cabaret artists responsible for making Ubuntu MATE a thing.
           </para>
         </sect2>
         <sect2 id="website-donate">
         <title>Donate</title>
           <para>
-The <ulink url="https://ubuntu-mate.org/donate/"><guilabel>Donate</guilabel></ulink> page details a crowd funding campaign with three main objectives:
+The <ulink url="https://ubuntu-mate.org/donate/"><guilabel>Donate</guilabel></ulink> page details a crowdfunding campaign with three main objectives:
           </para>
           <orderedlist>
             <listitem>
@@ -3859,7 +3790,7 @@ Fund the Ubuntu MATE project’s hosting and bandwidth costs. These include doma
             </listitem>
             <listitem>
               <para>
-Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidize the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
+Fund the full-time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidize the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
               </para>
             </listitem>
             <listitem>
@@ -3872,7 +3803,7 @@ Support other Open Source projects that Ubuntu MATE depends upon.
         <sect2 id="website-wiki">
         <title>Wiki</title>
           <para>
-The <ulink url="https://ubuntu-mate.community/wiki"><guilabel>Wiki</guilabel></ulink> page on the Ubuntu MATE website provides tips, tricks, tutorials and guides. If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then this is a great place to look. You'll find more about the Ubuntu MATE Wiki later in this guide. <xref linkend="page.wiki"/>
+The <ulink url="https://ubuntu-mate.community/wiki"><guilabel>Wiki</guilabel></ulink> page on the Ubuntu MATE website provides tips, tricks, tutorials, and guides. If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then this is a great place to look. You'll find more about the Ubuntu MATE Wiki later in this guide. <xref linkend="page.wiki"/>
           </para>
         </sect2>
         <sect2 id="website-shop">
@@ -3884,7 +3815,7 @@ The <ulink url="https://ubuntu-mate.boutique/"><guilabel>Shop</guilabel></ulink>
     </sect1>
 
     <sect1 id="page.community">
-    <title>6.3 The Ubuntu MATE Community</title>
+    <title>The Ubuntu MATE Community</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3911,7 +3842,7 @@ Ubuntu MATE also has its own IRC channel, <ulink url="https://ubuntu-mate.org/ir
         <sect2 id="community-social">
         <title>Social</title>
           <para>
-Ubuntu MATE is active on <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink> and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
+Ubuntu MATE is active on <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>, and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
           </para>
         </sect2>
         <sect2 id="community-development">
@@ -3926,7 +3857,7 @@ Found a Bug? This is where you'll find a link to submit your detailed and reprod
     </sect1>
 
     <sect1 id="page.wiki">
-    <title>6.4 The Ubuntu MATE Wiki</title>
+    <title>The Ubuntu MATE Wiki</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3939,7 +3870,7 @@ Found a Bug? This is where you'll find a link to submit your detailed and reprod
 If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then the Ubuntu MATE Wiki is a great place to look. 
       </para>
       <para>
-The <ulink url="https://ubuntu-mate.community/wiki">Wiki page on the Ubuntu MATE website</ulink> provides tips, tricks, tutorials and guides. 
+The <ulink url="https://ubuntu-mate.community/wiki">Wiki page on the Ubuntu MATE website</ulink> provides tips, tricks, tutorials, and guides. 
       </para>
         <sect2 id="wiki-beginner">
         <title>Beginner's Corner</title>
@@ -4001,7 +3932,7 @@ Topics relating to the background and general look and feel of your computer, to
             </tgroup>
           </informaltable>
           <para>
-You can change the window manager in <application>MATE Tweak</application> and this section describes topics related to <application>Marco</application>, the default Window Manager and <application>Compiz</application>, the Window Manager that can provide fancy effects. <application>Marco</application>: This window manager composites using your CPU. On some systems, this can cause screen tearing. <application>Compiz</application>: This window manager composites with your GPU. You can change this option in <application>MATE Tweak</application>, however older hardware and some graphic cards may not be compatible with this option.
+You can change the window manager in <application>MATE Tweak</application> and this section describes topics related to <application>Marco</application>, the default Window Manager and <application>Compiz</application>, the Window Manager that can provide fancy effects. <application>Marco</application>: This window manager composites using your CPU. On some systems, this can cause screen tearing. <application>Compiz</application>: This window manager composites with your GPU. You can change this option in <application>MATE Tweak</application>, however, older hardware and some graphics cards may not be compatible with this option.
           </para>
         </sect2>
         <sect2 id="wiki-extras">
@@ -4022,7 +3953,7 @@ You can change the window manager in <application>MATE Tweak</application> and t
             </tgroup>
           </informaltable>
           <para>
-Topics that offer assistance installing and customising certain types of software and topics that involve changing parts of your system.
+Topics that offer assistance installing and customizing certain types of software and topics that involve changing parts of your system.
           </para>
         </sect2>
         <sect2 id="wiki-raspberry-pi">
@@ -4043,7 +3974,7 @@ Topics that offer assistance installing and customising certain types of softwar
             </tgroup>
           </informaltable>
           <para>
-Here are topics that apply specifically for the Raspberry Pi, topics that prepare you to use Ubuntu MATE on your Raspberry Pi, and topics with inspiration around what your Pi can do with Ubuntu MATE.
+Here are topics that apply specifically to the Raspberry Pi, topics that prepare you to use Ubuntu MATE on your Raspberry Pi, and topics with inspiration around what your Pi can do with Ubuntu MATE.
           </para>
         </sect2>
         <sect2 id="wiki-dual-booting">
@@ -4072,7 +4003,7 @@ Topics relating to dual booting with Windows or Mac, BIOS vs. UEFI Booting, and 
 
 <!-- Keyboard Shortcuts =================================================== -->
     <sect1 id="page.shortcuts">
-    <title>7. Keyboard Shortcuts</title>
+    <title>--- 7. Keyboard Shortcuts ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -4216,7 +4147,7 @@ All of these shortcuts apply when the <application>Compiz</application> is selec
 
 <!-- FAQ ================================================================== -->
     <sect1 id="page.faq">
-    <title>8. FAQ</title>
+    <title>--- 8. FAQ ---</title>
       <para>
             <mediaobject>
               <imageobject>
@@ -4245,10 +4176,10 @@ No, it is an Ubuntu community project.
 Take a look at our <ulink url="https://ubuntu-mate.org/team/">team page</ulink> on the website to see the all-star cast who have made Ubuntu MATE possible.
           </para>
         </sect2>
-        <sect2 id="faq-flavour">
-        <title>Is Ubuntu MATE an official Ubuntu "flavour"?</title>
+        <sect2 id="faq-flavor">
+        <title>Is Ubuntu MATE an official Ubuntu "flavor"?</title>
           <para>
-Ubuntu MATE 15.04 and onward are <emphasis>official</emphasis> Ubuntu flavours.
+Ubuntu MATE 15.04 and onward are <emphasis>official</emphasis> Ubuntu flavors.
           </para>
           <para>
 Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are <emphasis>unofficial</emphasis> builds.
@@ -4278,16 +4209,16 @@ See the answer to the question above.
         <sect2 id="faq-mypc">
         <title>Will Ubuntu MATE run on my computer?</title>
           <para>
-If you have a computer from Entroware, System 76, ZaReason or Think Penguin then Ubuntu MATE will absolutely run on your computer. Computers from major vendors such as Acer, ASUS, Dell, HP and Lenovo will most likely run Ubuntu MATE just fine too.
+If you have a computer from Entroware, System 76, ZaReason or Think Penguin then Ubuntu MATE will absolutely run on your computer. Computers from major vendors such as Acer, ASUS, Dell, HP, and Lenovo will most likely run Ubuntu MATE just fine too.
           </para>
           <para>
-Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era, can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.
+Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.
           </para>
         </sect2>
         <sect2 id="faq-itunes">
         <title>Can I use <application>iTunes</application> on Ubuntu MATE?</title>
           <para>
-No. This is one of those programs that is specifically designed by Apple NOT to run on Linux. Although Mac OS X has its roots in the same UNIX philosophy as Linux, OS X is not the same as Linux, and applications written for Apple's operating system do not automatically run on Linux. There are, however plenty of alternative media players that will play music, create play lists, sync with mobile devices, and retrieve, manage and play podcasts. <application>Rhythmbox</application> is provided with Ubuntu MATE and can play any of the music or podcasts in your <application>iTunes</application> library.
+No. This is one of those programs that is specifically designed by Apple NOT to run on Linux. Although Mac OS X has its roots in the same UNIX philosophy as Linux, OS X is not the same as Linux, and applications written for Apple's operating system do not automatically run on Linux. There are, however, plenty of alternative media players that will play music, create playlists, sync with mobile devices, and retrieve, manage and play podcasts. <application>Rhythmbox</application> is provided with Ubuntu MATE and can play any of the music or podcasts in your <application>iTunes</application> library.
           </para>
         </sect2>
         <sect2 id="faq-safe">
@@ -4302,25 +4233,25 @@ Ubuntu MATE is designed with security in mind. Unlike operating systems that upd
 We think that security on Linux systems like Ubuntu MATE is superior. Ubuntu MATE users are not administrators by default. Administrators ("root" users) on any computer system have permission to do anything they want, including the ability to damage the system.
           </para>
           <para>
-For example, other operating systems look at the name of a file to determine which program should open it, then immediately attempt to open it! That design makes it easy for an intruder to attack a computer. Ubuntu MATE opens a file based on what the file is, not based on its name. So even if a malicious program disguises its identity by using the name "Last Will and Testament.txt" Ubuntu MATE will recognise the file as a program. The system provides a warning that the file is not a text file, but that it is a program that will be run if you give it permission to continue. To be extra secure, Ubuntu MATE requires you to provide your administrator password before that permission is granted. Every single time.
+For example, other operating systems look at the name of a file to determine which program should open it, then immediately attempt to open it! That design makes it easy for an intruder to attack a computer. Ubuntu MATE opens a file based on what the file is, not based on its name. So even if a malicious program disguises its identity by using the name "Last Will and Testament.txt" Ubuntu MATE will recognize the file as a program. The system provides a warning that the file is not a text file, but that it is a program that will be run if you give it permission to continue. To be extra secure, Ubuntu MATE requires you to provide your administrator password before that permission is granted. Every single time.
           </para>
         </sect2>
         <sect2 id="faq-virus">
         <title>Can Ubuntu MATE get computer viruses and malware?</title>
           <para>
-Ubuntu MATE can get viruses and other infections… but it doesn't. Rapid and timely updates ensure that there are very few, if any threats to Linux systems like Ubuntu MATE that persist in the wild. In reality, there have been very few "public" infections in the last 10 years that can affect Ubuntu MATE. They are no longer a threat to anyone installing or using a modern Linux distribution today. Ubuntu MATE is designed to make it difficult for viruses, root kits and other malware to be installed and run without conscious intervention by you, the user. Even if you do accidentally invite in an infection, chances are it's designed to attack Windows and won't do much, if any damage to Ubuntu MATE.
+Ubuntu MATE can get viruses and other infections… but it doesn't. Rapid and timely updates ensure that there are very few (if any) threats to Linux systems like Ubuntu MATE that persist in the wild. In reality, there have been very few "public" infections in the last 10 years that can affect Ubuntu MATE. They are no longer a threat to anyone installing or using a modern Linux distribution today. Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other malware to be installed and run without conscious intervention by you, the user. Even if you do accidentally invite in an infection, chances are it's designed to attack Windows and won't do much, if any damage to Ubuntu MATE.
           </para>
         </sect2>
         <sect2 id="faq-free">
         <title>How can Ubuntu MATE be free?</title>
           <para>
-What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source. Open Source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free, in the truest sense of the word.
+What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source. Open Source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. In a nutshell, Ubuntu MATE is free, in the truest sense of the word.
           </para>
           <para>
-Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the licence gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the licence to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
+Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
           </para>
           <para>
-Many of the users of Linux are corporations that use the operating system to run their businesses, or include it within their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. These improvements are given back to the Linux community and Ubuntu MATE improves as a result.
+Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. These improvements are given back to the Linux community and Ubuntu MATE improves as a result.
           </para>
           <para>
 This is how we can continually improve and grow without having to charge our users money.
@@ -4335,7 +4266,7 @@ Ask the <ulink url="https://ubuntu-mate.org/community/">Ubuntu MATE community</u
         <sect2 id="faq-future">
         <title>What has Ubuntu MATE got planned for the future?</title>
           <para>
-Hopefully our <ulink url="https://ubuntu-mate.org/roadmap/">roadmap</ulink> outlines some of what we have planned. If you have any ideas yourself, we'd love to hear from you.
+Hopefully, our <ulink url="https://ubuntu-mate.org/roadmap/">roadmap</ulink> outlines some of what we have planned. If you have any ideas yourself, we'd love to hear from you.
           </para>
         </sect2>
     </sect1>
