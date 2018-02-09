@@ -108,7 +108,7 @@
 </para>
 <!-- Overview ============================================================= -->
     <sect1 id="page.overview">
-    <title>--- 1. Overview ---</title>
+    <title>--- OVERVIEW ---</title>
       <para>
             <mediaobject>
               <imageobject>
@@ -295,7 +295,7 @@ Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or applicati
 
 <!-- MATE's Applications ================================================== -->
     <sect1 id="page.mate-apps">
-    <title>--- 2. MATE's Applications ---</title>
+    <title>--- MATE'S APPLICATIONS ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -362,7 +362,7 @@ The MATE Desktop provides you with essential features that you'd expect in a com
             The File Browser icon.
           </textobject>
         </inlinemediaobject>
-The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. Caja lets you manage them all.
+The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <application>Caja</application> lets you manage them all.
       </para>
       <para>
 Using the file manager you can do the following:
@@ -377,7 +377,7 @@ Using the file manager you can do the following:
         <listitem>Install and remove fonts.</listitem>
       </itemizedlist>
       <para>
-Like file managers in other operating systems (Apple calls their file manager "the finder") Caja lets you organize your files into folders. Folders can contain files and even other folders. Some people find that organizing files into folders can help them locate their files more easily.
+Like file managers in other operating systems (Apple calls their file manager "the finder") <application>Caja</application> lets you organize your files into folders. Folders can contain files and even other folders. Some people find that organizing files into folders can help them locate their files more easily.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -395,13 +395,13 @@ Like file managers in other operating systems (Apple calls their file manager "t
           </tgroup>
         </informaltable>
       <para>
-As a user of Ubuntu MATE, you have a Home Folder. By default, it contains several folders and any files that you create. Viewed from the Caja file manager, <guiicon>Desktop</guiicon> is just another folder in your <guiicon>Home</guiicon> folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your <guiicon>Home</guiicon> Folder, <guiicon>Trash</guiicon>, and removable media such as floppy disks, CDs, and USB flash drives. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
+As a user of Ubuntu MATE, you have a Home Folder. By default, it contains several folders and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your <guiicon>Home</guiicon> folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your <guiicon>Home</guiicon> Folder, <guiicon>Trash</guiicon>, and removable media such as floppy disks, CDs, and USB flash drives. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
       </para>
       <para>
-The Caja file manager is always running while you are using the MATE desktop environment. To open a new Caja window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose an item from <guimenu>Places</guimenu> menu on the top panel. 
+The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose an item from <guimenu>Places</guimenu> menu on the top panel. 
       </para>
       <para>
-The file manager window is a file browser of sorts. Double-clicking the icon for a file opens the file in the Caja software application that lets you view and/or edit the document. Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder. You can also open a folder by right-clicking on that folder, then choosing between <guimenuitem>Open</guimenuitem> (this is the same as simply double-clicking the folder), <guimenuitem>Open in a New Tab</guimenuitem>, or <guimenuitem>Open in a New Window</guimenuitem>.
+The file manager window is a file browser of sorts. Double-clicking the icon for a file opens the file in the <application>Caja</application> software application that lets you view and/or edit the document. Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder. You can also open a folder by right-clicking on that folder, then choosing between <guimenuitem>Open</guimenuitem> (this is the same as simply double-clicking the folder), <guimenuitem>Open in a New Tab</guimenuitem>, or <guimenuitem>Open in a New Window</guimenuitem>.
       </para>
       <para>
 In addition to the folder contents, the browser window displays a toolbar with common actions and locations, a location bar that shows the current location in the hierarchy of folders, and a sidebar that can hold different kinds of information. 
@@ -409,7 +409,7 @@ In addition to the folder contents, the browser window displays a toolbar with c
 
       <tip>
       <title>Caja</title>
-        <para>For more information about how you can use Caja and the various preferences that you can set, see the <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml">Caja manual</ulink> (Desktop User Guide) by pressing <keycap>F1</keycap> while Caja is open. 
+        <para>For more information about how you can use <application>Caja</application> and the various preferences that you can set, see the <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml"><application>Caja</application> manual</ulink> (Desktop User Guide) by pressing <keycap>F1</keycap> while <application>Caja</application> is open. 
         </para>
       </tip>
     </sect1>
@@ -425,7 +425,7 @@ In addition to the folder contents, the browser window displays a toolbar with c
             The Text Editor icon.
           </textobject>
         </inlinemediaobject>
-The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Pluma Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of Pluma is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
+The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem><application>Pluma</application> Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of <application>Pluma</application> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -443,19 +443,19 @@ The <application>Pluma</application> text editor, found in the Ubuntu MATE menus
           </tgroup>
         </informaltable>
       <para>
-The Pluma window contains the elements listed in the sections below. </para>
+The <application>Pluma</application> window contains the elements listed in the sections below. </para>
 
       <tip>
       <title>Pluma</title>
         <para>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/pluma/index.docbook">Pluma manual</ulink> by pressing <keycap>F1</keycap> while Pluma is open.
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/pluma/index.docbook"><application>Pluma</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Pluma</application> is open.
         </para>
       </tip>
 
         <sect2 id="pluma-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with files in Pluma. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the Pluma window.
+The menus on the menubar contain all of the commands you need to work with files in Pluma. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Pluma</application> window.
           </para>
         </sect2>
         <sect2 id="pluma-toolbar">
@@ -485,19 +485,19 @@ By default, the side pane is not shown. To show it, choose <menuchoice><guimenu>
         <sect2 id="pluma-bottom-pane">
         <title>Bottom Pane</title>
           <para>
-The bottom pane is used by programming tools such as the <application>Python Console</application> plugin to display output. By default, the bottom pane is not shown. To show it, choose <menuchoice><guimenu>View</guimenu><guimenuitem>Bottom Pane</guimenuitem></menuchoice>. When you right-click in the Pluma window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in Pluma can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the section <xref linkend="page.shortcuts"/> for a list of common keyboard shortcuts.
+The bottom pane is used by programming tools such as the <application>Python Console</application> plugin to display output. By default, the bottom pane is not shown. To show it, choose <menuchoice><guimenu>View</guimenu><guimenuitem>Bottom Pane</guimenuitem></menuchoice>. When you right-click in the <application>Pluma</application> window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in <application>Pluma</application> can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the section <xref linkend="page.shortcuts"/> for a list of common keyboard shortcuts.
           </para>
         </sect2>
         <sect2 id="pluma-new-doc">
         <title>Creating a New Document</title>
           <para>
-To create a new document, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>. Pluma displays a new blank document in the display area.
+To create a new document, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>. <application>Pluma</application> displays a new blank document in the display area.
           </para>
         </sect2>
         <sect2 id="pluma-open-doc">
         <title>Open a File</title>
           <para>
-If you have the Caja file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></menuchoice> to display the "Open File" dialog. Navigate to the folder that contains your file, then select the file that you want to open and click <guibutton>Open</guibutton>. The file is displayed in the Pluma window. You can open multiple files in Pluma. The application adds a tab for each open file to the window above the display area.
+If you have the <application>Caja</application> file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></menuchoice> to display the "Open File" dialog. Navigate to the folder that contains your file, then select the file that you want to open and click <guibutton>Open</guibutton>. The file is displayed in the <application>Pluma</application> window. You can open multiple files in Pluma. The application adds a tab for each open file to the window above the display area.
           </para>
         </sect2>
         <sect2 id="pluma-save-doc">
@@ -519,7 +519,7 @@ To save changes to a file you have opened and/or already saved, choose <menuchoi
             The MATE Calculator icon.
           </textobject>
         </inlinemediaobject>
-The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. MATE Calculator has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.
+The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. <application>MATE Calculator</application> has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -539,7 +539,7 @@ The <application>MATE Calculator</application> application can be found in the U
       <tip>
       <title>Calculator</title>
         <para>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page">MATE Calculator manual</ulink> by pressing <keycap>F1</keycap> while MATE Calculator is open. Topics include user interface, equations, number formats, conversions and financial calculations. 
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page"><application>MATE Calculator</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>MATE Calculator</application> is open. Topics include user interface, equations, number formats, conversions and financial calculations. 
         </para>
       </tip>
     </sect1>
@@ -558,19 +558,19 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
 You can use the <application>Engrampa Archive Manager</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Engrampa Archive Manager</guimenuitem></menuchoice>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.
       </para>
       <para>
-The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. Archive Manager supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more.
+The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. <application>Archive Manager</application> supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more.
       </para>
       <para>
-The Archive Manager window contains the elements listed in the sections below.
+The <application>Archive Manager</application> window contains the elements listed in the sections below.
       </para>
       <tip>
       <title>Archive Manager</title> 
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/engrampa/index.docbook">Archive Manager manual</ulink> by pressing <keycap>F1</keycap> while Archive Manager is open.
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/engrampa/index.docbook"><application>Archive Manager</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Archive Manager</application> is open.
       </tip>
         <sect2 id="engrampa-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with files in Archive Manager. Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the Archive Manager window.
+The menus on the menubar contain all of the commands you need to work with files in Archive Manager. Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Archive Manager</application> window.
           </para>
         </sect2>
         <sect2 id="engrampa-toolbar">
@@ -582,10 +582,10 @@ The toolbar contains icon buttons that represent a subset of the commands that y
         <sect2 id="engrampa-using">
         <title>Using Archive Manager</title>
           <para>
-To create a new archive file, you can choose <guimenuitem>Open</guimenuitem> from the menu, click and drag one or more files or folders from the <application>Caja File Browser</application> window into the Archive Manager window, or right-click one or more files in Caja and select <guimenuitem>Compress</guimenuitem> from the menu.
+To create a new archive file, you can choose <guimenuitem>Open</guimenuitem> from the menu, click and drag one or more files or folders from the <application>Caja File Browser</application> window into the <application>Archive Manager</application> window, or right-click one or more files in <application>Caja</application> and select <guimenuitem>Compress</guimenuitem> from the menu.
           </para>
           <para>
-To expand a compressed file's contents, you start by opening the archive by double-clicking it in the <application>File Browser</application>. Next, you can choose one or more files in the Archive Manager window and either choose <guimenuitem>Extract</guimenuitem> from the menu or drag them to the desktop or other location where you want the files to end up.
+To expand a compressed file's contents, you start by opening the archive by double-clicking it in the <application>File Browser</application>. Next, you can choose one or more files in the <application>Archive Manager</application> window and either choose <guimenuitem>Extract</guimenuitem> from the menu or drag them to the desktop or other location where you want the files to end up.
           </para>
         </sect2>
     </sect1>
@@ -604,21 +604,21 @@ To expand a compressed file's contents, you start by opening the archive by doub
 The <application>Eye of MATE Image Viewer</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Eye of MATE Image Viewer</guimenuitem></menuchoice>, enables you to view single image files, as well as large image collections.
       </para>
       <para>
-The Image Viewer can open a wide variety of image file formats including animated graphics (ANI), bitmaps (BMP, PNG, ICO, PCX, WBMP, XBM, XPM), vector graphics (SVG), and other popular formats like JPEG, GIF, TIFF, and more. Files can be saved in BMP, ICO, JPEG and PNG formats.
+The <application>Image Viewer</application> can open a wide variety of image file formats including animated graphics (ANI), bitmaps (BMP, PNG, ICO, PCX, WBMP, XBM, XPM), vector graphics (SVG), and other popular formats like JPEG, GIF, TIFF, and more. Files can be saved in BMP, ICO, JPEG and PNG formats.
       </para>
       <para>
-The Image Viewer window contains the elements listed in the sections below.
+The <application>Image Viewer</application> window contains the elements listed in the sections below.
       </para>
       <tip>
       <title>Image Viewer</title> 
         <para>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/eom/index.docbook">Image Viewer manual</ulink> by pressing <keycap>F1</keycap> while Image Viewer is open.
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/eom/index.docbook"><application>Image Viewer</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Image Viewer</application> is open.
         </para>
       </tip>
         <sect2 id="eom-menubar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with images in Image Viewer. Note, if you have chosen a layout that uses the Global Menu, the menubar will be displayed in the Global Menu rather than in the Image Viewer window.
+The menus on the menubar contain all of the commands you need to work with images in Image Viewer. Note, if you have chosen a layout that uses the Global Menu, the menubar will be displayed in the Global Menu rather than in the <application>Image Viewer</application> window.
           </para>
         </sect2>
         <sect2 id="eom-toolbar">
@@ -630,13 +630,13 @@ The toolbar contains icon buttons that represent a subset of the commands that y
         <sect2 id="eom-using">
         <title>Using Image Viewer</title>
           <para>
-Image Viewer has features to help you view your images. You can zoom in and out or view the image full-screen. You can rotate and flip the image you are viewing. 
+<application>Image Viewer</application> has features to help you view your images. You can zoom in and out or view the image full-screen. You can rotate and flip the image you are viewing. 
           </para>
           <para>
 The collection view allows you to view and edit large image collections. In this view, image operations can be applied to all selected images at once.
           </para>
           <para>
-Image Viewer has special support for digital camera pictures and displays EXIF metadata recorded with the image. All modifications made in JPEG images are lossless. That is, saving rotated and flipped JPEG images will not recompress the image. Besides this, all available metadata (like EXIF) will be preserved and updated accordingly.
+<application>Image Viewer</application> has special support for digital camera pictures and displays EXIF metadata recorded with the image. All modifications made in JPEG images are lossless. That is, saving rotated and flipped JPEG images will not recompress the image. Besides this, all available metadata (like EXIF) will be preserved and updated accordingly.
           </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -671,7 +671,7 @@ The <application>Atril Document Viewer</application>, found in the Ubuntu MATE m
         </para>
 
         <para>
-You can open the Atril Document Viewer from the menus, or more simply by double-clicking on the file you want to open in the Caja file manager. To zoom in and out, you can use the keyboard shortcuts <keycap>Ctrl</keycap> + <keycap>+</keycap> (the plus key) and <keycap>Ctrl</keycap> + <keycap>-</keycap> (the minus key). You can also hold the <keycap>Ctrl</keycap> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <guibutton>Fit Page Width</guibutton> and <guibutton>Best Fit</guibutton> among others.
+You can open the <application>Atril Document Viewer</application> from the menus, or more simply by double-clicking on the file you want to open in the <application>Caja</application> file manager. To zoom in and out, you can use the keyboard shortcuts <keycap>Ctrl</keycap> + <keycap>+</keycap> (the plus key) and <keycap>Ctrl</keycap> + <keycap>-</keycap> (the minus key). You can also hold the <keycap>Ctrl</keycap> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <guibutton>Fit Page Width</guibutton> and <guibutton>Best Fit</guibutton> among others.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -689,18 +689,18 @@ You can open the Atril Document Viewer from the menus, or more simply by double-
           </tgroup>
         </informaltable>
         <para>
-The Document Viewer window contains the elements listed in the sections below. 
+The <application>Document Viewer</application> window contains the elements listed in the sections below. 
         </para>
         <tip>
         <title>Atril</title> 
           <para>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/atril/index.docbook">Atril Document Viewer manual</ulink> by pressing <keycap>F1</keycap> while Document Viewer is open. Topics include printing, copying, and working with password-protected documents.
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/atril/index.docbook"><application>Atril Document Viewer</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Document Viewer</application> is open. Topics include printing, copying, and working with password-protected documents.
           </para>
         </tip>
         <sect2 id="atril-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with documents in <application>Atril</application>. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the Document Viewer window.
+The menus on the menubar contain all of the commands you need to work with documents in <application>Atril</application>. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Document Viewer</application> window.
           </para>
         </sect2>
         <sect2 id="atril-toolbar">
@@ -712,7 +712,7 @@ The toolbar contains icon buttons that let you navigate the document by page and
         <sect2 id="atril-navigation-pane">
         <title>Left Navigation Pane</title>
           <para>
-Depending on the type of file you are opening, the left pane of the Atril window may show an index, bookmarks, an outline, or annotations. Clicking the header lets you switch between them. You can navigate the document page by page, by scrolling with your mouse, or by using the left pane to jump to a topic.
+Depending on the type of file you are opening, the left pane of the <application>Atril</application> window may show an index, bookmarks, an outline, or annotations. Clicking the header lets you switch between them. You can navigate the document page by page, by scrolling with your mouse, or by using the left pane to jump to a topic.
           </para>
         </sect2>
     </sect1>
@@ -746,18 +746,18 @@ The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><g
           </tgroup>
         </informaltable>
       <para>
-The Disk Usage Analyzer window contains the elements listed in the sections below.
+The <application>Disk Usage Analyzer</application> window contains the elements listed in the sections below.
       </para>
       <tip>
       <title>Disk Usage Analyzer</title> 
         <para>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook">MATE Disk Usage Analyzer manual</ulink> by pressing <keycap>F1</keycap> while Disk Usage Analyzer is open. 
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook"><application>MATE Disk Usage Analyzer</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Disk Usage Analyzer</application> is open. 
         </para>
       </tip>
         <sect2 id="baobab-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with the disks and file system in MATE Disk Usage Analyzer. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the MATE Disk Usage Analyzer window.
+The menus on the menubar contain all of the commands you need to work with the disks and file system in <application>MATE Disk Usage Analyzer</application>. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>MATE Disk Usage Analyzer</application> window.
           </para>
         </sect2>
         <sect2 id="baobab-toolbar">
@@ -839,7 +839,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
 <application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. You don't need to know how to use the command line to use today's modern Linux distributions, but understanding the basics can help you simplify some tasks with single-line commands, automate repetitive tasks with simple scripts, and use additional features not available in graphical versions of applications.
       </para>
       <para>
-Although the MATE Terminal can be used to launch graphical applications by simply typing the name of the application and pressing the <keycap>Enter</keycap> key, you normally use it to run applications that are not designed to be run as graphical applications. These text-based applications, known as command-line programs, can be used to create scripts and other programs, get and install additional software from the software catalog, check the status of your computer's hardware and installed software, and many, many other things. In fact, years before graphical applications were made popular for computing, computer users checked email, communicated with other computers, shared files, photos, and programs, and even browsed early versions of the Internet from terminal applications very similar to the MATE Terminal.
+Although the <application>MATE Terminal</application> can be used to launch graphical applications by simply typing the name of the application and pressing the <keycap>Enter</keycap> key, you normally use it to run applications that are not designed to be run as graphical applications. These text-based applications, known as command-line programs, can be used to create scripts and other programs, get and install additional software from the software catalog, check the status of your computer's hardware and installed software, and many, many other things. In fact, years before graphical applications were made popular for computing, computer users checked email, communicated with other computers, shared files, photos, and programs, and even browsed early versions of the Internet from terminal applications very similar to the <application>MATE Terminal</application>.
       </para>
         <sect2 id="terminal-example">
         <title>Example: Installing Applications Using the Command Line</title>
@@ -945,7 +945,7 @@ sudo lshw -html>myhardware.html
           <note>
           <title>Note</title> 
             <para>
-How to use terminal and command-line programs is a topic that has been explored in many books. One popular and excellent book on this topic is <ulink url="https://www.amazon.com/dp/1593273894"><emphasis>The Linux Command Line: A Complete Introduction</emphasis></ulink> by William E. Shotts Jr. Another source of information on using the terminal is the <ulink url="ghelp:/usr/share/help/C/mate-terminal/index.docbook">MATE Terminal</ulink> manual contained within the MATE Desktop User Guide. It's provided with Ubuntu MATE. To go there directly, open the MATE Terminal application from the menu, then press the <keycap>F1</keycap> key on your keyboard to open the manual.
+How to use terminal and command-line programs is a topic that has been explored in many books. One popular and excellent book on this topic is <ulink url="https://www.amazon.com/dp/1593273894"><emphasis>The Linux Command Line: A Complete Introduction</emphasis></ulink> by William E. Shotts Jr. Another source of information on using the terminal is the <ulink url="ghelp:/usr/share/help/C/mate-terminal/index.docbook">MATE Terminal</ulink> manual contained within the MATE Desktop User Guide. It's provided with Ubuntu MATE. To go there directly, open the <application>MATE Terminal</application> application from the menu, then press the <keycap>F1</keycap> key on your keyboard to open the manual.
             </para>
           </note>
         </sect2>
@@ -980,10 +980,10 @@ The <application>Control Center</application> provides you with a single window 
             </tgroup>
           </informaltable>
       <para>
-Simply click the icon for the preference you want to adjust. Each of these preferences is also available under the <menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The sub-menus correspond to the Groups in the Control Center.
+Simply click the icon for the preference you want to adjust. Each of these preferences is also available under the <menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The sub-menus correspond to the Groups in the <application>Control Center</application>.
       </para>
       <para>
-You'll also find many of the settings and selections you can make from within the Ubuntu MATE Welcome application are also available in the Control Center. The Control Center simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer.
+You'll also find many of the settings and selections you can make from within the Ubuntu MATE <application>Welcome</application> application are also available in the <application>Control Center</application>. The <application>Control Center</application> simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer.
       </para>
       <tip>
       <title>Control Center</title> 
@@ -995,7 +995,7 @@ For more help on this application, see the <guimenuitem>Configuring Your Desktop
 
 <!-- Ubuntu MATE's Applications =========================================== -->
     <sect1 id="page.applications">
-    <title>--- 3. Ubuntu MATE's Applications ---</title>
+    <title>--- UBUNTU MATE'S APPLICATIONS ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -1034,20 +1034,20 @@ If that's not enough, Ubuntu MATE's <application>Software Boutique</application>
                       <imagedata fileref="figures/UbuntuMateWelcome.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
-                      The Ubuntu MATE Welcome application.
+                      The Ubuntu MATE <application>Welcome</application> application.
                     </textobject>
                   </mediaobject></entry></row>
                 </tbody>
             </tgroup>
           </informaltable>
       <para>
-Welcome introduces new users to the operating system, highlights key features of Ubuntu MATE, provides quick guidelines on getting started and displays the computer system's specifications. Welcome also introduces users to the Ubuntu MATE Community with links to the community forums, social networks, the Ubuntu MATE store with branded products for sale, and details on donating to the project. Welcome also includes access to the <application>Software Boutique</application>. It is exactly the same <application>Software Boutique</application> available from the menus and is provided at startup for convenience.
+<application>Welcome</application> introduces new users to the operating system, highlights key features of Ubuntu MATE, provides quick guidelines on getting started and displays the computer system's specifications. <application>Welcome</application> also introduces users to the Ubuntu MATE Community with links to the community forums, social networks, the Ubuntu MATE store with branded products for sale, and details on donating to the project. <application>Welcome</application> also includes access to the <application>Software Boutique</application>. It is exactly the same <application>Software Boutique</application> available from the menus and is provided at startup for convenience.
       </para>
  
         <sect2 id="welcome-updates">
         <title>Getting Started: Updates and Extras</title>
           <para>
-One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release is to click on the <guimenuitem>Getting Started</guimenuitem> button in the Welcome application and choose the <guimenuitem>Updates &amp; Extras</guimenuitem> topic. This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support. It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped.
+One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release is to click on the <guimenuitem>Getting Started</guimenuitem> button in the <application>Welcome</application> application and choose the <guimenuitem>Updates &amp; Extras</guimenuitem> topic. This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support. It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1092,7 +1092,7 @@ Most drivers for Linux distributions like Ubuntu MATE are already provided as pa
 The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered. What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret. (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers.
           </para>
           <para>
-Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the Welcome application, or in <guimenuitem>Software &amp; Update</guimenuitem> (available in the <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem></menuchoice> menu) under the <guilabel>Additional Drivers</guilabel> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
+Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <application>Welcome</application> application, or in <guimenuitem>Software &amp; Update</guimenuitem> (available in the <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem></menuchoice> menu) under the <guilabel>Additional Drivers</guilabel> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
           </para>
           <para>
 If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <guimenuitem>Additional Drivers</guimenuitem> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <guimenuitem>Displaying Your System Information</guimenuitem>. 
@@ -1149,7 +1149,7 @@ One useful example is <application>Solaar</application>, which is a utility for 
         <sect2 id="welcome-specs">
         <title>Getting Started: System Specifications</title>
           <para>
-When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first. Take finding a list of your system hardware for example. In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the <guiicon>My Computer</guiicon> desktop icon and selected <guimenuitem>Properties</guimenuitem>. With Windows 10, you click the Windows logo in the taskbar, then select <menuchoice><guimenu>Settings</guimenu><guimenuitem>System</guimenuitem><guimenuitem>About</guimenuitem></menuchoice>. Neither is likely to be very intuitive if you have only ever used a Mac. On Apple's macOS, you select <guimenuitem>About This Mac</guimenuitem> from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications. Linux, too, has graphical tools to display information about your computer's hardware. Ubuntu MATE provides system specifications in the Welcome application. From the menu, select <menuchoice><guimenu>System</guimenu><guimenuitem>Welcome</guimenuitem><guimenuitem>Getting Started</guimenuitem><guimenuitem>System Specifications</guimenuitem></menuchoice>.
+When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first. Take finding a list of your system hardware for example. In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the <guiicon>My Computer</guiicon> desktop icon and selected <guimenuitem>Properties</guimenuitem>. With Windows 10, you click the Windows logo in the taskbar, then select <menuchoice><guimenu>Settings</guimenu><guimenuitem>System</guimenuitem><guimenuitem>About</guimenuitem></menuchoice>. Neither is likely to be very intuitive if you have only ever used a Mac. On Apple's macOS, you select <guimenuitem>About This Mac</guimenuitem> from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications. Linux, too, has graphical tools to display information about your computer's hardware. Ubuntu MATE provides system specifications in the <application>Welcome</application> application. From the menu, select <menuchoice><guimenu>System</guimenu><guimenuitem>Welcome</guimenuitem><guimenuitem>Getting Started</guimenuitem><guimenuitem>System Specifications</guimenuitem></menuchoice>.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1236,7 +1236,7 @@ Unlike with Windows and macOS, Ubuntu MATE provides you with all of the pre-inst
             Firefox icon.
           </textobject>
         </inlinemediaobject>
-Pre-installed with Ubuntu MATE, <application>Firefox</application> is a popular application on almost any computing platform that delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. Firefox also provides features such as changing your home page, searching the web, bookmarking a site, and using a private browsing mode. You can also synchronize your Firefox bookmarks, history, passwords and more between your devices.  <ulink url="https://support.mozilla.org/en-US/products/firefox">Read more about Firefox.</ulink>
+Pre-installed with Ubuntu MATE, <application>Firefox</application> is a popular application on almost any computing platform that delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. <application>Firefox</application> also provides features such as changing your home page, searching the web, bookmarking a site, and using a private browsing mode. You can also synchronize your <application>Firefox</application> bookmarks, history, passwords and more between your devices.  <ulink url="https://support.mozilla.org/en-US/products/firefox">Read more about Firefox.</ulink>
           </para>
         </sect2>
         <sect2 id="productivity-thunderbird">
@@ -1253,10 +1253,10 @@ Pre-installed with Ubuntu MATE, <application>Firefox</application> is a popular 
 Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <application>Yahoo Mail</application> and Google's <application>Gmail</application> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <application>Thunderbird</application> is a cross-platform email client that works on Linux and macOS as well as on Windows.
       </para>
       <para>
-Thunderbird is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
+<application>Thunderbird</application> is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
       </para>
       <para>
-If you use the automatic account configuration, setting up a new account with Thunderbird is easy. All you need to do is provide your username and password for your email provider and your email address. Thunderbird works very nicely with Gmail and even synchronizes messages between Thunderbird on your computer and Gmail. <ulink url="https://www.mozilla.org/en-US/thunderbird">Read more about Thunderbird.</ulink>
+If you use the automatic account configuration, setting up a new account with <application>Thunderbird</application> is easy. All you need to do is provide your username and password for your email provider and your email address. <application>Thunderbird</application> works very nicely with Gmail and even synchronizes messages between <application>Thunderbird</application> on your computer and Gmail. <ulink url="https://www.mozilla.org/en-US/thunderbird">Read more about <application>Thunderbird</application>.</ulink>
           </para>
         </sect2>
         <sect2 id="productivity-libreoffice">
@@ -1270,7 +1270,7 @@ If you use the automatic account configuration, setting up a new account with Th
             LibreOffice icon.
           </textobject>
         </inlinemediaobject>
-<application>LibreOffice</application> is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft's office suite and is compatible with Google's online office suite. Like many office suites, LibreOffice includes several applications, but unlike other suites, it contains applications like <application>Base</application> and <application>Math</application>, as a basic part of the suite. LibreOffice is also truly full-featured, unlike the online versions of office productivity apps that provide only the basic functions most people use. Basic capabilities are fine until you need to use one of those "advanced" features. Then you'll be looking for something with all the features. The Document Foundation (the organization behind LibreOffice) maintains an excellent set of documentation online for LibreOffice at the <ulink url="https://www.libreoffice.org/get-help/documentation/">LibreOffice website.</ulink>
+<application>LibreOffice</application> is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft's office suite and is compatible with Google's online office suite. Like many office suites, <application>LibreOffice</application> includes several applications, but unlike other suites, it contains applications like <application>Base</application> and <application>Math</application>, as a basic part of the suite. <application>LibreOffice</application> is also truly full-featured, unlike the online versions of office productivity apps that provide only the basic functions most people use. Basic capabilities are fine until you need to use one of those "advanced" features. Then you'll be looking for something with all the features. The Document Foundation (the organization behind LibreOffice) maintains an excellent set of documentation online for <application>LibreOffice</application> at the <ulink url="https://www.libreoffice.org/get-help/documentation/"><application>LibreOffice</application> website.</ulink>
           </para>
       <itemizedlist>
         <listitem>
@@ -1420,7 +1420,7 @@ A message appears when the connection successfully completes. Click <keycap>Clos
 With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply right-click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Right-click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal. 
           </para>
           <para>
-Caffeine is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application>Software Boutique</application> for one-click installation.
+<application>Caffeine</application> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application>Software Boutique</application> for one-click installation.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1507,7 +1507,7 @@ Print a test page to verify the setup and you are ready to begin using your netw
             HPLIP icon.
           </textobject>
         </inlinemediaobject>
-For added control, you can install the <application>HP Linux Imaging and Printing</application> (HPLIP) utility from the <application>Ubuntu MATE Welcome</application> application or from the Software Boutique. It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate <application>Simple Scan</application> application described in the next section. <ulink url="http://hplipopensource.com/hplip-web/about.html">Read more about HPLIP</ulink>.
+For added control, you can install the <application>HP Linux Imaging and Printing</application> (HPLIP) utility from the <application>Ubuntu MATE Welcome</application> application or from the <application>Software Boutique</application>. It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate <application>Simple Scan</application> application described in the next section. <ulink url="http://hplipopensource.com/hplip-web/about.html">Read more about HPLIP</ulink>.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1536,7 +1536,7 @@ For added control, you can install the <application>HP Linux Imaging and Printin
             Scanning icon.
           </textobject>
         </inlinemediaobject>
-The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. Using Simple Scan is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</ulink> by pressing <keycap>F1</keycap> while Simple Scan is open.
+The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. Using <application>Simple Scan</application>.is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index"><application>Simple Scan</application>.Manual</ulink> by pressing <keycap>F1</keycap> while <application>Simple Scan</application>.is open.
           </para>
         </sect2>
         <sect2 id="document-management-pdf">
@@ -1550,7 +1550,7 @@ The <application>Simple Scan</application> application, found in the Ubuntu MATE
             PDF icon.
           </textobject>
         </inlinemediaobject>
-Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to Save As PDF or Export to PDF. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration. Most applications provide a menu selection to <guimenuitem>Save As PDF</guimenuitem> or <guimenuitem>Export to PDF</guimenuitem>. If the application you use does not offer one of those options, you can always print the document as a PDF file. Ubuntu MATE has PDF printing built-in.
+Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to <guimenuitem>Save As PDF</guimenuitem> or <guimenuitem>Export to PDF</guimenuitem>. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration. 
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1586,14 +1586,14 @@ Ubuntu MATE comes pre-installed with three significant applications for managing
             Rhythmbox icon.
           </textobject>
         </inlinemediaobject>
-<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's iTunes, Rhythmbox is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
+<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's <application>iTunes</application>, <application>Rhythmbox</application> is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
           </para>
           <para>
 <emphasis role="bold">Subscribe to a podcast with Rhythmbox</emphasis>
           </para>
           <orderedlist>
             <listitem>
-Click <guiicon>Podcasts</guiicon> in the Rhythmbox's left panel.
+Click <guiicon>Podcasts</guiicon> in the <application>Rhythmbox's</application> left panel.
             </listitem>
             <listitem>
 Click the <keycap>Add</keycap> button in the button bar. The search panel opens.
@@ -1620,7 +1620,7 @@ Type a search term or you can type or paste the link for the podcast feed into t
 Click <keycap>Search</keycap>. Podcasts matching your search appear in a list below the search.
             </listitem>
             <listitem>
-Select the podcast you want from the list and click <keycap>Subscribe</keycap>. The episodes are added to the playlist and Rhythmbox immediately begins downloading the latest episode into a folder named for the podcast within your Music folder. Rhythmbox checks periodically for new episodes of each podcast and downloads them for you.
+Select the podcast you want from the list and click <keycap>Subscribe</keycap>. The episodes are added to the playlist and <application>Rhythmbox</application> immediately begins downloading the latest episode into a folder named for the podcast within your Music folder. <application>Rhythmbox</application> checks periodically for new episodes of each podcast and downloads them for you.
             </listitem>
             <listitem>
 Click <keycap>Close</keycap> to hide the search panel.
@@ -1630,7 +1630,7 @@ Click <keycap>Close</keycap> to hide the search panel.
 To play an episode, select one from the list and press the <keycap>Play</keycap> button. You may wish to click on the header of the <guiicon>Date</guiicon> field to sort the episodes so that the latest episode is at the top of the list. As long as you have an Internet connection, you can play any of the older episodes without downloading them. Right-click any episode in the list to see an option to download that episode.
           </para>
           <para>
-For more information on how to use the playlist and other features of Rhythmbox, see the <ulink url="ghelp:/usr/share/help/C/rhythmbox/index.docbook">Rhythmbox Music Player Manual</ulink> by pressing <keycap>F1</keycap> while Rhythmbox is open.
+For more information on how to use the playlist and other features of Rhythmbox, see the <ulink url="ghelp:/usr/share/help/C/rhythmbox/index.docbook">Rhythmbox Music Player Manual</ulink> by pressing <keycap>F1</keycap> while <application>Rhythmbox</application> is open.
           </para>
         </sect2>
         <sect2 id="entertainment-shotwell">
@@ -1644,20 +1644,20 @@ For more information on how to use the playlist and other features of Rhythmbox,
             Shotwell icon.
           </textobject>
         </inlinemediaobject>
-<application>Shotwell</application> Shotwell, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
+<application>Shotwell</application> <application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
           </para>
           <para>
-When you first launch Shotwell, it scans your computer for photos and imports them so that you can use Shotwell to organize them. Once you have all the photos from your computer's hard drive within Shotwell, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the Shotwell window, or by connecting a camera to your computer and choosing to import the photos from there. 
+When you first launch <application>Shotwell</application>, it scans your computer for photos and imports them so that you can use <application>Shotwell</application> to organize them. Once you have all the photos from your computer's hard drive within <application>Shotwell</application>, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the <application>Shotwell</application> window, or by connecting a camera to your computer and choosing to import the photos from there. 
           </para>
           <para>
-With Shotwell, you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
-Shotwell also provides the ability to edit the photos themselves. You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle.
+With <application>Shotwell</application>, you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
+<application>Shotwell</application> also provides the ability to edit the photos themselves. You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle.
           </para>
           <para>
-Of course, you can share your photos from Shotwell by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.
+Of course, you can share your photos from <application>Shotwell</application> by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.
           </para>
           <para>
-To learn more about how to use each of the features of Shotwell, see the <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink> by pressing <keycap>F1</keycap> while Shotwell is open.
+To learn more about how to use each of the features of <application>Shotwell</application>, see the <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink> by pressing <keycap>F1</keycap> while <application>Shotwell</application> is open.
           </para>
         </sect2>
         <sect2 id="entertainment-vlc">
@@ -1671,13 +1671,13 @@ To learn more about how to use each of the features of Shotwell, see the <ulink 
             VLC icon.
           </textobject>
         </inlinemediaobject>
-<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. VLC can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
+<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
           </para>
           <para>
-VLC has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
+<application>VLC</application> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
           </para>
           <para>
-For additional information about VLC and how it works, see VideoLan's <ulink url="https://wiki.videolan.org/Documentation:VLC_for_dummies">VLC Introduction.</ulink>
+For additional information about <application>VLC</application> and how it works, see VideoLan's <ulink url="https://wiki.videolan.org/Documentation:VLC_for_dummies">VLC Introduction.</ulink>
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1708,10 +1708,10 @@ For additional information about VLC and how it works, see VideoLan's <ulink url
             Steam icon.
           </textobject>
         </inlinemediaobject>
-In the last few years, Linux has become a first-class gaming platform thanks to <ulink url="http://www.valvesoftware.com/">Valve</ulink> bringing the <ulink url="http://store.steampowered.com/"><application>Steam</application></ulink> platform to Linux. At the time of writing, Steam has more than 2000 high-quality indie and AAA titles available for Linux. Ubuntu MATE is fully compatible with Steam for Linux.
+In the last few years, Linux has become a first-class gaming platform thanks to <ulink url="http://www.valvesoftware.com/">Valve</ulink> bringing the <ulink url="http://store.steampowered.com/"><application>Steam</application></ulink> platform to Linux. At the time of writing, <application>Steam</application> has more than 2000 high-quality indie and AAA titles available for Linux. Ubuntu MATE is fully compatible with <application>Steam</application> for Linux.
       </para>
       <para>
-While Steam is a major step forward for gaming on Linux, there are also many high quality and enjoyable Open Source games titles available for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if you like flight simulators, motor racing, first-person shooters, jump and run or card games, you'll find something to keep you entertained.
+While <application>Steam</application> is a major step forward for gaming on Linux, there are also many high quality and enjoyable Open Source games titles available for Ubuntu MATE via the <application>Ubuntu Software Centre</application>. It doesn't matter if you like flight simulators, motor racing, first-person shooters, jump and run or card games, you'll find something to keep you entertained.
       </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1754,7 +1754,7 @@ Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other ma
           <para>
 <ulink url="https://help.ubuntu.com/community/Linuxvirus">Canonical</ulink> lists fewer than 30 Linux viruses and worms in its published malware list. In contrast, there are about 140,000 viruses for Windows, so...
           <itemizedlist>
-            <listitem>If you dual-boot with Windows, run Windows in a VM, use WINE or simply share files with Windows-using friends, scan the files for viruses.
+            <listitem>If you dual-boot with Windows, run Windows in a VM, use <application>WINE</application> or simply share files with Windows-using friends, scan the files for viruses.
             </listitem>
             <listitem>Enable the Ubuntu MATE software firewall, if it isn't already. (See below.)
             </listitem>
@@ -1784,13 +1784,13 @@ Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other ma
             Déjà Dup icon.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE comes pre-installed with a Backup utility called <application>Déjà Dup</application>. The application is found in the Control Center at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Backups</guimenuitem></menuchoice>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.
+Ubuntu MATE comes pre-installed with a backup utility called <application>Déjà Dup</application>. The application is found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Backups</guimenuitem></menuchoice>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.
           </para>
           <para>
-If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. Déjà Dup even lets you automate your backups for added convenience and safety. 
+If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. <application>Déjà Dup</application> even lets you automate your backups for added convenience and safety. 
           </para>
           <para>
-In the event that your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <ulink url="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page">Déjà Dup manual</ulink> by pressing <keycap>F1</keycap> while Déjà Dup is open.
+In the event that your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <ulink url="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page">Déjà Dup manual</ulink> by pressing <keycap>F1</keycap> while <application>Déjà Dup</application> is open.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1912,7 +1912,7 @@ The <application>Software Updater</application> available from the <application>
             </tgroup>
           </informaltable>
           <para>
-After you launch the Software Updater from the menus, if updates are available, the application lists the updates and asks if you want to install them now. Click <keycap>Install Now</keycap> to begin the download. The dialog shown below appears while the update is in progress and another appears once the update is complete.
+After you launch the <application>Software Updater</application> from the menus, if updates are available, the application lists the updates and asks if you want to install them now. Click <keycap>Install Now</keycap> to begin the download. The dialog shown below appears while the update is in progress and another appears once the update is complete.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1930,7 +1930,7 @@ After you launch the Software Updater from the menus, if updates are available, 
             </tgroup>
           </informaltable>
           <para>
-You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the Software Updater screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
+You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the <application>Software Updater</application> screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -1979,7 +1979,7 @@ You can also choose to be notified whenever there is a new release of Ubuntu MAT
             Firewall icon.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the Control Center at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides an uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
+Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides an uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
           </para>
           <itemizedlist> 
             <listitem><emphasis>Status=On</emphasis></listitem>
@@ -2044,10 +2044,10 @@ Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys,
         <sect2 id="accessibility-enable-at-startup">
         <title>Enabling Accessibility at Startup</title>
           <para>
-When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both Orca, the screen reader, and Onboard, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. 
+When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both <application>Orca</application>, the screen reader, and <application>Onboard</application>, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. 
           </para>
           <para>
-If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off Orca and Onboard. You can also use Orca's keyboard shortcut <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap> to enable the screen reader to assist in the login process.
+If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off <application>Orca</application> and <application>Onboard</application>. You can also use <application>Orca</application>'s keyboard shortcut <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap> to enable the screen reader to assist in the login process.
           </para>
         </sect2>
         <sect2 id="accessibility-orca">
@@ -2061,52 +2061,52 @@ If you want to use these features at the login screen, before Ubuntu MATE even s
             Orca icon.
           </textobject>
         </inlinemediaobject>
-The Orca screen reader is a free, open source, flexible, and extensible screen reader that provides you with access to the graphical desktop via user-customizable combinations of speech and/or braille. It is pre-installed in Ubuntu MATE for blind and low vision users. At the login screen, and after Ubuntu MATE starts, you toggle the screen reader off and on by pressing <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap>.
+The <application>Orca</application> screen reader is a free, open source, flexible, and extensible screen reader that provides you with access to the graphical desktop via user-customizable combinations of speech and/or braille. It is pre-installed in Ubuntu MATE for blind and low vision users. At the login screen, and after Ubuntu MATE starts, you toggle the screen reader off and on by pressing <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap>.
         </para>
         <para>
-With some other Linux distributions, getting Orca to work can be tricky. With Ubuntu MATE all the setup is done for you. It also works nicely with pretty much all of the pre-installed software, including the LibreOffice office suite and the Firefox browser.
+With some other Linux distributions, getting <application>Orca</application> to work can be tricky. With Ubuntu MATE all the setup is done for you. It also works nicely with pretty much all of the pre-installed software, including the <application>LibreOffice</application> office suite and the <application>Firefox</application> browser.
         </para>
         <para>
-For complete information about using and configuring the Orca screen reader, refer to the website <ulink url="https://help.gnome.org/users/orca/stable/">https://help.gnome.org/users/orca/stable/</ulink>.
+For complete information about using and configuring the <application>Orca</application> screen reader, refer to the website <ulink url="https://help.gnome.org/users/orca/stable/">https://help.gnome.org/users/orca/stable/</ulink>.
         </para>
         <para>
-The Orca documentation on the website occasionally refers to the "Orca Modifier" key. The key that Orca uses by default as the "Orca Modifier" depends on whether you are using Orca's "Laptop" keyboard layout or its "Desktop" keyboard layout:
+The <application>Orca</application> documentation on the website occasionally refers to the "Orca Modifier" key. The key that <application>Orca</application> uses by default as the "Orca Modifier" depends on whether you are using <application>Orca</application>'s "Laptop" keyboard layout or its "Desktop" keyboard layout:
         </para>
         <para>
-You can use the "Orca Modifier" key to get to Orca's help. Press <keycap>Orca Modifier</keycap> + <keycap>H</keycap> to enter "learn mode".
+You can use the "Orca Modifier" key to get to <application>Orca</application>'s help. Press <keycap>Orca Modifier</keycap> + <keycap>H</keycap> to enter "learn mode".
         </para>
         <tip>
         <title>Orca Modifier</title>
           <para>
-If you are using Orca's "Laptop" layout, the default Orca Modifier will be <keycap>CapsLock</keycap>.
+If you are using <application>Orca</application>'s "Laptop" layout, the default Orca Modifier will be <keycap>CapsLock</keycap>.
           </para>
           <para>
-If you are using Orca's "Desktop" layout, for the Orca Modifier you can use either the normal <keycap>Insert</keycap> key or the KeyPad+<keycap>Insert</keycap>. On US keyboards, KeyPad+<keycap>Insert</keycap> is the same key as the <keycap>0</keycap> (zero) on the numeric keypad.
+If you are using <application>Orca</application>'s "Desktop" layout, for the Orca Modifier you can use either the normal <keycap>Insert</keycap> key or the KeyPad+<keycap>Insert</keycap>. On US keyboards, KeyPad+<keycap>Insert</keycap> is the same key as the <keycap>0</keycap> (zero) on the numeric keypad.
           </para>
         </tip>
         <para>
-You can use the "Orca Modifier" key to get to Orca's help. Press <keycap>Orca Modifier</keycap> + <keycap>H</keycap> to enter "learn mode".
+You can use the "Orca Modifier" key to get to <application>Orca</application>'s help. Press <keycap>Orca Modifier</keycap> + <keycap>H</keycap> to enter "learn mode".
         </para>
         <tip>
         <title>Orca Help</title>  
           <para>
-To view Orca's documentation, press <keycap>F1</keycap>.
+To view <application>Orca</application>'s documentation, press <keycap>F1</keycap>.
           </para>
           <para>
-To hear a list of Orca's shortcuts, press <keycap>F2</keycap>.
+To hear a list of <application>Orca</application>'s shortcuts, press <keycap>F2</keycap>.
           </para>
-          <para>To hear a list of Orca's shortcuts for the current application, press <keycap>F3</keycap>.
+          <para>To hear a list of <application>Orca</application>'s shortcuts for the current application, press <keycap>F3</keycap>.
           </para>
         </tip>
           <para>
-To learn more about how to use Orca to read documents and websites, see the web page:
+To learn more about how to use <application>Orca</application> to read documents and websites, see the web page:
 <ulink url="https://help.gnome.org/users/orca/stable/#reading">https://help.gnome.org/users/orca/stable/#reading.</ulink>
           </para>
           <para>
-You may find that the screen reader speaks too slowly or too quickly for you. You can adjust the rate at which Orca speaks, and make other adjustments as well, in Orca Preferences. To get to the Orca Preferences screens, press <keycap>Orca Modifier</keycap> + <keycap>Spacebar</keycap>. If you find yourself needing to adjust the speed frequently, you might want to bind (map) the "increase the rate" and "decrease the rate" commands to specific keys. That way you can more easily make these adjustments. To review (and setup) the keyboard shortcuts and commands that Orca uses, you will want to refer to the documentation on key bindings on this web page: <ulink url="https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en">https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en</ulink>.
+You may find that the screen reader speaks too slowly or too quickly for you. You can adjust the rate at which <application>Orca</application> speaks, and make other adjustments as well, in Orca Preferences. To get to the Orca Preferences screens, press <keycap>Orca Modifier</keycap> + <keycap>Spacebar</keycap>. If you find yourself needing to adjust the speed frequently, you might want to bind (map) the "increase the rate" and "decrease the rate" commands to specific keys. That way you can more easily make these adjustments. To review (and setup) the keyboard shortcuts and commands that <application>Orca</application> uses, you will want to refer to the documentation on key bindings on this web page: <ulink url="https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en">https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en</ulink>.
           </para>
           <para>
-This is just a small sampling of the documentation that is available to you on the Orca site. Browse around. Discover what this powerful tool can do!
+This is just a small sampling of the documentation that is available to you on the <application>Orca</application> site. Browse around. Discover what this powerful tool can do!
           </para>
         </sect2>
         <sect2 id="accessibility-onboard">
@@ -2120,10 +2120,10 @@ This is just a small sampling of the documentation that is available to you on t
             Onboard icon.
           </textobject>
         </inlinemediaobject>
-Onboard is the name of Ubuntu MATE's on-screen keyboard. Onboard is pre-installed in Ubuntu MATE and is available at the press of a few keys for anyone requiring the use of an on-screen keyboard in place of a traditional hardware keyboard. In addition to supporting mobility-impaired users, Onboard provides support for tablet and touch-screen computers. To turn Onboard off or on again from the hardware keyboard, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>K</keycap>.
+<application>Onboard</application> is the name of Ubuntu MATE's on-screen keyboard. <application>Onboard</application> is pre-installed in Ubuntu MATE and is available at the press of a few keys for anyone requiring the use of an on-screen keyboard in place of a traditional hardware keyboard. In addition to supporting mobility-impaired users, <application>Onboard</application> provides support for tablet and touch-screen computers. To turn <application>Onboard</application> off or on again from the hardware keyboard, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>K</keycap>.
           </para>
           <para>
-You can also enable Onboard so that it is available on-screen right at startup:
+You can also enable <application>Onboard</application> so that it is available on-screen right at startup:
            </para>
            <orderedlist>
              <listitem>
@@ -2159,7 +2159,7 @@ Check the box labeled <guilabel>Run at start</guilabel> and click <keycap>Close<
           </informaltable>
  
           <para>
-Additional settings and preferences for Onboard are listed in the <application>Control Panel</application> in the <guilabel>Personal</guilabel>" section as <guimenuitem>Onboard Settings</guimenuitem>.
+Additional settings and preferences for <application>Onboard</application> are listed in the <application>Control Panel</application> in the <guilabel>Personal</guilabel>" section as <guimenuitem>Onboard Settings</guimenuitem>.
           </para>
         </sect2>
         <sect2 id="accessibility-magnifier">
@@ -2198,7 +2198,7 @@ To switch to the <application>Compiz</application> window manager, from the <gui
             </para>
             <note>
             <title>Note</title> 
-              <para>Onboard and Orca accessibility features and keyboard shortcuts remain fully available with Compiz enabled.
+              <para><application>Onboard</application> and <application>Orca</application> accessibility features and keyboard shortcuts remain fully available with Compiz enabled.
               </para>
             </note>
         </sect2>
@@ -2221,7 +2221,7 @@ Almost every software package that is available and tested for Ubuntu MATE is av
 The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and are variably referred to as "the software catalog," "the software library," "the software center," "software sources," or simply "software repositories." These repositories contain almost ALL of the full-featured, free and open source software that has been tested for installation on Ubuntu MATE and other Ubuntu derivatives. And they won't put spyware and viruses on your computer!
       </para>
       <para>
-To install software on Ubuntu MATE, you normally use the <application>Software Boutique</application>. You can also use the software center or the <application>Synaptic</application> package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the <application>Software Boutique</application> returns no results.
+To install software on Ubuntu MATE, you normally use the <application>Software Boutique</application>. You can also use the <application>Software Center</application> or the <application>Synaptic</application> package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the <application>Software Boutique</application> returns no results.
       </para>
         <sect2 id="software-trusted">
         <title>Trusted Sources</title>
@@ -2241,7 +2241,7 @@ There are several ways to obtain software from the software catalog. Ubuntu MATE
         <sect2 id="software-boutique">
         <title>Software Boutique</title>
           <para>
-The Software Boutique's curated selection of the most popular applications lets you:
+The <application>Software Boutique</application>'s curated selection of the most popular applications lets you:
           </para>
           <itemizedlist>
             <listitem>Select from the list of Ubuntu MATE's recommended software, tested for the distribution.</listitem>
@@ -2270,10 +2270,10 @@ To launch the <application>Software Boutique</application> from the menus, choos
         <sect2 id="software-software-centers">
         <title>Software Centers</title>
           <para>
-If you don't find what you're looking for in the <app>Software Boutique</app>, install one of the available Software Centers to explore the complete Ubuntu software catalog. Choose the "More Software" category using the icons across the top of the Software Boutique's main window. The selection labeled simply "Software" installs a graphical application that lets you browse, install and update additional software applications and system extensions from the Ubuntu software repositories.
+If you don't find what you're looking for in the <application>Software Boutique</application>, install one of the available Software Centers to explore the complete Ubuntu software catalog. Choose the "More Software" category using the icons across the top of the <application>Software Boutique</application>'s main window. The selection labeled simply "Software" installs a graphical application that lets you browse, install and update additional software applications and system extensions from the Ubuntu software repositories.
       </para>
       <para>
-The <app>Synaptic Package Manager</app> is a graphical package management application that lets you install software onto your computer and manage the software that is already installed. It allows you to search, install, upgrade, and remove packages using the software repositories. It also lets you add more software sources, modify repository settings, view changelogs, and even lock a package to a specific version.
+The <application>Synaptic Package Manager</application> is a graphical package management application that lets you install software onto your computer and manage the software that is already installed. It allows you to search, install, upgrade, and remove packages using the software repositories. It also lets you add more software sources, modify repository settings, view changelogs, and even lock a package to a specific version.
       </para>
       <para>
 Ubuntu MATE always has security in mind. Regardless of how you choose to install software, you are always asked for your password before anything can be installed. This is a list of some of the most popular software selections available from the repositories:
@@ -2307,7 +2307,7 @@ There is much more available. You can browse by the application's name or by fun
 
 <!-- Personalizing Ubuntu MATE ============================================ -->
     <sect1 id="personalization">
-    <title>--- 4. Personalizing Ubuntu MATE ---</title>
+    <title>--- PERSONALIZING UBUNTU MATE ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -2338,7 +2338,7 @@ So, what can you do with Ubuntu MATE? From simply changing the background deskto
             </tgroup>
           </informaltable>
         <para>
-As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The MATE Tweak application is found in the Ubuntu MATE menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice> and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
+As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The <application>MATE Tweak</application> application is found in the Ubuntu MATE menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice> and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
       </para>
     </sect1>
 
@@ -2366,7 +2366,7 @@ Of course, since this is Linux, with any of these seven layouts, you can move th
         <sect2 id="panel-layouts-traditional">
         <title>Traditional (Ubuntu-MATE) Layout</title>
           <para>
-When you first install Ubuntu-MATE, you'll be using its own layout, named Traditional, which has a classic look of Linux with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the traditional way -- that is 'traditional' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the MATE Tweak "Panel" options.
+When you first install Ubuntu-MATE, you'll be using its own layout, named Traditional, which has a classic look of Linux with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the traditional way -- that is 'traditional' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the <application>MATE Tweak</application> "Panel" options.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -2574,7 +2574,7 @@ You can use the link on the lower left to download more images from the Internet
  A desktop theme can include the set of fonts and colors used on your desktop, the size and style of icons, the size, shape and color of the borders of each window, whether there are 3-D or animation effects, and even whether the buttons have icons. Changing your theme is just as easy as changing background wallpaper.
       </para>
       <orderedlist> 
-        <listitem>From the menus choose <guiseq><gui>System</gui><gui>Control Center</gui><gui>Appearance</gui><gui>Theme</gui></guiseq>.</listitem>
+        <listitem>From the menus choose <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Theme</guimenuitem></menuchoice>.</listitem>
         <listitem>Select the theme you want to use from the list.</listitem>
         <listitem>Your theme changes immediately. Click <keycap>Close</keycap>.</listitem>
       </orderedlist>
@@ -2717,7 +2717,7 @@ Locate the application in the menu. For the word processor application, select
           </listitem>
           <listitem>
             <para>
-Now locate, but do not click on the LibreOffice Writer icon.
+Now locate, but do not click on the <application>LibreOffice Writer</application> icon.
             </para>
           </listitem>
           <listitem>
@@ -3007,6 +3007,49 @@ Click on <keycap>Keep This Configuration</keycap> to confirm your changes.
           </listitem>
         </orderedlist>
       </sect2>
+        <sect2 id="display-hidpi">
+        <title>High-Resolution Monitors</title>
+          <para>
+Today, support for high-resolution computer displays (HiDPI or 4K displays) is <ulink url="https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi">still being perfected</ulink>. With the 18.04 release, the Ubuntu MATE team has released a utility that makes it possible to simply connect a 4K monitor, set the screen resolution, check a box to enable scaling, log out and back in again, and the screen will automatically configure itself correctly. Without this scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use. You can certainly change the resolution on your display to 1920x1080 (1080P) and simply not use its full capabilities, but this section will walk you through adjusting the settings so that you can take advantage of the full resolution of your beautiful 4K display and still have everything readable. 
+          </para>
+          <orderedlist>
+            <listitem>
+              <para>
+Before you begin modifying your screen settings, use the instructions in the previous section to ensure that your display is set to the highest resolution available. This will be the 4K resolution for your monitor.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+Open the <application>MATE Tweak</application> by selecting <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem><guimenuitem>Windows</guimenuitem></menuchoice>.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+Check the box labeled <guilabel>Scale windows for HiDPI displays</guilabel>.
+              </para>
+          <informaltable frame="all">
+            <tgroup cols="1">
+              <colspec colwidth="100%"/>
+                <tbody>
+                  <row><entry><mediaobject>
+                    <imageobject>
+                      <imagedata fileref="figures/enable-hidpi.png" contentwidth="100%"/>
+                    </imageobject>
+                    <textobject>
+                      Enable your HiDPI settings.
+                    </textobject>
+                  </mediaobject></entry></row>
+                </tbody>
+            </tgroup>
+          </informaltable>
+            </listitem>
+            <listitem>
+              <para>
+Logout or restart for the HiDPI settings to take effect.
+              </para>
+            </listitem>
+          </orderedlist>
+        </sect2>
     </sect1>
 
     <sect1 id="personalization-power">
@@ -3094,7 +3137,7 @@ Don't use a Bluetooth mouse, keyboard or headphones? Turn off your Bluetooth ada
         <sect2 id="power-tlp">
         <title>4. Use TLP</title>
           <para>
-TLP is an advanced power management utility for Linux that can improve your battery life tremendously. TLP optimizes power settings automatically on startup and every time you change the power source. The Ubuntu MATE 16.04 release came with the TLP command-line utility pre-installed and pre-configured. If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the Software Center for TLP. It'll likely be there, ready to install. The screenshot, below, shows the default configuration of TLP on a Dell XPS 13.
+<application>TLP</application> is an advanced power management utility for Linux that can improve your battery life tremendously. <application>TLP</application> optimizes power settings automatically on startup and every time you change the power source. The Ubuntu MATE 16.04 release came with the <application>TLP</application> command-line utility pre-installed and pre-configured. If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the <application>Software Center</application> for <application>TLP</application>. It'll likely be there, ready to install. The screenshot, below, shows the default configuration of <application>TLP</application> on a Dell XPS 13.
           </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -3158,7 +3201,7 @@ The screensaver settings can be found at <menuchoice><guimenu>System</guimenu><g
 
 <!-- About the Ubuntu MATE Project ======================================== -->
     <sect1 id="page.about">
-    <title>--- 5. About the Ubuntu MATE Project ---</title>
+    <title>--- ABOUT THE UBUNTU MATE PROJECT ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -3554,7 +3597,7 @@ Once Ubuntu MATE has booted successfully, you will be able to use the computer a
           </listitem>
           <listitem>
             <para>
-You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the Network Manager icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the passcode, click the <keycap>Connect</keycap> button and you will be connected.
+You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the <application>Network Manager</application> icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the passcode, click the <keycap>Connect</keycap> button and you will be connected.
             </para>
           </listitem>
           <listitem>
@@ -3653,7 +3696,7 @@ When prompted, remove the installation medium, then press <keycap>Enter</keycap>
 
 <!-- Support ============================================================== -->
     <sect1 id="page.support">
-    <title>--- 6. Support ---</title>
+    <title>--- SUPPORT ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -4003,7 +4046,7 @@ Topics relating to dual booting with Windows or Mac, BIOS vs. UEFI Booting, and 
 
 <!-- Keyboard Shortcuts =================================================== -->
     <sect1 id="page.shortcuts">
-    <title>--- 7. Keyboard Shortcuts ---</title>
+    <title>--- KEYBOARD SHORTCUTS ---</title>
       <para>
         <inlinemediaobject>
           <imageobject>
@@ -4147,7 +4190,7 @@ All of these shortcuts apply when the <application>Compiz</application> is selec
 
 <!-- FAQ ================================================================== -->
     <sect1 id="page.faq">
-    <title>--- 8. FAQ ---</title>
+    <title>--- FAQ ---</title>
       <para>
             <mediaobject>
               <imageobject>
