@@ -120,7 +120,7 @@
             </mediaobject>
       </para>
       <para>
-<application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
+<application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
       </para>
       <para>
 If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
@@ -193,7 +193,7 @@ In addition to common and well-founded concerns around security, we often get qu
         <sect2 id="macos">
         <title>Why Users Switch from macOS</title>
           <para>
-Switching to Apple's macOS (formerly OSX) doesn't get you off of the treadmill of forking over more and more cash for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever- more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts.
+Switching to Apple's macOS (formerly OSX) doesn't get you off of the treadmill of forking over more and more cash for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts.
           </para>
         </sect2> 
 
@@ -395,10 +395,10 @@ Like file managers in other operating systems (Apple calls their file manager "t
           </tgroup>
         </informaltable>
       <para>
-As a user of Ubuntu MATE, you have a Home Folder. By default, it contains several folders and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your <guiicon>Home</guiicon> folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your <guiicon>Home</guiicon> Folder, <guiicon>Trash</guiicon>, and removable media such as floppy disks, CDs, and USB flash drives. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
+As a user of Ubuntu MATE, you have a <guiicon>Home</guiicon> folder. By default, it contains several folders and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your <guiicon>Home</guiicon> folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your <guiicon>Home</guiicon> Folder, <guiicon>Trash</guiicon>, and removable media such as floppy disks, CDs, and USB flash drives. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
       </para>
       <para>
-The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose an item from <guimenu>Places</guimenu> menu on the top panel. 
+The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose an item from the <guimenu>Places</guimenu> menu on the top panel. 
       </para>
       <para>
 The file manager window is a file browser of sorts. Double-clicking the icon for a file opens the file in the <application>Caja</application> software application that lets you view and/or edit the document. Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder. You can also open a folder by right-clicking on that folder, then choosing between <guimenuitem>Open</guimenuitem> (this is the same as simply double-clicking the folder), <guimenuitem>Open in a New Tab</guimenuitem>, or <guimenuitem>Open in a New Window</guimenuitem>.
@@ -925,7 +925,7 @@ inxi
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/inxi.png" contentwidth="100%"/>
+                      <imagedata fileref="figures/inxi.gif" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Screenshot of the inxi output.
@@ -1411,13 +1411,13 @@ A message appears when the connection successfully completes. Click <keycap>Clos
           <para>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/caffeine.svg" contentwidth="32px"/>
+            <imagedata fileref="apps/caffeine.png" contentwidth="32px"/>
           </imageobject>
           <textobject>
             Caffeine icon.
           </textobject>
         </inlinemediaobject>
-With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply right-click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Right-click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal. 
+With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal. 
           </para>
           <para>
 <application>Caffeine</application> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application>Software Boutique</application> for one-click installation.
@@ -1428,7 +1428,7 @@ With a coffee cup for an icon, <application>Caffeine</application> is a status b
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/caffeine-enable.png" contentwidth="100%"/>
+                      <imagedata fileref="figures/caffeine-enable.gif" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Using Caffeine.
@@ -1544,7 +1544,7 @@ The <application>Simple Scan</application> application, found in the Ubuntu MATE
           <para>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/PDF-export.jpeg" contentwidth="32px"/>
+            <imagedata fileref="apps/PDF-export.png" contentwidth="32px"/>
           </imageobject>
           <textobject>
             PDF icon.
@@ -1929,6 +1929,10 @@ After you launch the <application>Software Updater</application> from the menus,
                 </tbody>
             </tgroup>
           </informaltable>
+          <note>
+          <title>Note</title>
+            <para>If Ubuntu MATE cannot install all of the updates and upgrades at once, you will see an option to perform a <keycap>Partial upgrade</keycap>. You should normally choose that option, restart if required, then check for additional updates using the <application>Software Updater</application>.</para>
+          </note>
           <para>
 You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the <application>Software Updater</application> screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
           </para>
@@ -1995,7 +1999,7 @@ No need to set the firewall to autostart. After you change the settings they wil
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/firewall.jpg" contentwidth="100%"/>
+                      <imagedata fileref="figures/firewall.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Uncomplicatied firewall.
@@ -3010,22 +3014,30 @@ Click on <keycap>Keep This Configuration</keycap> to confirm your changes.
         <sect2 id="display-hidpi">
         <title>High-Resolution Monitors</title>
           <para>
-Today, support for high-resolution computer displays (HiDPI or 4K displays) is <ulink url="https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi">still being perfected</ulink>. With the 18.04 release, the Ubuntu MATE team has released a utility that makes it possible to simply connect a 4K monitor, set the screen resolution, check a box to enable scaling, log out and back in again, and the screen will automatically configure itself correctly. Without this scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use. You can certainly change the resolution on your display to 1920x1080 (1080P) and simply not use its full capabilities, but this section will walk you through adjusting the settings so that you can take advantage of the full resolution of your beautiful 4K display and still have everything readable. 
+Linux support for high-resolution computer displays (HiDPI or 4K displays) is <ulink url="https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi">still being perfected</ulink>. However, with the 18.04 release, the Ubuntu MATE team has released a utility that automatically detects your 4K display and sets the appropriate screen scaling for you. Without scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use. With HiDPI support, Ubuntu MATE lets you take advantage of the full resolution of your beautiful 4K display and still have everything readable. 
+          </para>
+          <para>
+Of course, Ubuntu MATE allows <emphasis>you</emphasis> to make the decision as to whether to use HiDPI scaling or not. Here is how to make changes to the HiDPI settings. 
           </para>
           <orderedlist>
             <listitem>
               <para>
-Before you begin modifying your screen settings, use the instructions in the previous section to ensure that your display is set to the highest resolution available. This will be the 4K resolution for your monitor.
+Before you begin modifying your screen settings, if it wasn't selected by default, you can use the instructions in the previous section to ensure that your display is set to the highest resolution available. If supported, this will be the 4K resolution for your HiDPI display.
               </para>
             </listitem>
             <listitem>
               <para>
-Open the <application>MATE Tweak</application> by selecting <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem><guimenuitem>Windows</guimenuitem></menuchoice>.
+Open the <application>MATE Tweak</application> application by selecting <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice>.
               </para>
             </listitem>
             <listitem>
               <para>
-Check the box labeled <guilabel>Scale windows for HiDPI displays</guilabel>.
+Choose the <guimenuitem>Windows</guimenuitem> icon in the pane on the left side of the <application>MATE Tweak</application> window. 
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+In the <guilabel>HiDPI</guilabel> section, adjust the setting labeled <guilabel>Select a window scaling factor</guilabel>. Choose <guimenuitem>Auto-detect</guimenuitem> to have Ubuntu MATE automatically detection and set HiDPI window scaling when it detects a high resolution monitor. Choose <guimenuitem>Regular</guimenuitem> if you never want scaling applied. Choose <guimenuitem>HiDPI</guimenuitem> if you always want scaling applied.
               </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -3045,7 +3057,7 @@ Check the box labeled <guilabel>Scale windows for HiDPI displays</guilabel>.
             </listitem>
             <listitem>
               <para>
-Logout or restart for the HiDPI settings to take effect.
+Your new HiDPI settings will take effect immediately. No need to log out!
               </para>
             </listitem>
           </orderedlist>
@@ -3760,6 +3772,12 @@ The guide is divided into these main topics:
                 </tbody>
             </tgroup>
           </informaltable>
+          <tip>
+          <title>Searching For Help</title>
+            <para>
+Scrolling through the guide and jumping from topic to topic is fine if you want to read the <application>Ubuntu MATE Guide</application> like a manual. If you are looking for help on a particular topic, clicking the blue magnifying glass icon in the upper right corner of the help window opens a search tool. Type what you want to search for into the search box and press <keycap>Enter</keycap> to see a list of topics related to your search.
+            </para>
+          </tip>
     </sect1>
 
     <sect1 id="support-website">
