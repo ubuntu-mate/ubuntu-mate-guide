@@ -20,7 +20,7 @@
 	   </affiliation> 
      </author>
       
-<!-- This is appropriate place for other contributors: translators,
+<!-- This is an appropriate place for other contributors: translators,
       maintainers,  etc. Commented out by default.
 
     <othercredit role="translator">
@@ -251,7 +251,7 @@ Wikipedia says that a <ulink url="https://en.wikipedia.org/wiki/Desktop_environm
 The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications <ulink url="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">in the MATE <application>Desktop User Guide</application>.</ulink>
         </para>
         <para>
-The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <ulink url="http://www.microsoft.com/">Microsoft Windows</ulink> or <ulink url="http://www.apple.com/">Apple macOS</ulink>, the MATE Desktop will feel very familiar.
+The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <ulink url="https://www.microsoft.com/windows/">Microsoft Windows</ulink> or <ulink url="https://www.apple.com/mac/">Apple macOS</ulink>, the MATE Desktop will feel very familiar.
         </para>
         <para>
 The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that MATE Desktop is tried, tested, and very reliable. 
@@ -283,10 +283,10 @@ What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source.
 Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
       </para>
       <para>
-This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
+This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
       </para>
       <para>
-Unlike Windows and OSX, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
+Unlike Windows and macOS, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
       </para>
       <para>
 Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.
@@ -455,7 +455,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
         <sect2 id="pluma-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with files in Pluma. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Pluma</application> window.
+The menus on the menubar contain all of the commands you need to work with files in <application>Pluma</application>. Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Pluma</application> window.
           </para>
         </sect2>
         <sect2 id="pluma-toolbar">
@@ -473,7 +473,7 @@ The display area is where the text of the file you are editing is displayed.
         <sect2 id="pluma-status-bar">
         <title>Status Bar</title>
           <para>
-The status bar is at the bottom of the window and displays information about how you are using Pluma. The status bar display includes the following information: Cursor position is the line number and column number where the cursor is located. Edit mode is changed using the <keycap>Insert</keycap> key on your keyboard. If the editor is in insert mode, the status bar contains the text "INS." If the editor is in overwrite mode, the status bar contains the text "OVR."
+The status bar is at the bottom of the window and displays information about how you are using <application>Pluma</application>. The status bar display includes the following information: Cursor position is the line number and column number where the cursor is located. Edit mode is changed using the <keycap>Insert</keycap> key on your keyboard. If the editor is in insert mode, the status bar contains the text "INS." If the editor is in overwrite mode, the status bar contains the text "OVR."
           </para>
         </sect2>
         <sect2 id="pluma-side-pane">
@@ -497,13 +497,13 @@ To create a new document, choose <menuchoice><guimenu>File</guimenu><guimenuitem
         <sect2 id="pluma-open-doc">
         <title>Open a File</title>
           <para>
-If you have the <application>Caja</application> file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></menuchoice> to display the "Open File" dialog. Navigate to the folder that contains your file, then select the file that you want to open and click <guibutton>Open</guibutton>. The file is displayed in the <application>Pluma</application> window. You can open multiple files in Pluma. The application adds a tab for each open file to the window above the display area.
+If you have the <application>Caja</application> file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></menuchoice> to display the "Open File" dialog. Navigate to the folder that contains your file, then select the file that you want to open and click <guibutton>Open</guibutton>. The file is displayed in the <application>Pluma</application> window. You can open multiple files in <application>Pluma</application>. The application adds a tab for each open file to the window above the display area.
           </para>
         </sect2>
         <sect2 id="pluma-save-doc">
         <title>Save a File</title>
           <para>
-To save changes to a file you have opened and/or already saved, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice>. To save a new file or to save an existing file under a new filename, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save As</guimenuitem></menuchoice>. Enter a name for your file and click <guibutton>Save</guibutton>. To save all of the files that are currently open in Pluma, choose <menuchoice><guimenu>Documents</guimenu><guimenuitem>Save All</guimenuitem></menuchoice>. To close all of the files that are currently open in Pluma, choose <menuchoice><guimenu>Documents</guimenu><guimenuitem>Close All</guimenuitem></menuchoice>. If you have any open files with unsaved edits, you will be prompted to save them before that file is closed.
+To save changes to a file you have opened and/or already saved, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice>. To save a new file or to save an existing file under a new filename, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save As</guimenuitem></menuchoice>. Enter a name for your file and click <guibutton>Save</guibutton>. To save all of the files that are currently open in <application>Pluma</application>, choose <menuchoice><guimenu>Documents</guimenu><guimenuitem>Save All</guimenuitem></menuchoice>. To close all of the files that are currently open in <application>Pluma</application>, choose <menuchoice><guimenu>Documents</guimenu><guimenuitem>Close All</guimenuitem></menuchoice>. If you have any open files with unsaved edits, you will be prompted to save them before that file is closed.
           </para>
         </sect2>
     </sect1>
@@ -570,7 +570,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
         <sect2 id="engrampa-menu-bar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with files in Archive Manager. Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Archive Manager</application> window.
+The menus on the menubar contain all of the commands you need to work with files in <application>Archive Manager</application>. Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the <application>Archive Manager</application> window.
           </para>
         </sect2>
         <sect2 id="engrampa-toolbar">
@@ -618,7 +618,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
         <sect2 id="eom-menubar">
         <title>Menu Bar</title>
           <para>
-The menus on the menubar contain all of the commands you need to work with images in Image Viewer. Note, if you have chosen a layout that uses the Global Menu, the menubar will be displayed in the Global Menu rather than in the <application>Image Viewer</application> window.
+The menus on the menubar contain all of the commands you need to work with images in <application>Image Viewer</application>. Note, if you have chosen a layout that uses the Global Menu, the menubar will be displayed in the Global Menu rather than in the <application>Image Viewer</application> window.
           </para>
         </sect2>
         <sect2 id="eom-toolbar">
@@ -779,7 +779,7 @@ The toolbar contains icon buttons that represent a subset of the commands that y
             The System Monitor icon.
           </textobject>
         </inlinemediaobject>
-The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use MATE System Monitor to modify the behavior of your system.
+The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <application>MATE System Monitor</application> to modify the behavior of your system.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -815,7 +815,7 @@ The <guilabel>System</guilabel> tab shows information about the computer's hardw
           </tgroup>
         </informaltable>
         <para>
-The Resources tab displays current CPU, memory, and network usage. <guimenu>File Systems</guimenu> lists all mounted file systems and basic information about each. 
+The <guilabel>Resources</guilabel> tab displays current CPU, memory, and network usage. <guimenu>File Systems</guimenu> lists all mounted file systems and basic information about each. 
         </para>
         <tip>
         <title>System Monitor</title> 
@@ -1719,7 +1719,7 @@ While <application>Steam</application> is a major step forward for gaming on Lin
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/minecraft-2.jpg" contentwidth="100%"/>
+                      <imagedata fileref="figures/minecraft-2.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Minecraft in action.
@@ -1752,7 +1752,7 @@ Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other ma
         <sect2 id="security-guidelines">
         <title>Basic Linux Security Guidelines</title>
           <para>
-<ulink url="https://help.ubuntu.com/community/Linuxvirus">Canonical</ulink> lists fewer than 30 Linux viruses and worms in its published malware list. In contrast, there are about 140,000 viruses for Windows, so...
+<ulink url="https://help.ubuntu.com/community/Linuxvirus">Canonical lists</ulink> just over 30 Linux viruses and worms in its published malware list. In contrast, there are about 140,000 viruses for Windows, so...
           <itemizedlist>
             <listitem>If you dual-boot with Windows, run Windows in a VM, use <application>WINE</application> or simply share files with Windows-using friends, scan the files for viruses.
             </listitem>
@@ -2332,7 +2332,8 @@ So, what can you do with Ubuntu MATE? From simply changing the background deskto
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/control_center_smaller.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/control_center_smaller.png
+" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       The Control Center.
@@ -2876,7 +2877,7 @@ Click on the words <guilabel>New Launcher</guilabel> and replace the default tex
           </listitem>
           <listitem>
             <para>
-After entering the name of the menu item, a field appears below it, for the description. Enter one if you wish.
+After entering the name of the menu item, in the field that appears below it, enter a description if you wish.
             </para>
           </listitem>
           <listitem>
@@ -2891,7 +2892,7 @@ The <guilabel>Working Directory</guilabel> field is in case your program or scri
           </listitem>
           <listitem>
             <para>
-To change the icon for the menu item, click on the question mark icon that is displayed by default. It's a button! Choose <guibutton>Browse Icons</guibutton> if you want to use one of the system icons provided. You can also choose <guibutton>Browse Files</guibutton> and select your own path and icon you want to use, then click <guibutton>Apply</guibutton>. For this example, we use a coffee cup icon.
+To change the icon for the menu item, click on the default icon that is displayed by default. It's a button! Choose <guibutton>Browse Icons</guibutton> if you want to use one of the system icons provided. You can also choose <guibutton>Browse Files</guibutton> and select your own path and icon you want to use, then click <guibutton>Apply</guibutton>. For this example, we use a coffee cup icon.
             </para>
           </listitem>
           <listitem>
@@ -2949,7 +2950,7 @@ When you connect a second monitor, it will likely connect automatically. If it d
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/display-enable-2nd-display.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/display-enable-2nd-display.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Enabling a second display.
@@ -2969,7 +2970,7 @@ Select the resolution settings you prefer. The list includes all of the resoluti
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/display-set-2nd-monitor-resolution.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/display-set-2nd-monitor-resolution.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Set second monitor resolution.
@@ -2994,7 +2995,7 @@ The new configuration is set temporarily. If you don't confirm the settings, for
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/display-confirm-change.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/display-confirm-change.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Confirm changes.
@@ -3091,7 +3092,7 @@ The Power Management Settings, found in the <application>Control Panel</applicat
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/PM_Battery.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/PM_Battery.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Power management settings - on battery.
@@ -3115,7 +3116,7 @@ A laptop's biggest battery usage is typically in powering the LCD screen. The br
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/PM_AC.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/PM_AC.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Power management settings - on AC.
@@ -3136,7 +3137,7 @@ Don't use a Bluetooth mouse, keyboard or headphones? Turn off your Bluetooth ada
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/blootooth-off.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/bluetooth-off.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Turn Bluetooth off.
@@ -3196,7 +3197,7 @@ The concept of a screensaver was important in the days when the cathode ray tube
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/screensaver.jpeg" contentwidth="100%"/>
+                      <imagedata fileref="figures/screensaver.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Screensaver settings.
@@ -3523,13 +3524,13 @@ Select a location for your downloaded file, if prompted, and click <guimenuitem>
 The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing <emphasis>anything at all</emphasis> on your computer. When you shut down and remove the "live" media, your computer is back to normal.
         </para>
         <para>
-The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, OSX, and Ubuntu, see the "<ulink url="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</ulink>" article on Ubuntu help.
+The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the "<ulink url="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</ulink>" article on Ubuntu help.
         </para>
         <para>
 Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows. This is a link to the official Canonical (parent company behind Ubuntu) method for <ulink url="https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows">Creating a bootable USB stick on Windows</ulink> using a tool called Rufus.
         </para>
         <para>
-A popular cross-platform (Windows, OSX, and Linux) app for creating a "live" USB drive is <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>. This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "<ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>."
+A popular cross-platform (Windows, macOS, and Linux) app for creating a "live" USB drive is <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>. This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "<ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>."
         </para>
       </sect2>
       <sect2 id="installing-preparation">
