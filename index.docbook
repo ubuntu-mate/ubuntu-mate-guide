@@ -1515,7 +1515,7 @@ For added control, you can install the <application>HP Linux Imaging and Printin
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/HPLIP.jpg" contentwidth="100%"/>
+                      <imagedata fileref="figures/hplip-window.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       The advanced printing utility.
@@ -1558,7 +1558,7 @@ Whether you are scanning a page, writing a book, or saving a web page, you somet
                 <tbody>
                   <row><entry><mediaobject>
                     <imageobject>
-                      <imagedata fileref="figures/print-pdf.jpg" contentwidth="100%"/>
+                      <imagedata fileref="figures/print-pdf.png" contentwidth="100%"/>
                     </imageobject>
                     <textobject>
                       Print to PDF.
@@ -2842,7 +2842,7 @@ If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes a
         <orderedlist>
           <listitem>
             <para>
-In the menus, select <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Menu Editor</guimenuitem></menuchoice>.
+In the menus, select <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Main Menu</guimenuitem></menuchoice>.
             </para>
           </listitem>
           <listitem>
@@ -2852,12 +2852,17 @@ In the left panel, select the category under which you want your menu item to ap
           </listitem>
           <listitem>
             <para>
-Click the <keycap>+</keycap> button and select <guimenuitem>Add Launcher</guimenuitem> to start creating your new menu item.
+Click the <guibutton>New Item</guibutton> button to start creating your new menu item.
             </para>
           </listitem>
           <listitem>
             <para>
-Click on the words <guilabel>New Launcher</guilabel> and replace the default text with the name you want to appear in the menu. In the example, we used the name "Awake."
+To create an icon that launches an application select <guimenuitem>Application</guimenuitem> as the <guilabel>Type</guilabel>.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+Click in the field labeled <guilabel>Name</guilabel> and enter the name you want to appear in the menu. In the example, we named our menu item "Awake".
             </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -2877,27 +2882,25 @@ Click on the words <guilabel>New Launcher</guilabel> and replace the default tex
           </listitem>
           <listitem>
             <para>
-After entering the name of the menu item, in the field that appears below it, enter a description if you wish.
+In the <guilabel>Command</guilabel> field, click the <guibutton>Browse</guibutton> button then navigate to, and open, the application or script you want to run. Alternatively, in the <guilabel>Command</guilabel> field, you can type a command as you would enter it in a terminal to run the application. This could simply be the name of the application, the name of your script, or even a long, complex command.
             </para>
           </listitem>
           <listitem>
             <para>
-In the <guilabel>Command</guilabel> field, click the folder icon at the right of the field, then navigate to, and open, the application or script you want to run. Alternatively, in the <guilabel>Command</guilabel> field, you can type a command as you would enter it in a terminal to run the application. This could simply be the name of the application, the name of your script, or even a long, complex command.
+Next, in the <guilabel>Comment</guilabel> field, enter a description if you wish one to appear when you hover over the icon in the menu.
             </para>
           </listitem>
           <listitem>
             <para>
-The <guilabel>Working Directory</guilabel> field is in case your program or script needs to run in a particular directory (folder). Normally, you can leave this field blank.
+To change the icon for the menu item, click on the icon that is displayed by default. It's a button! Browse the icons and pixmap folders to select the icon you want to use, then click <guibutton>Open</guibutton>. For this example, we use a coffee cup icon located here:
             </para>
+            <screen>
+/usr/share/icons/Humanity/categories/48/applications-java.svg
+            </screen>
           </listitem>
           <listitem>
             <para>
-To change the icon for the menu item, click on the default icon that is displayed by default. It's a button! Choose <guibutton>Browse Icons</guibutton> if you want to use one of the system icons provided. You can also choose <guibutton>Browse Files</guibutton> and select your own path and icon you want to use, then click <guibutton>Apply</guibutton>. For this example, we use a coffee cup icon.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-Click the <guibutton>Save Launcher</guibutton> button (the icon to the right of the <keycap>+</keycap> in the top bar of the <application>Menu Editor</application>) to create your menu item. It now appears in the list of menu items in the category you chose. You can change its position in the menu using the <guibutton>Move Up</guibutton> and <guibutton>Move Down</guibutton> buttons, the arrow buttons at the bottom left of the <application>Menu Editor</application> window.
+Click the <guibutton>OK</guibutton> button to create your menu item. It now appears in the list of menu items in the category you chose. It's at the bottom of the list. You can change its position in the menu by selecting your new menu item and using the <guibutton>Move Up</guibutton> and <guibutton>Move Down</guibutton> buttons.
             </para>
           </listitem>
           <listitem>
@@ -4080,25 +4083,39 @@ Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys,
       <note>
       <title>Note</title> 
         <para>
-Changing your theme or window manager in the <application>MATE Tweak</application> tool might change some of these shortcuts. These changes in behavior are indicated in the notes and tables that follow.
+Changing your theme or window manager in the <application>MATE Tweak</application> tool might change some of these shortcuts. These changes in behavior are indicated in the descriptions and tables that follow.
         </para>
       </note>
       <para>
 Every major operating system makes use of a special hardware "meta key" on the keyboard. They are listed below, and for the purpose of running Ubuntu MATE on your computer hardware, the keys are equivalent with one another. In Linux documentation, the "meta key" is often referred to as the "Super key".
       </para>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-meta-keys.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Shortcut meta keys.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="2" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>KEY</title></entry>
+                  <entry align="center"><title>DESCRIPTION</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col2" align="center"></entry>
+                </row>
+                <row>
+                  <entry align="center"><keycap>⌘</keycap></entry>
+                  <entry>Apple OSX Command key (used on Apple keyboards)</entry>
+                </row>
+                <row>
+                  <entry align="center"><keycap>⊞</keycap></entry>
+                  <entry>The Microsoft Windows logo key (used on Microsoft-branded and many generic keyboards)</entry>
+                </row>
+                <row>
+                  <entry align="center"><keycap></keycap></entry>
+                  <entry>The Ubuntu logo key or Tux penguin logo key, also known as the "Super" key (used on keyboards of computers pre-installed with Linux)</entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
       <para>
@@ -4109,57 +4126,346 @@ Your keyboard's meta key can be used by Ubuntu MATE to activate menus and launch
           <para>
 These shortcuts apply in most applications.
           </para>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-apps.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Common application shortcuts.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="4" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+            <colspec colnum="3" colname="col3"/>
+            <colspec colnum="4" colname="col4"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>SHORTCUT</title></entry>
+                  <entry align="center"><title>UBUNTU MATE</title></entry>
+                  <entry align="center"><title>MACOS</title></entry>
+                  <entry align="center"><title>WINDOWS 10</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col4" align="center"></entry>
+                </row>
+                <row>
+                  <entry>Meta Key</entry>
+                  <entry align="center"><keycap></keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap></entry>
+                </row>
+                <row>
+                  <entry>Copy the selected text/object</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>C</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
+                </row>
+                <row>
+                  <entry>Cut the selected text/object</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>X</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
+                </row>
+                <row>
+                  <entry>Paste/insert the selected text/object</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>V</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
+                </row>
+                <row>
+                  <entry>Paste the selected text without formatting or with options</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+                </row>
+                <row>
+                  <entry>Select all text</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>A</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
+                </row>
+                <row>
+                  <entry>Find and replace words</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>F</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+                </row>
+                <row>
+                  <entry>Make the selected text bold</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>B</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
+                </row>
+                <row>
+                  <entry>Make the selected text italic</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>I</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
+                </row>
+                <row>
+                  <entry>Underline the selected text</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>U</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
+                </row>
+                <row>
+                  <entry>Open a new document or window</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>N</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
+                </row>
+                <row>
+                  <entry>Save the current document</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>S</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
+                </row>
+                <row>
+                  <entry>Open another document</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>O</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
+                </row>
+                <row>
+                  <entry>Print the current document</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>P</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
+                </row>
+                <row>
+                  <entry>Undo the last change you made</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Z</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
+                </row>
+                <row>
+                  <entry>Redo a change that you just undid</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Y</keycap></entry>
+                </row>
+                <row>
+                  <entry>Toggle the current application between full-screen and windowed</entry>
+                  <entry align="center"><keycap>F11</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+                  <entry align="center"><keycap>F11</keycap></entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
         </sect2>
         <sect2 id="shortcuts-special">
         <title>Ubuntu MATE Special Shortcuts</title>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-special.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Ubuntu MATE special shortcuts.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="4" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+            <colspec colnum="3" colname="col3"/>
+            <colspec colnum="4" colname="col4"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>SHORTCUT</title></entry>
+                  <entry align="center"><title>MATE DOCK APPLET* </title></entry>
+                  <entry align="center"><title>UBUNTU MATE MENUS*</title></entry>
+                  <entry align="center"><title>MATE TERMINAL</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col4" align="center"></entry>
+                </row>
+                <row>
+                  <entry>Launch the first appliation in the dock</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>1</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Launch the second appliation in the dock</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>2</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Launch the third appliation in the dock</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>3</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Open the menu launcher</entry>
+                  <entry align="center"><keycap></keycap></entry>
+                  <entry align="center"><keycap></keycap></entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Activate the HUD (Heads-Up-Display)</entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>Alt</keycap></entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
-          <para>
-          </para>
+          <note>
+          <title>Notes</title>
+            <para>
+The MATE Dock Applet is used in the Mutiny Layout.
+            </para>
+            <para> 
+The Ubuntu MATE menus are: MATE Menu, Brisk Menu, MATE Dock Applet.
+            </para>
+          </note>
         </sect2>
         <sect2 id="shortcuts-window">
         <title>Window Shortcuts</title>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-window.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Window shortcuts.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="4" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+            <colspec colnum="3" colname="col3"/>
+            <colspec colnum="4" colname="col4"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>SHORTCUT</title></entry>
+                  <entry align="center"><title>UBUNTU MATE</title></entry>
+                  <entry align="center"><title>MACOS</title></entry>
+                  <entry align="center"><title>WINDOWS 10</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col4" align="center"></entry>
+                </row>
+                <row>
+                  <entry>Switch between currently open windows</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>Tab</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Tab</keycap></entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>Tab</keycap></entry>
+                </row>
+                <row>
+                  <entry>Switch between currently open windows in all workspaces</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>Tab</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>Tab</keycap></entry>
+                </row>
+                <row>
+                  <entry>Switch to previous workspace</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>←</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>←</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>Ctrl</keycap>+<keycap>←</keycap></entry>
+                </row>
+                <row>
+                  <entry>Switch to next workspace</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>→</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>→</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>Ctrl</keycap>+<keycap>→</keycap></entry>
+                </row>
+                <row>
+                  <entry>Move the current window to the previous workspace</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>←</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Move the current window to the next workspace</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>→</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Quit application</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F4</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Q</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>F4</keycap></entry>
+                </row>
+                <row>
+                  <entry>Close window</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>W</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>W</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>F4</keycap></entry>
+                </row>
+                <row>
+                  <entry>Return window to 'normal' or previous size</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F5</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Move the current window</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F7</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Minimize current window</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F8</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Minimize current window</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F9</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>M</keycap></entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Maximize current window</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F10</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Toggle the pulldown terminal</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F12</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Display the window menu with options such as 'Always on Top' and 'Minimize' and 'Maximize' and the above commands</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>Space</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Place window in top left corner of screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 7</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>←</keycap>, <keycap>⊞</keycap>+<keycap>↑</keycap></entry>
+                </row>
+                <row>
+                  <entry>Place window in the top half of screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 8</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>↑</keycap></entry>
+                </row>
+                <row>
+                  <entry>Place window in top right corner of screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 9</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>→</keycap>, <keycap>⊞</keycap>+<keycap>↑</keycap></entry>
+                </row>
+                <row>
+                  <entry>Center/Maximize the window in the middle of the screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 5</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>↓</keycap></entry>
+                </row>
+                <row>
+                  <entry>Place window in the bottom left corner of the screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 1</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>←</keycap>, <keycap>⊞</keycap>+<keycap>↓</keycap></entry>
+                </row>
+                <row>
+                  <entry>Place window in the bottom half of screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 2</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>↓</keycap></entry>
+                </row>
+                <row>
+                  <entry>Place window in the bottom right corner of the screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>NumPad 3</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>→</keycap>, <keycap>⊞</keycap>+<keycap>↓</keycap></entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
         </sect2>
@@ -4168,40 +4474,142 @@ These shortcuts apply in most applications.
           <para>
 These are shortcuts you can use to operate parts of the desktop.
           </para>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-desktop.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Desktop shortcuts.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="4" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+            <colspec colnum="3" colname="col3"/>
+            <colspec colnum="4" colname="col4"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>SHORTCUT</title></entry>
+                  <entry align="center"><title>UBUNTU MATE</title></entry>
+                  <entry align="center"><title>MACOS</title></entry>
+                  <entry align="center"><title>WINDOWS 10</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col4" align="center"></entry>
+                </row>
+                <row>
+                  <entry>Open the Applications menu</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F1</keycap> (Main Menu) <keycap></keycap> (Brisk Menu)</entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Esc</keycap> or <keycap>⊞</keycap></entry>
+                </row>
+                <row>
+                  <entry>Run an application by typing its name in the box which appears</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>F2</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>R</keycap></entry>
+                </row>
+                <row>
+                  <entry>Take a screen shot of the whole screen</entry>
+                  <entry align="center"><keycap>PrtSc</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>3</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>PrtSc</keycap></entry>
+                </row>
+                <row>
+                  <entry>Take a screen shot of the current window</entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>PrtSc</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"><keycap>Alt</keycap>+<keycap>PrtSc</keycap></entry>
+                </row>
+                <row>
+                  <entry>Open the dialog box to shutdown, restart or suspend</entry>
+                  <entry align="center">Tap the Power button</entry>
+                  <entry align="center">Hold the Power button for 1.5 sec</entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Lock your screen</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>L</keycap> or <keycap></keycap>+<keycap>L</keycap></entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>Power</keycap> or <keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>Eject</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>L</keycap></entry>
+                </row>
+                <row>
+                  <entry>Open a terminal</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>T</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Screen reader enable/disable</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap></keycap>+<keycap>S</keycap></entry>
+                  <entry align="center"><keycap>⌘</keycap>+<keycap>F5</keycap></entry>
+                  <entry align="center"> </entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
         </sect2>
         <sect2 id="shortcuts-compiz">
         <title>Compiz Effects Shortcuts</title>
           <para>
-All of these shortcuts apply when the <application>Compiz</application> is selected as the window manager in the <application>MATE Tweak</application> tool.
+All of these shortcuts apply when the <application>Compiz</application> is selected as the window manager in the <application>MATE Tweak</application> tool and the appropriate effect is enabled.
           </para>
-          <informaltable frame="all">
-            <tgroup cols="1">
-              <colspec colwidth="100%"/>
-                <tbody>
-                  <row><entry><mediaobject>
-                    <imageobject>
-                      <imagedata fileref="figures/shortcuts-compiz.jpeg" contentwidth="100%"/>
-                    </imageobject>
-                    <textobject>
-                      Compiz effects shortcuts.
-                    </textobject>
-                  </mediaobject></entry></row>
-                </tbody>
+          <informaltable frame="bottom" pgwide="1">
+            <tgroup cols="4" rowsep="1" colsep="1">
+            <colspec colnum="1" colname="col1"/>
+            <colspec colnum="2" colname="col2"/>
+            <colspec colnum="3" colname="col3"/>
+            <colspec colnum="4" colname="col4"/>
+              <thead>
+                <row>
+                  <entry align="center"><title>SHORTCUT</title></entry>
+                  <entry align="center"><title>UBUNTU MATE</title></entry>
+                  <entry align="center"><title>MACOS</title></entry>
+                  <entry align="center"><title>WINDOWS 10</title></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry namest="col1" nameend="col4" align="center"></entry>
+                </row>
+                <row>
+                  <entry>Toggles 'Show Desktop'</entry>
+                  <entry align="center"><keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>D</keycap></entry>
+                  <entry align="center"><keycap>F11</keycap></entry>
+                  <entry align="center"><keycap>⊞</keycap>+<keycap>D</keycap></entry>
+                </row>
+                <row>
+                  <entry>Zoom out, show workspace switcher</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>A</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Enable the 'scale' effect, it shows all windows from the current workspace</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>W</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Enable the 'scale' effect, it shows all windows from all workspaces</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>Alt</keycap>+<keycap>W</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Invert colors of the focused window</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>N</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Invert colors for the whole screen</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>M</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+                <row>
+                  <entry>Zoom in/out on the screen</entry>
+                  <entry align="center"><keycap></keycap>+<keycap>Scroll</keycap></entry>
+                  <entry align="center"> </entry>
+                  <entry align="center"> </entry>
+                </row>
+              </tbody>
             </tgroup>
           </informaltable>
         </sect2>
