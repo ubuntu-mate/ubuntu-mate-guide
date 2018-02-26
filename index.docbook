@@ -362,8 +362,20 @@ The MATE Desktop provides you with essential features that you'd expect in a com
             The File Browser icon.
           </textobject>
         </inlinemediaobject>
-The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <application>Caja</application> lets you manage them all.
+The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <application>Caja</application> lets you manage them all.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
       <para>
 Using the file manager you can do the following:
       </para>
@@ -425,7 +437,7 @@ In addition to the folder contents, the browser window displays a toolbar with c
             The Text Editor icon.
           </textobject>
         </inlinemediaobject>
-The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem><application>Pluma</application> Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of <application>Pluma</application> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
+The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem><application>Pluma</application> Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of <application>Pluma</application> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
       </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -442,6 +454,18 @@ The <application>Pluma</application> text editor, found in the Ubuntu MATE menus
               </tbody>
           </tgroup>
         </informaltable>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
       <para>
 The <application>Pluma</application> window contains the elements listed in the sections below. </para>
 
@@ -519,8 +543,23 @@ To save changes to a file you have opened and/or already saved, choose <menuchoi
             The MATE Calculator icon.
           </textobject>
         </inlinemediaobject>
-The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. <application>MATE Calculator</application> has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.
+The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. 
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
+            <para>
+<application>MATE Calculator</application> has four modes: Basic, Advanced, Financial and Programming. The Advanced mode is shown, below.
+            </para>
         <informaltable frame="all">
           <tgroup cols="1">
             <colspec colwidth="100%"/>
@@ -555,8 +594,20 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
             The Archive Manager icon.
           </textobject>
         </inlinemediaobject>
-You can use the <application>Engrampa Archive Manager</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Engrampa Archive Manager</guimenuitem></menuchoice>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.
+You can use the <application>Engrampa Archive Manager</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Engrampa Archive Manager</guimenuitem></menuchoice>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
       <para>
 The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. <application>Archive Manager</application> supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more.
       </para>
@@ -601,8 +652,20 @@ To expand a compressed file's contents, you start by opening the archive by doub
             The Eye of MATE icon.
           </textobject>
         </inlinemediaobject>
-The <application>Eye of MATE Image Viewer</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Eye of MATE Image Viewer</guimenuitem></menuchoice>, enables you to view single image files, as well as large image collections.
+The <application>Eye of MATE Image Viewer</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Eye of MATE Image Viewer</guimenuitem></menuchoice>, enables you to view single image files, as well as large image collections.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
       <para>
 The <application>Image Viewer</application> can open a wide variety of image file formats including animated graphics (ANI), bitmaps (BMP, PNG, ICO, PCX, WBMP, XBM, XPM), vector graphics (SVG), and other popular formats like JPEG, GIF, TIFF, and more. Files can be saved in BMP, ICO, JPEG and PNG formats.
       </para>
@@ -667,9 +730,20 @@ The collection view allows you to view and edit large image collections. In this
             The Atril icon.
           </textobject>
         </inlinemediaobject>
-The <application>Atril Document Viewer</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem><guimenuitem>Atril Document Viewer</guimenuitem></menuchoice>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
+The <application>Atril Document Viewer</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Office</guimenuitem><guimenuitem>Atril Document Viewer</guimenuitem></menuchoice>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
         </para>
-
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
         <para>
 You can open the <application>Atril Document Viewer</application> from the menus, or more simply by double-clicking on the file you want to open in the <application>Caja</application> file manager. To zoom in and out, you can use the keyboard shortcuts <keycap>Ctrl</keycap> + <keycap>+</keycap> (the plus key) and <keycap>Ctrl</keycap> + <keycap>-</keycap> (the minus key). You can also hold the <keycap>Ctrl</keycap> key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including <guibutton>Fit Page Width</guibutton> and <guibutton>Best Fit</guibutton> among others.
       </para>
@@ -728,8 +802,20 @@ Depending on the type of file you are opening, the left pane of the <application
             The Disk Usage Analyzer icon.
           </textobject>
         </inlinemediaobject>
-The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Disk Usage Analyzer</guimenuitem></menuchoice>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.
+The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Disk Usage Analyzer</guimenuitem></menuchoice>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
         <informaltable frame="all">
           <tgroup cols="1">
             <colspec colwidth="100%"/>
@@ -779,8 +865,20 @@ The toolbar contains icon buttons that represent a subset of the commands that y
             The System Monitor icon.
           </textobject>
         </inlinemediaobject>
-The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <application>MATE System Monitor</application> to modify the behavior of your system.
+The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <application>MATE System Monitor</application> to modify the behavior of your system.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
         <informaltable frame="all">
           <tgroup cols="1">
             <colspec colwidth="100%"/>
@@ -836,7 +934,22 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
             The MATE Terminal icon.
           </textobject>
         </inlinemediaobject>
-<application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. You don't need to know how to use the command line to use today's modern Linux distributions, but understanding the basics can help you simplify some tasks with single-line commands, automate repetitive tasks with simple scripts, and use additional features not available in graphical versions of applications.
+<application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. 
+      </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
+      <para>
+You don't need to know how to use the command line to use today's modern Linux distributions, but understanding the basics can help you simplify some tasks with single-line commands, automate repetitive tasks with simple scripts, and use additional features not available in graphical versions of applications.
       </para>
       <para>
 Although the <application>MATE Terminal</application> can be used to launch graphical applications by simply typing the name of the application and pressing the <keycap>Enter</keycap> key, you normally use it to run applications that are not designed to be run as graphical applications. These text-based applications, known as command-line programs, can be used to create scripts and other programs, get and install additional software from the software catalog, check the status of your computer's hardware and installed software, and many, many other things. In fact, years before graphical applications were made popular for computing, computer users checked email, communicated with other computers, shared files, photos, and programs, and even browsed early versions of the Internet from terminal applications very similar to the <application>MATE Terminal</application>.
@@ -1536,7 +1649,22 @@ For added control, you can install the <application>HP Linux Imaging and Printin
             Scanning icon.
           </textobject>
         </inlinemediaobject>
-The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. Using <application>Simple Scan</application>.is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index"><application>Simple Scan</application>.Manual</ulink> by pressing <keycap>F1</keycap> while <application>Simple Scan</application>.is open.
+The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. 
+          </para>
+          <note>
+          <title>Note</title> 
+            <para>
+Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
+          <para>
+Using <application>Simple Scan</application>.is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index"><application>Simple Scan</application>.Manual</ulink> by pressing <keycap>F1</keycap> while <application>Simple Scan</application>.is open.
           </para>
         </sect2>
         <sect2 id="document-management-pdf">
@@ -1575,6 +1703,18 @@ Whether you are scanning a page, writing a book, or saving a web page, you somet
       <para>
 Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the <xref linkend="software-software-centers"/> offer many, many more to choose from.
       </para>
+          <note>
+          <title>Note</title> 
+            <para>
+For each of the applications, below, your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
+            </para>
+            <para>
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
+            </para>
+            <para>
+The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+            </para>
+          </note>
         <sect2 id="entertainment-rhythmbox">
         <title>Rhythmbox Music and Podcast Manager</title>
           <para>
@@ -1586,7 +1726,7 @@ Ubuntu MATE comes pre-installed with three significant applications for managing
             Rhythmbox icon.
           </textobject>
         </inlinemediaobject>
-<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's <application>iTunes</application>, <application>Rhythmbox</application> is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
+<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's <application>iTunes</application>, <application>Rhythmbox</application> is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
           </para>
           <para>
 <emphasis role="bold">Subscribe to a podcast with Rhythmbox</emphasis>
@@ -1644,7 +1784,7 @@ For more information on how to use the playlist and other features of Rhythmbox,
             Shotwell icon.
           </textobject>
         </inlinemediaobject>
-<application>Shotwell</application> <application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
+<application>Shotwell</application> <application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
           </para>
           <para>
 When you first launch <application>Shotwell</application>, it scans your computer for photos and imports them so that you can use <application>Shotwell</application> to organize them. Once you have all the photos from your computer's hard drive within <application>Shotwell</application>, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the <application>Shotwell</application> window, or by connecting a camera to your computer and choosing to import the photos from there. 
@@ -1671,7 +1811,7 @@ To learn more about how to use each of the features of <application>Shotwell</ap
             VLC icon.
           </textobject>
         </inlinemediaobject>
-<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
+<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
           </para>
           <para>
 <application>VLC</application> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
@@ -2473,7 +2613,7 @@ The Pantheon layout is a blend of the Contemporary layout and the Cupertino layo
             </tgroup>
           </informaltable>
         </sect2>
-        <sect2 id="panel-layouts-muntiy">
+        <sect2 id="panel-layouts-mutiny">
         <title>Mutiny Layout</title>
           <para>
 If you have tried other Ubuntu flavors and you like the look of the Unity desktop, you'll find the Mutiny layout familiar. It mimics, as closely as possible, the Unity 7 interface used in traditional Ubuntu through 2017. Mutiny uses the Global Menu which displays application menus in the top panel and not in the application windows. Mutiny also has a dock of icons on the left of the screen to launch applications, show pinned applications, and show running applications.
@@ -2717,7 +2857,7 @@ These are the steps to follow:
           <listitem>
             <para>
 Locate the application in the menu. For the word processor application, select
-<menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.
+<menuchoice><guimenu>Applications</guimenu><guimenuitem>Office</guimenuitem></menuchoice>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.)
             </para>
           </listitem>
           <listitem>
@@ -2732,7 +2872,7 @@ Right-click on <guimenuitem>LibreOffice Writer</guimenuitem>.
           </listitem>
           <listitem>
             <para>
-From the context menu that appears select <guimenuitem>Pin to desktop</guimenuitem>.
+From the context menu that appears, select <guimenuitem>Add to desktop</guimenuitem>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <guimenuitem>Pin to desktop</guimenuitem>.)
             </para>
         <informaltable frame="all">
           <tgroup cols="1">
@@ -2744,6 +2884,21 @@ From the context menu that appears select <guimenuitem>Pin to desktop</guimenuit
                   </imageobject>
                   <textobject>
                     Add the icon to desktop.
+                  </textobject>
+                </mediaobject></entry></row>
+              </tbody>
+          </tgroup>
+        </informaltable>
+        <informaltable frame="all">
+          <tgroup cols="1">
+            <colspec colwidth="100%"/>
+              <tbody>
+                <row><entry><mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/pin-to-desktop.png" contentwidth="100%"/>
+                  </imageobject>
+                  <textobject>
+                    Pin the icon to desktop.
                   </textobject>
                 </mediaobject></entry></row>
               </tbody>
@@ -2773,7 +2928,7 @@ The finished launcher will appear on your desktop as shown below. You can move i
         </orderedlist>
         <note> 
         <title>Note</title> 
-          <para>The same context menu lets you pin the icon as a shortcut icon to the Favourites menu! You find the Favourites menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Favourites</guimenuitem></menuchoice>. 
+          <para>If you are using the Brisk menu, the same context menu lets you pin the icon as a shortcut icon to the Favourites menu! You find the Favourites menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Favourites</guimenuitem></menuchoice>. 
           </para>
         </note>
       </sect2>
@@ -3737,7 +3892,7 @@ If you can't find the answer in this guide, many of the answers are available in
             Community icon.
           </textobject>
         </inlinemediaobject>
-The <application>Ubuntu MATE Guide</application>, found in the <application>Ubuntu MATE Guide</application> menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. 
+The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>.)
         </para>
         <para>
 In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. 
