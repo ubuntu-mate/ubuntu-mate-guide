@@ -67,10 +67,7 @@
     <legalnotice> 
       <title>Feedback</title> 
       <para>
-        To report a bug or make a suggestion regarding the Ubuntu MATE 
-        application or this guide, follow the directions in the Development 
-        section of the <ulink url="http://ubuntu-mate.org/community/" 
-        type="help">Ubuntu MATE Community Page</ulink>. 
+To report a bug or make a suggestion regarding Ubuntu MATE, its components or this guide, follow the directions in the Development section of the <ulink url="http://ubuntu-mate.org/community/" type="help">Ubuntu MATE Community Page</ulink>. 
       </para>
 <!-- Translators may also add here feedback address for translations -->
     </legalnotice> 
@@ -174,7 +171,7 @@ Ubuntu MATE is designed with security in mind. Unlike operating systems that upd
 Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
       </para>
       <para>
-You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean a modern but familiar user experience design, easy to understand and use, designed with security built-in, and protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!
+You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience design, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!
       </para>
       <para>
 While it's is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
@@ -186,7 +183,7 @@ With that in mind, this guide is written from the perspective that Ubuntu MATE i
         <sect2 id="windows">
         <title>Why Users Switch from Windows</title>
           <para>
-In addition to common and well-founded concerns around security, we often get questions and comments from Windows users who have become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version, or more likely purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative, but those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees. To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and security cameras to replace perfectly functioning older models that require software that is no longer compatible with the 'upgraded' version of the operating system. Because of all this, that promise of a 'free upgrade' from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free. In fact, it can be just as expensive as previous Windows upgrades have been.
+In addition to common and well-founded concerns around security, we often receive questions and comments from Windows users who have become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version, or more likely purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative, but those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees. To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and document scanners to replace perfectly functioning older models that require software that is no longer compatible with the 'upgraded' version of the operating system. Because of all this, that promise of a 'free upgrade' from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free. In fact, it can be just as expensive as previous Windows upgrades have been.
           </para>
         </sect2>
 
@@ -216,7 +213,7 @@ Neither Microsoft nor Apple will let you upgrade that perfectly-functioning comp
             The Ubuntu logo icon.
           </textobject>
         </inlinemediaobject>
-Ubuntu MATE is created from <ulink url="http://www.ubuntu.com/">Ubuntu</ulink>, one of the, if not the, largest deployed <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> based desktop operating systems in the world. Linux is at the heart of Ubuntu and makes it possible to create secure, powerful and versatile operating systems, such as Ubuntu and Android. Android is now in the hands of billions of people around the world and it’s also powered by Linux.
+Ubuntu MATE is created from <ulink url="http://www.ubuntu.com/">Ubuntu</ulink>, one of, if not the, largest deployed <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink>-based desktop operating systems in the world. Linux is at the heart of Ubuntu and makes it possible to create secure, powerful and versatile operating systems, such as Ubuntu and Android. Android is now in the hands of billions of people around the world and it’s also powered by Linux.
       </para>
       <para>
 Ubuntu is developed by Canonical, Ltd. and is available in a number of different flavors, each coming with its own desktop environment. Started as a community-developed project, Ubuntu MATE takes the Ubuntu base operating system and adds the <ulink url="http://mate-desktop.org/">MATE Desktop</ulink>. Today, Ubuntu MATE is an official flavor of Ubuntu Linux.
@@ -248,7 +245,7 @@ Wikipedia says that a <ulink url="https://en.wikipedia.org/wiki/Desktop_environm
         </blockquote>
 
         <para>
-The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications <ulink url="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">in the MATE <application>Desktop User Guide</application>.</ulink>
+The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications in the <ulink url="ghelp:/usr/share/help/C/mate-user-guide/index.docbook">MATE <application>Desktop User Guide</application>.</ulink>
         </para>
         <para>
 The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <ulink url="https://www.microsoft.com/windows/">Microsoft Windows</ulink> or <ulink url="https://www.apple.com/mac/">Apple macOS</ulink>, the MATE Desktop will feel very familiar.
@@ -370,10 +367,7 @@ The <application>Caja</application> application, found in the Ubuntu MATE menus 
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
       <para>
@@ -460,10 +454,7 @@ The <application>Pluma</application> text editor, found in the Ubuntu MATE menus
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
       <para>
@@ -551,10 +542,7 @@ The <application>MATE Calculator</application> application can be found in the U
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
             <para>
@@ -602,10 +590,7 @@ You can use the <application>Engrampa Archive Manager</application> application,
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
       <para>
@@ -660,10 +645,7 @@ The <application>Eye of MATE Image Viewer</application> application, found in th
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
       <para>
@@ -738,10 +720,7 @@ The <application>Atril Document Viewer</application>, found in the Ubuntu MATE m
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
         <para>
@@ -810,10 +789,7 @@ The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><g
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
         <informaltable frame="all">
@@ -873,10 +849,7 @@ The <application>MATE System Monitor</application>, found in the Ubuntu MATE men
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
         <informaltable frame="all">
@@ -942,10 +915,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
       <para>
@@ -1657,14 +1627,11 @@ The <application>Simple Scan</application> application, found in the Ubuntu MATE
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
           <para>
-Using <application>Simple Scan</application>.is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index"><application>Simple Scan</application>.Manual</ulink> by pressing <keycap>F1</keycap> while <application>Simple Scan</application>.is open.
+Using <application>Simple Scan</application> is as easy as: load your document, press Simple Scan's <keycap>Scan</keycap> button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the <ulink url="ghelp:/usr/share/help/C/simple-scan/index"><application>Simple Scan</application> Manual</ulink> by pressing <keycap>F1</keycap> while <application>Simple Scan</application> is open.
           </para>
         </sect2>
         <sect2 id="document-management-pdf">
@@ -1709,10 +1676,7 @@ Ubuntu MATE comes pre-installed with three significant applications for managing
 For each of the applications, below, your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
             </para>
             <para>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>. 
-            </para>
-            <para>
-The first menu item is <guimenu>Menu</guimenu> for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
             </para>
           </note>
         <sect2 id="entertainment-rhythmbox">
@@ -1767,7 +1731,7 @@ Click <keycap>Close</keycap> to hide the search panel.
             </listitem>
           </orderedlist>
           <para>
-To play an episode, select one from the list and press the <keycap>Play</keycap> button. You may wish to click on the header of the <guiicon>Date</guiicon> field to sort the episodes so that the latest episode is at the top of the list. As long as you have an Internet connection, you can play any of the older episodes without downloading them. Right-click any episode in the list to see an option to download that episode.
+To play an episode, select one from the list and press the <keycap>▶</keycap> (Play) button. You may wish to click on the header of the <guiicon>Date</guiicon> field to sort the episodes so that the latest episode is at the top of the list. As long as you have an Internet connection, you can play any of the older episodes without downloading them. Right-click any episode in the list to see an option to download that episode.
           </para>
           <para>
 For more information on how to use the playlist and other features of Rhythmbox, see the <ulink url="ghelp:/usr/share/help/C/rhythmbox/index.docbook">Rhythmbox Music Player Manual</ulink> by pressing <keycap>F1</keycap> while <application>Rhythmbox</application> is open.
