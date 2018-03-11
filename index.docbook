@@ -2126,10 +2126,10 @@ No need to set the firewall to autostart. After you change the settings they wil
             Accessibility icon.
           </textobject>
         </inlinemediaobject>
-Accessibility is a key priority for Ubuntu MATE. When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution.
+Accessibility, also referenced as "Assistive Technology" or "Universal Access," is a key priority for Ubuntu MATE. When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution.
       </para>
       <para>
-Preference settings for basic accessibility setting are found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>. From there you can enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.
+Preference settings for basic accessibility setting are found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>. From there you can check the box to enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.
       </para>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -2147,7 +2147,7 @@ Preference settings for basic accessibility setting are found in the <applicatio
             </tgroup>
           </informaltable>
           <para>
-Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. When you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "<emphasis><ulink url="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</ulink></emphasis>."
+Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. For additional information about keyboard shortcuts and enabling the Super key on some computer hardware, see the section: <xref linkend="page.shortcuts"/>.
           </para>
         <sect2 id="accessibility-enable-at-startup">
         <title>Enabling Accessibility at Startup</title>
@@ -2247,6 +2247,9 @@ Click the <keycap>Preferred Applications</keycap> button.
 Select the <guilabel>Accessibility</guilabel> tab.
              </listitem>
              <listitem>
+Under <guilabel>Mobility</guilabel> select <guimenuitem>Onboard</guimenuitem>.
+             </listitem>
+             <listitem>
 Check the box labeled <guilabel>Run at start</guilabel> and click <keycap>Close</keycap>.
              </listitem>
           </orderedlist>
@@ -2265,9 +2268,8 @@ Check the box labeled <guilabel>Run at start</guilabel> and click <keycap>Close<
                 </tbody>
             </tgroup>
           </informaltable>
- 
           <para>
-Additional settings and preferences for <application>Onboard</application> are listed in the <application>Control Panel</application> in the <guilabel>Personal</guilabel>" section as <guimenuitem>Onboard Settings</guimenuitem>.
+Additional settings and preferences for <application>Onboard</application> are listed in the <application>Control Panel</application> in the <guilabel>Personal</guilabel> section as <guimenuitem>Onboard Settings</guimenuitem>.
           </para>
         </sect2>
         <sect2 id="accessibility-magnifier">
@@ -2309,6 +2311,77 @@ To switch to the <application>Compiz</application> window manager, from the <gui
               <para><application>Onboard</application> and <application>Orca</application> accessibility features and keyboard shortcuts remain fully available with Compiz enabled.
               </para>
             </note>
+        </sect2>
+        <sect2 id="accessibility-mobility">
+        <title>Mobility Features</title>
+          <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/a11y.png" contentwidth="32px"/>
+          </imageobject>
+          <textobject>
+            Accessibility icon.
+          </textobject>
+        </inlinemediaobject>
+The <application>Control Panel</application> provides preferences for <application>Mouse</application> and <application>Keyboard</application> that each offer settings that will be of interest to users with mobility impairments. 
+          </para>
+          <para>
+<application>Mouse Preferences</application> provide the ability to adjust the <guilabel>Pointer Speed</guilabel> sliders until the pointer motion is comfortable for you. A tab is provided for mouse and touchpad with sliders for each device. You can set different pointer speed for each type of device. For example, you can have one scroll speed for a laptop touchpad and another for a mouse. Sometimes the most comfortable settings for one type of device are not the best for another.
+          </para>
+          <informaltable frame="all">
+            <tgroup cols="1">
+              <colspec colwidth="100%"/>
+                <tbody>
+                  <row><entry><mediaobject>
+                    <imageobject>
+                      <imagedata fileref="figures/mouse-prefs.png" contentwidth="100%"/>
+                    </imageobject>
+                    <textobject>
+                      Mouse preferences.
+                    </textobject>
+                  </mediaobject></entry></row>
+                </tbody>
+            </tgroup>
+          </informaltable>
+          <note>
+          <title>Note</title> 
+            <para>
+The Touchpad section only appears if your system has a touchpad, while the Mouse section is only visible when a mouse is plugged in.
+            </para>
+         </note>
+         <para>
+The <application>Keyboard Preferences</application> provides several tabs that have settings allowing you to adjust the following:
+         </para>
+         <itemizedlist>
+            <listitem>
+Keyboard navigation — Use applications and the desktop without a mouse.
+            </listitem>
+Manage repeated key presses — Make the keyboard not repeat letters when you hold down a key, or change the delay and speed of repeat keys.
+            <listitem>
+Turn on bounce keys — Ignore quickly-repeated key presses of the same key.
+            </listitem>
+            <listitem>
+Turn on slow keys — Have a delay between a key being pressed and that letter appearing on the screen.
+            </listitem>
+            <listitem>
+Turn on sticky keys — Type keyboard shortcuts one key at a time rather than having to hold down all of the keys at once.
+            </listitem>
+         </itemizedlist>
+          <informaltable frame="all">
+            <tgroup cols="1">
+              <colspec colwidth="100%"/>
+                <tbody>
+                  <row><entry><mediaobject>
+                    <imageobject>
+                      <imagedata fileref="figures/keyboard-prefs.png" contentwidth="100%"/>
+                    </imageobject>
+                    <textobject>
+                      Keyboard preferences.
+                    </textobject>
+                  </mediaobject></entry></row>
+                </tbody>
+            </tgroup>
+          </informaltable>
         </sect2>
     </sect1>
 
@@ -4240,6 +4313,12 @@ Every major operating system makes use of a special hardware "meta key" on the k
       <para>
 Your keyboard's meta key can be used by Ubuntu MATE to activate menus and launchers as well as the many keyboard shortcuts that include the "Super" key. The MATE Dock Applet, used in the Mutiny layout, includes the ability to launch or switch to docked items based on their position in the dock using <keycap>Super</keycap> + <keycap>1</keycap>, <keycap>Super</keycap> + <keycap>2</keycap>, and so on. This will be familiar to users switching to Ubuntu MATE from Ubuntu's Unity 7 Desktop. As they are for users of the MATE Desktop in other Linux distributions, both the <keycap>Super</keycap> + <keycap>L</keycap> and the <keycap>Ctrl</keycap> + <keycap>Alt</keycap> + <keycap>L</keycap> key combinations are recognized as screen lock keyboard shortcuts in Ubuntu MATE.
       </para>
+      <tip>
+      <title>Do you need to enable the Super key?</title> 
+        <para>
+The Super key just works after you install Ubuntu MATE on most computer hardware. However, when you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "<emphasis><ulink url="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</ulink></emphasis>." Check your hardware manufacturer's documentation or website to determine if your computer's Super key requires similar setup.
+        </para>
+      </tip>
         <sect2 id="shortcuts-common">
         <title>Common Application Shortcuts</title>
           <para>
