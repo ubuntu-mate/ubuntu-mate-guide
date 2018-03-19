@@ -318,7 +318,7 @@ A single window from which to launch all of the MATE preference tools.
 The File Browser icon.
 </textobject>
 </inlinemediaobject>
-The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <application>Caja</application> lets you manage them all.
+The <application>Caja</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>, lets you organize and manage files and folders, both on your computer and on a home network. In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. <application>Caja</application> lets you manage them all.
 </simpara>
 <note>
 <title>Note</title> 
@@ -326,7 +326,7 @@ The <application>Caja</application> application, found in the Ubuntu MATE menus 
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -389,7 +389,7 @@ In addition to the folder contents, the browser window displays a toolbar with c
 The Text Editor icon.
 </textobject>
 </inlinemediaobject>
-The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem><application>Pluma</application> Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of <application>Pluma</application> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
+The <application>Pluma</application> text editor, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem><application>Pluma</application> Text Editor</guimenuitem></menuchoice>, enables you to create and edit text files. The aim of <application>Pluma</application> is to be a simple and easy to use text editor. You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -412,7 +412,7 @@ The Text Editor window.
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -499,7 +499,7 @@ To save changes to a file you have opened and/or already saved, choose <menuchoi
 The MATE Calculator icon.
 </textobject>
 </inlinemediaobject>
-The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. 
+The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. 
 </simpara>
 <note>
 <title>Note</title> 
@@ -507,7 +507,7 @@ The <application>MATE Calculator</application> application can be found in the U
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -547,7 +547,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
 The Archive Manager icon.
 </textobject>
 </inlinemediaobject>
-You can use the <application>Engrampa Archive Manager</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Engrampa Archive Manager</guimenuitem></menuchoice>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.
+You can use the <application>Engrampa Archive Manager</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Engrampa Archive Manager</guimenuitem></menuchoice>, to create, view, modify, or unpack an archive. An archive is a file that acts as a container for other files. Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form.
 </simpara>
 <note>
 <title>Note</title> 
@@ -555,7 +555,7 @@ You can use the <application>Engrampa Archive Manager</application> application,
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -604,7 +604,7 @@ To expand a compressed file's contents, you start by opening the archive by doub
 The Eye of MATE icon.
 </textobject>
 </inlinemediaobject>
-The <application>Eye of MATE Image Viewer</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Eye of MATE Image Viewer</guimenuitem></menuchoice>, enables you to view single image files, as well as large image collections.
+The <application>Eye of MATE Image Viewer</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Eye of MATE Image Viewer</guimenuitem></menuchoice>, enables you to view single image files, as well as large image collections.
 </simpara>
 <note>
 <title>Note</title> 
@@ -612,7 +612,7 @@ The <application>Eye of MATE Image Viewer</application> application, found in th
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -681,7 +681,7 @@ The Image Viewer window.
 The Atril icon.
 </textobject>
 </inlinemediaobject>
-The <application>Atril Document Viewer</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Office</guimenuitem><guimenuitem>Atril Document Viewer</guimenuitem></menuchoice>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
+The <application>Atril Document Viewer</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem><guimenuitem>Atril Document Viewer</guimenuitem></menuchoice>, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
 </simpara>
 <note>
 <title>Note</title> 
@@ -689,7 +689,7 @@ The <application>Atril Document Viewer</application>, found in the Ubuntu MATE m
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -752,7 +752,7 @@ Depending on the type of file you are opening, the left pane of the <application
 The Disk Usage Analyzer icon.
 </textobject>
 </inlinemediaobject>
-The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Disk Usage Analyzer</guimenuitem></menuchoice>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.
+The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Disk Usage Analyzer</guimenuitem></menuchoice>, is a graphical tool for analyzing how your storage media is being used. It can scan the entire file system on a disk or in a specific folder. It provides a graphical treemap window for each selected disk or folder.
 </simpara>
 <note>
 <title>Note</title> 
@@ -760,7 +760,7 @@ The <application>MATE Disk Usage Analyzer</application>, found at <menuchoice><g
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <informaltable frame="all">
@@ -813,7 +813,7 @@ The toolbar contains icon buttons that represent a subset of the commands that y
 The System Monitor icon.
 </textobject>
 </inlinemediaobject>
-The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <application>MATE System Monitor</application> to modify the behavior of your system.
+The <application>MATE System Monitor</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE System Monitor</guimenuitem></menuchoice>, enables you to display basic system information and monitor system processes, usage of system resources, and file system usage. You can also use <application>MATE System Monitor</application> to modify the behavior of your system.
 </simpara>
 <note>
 <title>Note</title> 
@@ -821,7 +821,7 @@ The <application>MATE System Monitor</application>, found in the Ubuntu MATE men
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <informaltable frame="all">
@@ -879,7 +879,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
 The MATE Terminal icon.
 </textobject>
 </inlinemediaobject>
-<application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. 
+<application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. 
 </simpara>
 <note>
 <title>Note</title> 
@@ -887,7 +887,7 @@ The MATE Terminal icon.
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -1602,7 +1602,7 @@ The advanced printing utility.
 Scanning icon.
 </textobject>
 </inlinemediaobject>
-The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. 
+The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. 
 </simpara>
 <note>
 <title>Note</title> 
@@ -1610,7 +1610,7 @@ The <application>Simple Scan</application> application, found in the Ubuntu MATE
 Your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <simpara>
@@ -1660,7 +1660,7 @@ Ubuntu MATE comes pre-installed with three significant applications for managing
 For each of the applications, below, your first Ubuntu MATE menu choice depends on which of the <xref linkend="personalization-panel-layouts"/> you have selected.
 </simpara>
 <simpara>
-If you chose the default <xref linkend="panel-layouts-traditional"/>, the first menu item is <guimenu>Applications</guimenu>.  <guimenu>Menu</guimenu> is the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
+If you chose the default <xref linkend="panel-layouts-familiar"/>, the first menu item is <guimenu>Menu</guimenu>. It is also the first menu item for <xref linkend="panel-layouts-contemporary"/>, <xref linkend="panel-layouts-redmond"/>, and <xref linkend="panel-layouts-pantheon"/>. <guimenu>Applications</guimenu> is the first item for the <xref linkend="panel-layouts-traditional"/>. The <xref linkend="panel-layouts-netbook"/>, <xref linkend="panel-layouts-mutiny"/> and <xref linkend="panel-layouts-cupertino"/> have no label and simply display the Ubuntu MATE logo to represent the menu.
 </simpara>
 </note>
 <sect2 id="entertainment-rhythmbox">
@@ -1674,7 +1674,7 @@ If you chose the default <xref linkend="panel-layouts-traditional"/>, the first 
 Rhythmbox icon.
 </textobject>
 </inlinemediaobject>
-<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's <application>iTunes</application>, <application>Rhythmbox</application> is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
+<application>Rhythmbox</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Rhythmbox</guimenuitem></menuchoice>, is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's <application>iTunes</application>, <application>Rhythmbox</application> is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts.
 </simpara>
 <simpara>
 <emphasis role="bold">Subscribe to a podcast with Rhythmbox</emphasis>
@@ -1733,7 +1733,7 @@ For more information on how to use the playlist and other features of Rhythmbox,
 Shotwell icon.
 </textobject>
 </inlinemediaobject>
-<application>Shotwell</application> <application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
+<application>Shotwell</application> <application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
 </simpara>
 <simpara>
 When you first launch <application>Shotwell</application>, it scans your computer for photos and imports them so that you can use <application>Shotwell</application> to organize them. Once you have all the photos from your computer's hard drive within <application>Shotwell</application>, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the <application>Shotwell</application> window, or by connecting a camera to your computer and choosing to import the photos from there. 
@@ -1761,7 +1761,7 @@ To learn more about how to use each of the features of <application>Shotwell</ap
 VLC icon.
 </textobject>
 </inlinemediaobject>
-<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
+<application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
 </simpara>
 <simpara>
 <application>VLC</application> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
@@ -2543,10 +2543,33 @@ One of the quickest ways to change the look and feel of Ubuntu MATE is to select
 Of course, since this is Linux, with any of these seven layouts, you can move the panels to the sides of your screen if you like, you can add or remove a dock, and you can control which icons appear in the panels. You can also choose which icons display on your desktop, or none at all. You can control whether the windows show some animation or snap into position when they open. You can even change whether the window controls for Close, Minimize and Maximize appear on the left, like macOS, or on the right, like Windows.
 </simpara>
 </sect2> 
-<sect2 id="panel-layouts-traditional">
-<title>Traditional (Ubuntu-MATE) Layout</title>
+
+<sect2 id="panel-layouts-familiar">
+<title>Familiar (Ubuntu-MATE) Layout</title>
 <simpara>
-When you first install Ubuntu-MATE, you'll be using its own layout, named Traditional, which has a classic look of Linux with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the traditional way -- that is 'traditional' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the <application>MATE Tweak</application> "Panel" options.
+When you first install Ubuntu MATE, you'll be using its own layout, named Familiar. The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "<guimenu>Menu</guimenu>". The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the <application>MATE Tweak</application> "Panel" options.
+</simpara>
+<informaltable frame="all">
+<tgroup cols="1">
+<colspec colwidth="100%"/>
+<tbody>
+<row><entry><mediaobject>
+<imageobject>
+<imagedata fileref="figures/familiar-layout.png" contentwidth="100%"/>
+</imageobject>
+<textobject>
+The Familiar layout.
+</textobject>
+</mediaobject></entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+</sect2>
+
+<sect2 id="panel-layouts-traditional">
+<title>Traditional Layout</title>
+<simpara>
+The Traditional layout was the default Ubuntu MATE Layout prior to release 18.04. It has a classic look of Linux with a menu-bar (Applications, Places, System) in the top left, clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window. This is the traditional way application menus appear on Microsoft's windows.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2898,7 +2921,7 @@ These are the steps to follow:
 <listitem>
 <simpara>
 Locate the application in the menu. For the word processor application, select
-<menuchoice><guimenu>Applications</guimenu><guimenuitem>Office</guimenuitem></menuchoice>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.)
+<menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.)
 </simpara>
 </listitem>
 <listitem>
@@ -3950,7 +3973,7 @@ If you can't find the answer in this guide, many of the answers are available in
 Community icon.
 </textobject>
 </inlinemediaobject>
-The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>.)
+The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>.)
 </simpara>
 <simpara>
 In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. 
