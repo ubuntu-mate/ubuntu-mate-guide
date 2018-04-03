@@ -65,7 +65,7 @@ Ubuntu MATE banner logo.
 
 <!-- Overview ============================================================= -->
 <sect1 id="page.overview">
-<title>--- OVERVIEW ---</title>
+<title>• • • OVERVIEW • • •</title>
 <simpara>
 <mediaobject>
 <imageobject>
@@ -251,7 +251,7 @@ Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or applicati
 
 <!-- MATE's Applications ================================================== -->
 <sect1 id="page.mate-apps">
-<title>--- MATE'S APPLICATIONS ---</title>
+<title>• • • MATE'S APPLICATIONS • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -360,10 +360,13 @@ The File Browser window.
 </tgroup>
 </informaltable>
 <simpara>
-As a user of Ubuntu MATE, you have a <guiicon>Home</guiicon> folder. By default, it contains several folders and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your <guiicon>Home</guiicon> folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your <guiicon>Home</guiicon> Folder, <guiicon>Trash</guiicon>, and removable media such as floppy disks, CDs, and USB flash drives. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
+Ubuntu MATE allows more than one user to login to the same computer. Each user has a personal Home folder that is labeled with the username chosen during setup. In the illustration, the username and the name of the Home folder is <guiicon>ubuntu</guiicon>. The folder that is actually labeled <guiicon>home</guiicon> contains the personal Home folders for all users setup on your computer. Normally, there is just one user (you) and so the <guiicon>home</guiicon> folder contains only your own personal Home folder. 
 </simpara>
 <simpara>
-The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose an item from the <guimenu>Places</guimenu> menu on the top panel. 
+By default, your personal Home folder contains several folders (sub-folders) and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your personal Home folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your personal Home folder, <guiicon>Trash</guiicon>, and removable media such as CDs, USB flash drives, and (if your computer is old enough) floppy disks. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
+</simpara>
+<simpara>
+The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose the application from the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>. 
 </simpara>
 <simpara>
 The file manager window is a file browser of sorts. Double-clicking the icon for a file opens the file in the <application>Caja</application> software application that lets you view and/or edit the document. Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder. You can also open a folder by right-clicking on that folder, then choosing between <guimenuitem>Open</guimenuitem> (this is the same as simply double-clicking the folder), <guimenuitem>Open in a New Tab</guimenuitem>, or <guimenuitem>Open in a New Window</guimenuitem>.
@@ -1036,7 +1039,7 @@ The Control Center window.
 </tgroup>
 </informaltable>
 <simpara>
-Simply click the icon for the preference you want to adjust. Each of these preferences is also available under the <menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The sub-menus correspond to the Groups in the <application>Control Center</application>.
+Simply click the icon for the preference you want to adjust. Each of these preferences is also available under the <menuchoice><guimenu>Menu</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> menu. The preference items in the menu correspond to the items in the <application>Control Center</application>.
 </simpara>
 <simpara>
 You'll also find many of the settings and selections you can make from within the Ubuntu MATE <application>Welcome</application> application are also available in the <application>Control Center</application>. The <application>Control Center</application> simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer.
@@ -1051,7 +1054,7 @@ For more help on this application, see the <guimenuitem>Configuring Your Desktop
 
 <!-- Ubuntu MATE's Applications =========================================== -->
 <sect1 id="page.applications">
-<title>--- UBUNTU MATE'S APPLICATIONS ---</title>
+<title>• • • UBUNTU MATE'S APPLICATIONS • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -1149,7 +1152,7 @@ Drivers.
 The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered. What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret. (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers.
 </simpara>
 <simpara>
-Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <application>Welcome</application> application, or in <guimenuitem>Software &amp; Update</guimenuitem> (available in the <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem></menuchoice> menu) under the <guilabel>Additional Drivers</guilabel> tab. Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
+Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <application>Welcome</application> application, or in <guimenuitem>Software &amp; Updates</guimenuitem> under the <guilabel>Additional Drivers</guilabel> tab. (It's available in the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>.) Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
 </simpara>
 <simpara>
 If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <guimenuitem>Additional Drivers</guimenuitem> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <guimenuitem>Displaying Your System Information</guimenuitem>. 
@@ -1209,7 +1212,7 @@ Logitech Unifying Receiver.
 <sect2 id="welcome-specs">
 <title>Getting Started: System Specifications</title>
 <simpara>
-When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first. Take finding a list of your system hardware for example. In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the <guiicon>My Computer</guiicon> desktop icon and selected <guimenuitem>Properties</guimenuitem>. With Windows 10, you click the Windows logo in the taskbar, then select <menuchoice><guimenu>Settings</guimenu><guimenuitem>System</guimenuitem><guimenuitem>About</guimenuitem></menuchoice>. Neither is likely to be very intuitive if you have only ever used a Mac. On Apple's macOS, you select <guimenuitem>About This Mac</guimenuitem> from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications. Linux, too, has graphical tools to display information about your computer's hardware. Ubuntu MATE provides system specifications in the <application>Welcome</application> application. From the menu, select <menuchoice><guimenu>System</guimenu><guimenuitem>Welcome</guimenuitem><guimenuitem>Getting Started</guimenuitem><guimenuitem>System Specifications</guimenuitem></menuchoice>.
+When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first. Take finding a list of your system hardware for example. In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the <guiicon>My Computer</guiicon> desktop icon and selected <guimenuitem>Properties</guimenuitem>. With Windows 10, you click the Windows logo in the taskbar, then select <menuchoice><guimenu>Settings</guimenu><guimenuitem>System</guimenuitem><guimenuitem>About</guimenuitem></menuchoice>. Neither is likely to be very intuitive if you have only ever used a Mac. On Apple's macOS, you select <guimenuitem>About This Mac</guimenuitem> from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications. Linux, too, has graphical tools to display information about your computer's hardware. Ubuntu MATE provides system specifications in the <application>Welcome</application> application. From the menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Welcome</guimenuitem><guimenuitem>Getting Started</guimenuitem><guimenuitem>System Specifications</guimenuitem></menuchoice>.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -1249,7 +1252,7 @@ Ubuntu MATE logo icon.
 Introduced in Ubuntu MATE 16.10 the heads-up display (HUD) provides a way to search for and run menu-bar commands without your fingers ever leaving the keyboard.
 </simpara>
 <simpara>
-So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit or Tools on your favorite browser, you can just search for it rather than scrolling through the menus.
+So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit, or Tools on your favorite browser, you can just search for it rather than scrolling through the menus.
 </simpara>
 <simpara>
 Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino, and Mutiny panel layouts.
@@ -1535,7 +1538,7 @@ If you need to configure a network (or wireless) printer manually, you can follo
 </simpara>
 <orderedlist>
 <listitem>
-Open the <application>Printers</application> application at <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice>.
+Open the <application>Printers</application> application at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice>.
 </listitem>
 <listitem>
 Click <keycap>Add</keycap>. 
@@ -1818,6 +1821,21 @@ Minecraft in action.
 </tbody>
 </tgroup>
 </informaltable>
+<informaltable frame="all">
+<tgroup cols="1">
+<colspec colwidth="100%"/>
+<tbody>
+<row><entry><mediaobject>
+<imageobject>
+<imagedata fileref="figures/0AD.png" contentwidth="100%"/>
+</imageobject>
+<textobject>
+The game 0 A.D. in action.
+</textobject>
+</mediaobject></entry></row>
+</tbody>
+</tgroup>
+</informaltable>
 </sect1>
 
 <sect1 id="applications-security">
@@ -1875,7 +1893,7 @@ Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other ma
 Déjà Dup icon.
 </textobject>
 </inlinemediaobject>
-Ubuntu MATE comes pre-installed with a backup utility called <application>Déjà Dup</application>. The application is found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Backups</guimenuitem></menuchoice>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.
+Ubuntu MATE comes pre-installed with a backup utility called <application>Déjà Dup</application>. The application is found in the <application>Control Center</application> at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Backups</guimenuitem></menuchoice>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.
 </simpara>
 <simpara>
 If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. <application>Déjà Dup</application> even lets you automate your backups for added convenience and safety. 
@@ -1989,7 +2007,7 @@ Don't wait. Setup a scheduled backup right now -- or you will wish you had!
 Updater icon.
 </textobject>
 </inlinemediaobject>
-The <application>Software Updater</application> available from the <application>Ubuntu MATE Welcome</application> app or from the menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice> is the update manager for your system. Ubuntu MATE periodically checks to see if new software and security updates are available for your computer. The updates are for Ubuntu MATE, all of its components, and all of your installed applications. This ensures that you have the latest updates and protection for all of your computer's software as soon as it's available, not just once a month like other operating systems.
+The <application>Software Updater</application> available from the <application>Ubuntu MATE Welcome</application> app or from the menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Updater</guimenuitem></menuchoice> is the update manager for your system. Ubuntu MATE periodically checks to see if new software and security updates are available for your computer. The updates are for Ubuntu MATE, all of its components, and all of your installed applications. This ensures that you have the latest updates and protection for all of your computer's software as soon as it's available, not just once a month like other operating systems.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2029,7 +2047,7 @@ Updating.
 <simpara>If Ubuntu MATE cannot install all of the updates and upgrades at once, you will see an option to perform a <keycap>Partial upgrade</keycap>. You should normally choose that option, restart if required, then check for additional updates using the <application>Software Updater</application>.</simpara>
 </note>
 <simpara>
-You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the <application>Software Updater</application> screen, or from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
+You have control over when and how software updates occur. Use the <keycap>Settings</keycap> button on the <application>Software Updater</application> screen, or from the menus, choose <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>, then select the <guilabel>Updates</guilabel> tab.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2079,7 +2097,7 @@ You can also choose to be notified whenever there is a new release of Ubuntu MAT
 Firewall icon.
 </textobject>
 </inlinemediaobject>
-Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides an uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
+Ubuntu MATE's <application>Firewall Configuration</application> utility (Gufw), found in the <application>Control Center</application> at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Firewall Configuration</guimenuitem></menuchoice>, provides an uncomplicated way to manage your firewall settings. The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world. If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings:
 </simpara>
 <itemizedlist> 
 <listitem><emphasis>Status=On</emphasis></listitem>
@@ -2121,7 +2139,7 @@ Accessibility icon.
 Accessibility, also referenced as "Assistive Technology" or "Universal Access," is a key priority for Ubuntu MATE. When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution.
 </simpara>
 <simpara>
-Preference settings for basic accessibility setting are found in the <application>Control Center</application> at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>. From there you can check the box to enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.
+Preference settings for basic accessibility setting are found in the <application>Control Center</application> at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>. From there you can check the box to enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up. You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag &amp; drop, double-click timeout) accessibility settings from here. You can even enable an on-screen keyboard if you need it.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2229,7 +2247,7 @@ You can also enable <application>Onboard</application> so that it is available o
 </simpara>
 <orderedlist>
 <listitem>
-Open the <application>Assistive Technologies Preference</application> tool, found at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>.
+Open the <application>Assistive Technologies Preference</application> tool, found at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Assistive Technology</guimenuitem></menuchoice>.
 </listitem>
 <listitem>
 Check the box labeled <guilabel>Enable assistive technologies</guilabel>.
@@ -2278,7 +2296,7 @@ Additional settings and preferences for <application>Onboard</application> are l
 Accessibility icon.
 </textobject>
 </inlinemediaobject>
-If you are a low vision user and you require screen magnification, Ubuntu MATE has two magnification options already built in. To turn on or off the default screen magnifier, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>M</keycap>. Once you have the magnification turned on you can zoom into a portion of the screen by pressing <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>+</keycap> . To zoom out, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>-</keycap> (the minus key).
+If you are a low vision computer user and you require screen magnification, Ubuntu MATE has two magnification options already built in. To turn on or off the default screen magnifier, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>M</keycap>. Once you have the magnification turned on you can zoom into a portion of the screen by pressing <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>+</keycap> . To zoom out, press <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>-</keycap> (the minus key).
 </simpara>
 <simpara>
 An alternative screen magnifier is available if you have the <application>Compiz</application> window manager enabled using <application>MATE Tweak</application>. <application>Compiz</application> is preconfigured to allow you to zoom in and out by scrolling while holding down the <keycap>Super</keycap> key. The <application>Compiz</application> screen magnifier is on and available at all times for you to use. No need to toggle the zoom function on and off. It zooms the entire screen at once, not just a small section of the screen. The zoomed screen follows the motion of the mouse so that you can easily move around to any portion of the screen. For these reasons, this may be a better screen magnifier.
@@ -2299,7 +2317,7 @@ MATE Tweak.
 </tgroup>
 </informaltable>
 <simpara>
-To switch to the <application>Compiz</application> window manager, from the <guimenu>System</guimenu> menu, select <menuchoice><guimenuitem>Preferences</guimenuitem><guimenuitem>Look and Feel</guimenuitem><guimenuitem>MATE Tweak</guimenuitem><guimenuitem>Windows</guimenuitem></menuchoice>. For the window manager setting, select <keycap>Compiz (Advanced GPU accelerated desktop effects)</keycap>. Confirm the change when prompted. If the setting is unavailable, your hardware is not capable of the advanced acceleration required to use <application>Compiz</application> and the default screen magnifier is available.
+To switch to the <application>Compiz</application> window manager, from the menus select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Preferences</guimenuitem><guimenuitem>MATE Tweak</guimenuitem><guimenuitem>Windows</guimenuitem></menuchoice>. For the window manager setting, select <keycap>Compiz (Advanced GPU accelerated desktop effects)</keycap>. Confirm the change when prompted. If the setting is unavailable, your hardware is not capable of the advanced acceleration required to use <application>Compiz</application> and the default screen magnifier is available.
 </simpara>
 <note>
 <title>Note</title> 
@@ -2427,7 +2445,7 @@ The <application>Software Boutique</application>'s curated selection of the most
 <listitem>Install a software center or package manager with even more powerful ways to obtain additional software for your computer.</listitem>
 </itemizedlist>
 <simpara>
-To launch the <application>Software Boutique</application> from the menus, choose <menuchoice><guimenu>System</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Boutique</guimenuitem></menuchoice>.
+To launch the <application>Software Boutique</application> from the menus, choose <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software Boutique</guimenuitem></menuchoice>.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2486,7 +2504,7 @@ There is much more available. You can browse by the application's name or by fun
 
 <!-- Personalizing Ubuntu MATE ============================================ -->
 <sect1 id="personalization">
-<title>--- PERSONALIZING UBUNTU MATE ---</title>
+<title>• • • PERSONALIZING UBUNTU MATE • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -2518,7 +2536,7 @@ The Control Center.
 </tgroup>
 </informaltable>
 <simpara>
-As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The <application>MATE Tweak</application> application is found in the Ubuntu MATE menus at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice> and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
+As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system. Ubuntu MATE provides the unique <application>MATE Tweak</application> tool to do just that, to transform the look and feel of your computer. The <application>MATE Tweak</application> application is found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice> and can be used to quickly change how things look and feel. You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want. Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are!
 </simpara>
 </sect1>
 
@@ -2537,17 +2555,35 @@ As you learn about Ubuntu MATE, you might find it more comfortable to put things
 Desktop icon.
 </textobject>
 </inlinemediaobject>
-One of the quickest ways to change the look and feel of Ubuntu MATE is to select a different panel layout using <application>MATE Tweak</application>. Each panel layout is distinctive and provides a different desktop workflow.
+One of the quickest ways to change the look and feel of Ubuntu MATE is to select a different panel layout using <application>MATE Tweak</application> which is found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice>. Each panel layout is distinctive and provides a different desktop workflow.
 </simpara>
 <simpara>
-Of course, since this is Linux, with any of these seven layouts, you can move the panels to the sides of your screen if you like, you can add or remove a dock, and you can control which icons appear in the panels. You can also choose which icons display on your desktop, or none at all. You can control whether the windows show some animation or snap into position when they open. You can even change whether the window controls for Close, Minimize and Maximize appear on the left, like macOS, or on the right, like Windows.
+From the main page of <xref linkend="applications-welcome"/> you can also click on the <guibutton>Customise Panels</guibutton> button to open a page that lets you select the panel layout right from the <application>Welcome</application> application.
+</simpara>
+<informaltable frame="all">
+<tgroup cols="1">
+<colspec colwidth="100%"/>
+<tbody>
+<row><entry><mediaobject>
+<imageobject>
+<imagedata fileref="figures/customise-layout.png" contentwidth="100%"/>
+</imageobject>
+<textobject>
+The Welcome application lets you select panel layouts.
+</textobject>
+</mediaobject></entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>
+Of course, since this is Linux, with any of these eight layouts, you can move the panels to the sides of your screen if you like, you can add or remove a dock, and you can even name and save your own customized panel layouts to make it easy to switch between them. All of this is done from <application>MATE Tweak</application>. Using the <application>MATE Tweak</application> application, you also can control the size of the icons that appear in the panels, which icons display on your desktop, and whether the windows show some animation or snap into position when they open. You can even change whether the window controls for Close, Minimize and Maximize appear on the left, like macOS, or on the right, like Windows.
 </simpara>
 </sect2> 
 
 <sect2 id="panel-layouts-familiar">
 <title>Familiar (Ubuntu-MATE) Layout</title>
 <simpara>
-When you first install Ubuntu MATE, you'll be using its own layout, named Familiar. The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "<guimenu>Menu</guimenu>". The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are familiar with the way it's done on Microsoft's windows. You can select a different panel layout using the <application>MATE Tweak</application> "Panel" options.
+When you first install Ubuntu MATE, you'll be using its own layout, named Familiar. The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "<guimenu>Menu</guimenu>". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows. If you prefer to try something else, you can select a different panel layout using the <application>MATE Tweak</application> "Panel" options.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2736,7 +2772,7 @@ Most desktop environments allow you to change the background wallpaper by right-
 on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception. 
 </simpara>  
 <orderedlist> 
-<listitem>Right-click the desktop and choose <guimenuitem>Change Desktop Background</guimenuitem>. If you prefer, you can use the menus: <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Background</guimenuitem></menuchoice>.</listitem>
+<listitem>Right-click the desktop and choose <guimenuitem>Change Desktop Background</guimenuitem>. If you prefer, you can use the menus: <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Background</guimenuitem></menuchoice>.</listitem>
 <listitem>Select the image you want to use.</listitem>
 <listitem>If you have a picture on your computer's hard drive that you want to use, click the <keycap>Add</keycap> button, locate the file, and then click <keycap>Open</keycap>.</listitem>
 <listitem>Your background changes immediately. Click <keycap>Close</keycap>.</listitem>
@@ -2783,7 +2819,7 @@ Appearance icon.
 A desktop theme can include the set of fonts and colors used on your desktop, the size and style of icons, the size, shape and color of the borders of each window, whether there are 3-D or animation effects, and even whether the buttons have icons. Changing your theme is just as easy as changing background wallpaper.
 </simpara>
 <orderedlist> 
-<listitem>From the menus choose <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Theme</guimenuitem></menuchoice>.</listitem>
+<listitem>From the menus choose <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Theme</guimenuitem></menuchoice>.</listitem>
 <listitem>Select the theme you want to use from the list.</listitem>
 <listitem>Your theme changes immediately. Click <keycap>Close</keycap>.</listitem>
 </orderedlist>
@@ -2921,7 +2957,7 @@ These are the steps to follow:
 <listitem>
 <simpara>
 Locate the application in the menu. For the word processor application, select
-<menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.)
+<menuchoice><guimenu>Menu</guimenu><guimenuitem>Office</guimenuitem></menuchoice>. (If you have chosen the Traditional Panel Layout, select <menuchoice><guimenu>Applications</guimenu><guimenuitem>Office</guimenuitem></menuchoice>.)
 </simpara>
 </listitem>
 <listitem>
@@ -2936,7 +2972,7 @@ Right-click on <guimenuitem>LibreOffice Writer</guimenuitem>.
 </listitem>
 <listitem>
 <simpara>
-From the context menu that appears, select <guimenuitem>Add to desktop</guimenuitem>. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <guimenuitem>Pin to desktop</guimenuitem>.)
+From the context menu that appears, select <guimenuitem>Pin to desktop</guimenuitem>. (If you have chosen the Traditional Panel Layout, select <guimenuitem>Add to desktop</guimenuitem>.)
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -2944,10 +2980,10 @@ From the context menu that appears, select <guimenuitem>Add to desktop</guimenui
 <tbody>
 <row><entry><mediaobject>
 <imageobject>
-<imagedata fileref="figures/add-to-desktop.png" contentwidth="100%"/>
+<imagedata fileref="figures/pin-to-desktop.png" contentwidth="100%"/>
 </imageobject>
 <textobject>
-Add the icon to desktop.
+Pin the icon to desktop.
 </textobject>
 </mediaobject></entry></row>
 </tbody>
@@ -2959,10 +2995,10 @@ Add the icon to desktop.
 <tbody>
 <row><entry><mediaobject>
 <imageobject>
-<imagedata fileref="figures/pin-to-desktop.png" contentwidth="100%"/>
+<imagedata fileref="figures/add-to-desktop.png" contentwidth="100%"/>
 </imageobject>
 <textobject>
-Pin the icon to desktop.
+Add the icon to desktop.
 </textobject>
 </mediaobject></entry></row>
 </tbody>
@@ -3063,7 +3099,7 @@ If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes a
 <orderedlist>
 <listitem>
 <simpara>
-In the menus, select <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Main Menu</guimenuitem></menuchoice>.
+In the menus, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Main Menu</guimenuitem></menuchoice>.
 </simpara>
 </listitem>
 <listitem>
@@ -3161,7 +3197,7 @@ The new menu item.
 Gnome display properties icon.
 </textobject>
 </inlinemediaobject>
-Ubuntu MATE makes connecting multiple monitors and changing the resolution quite easy. Changing monitor preferences is accomplished by selecting <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Displays</guimenuitem></menuchoice> in the menus.
+Ubuntu MATE makes connecting multiple monitors and changing the resolution quite easy. Changing monitor preferences is accomplished by selecting <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Displays</guimenuitem></menuchoice> in the menus.
 </simpara>
 <orderedlist> 
 <listitem>
@@ -3253,7 +3289,7 @@ Before you begin modifying your screen settings, if it wasn't selected by defaul
 </listitem>
 <listitem>
 <simpara>
-Open the <application>MATE Tweak</application> application by selecting <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice>.
+Open the <application>MATE Tweak</application> application by selecting <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>MATE Tweak</guimenuitem></menuchoice>.
 </simpara>
 </listitem>
 <listitem>
@@ -3436,14 +3472,14 @@ Screensaver settings.
 </tgroup>
 </informaltable>
 <simpara>
-The screensaver settings can be found at <menuchoice><guimenu>System</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Screensaver</guimenuitem></menuchoice>. Choose from the available default images or choose to use the images you saved in your pictures folder as the screensaver. You can also choose a simple blank screen or random images. The time setting that appears below the image preview allows you to control the amount of time it takes after your mouse and keyboard have been idle before the screensaver activates. Uncheck <guilabel>Activate screensaver when computer is idle</guilabel> to completely disable the screensaver. If you choose to use the screensaver, a check mark in the setting <guilabel>Lock screen when screensaver is active</guilabel> ensures that you must enter your password to dismiss the screensaver. Unchecking the box means that the screensaver will stop as soon as you move the mouse or type on the keyboard.
+The screensaver settings can be found at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Screensaver</guimenuitem></menuchoice>. Choose from the available default images or choose to use the images you saved in your pictures folder as the screensaver. You can also choose a simple blank screen or random images. The time setting that appears below the image preview allows you to control the amount of time it takes after your mouse and keyboard have been idle before the screensaver activates. Uncheck <guilabel>Activate screensaver when computer is idle</guilabel> to completely disable the screensaver. If you choose to use the screensaver, a check mark in the setting <guilabel>Lock screen when screensaver is active</guilabel> ensures that you must enter your password to dismiss the screensaver. Unchecking the box means that the screensaver will stop as soon as you move the mouse or type on the keyboard.
 </simpara>
 </sect2>
 </sect1>
 
 <!-- About the Ubuntu MATE Project ======================================== -->
 <sect1 id="page.about">
-<title>--- ABOUT THE UBUNTU MATE PROJECT ---</title>
+<title>• • • ABOUT THE UBUNTU MATE PROJECT • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -3893,7 +3929,7 @@ Install extras.
 <tip>
 <title>Minimal Installation</title> 
 <simpara>
-<guilabel>Minimal Installation</guilabel> is a new option for release 18.04 presented in the installer that will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. This is a useful option if you have minimal disk space or you wish to select applications other than the default software provided with Ubuntu MATE.
+<guilabel>Minimal Installation</guilabel> is a new option for release 18.04. Presented as a checkbox option in the installer, it will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. This is a useful option if you have minimal disk space or you wish to select applications other than the default software provided with Ubuntu MATE.
 </simpara>
 </tip>
 </listitem>
@@ -3948,7 +3984,7 @@ When prompted, remove the installation medium, then press <keycap>Enter</keycap>
 
 <!-- Support ============================================================== -->
 <sect1 id="page.support">
-<title>--- SUPPORT ---</title>
+<title>• • • SUPPORT • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -3973,7 +4009,7 @@ If you can't find the answer in this guide, many of the answers are available in
 Community icon.
 </textobject>
 </inlinemediaobject>
-The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. (If you have chosen one of the Panel Layouts that use the Brisk menu, select <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>.)
+The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. 
 </simpara>
 <simpara>
 In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. 
@@ -4317,7 +4353,7 @@ Topics relating to dual booting with Windows or Mac, BIOS vs. UEFI Booting, and 
 
 <!-- Keyboard Shortcuts =================================================== -->
 <sect1 id="page.shortcuts">
-<title>--- KEYBOARD SHORTCUTS ---</title>
+<title>• • • KEYBOARD SHORTCUTS • • •</title>
 <simpara>
 <inlinemediaobject>
 <imageobject>
@@ -4552,8 +4588,8 @@ These shortcuts apply in most applications.
 </row>
 <row>
 <entry>Activate the HUD (Heads-Up-Display)</entry>
-<entry align="center"> </entry>
-<entry align="center"> </entry>
+<entry align="center"><keycap>Alt</keycap></entry>
+<entry align="center"><keycap>Alt</keycap></entry>
 <entry align="center"><keycap>Alt</keycap></entry>
 </row>
 </tbody>
@@ -4876,7 +4912,7 @@ All of these shortcuts apply when the <application>Compiz</application> is selec
 
 <!-- FAQ ================================================================== -->
 <sect1 id="page.faq">
-<title>--- FAQ ---</title>
+<title>• • • FAQ • • •</title>
 <simpara>
 <mediaobject>
 <imageobject>
