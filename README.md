@@ -42,7 +42,7 @@ yelp index.docbook
 ----------
 ## File location in Ubunt MATE
 
-The `index.docbook` file is simply placed in this location `/usr/share/help/C/ubuntu-mate-guide/index.dobook`. Translations are placed in `/usr/share/help/<language>/ubuntu-mate-guide/index.docbook` where <language> is the standard two-letter lanugage code.
+The `index.docbook` file is simply placed in this location `/usr/share/help/C/ubuntu-mate-guide/index.dobook`. Translations are placed in `/usr/share/help/<language>/ubuntu-mate-guide/index.docbook` where `<language>` is the standard two-letter language code.
 
 ----------
 ## PDF Conversion
