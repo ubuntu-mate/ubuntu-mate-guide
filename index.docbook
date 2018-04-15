@@ -5002,7 +5002,7 @@ Ubuntu MATE is designed with security in mind. Unlike operating systems that upd
 </simpara>
 </sect2>
 
-<sect2 id="faq-safe">
+<sect2 id="faq-secure">
 <title>Is Ubuntu MATE more secure than other operating systems?</title>
 <simpara>
 We think that security on Linux systems like Ubuntu MATE is superior. Ubuntu MATE users are not administrators by default. Administrators ("root" users) on any computer system have permission to do anything they want, including the ability to damage the system.
