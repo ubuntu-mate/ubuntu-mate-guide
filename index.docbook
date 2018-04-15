@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" 
 "http://docbook.org/xml/4.5/docbookx.dtd">
 
-<article lang="en">
+<article id="index" lang="en">
 <articleinfo>
 <title>Ubuntu MATE Guide</title>
 <date>2018-04-26</date>
