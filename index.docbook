@@ -77,7 +77,7 @@ Ubuntu MATE banner logo.
 </mediaobject>
 </simpara>
 <simpara>
-<application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
+<application>Ubuntu MATE</application> is an operating system -- the core software that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
 </simpara>
 <simpara>
 If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
@@ -129,13 +129,13 @@ Dell XPS13 running Ubuntu MATE.
 Tux, the Linux mascot.
 </textobject>
 </inlinemediaobject>
-Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
+Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD, Azure Sphere, or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
 </simpara>
 <simpara>
 You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience design, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!
 </simpara>
 <simpara>
-While it's is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
+While it is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
 </simpara>
 <simpara>
 With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user. Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files. Let's also include viewing and editing photos, watching videos, listening to music, and subscribing to podcasts. Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications. This is a guide for new users and a reference for all users of Linux.
@@ -239,10 +239,10 @@ What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source.
 Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
 </simpara>
 <simpara>
-This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
+Unlike Windows and macOS, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years. 
 </simpara>
 <simpara>
-Unlike Windows and macOS, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
+This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. In fact, as recently as April of 2018, <ulink url="https://www.zdnet.com/article/microsoft-releases-its-first-linux-product/">Microsoft has begun distributing a custom Linux</ulink> of their own. The improvements provided by organizations and individuals alike are <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">given back to the Linux distribution</ulink> and the software improves as a result. 
 </simpara>
 <simpara>
 Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.
@@ -3061,10 +3061,10 @@ MATE Tweak.
 Ubuntu MATE provides you with the ability to edit the main menu in the top panel. This can be very helpful if, for example, you have created a bash script that you want to launch from the menu like any other application. You can even give it a custom icon.
 </simpara> 
 <simpara>
-<emphasis>Using a Script:</emphasis>
+<emphasis>Launching a Script:</emphasis>
 </simpara>
 <simpara>
-In this example, you'll see how a custom icon can be added to run a script that can be used to toggle on and off 100% screen brightness and a sleep delay. Remember, this is just one example of how you can add something to the menus. You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application. It's up to you. To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the <application>Pluma</application> text editor application. The <application>Pluma</application> theme has been switched to a brighter one using its <guimenuitem>Preferences</guimenuitem> settings to make the text easier to read here.
+In this example, you'll see how a custom icon can be added to run a script that toggles on and off 100% screen brightness and a sleep delay. Remember, this is just one example of how you can add something to the menus. You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application. It's up to you. To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the <application>Pluma</application> text editor application. The <application>Pluma</application> theme has been switched to a brighter one using its <guimenuitem>Preferences</guimenuitem> settings to make the text easier to read here.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -3090,7 +3090,7 @@ If you are writing scripts, the <application>Pluma</application> editor is an ex
 <note>
 <title>Note</title>
 <simpara>
-If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes any file you place in that folder as a potential executable program or script. If you change the file permissions to allow it to run as any other program. Right-click on the file in the <application>File Manager</application>, select <menuchoice><guimenu>Properties</guimenu><guimenuitem>Permissions</guimenuitem><guimenuitem>Allow executing file as program</guimenuitem></menuchoice>.
+If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes any file you place in that folder as a potential executable program or script. To change a file's permissions to allow it to run as any other program: Right-click on the file in the <application>File Manager</application>, select <menuchoice><guimenu>Properties</guimenu><guimenuitem>Permissions</guimenuitem><guimenuitem>Allow executing file as program</guimenuitem></menuchoice>.
 </simpara>
 </note>
 <simpara>
@@ -3299,7 +3299,7 @@ Choose the <guimenuitem>Windows</guimenuitem> icon in the pane on the left side 
 </listitem>
 <listitem>
 <simpara>
-In the <guilabel>HiDPI</guilabel> section, adjust the setting labeled <guilabel>Select a window scaling factor</guilabel>. Choose <guimenuitem>Auto-detect</guimenuitem> to have Ubuntu MATE automatically detection and set HiDPI window scaling when it detects a high resolution monitor. Choose <guimenuitem>Regular</guimenuitem> if you never want scaling applied. Choose <guimenuitem>HiDPI</guimenuitem> if you always want scaling applied.
+In the <guilabel>HiDPI</guilabel> section, adjust the setting labeled <guilabel>Select a window scaling factor</guilabel>. Choose <guimenuitem>Auto-detect</guimenuitem> to have Ubuntu MATE automatically detect and set HiDPI window scaling when it detects a high resolution monitor. Choose <guimenuitem>Regular</guimenuitem> if you never want scaling applied. Choose <guimenuitem>HiDPI</guimenuitem> if you always want scaling applied.
 </simpara>
 <informaltable frame="all">
 <tgroup cols="1">
@@ -4187,7 +4187,7 @@ Ubuntu MATE also has its own IRC channel, <ulink url="https://ubuntu-mate.org/ir
 <sect2 id="community-social">
 <title>Social</title>
 <simpara>
-Ubuntu MATE is active on <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>, and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
+Ubuntu MATE is active on <ulink url="https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ">YouTube</ulink>, <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>, and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
 </simpara>
 </sect2>
 
@@ -4563,19 +4563,19 @@ These shortcuts apply in most applications.
 <entry namest="col1" nameend="col4" align="center"></entry>
 </row>
 <row>
-<entry>Launch the first appliation in the dock</entry>
+<entry>Launch the first application in the dock</entry>
 <entry align="center"><keycap></keycap>+<keycap>1</keycap></entry>
 <entry align="center"> </entry>
 <entry align="center"> </entry>
 </row>
 <row>
-<entry>Launch the second appliation in the dock</entry>
+<entry>Launch the second application in the dock</entry>
 <entry align="center"><keycap></keycap>+<keycap>2</keycap></entry>
 <entry align="center"> </entry>
 <entry align="center"> </entry>
 </row>
 <row>
-<entry>Launch the third appliation in the dock</entry>
+<entry>Launch the third application in the dock</entry>
 <entry align="center"><keycap></keycap>+<keycap>3</keycap></entry>
 <entry align="center"> </entry>
 <entry align="center"> </entry>
