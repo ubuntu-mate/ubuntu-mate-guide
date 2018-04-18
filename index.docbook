@@ -67,9 +67,12 @@ Ubuntu MATE banner logo.
 </textobject>
       </mediaobject>
     </simpara>
-    <simpara><application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
+    <simpara><application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage.
 </simpara>
-    <simpara>
+<simpara>
+<application>Ubuntu MATE</application> is an operating system -- the core software that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage.
+</simpara>
+<simpara>
 If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
 </simpara>
     <sect2 id="modern">
@@ -114,14 +117,15 @@ Dell XPS13 running Ubuntu MATE.
     <title>So You've Discovered Linux!</title>
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/tux_small.png" contentwidth="32px"/></imageobject><textobject>
 Tux, the Linux mascot.
-</textobject></inlinemediaobject>
-Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
+</textobject>
+</inlinemediaobject>
+Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink> operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD, Azure Sphere, or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
 </simpara>
     <simpara>
 You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience design, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!
 </simpara>
-    <simpara>
-While it's is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
+<simpara>
+While it is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
 </simpara>
     <simpara>
 With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user. Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files. Let's also include viewing and editing photos, watching videos, listening to music, and subscribing to podcasts. Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications. This is a guide for new users and a reference for all users of Linux.
@@ -181,7 +185,7 @@ The MATE Desktop is an example of such a desktop environment. It includes a file
 The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used <ulink url="https://www.microsoft.com/windows/">Microsoft Windows</ulink> or <ulink url="https://www.apple.com/mac/">Apple macOS</ulink>, the MATE Desktop will feel very familiar.
 </simpara>
     <simpara>
-The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that MATE Desktop is tried, tested, and very reliable. 
+The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade. This means that MATE Desktop is tried, tested, and very reliable.
 </simpara>
     <tip>
       <title>MATE</title>
@@ -200,11 +204,11 @@ What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source.
     <simpara>
 Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.
 </simpara>
-    <simpara>
-This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">These improvements are given back</ulink> to the Linux distribution and the software improves as a result.
-</simpara>
-    <simpara>
+<simpara>
 Unlike Windows and macOS, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.
+</simpara>
+<simpara>
+This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. In fact, as recently as April of 2018, <ulink url="https://www.zdnet.com/article/microsoft-releases-its-first-linux-product/">Microsoft has begun distributing a custom Linux</ulink> of their own. The improvements provided by organizations and individuals alike are <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">given back to the Linux distribution</ulink> and the software improves as a result.
 </simpara>
     <simpara>
 Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.
@@ -302,23 +306,23 @@ The File Browser window.
       </tgroup>
     </informaltable>
     <simpara>
-Ubuntu MATE allows more than one user to login to the same computer. Each user has a personal Home folder that is labeled with the username chosen during setup. In the illustration, the username and the name of the Home folder is <guiicon>ubuntu</guiicon>. The folder that is actually labeled <guiicon>home</guiicon> contains the personal Home folders for all users setup on your computer. Normally, there is just one user (you) and so the <guiicon>home</guiicon> folder contains only your own personal Home folder. 
+Ubuntu MATE allows more than one user to login to the same computer. Each user has a personal Home folder that is labeled with the username chosen during setup. In the illustration, the username and the name of the Home folder is <guiicon>ubuntu</guiicon>. The folder that is actually labeled <guiicon>home</guiicon> contains the personal Home folders for all users setup on your computer. Normally, there is just one user (you) and so the <guiicon>home</guiicon> folder contains only your own personal Home folder.
 </simpara>
     <simpara>
 By default, your personal Home folder contains several folders (sub-folders) and any files that you create. Viewed from the <application>Caja</application> file manager, <guiicon>Desktop</guiicon> is just another folder in your personal Home folder that can, itself, contain folders and files. When viewing the desktop showing your background wallpaper, <guiicon>Desktop</guiicon> can display special icons that allow easy access to your personal Home folder, <guiicon>Trash</guiicon>, and removable media such as CDs, USB flash drives, and (if your computer is old enough) floppy disks. See how to enable these special desktop icons in the section <xref linkend="personalization-desktop-icons"/>.
 </simpara>
     <simpara>
-The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose the application from the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>. 
+The <application>Caja</application> file manager is always running while you are using the MATE desktop environment. To open a new <application>Caja</application> window, double-click on an icon on the desktop such as <guiicon>Home</guiicon> or <guiicon>Computer</guiicon>, or choose the application from the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>Caja</guimenuitem></menuchoice>.
 </simpara>
     <simpara>
 The file manager window is a file browser of sorts. Double-clicking the icon for a file opens the file in the <application>Caja</application> software application that lets you view and/or edit the document. Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder. You can also open a folder by right-clicking on that folder, then choosing between <guimenuitem>Open</guimenuitem> (this is the same as simply double-clicking the folder), <guimenuitem>Open in a New Tab</guimenuitem>, or <guimenuitem>Open in a New Window</guimenuitem>.
 </simpara>
     <simpara>
-In addition to the folder contents, the browser window displays a toolbar with common actions and locations, a location bar that shows the current location in the hierarchy of folders, and a sidebar that can hold different kinds of information. 
+In addition to the folder contents, the browser window displays a toolbar with common actions and locations, a location bar that shows the current location in the hierarchy of folders, and a sidebar that can hold different kinds of information.
 </simpara>
     <tip>
       <title>Caja</title>
-      <simpara>For more information about how you can use <application>Caja</application> and the various preferences that you can set, see the <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml"><application>Caja</application> manual</ulink> (Desktop User Guide) by pressing <keycap>F1</keycap> while <application>Caja</application> is open. 
+      <simpara>For more information about how you can use <application>Caja</application> and the various preferences that you can set, see the <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml"><application>Caja</application> manual</ulink> (Desktop User Guide) by pressing <keycap>F1</keycap> while <application>Caja</application> is open.
 </simpara>
     </tip>
   </sect1>
@@ -425,7 +429,7 @@ To save changes to a file you have opened and/or already saved, choose <menuchoi
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/calculator.png" contentwidth="32px"/></imageobject><textobject>
 The MATE Calculator icon.
 </textobject></inlinemediaobject>
-The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. 
+The <application>MATE Calculator</application> application can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>MATE Calculator</guimenuitem></menuchoice>. It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic.
 </simpara>
     <note>
       <title>Note</title>
@@ -460,7 +464,7 @@ The Calculator window.
     <tip>
       <title>Calculator</title>
       <simpara>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page"><application>MATE Calculator</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>MATE Calculator</application> is open. Topics include user interface, equations, number formats, conversions and financial calculations. 
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page"><application>MATE Calculator</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>MATE Calculator</application> is open. Topics include user interface, equations, number formats, conversions and financial calculations.
 </simpara>
     </tip>
   </sect1>
@@ -486,7 +490,7 @@ The most common archive format on UNIX and Linux systems is the tar archive comp
     <simpara>
 The <application>Archive Manager</application> window contains the elements listed in the sections below.
 </simpara>
-    <tip><title>Archive Manager</title> 
+    <tip><title>Archive Manager</title>
 For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/engrampa/index.docbook"><application>Archive Manager</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Archive Manager</application> is open.
 </tip>
     <sect2 id="engrampa-menu-bar">
@@ -553,7 +557,7 @@ The toolbar contains icon buttons that represent a subset of the commands that y
     </sect2>
     <sect2 id="eom-using">
       <title>Using Image Viewer</title>
-      <simpara><application>Image Viewer</application> has features to help you view your images. You can zoom in and out or view the image full-screen. You can rotate and flip the image you are viewing. 
+      <simpara><application>Image Viewer</application> has features to help you view your images. You can zoom in and out or view the image full-screen. You can rotate and flip the image you are viewing.
 </simpara>
       <simpara>
 The collection view allows you to view and edit large image collections. In this view, image operations can be applied to all selected images at once.
@@ -620,7 +624,7 @@ The Atril Document Viewer window.
       </tgroup>
     </informaltable>
     <simpara>
-The <application>Document Viewer</application> window contains the elements listed in the sections below. 
+The <application>Document Viewer</application> window contains the elements listed in the sections below.
 </simpara>
     <tip>
       <title>Atril</title>
@@ -688,7 +692,7 @@ The <application>Disk Usage Analyzer</application> window contains the elements 
     <tip>
       <title>Disk Usage Analyzer</title>
       <simpara>
-For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook"><application>MATE Disk Usage Analyzer</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Disk Usage Analyzer</application> is open. 
+For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook"><application>MATE Disk Usage Analyzer</application> manual</ulink> by pressing <keycap>F1</keycap> while <application>Disk Usage Analyzer</application> is open.
 </simpara>
     </tip>
     <sect2 id="baobab-menu-bar">
@@ -762,7 +766,7 @@ The System Monitor Processes Tab.
       </tgroup>
     </informaltable>
     <simpara>
-The <guilabel>Resources</guilabel> tab displays current CPU, memory, and network usage. <guimenu>File Systems</guimenu> lists all mounted file systems and basic information about each. 
+The <guilabel>Resources</guilabel> tab displays current CPU, memory, and network usage. <guimenu>File Systems</guimenu> lists all mounted file systems and basic information about each.
 </simpara>
     <tip>
       <title>System Monitor</title>
@@ -775,7 +779,7 @@ For help topics on this application, see the <ulink url="ghelp:/usr/share/help/C
     <title>MATE Terminal</title>
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/terminal.png" contentwidth="32px"/></imageobject><textobject>
 The MATE Terminal icon.
-</textobject></inlinemediaobject><application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. 
+</textobject></inlinemediaobject><application>MATE Terminal</application> is a terminal emulation application that can be found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>System Tools</guimenuitem><guimenuitem>MATE Terminal</guimenuitem></menuchoice>. It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt.
 </simpara>
     <note>
       <title>Note</title>
@@ -845,7 +849,7 @@ Over time, updated versions of packages currently installed on your computer may
 sudo apt update
 </screen>
       <simpara>
-When that command has finished running, type the following to complete the upgrade: 
+When that command has finished running, type the following to complete the upgrade:
 </simpara>
       <screen>
 sudo apt upgrade</screen>
@@ -853,19 +857,19 @@ sudo apt upgrade</screen>
     <sect2 id="terminal-sys-info">
       <title>Display Your System Info Using The Command Line</title>
       <simpara>
-Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is  
+Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is
 </simpara>
       <screen>
 inxi -F
 </screen>
       <simpara>
-as shown below. For a more verbose set of information, use 
+as shown below. For a more verbose set of information, use
 </simpara>
       <screen>
 inxi -Frmxx
 </screen>
       <simpara>
-For just the very basic info, type simply 
+For just the very basic info, type simply
 </simpara>
       <screen>
 inxi
@@ -890,7 +894,7 @@ Screenshot of the inxi output.
         </tgroup>
       </informaltable>
       <simpara>
-You can also type the "list hardware" command, <application>lshw</application>, at the command line without any switches or options, but the text file it generates runs on forever and is a little difficult to follow in the terminal. It needs to run as root (administrator), so you'll need to type "sudo" in front of the command. The command listed below runs lshw with the -html option to create an html file. Open it in a browser and you have a nice "web page" with all of your hardware specs. 
+You can also type the "list hardware" command, <application>lshw</application>, at the command line without any switches or options, but the text file it generates runs on forever and is a little difficult to follow in the terminal. It needs to run as root (administrator), so you'll need to type "sudo" in front of the command. The command listed below runs lshw with the -html option to create an html file. Open it in a browser and you have a nice "web page" with all of your hardware specs.
 </simpara>
       <screen>
 sudo lshw -html&gt;myhardware.html
@@ -950,7 +954,7 @@ For more help on this application, see the <guimenuitem>Configuring Your Desktop
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/synaptic.png" contentwidth="32px"/></imageobject><textobject>
 The application package manager icon.
 </textobject></inlinemediaobject>
-While the MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. These additional applications include productivity and office applications, applications for managing the documents you create, entertainment and games, accessibility, and more. Naturally, you'll also find a firewall, a backup application, a document/photo scanner, printer management, and designed-in security, all included in Ubuntu MATE. 
+While the MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation. These additional applications include productivity and office applications, applications for managing the documents you create, entertainment and games, accessibility, and more. Naturally, you'll also find a firewall, a backup application, a document/photo scanner, printer management, and designed-in security, all included in Ubuntu MATE.
 </simpara>
     <simpara>
 If that's not enough, Ubuntu MATE's <application>Software Boutique</application> and optional <application>Software Centers</application> provide searchable access to additional software choices from Ubuntu's repositories. The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and the majority of them are free of charge.
@@ -1040,10 +1044,10 @@ Drivers.
 The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered. What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret. (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers.
 </simpara>
       <simpara>
-Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <application>Welcome</application> application, or in <guimenuitem>Software &amp; Updates</guimenuitem> under the <guilabel>Additional Drivers</guilabel> tab. (It's available in the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>.) Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
+Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves. They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions. With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the <application>Welcome</application> application, or in <guimenuitem>Software &amp; Updates</guimenuitem> under the <guilabel>Additional Drivers</guilabel> tab. (It's available in the menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Software &amp; Updates</guimenuitem></menuchoice>.) Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you.
 </simpara>
       <simpara>
-If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <guimenuitem>Additional Drivers</guimenuitem> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <guimenuitem>Displaying Your System Information</guimenuitem>. 
+If you find that Wi-Fi, Bluetooth or other hardware does not work, and the <guimenuitem>Additional Drivers</guimenuitem> did not find alternative drivers, you may need to research your device to find the appropriate driver. You'll find three methods of discovering your computer's specs in the next section, <guimenuitem>Displaying Your System Information</guimenuitem>.
 </simpara>
       <simpara>
 If there is nothing there in <guimenuitem>Additional Drivers</guimenuitem> to improve the performance of your hardware device, you may find something on the hardware manufacturer's site. You may need to install proprietary manufacturer drivers using the command line if you choose to use them. If you do, be careful to follow the installation instructions carefully, and before you install, make a system backup and understand how to uninstall just in case the proprietary drivers don't work. DO NOT simply search for drivers using drivers.com or other third-party sites. When you use third-party sources, there is no guarantee that you aren't getting something that will inject malware or corrupt your system. If you are unsure, or if you simply can't figure it out, you are better off asking about it in Ubuntu MATE forums and looking for someone else that has some advice or experience. Or you could just settle for the lower performance of the reverse-engineered driver. Of course, if you happen to be an expert in a device that doesn't have drivers in the kernel, the open source community would appreciate you sharing your expertise to help develop high-performance open source drivers for inclusion in the kernel.
@@ -1150,7 +1154,7 @@ Just like Global Menus the HUD is currently only available via the Contemporary,
     <sect2 id="applications-using-hud">
       <title>Using the HUD</title>
       <simpara>
-In order to use the HUD, you must be using one of three panel layouts: Contemporary, Cupertino, or Mutiny. (<xref linkend="personalization-panel-layouts"/>) The HUD is activated by just pressing <keycap>Alt</keycap>. The HUD overlays on top of the active application, allowing you to find the menu selection you want by simply typing. When you have found the menu item you want to use, simply press <keycap>Enter</keycap> to activate it. 
+In order to use the HUD, you must be using one of three panel layouts: Contemporary, Cupertino, or Mutiny. (<xref linkend="personalization-panel-layouts"/>) The HUD is activated by just pressing <keycap>Alt</keycap>. The HUD overlays on top of the active application, allowing you to find the menu selection you want by simply typing. When you have found the menu item you want to use, simply press <keycap>Enter</keycap> to activate it.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1196,7 +1200,7 @@ Thunderbird icon.
 </textobject></inlinemediaobject>
 Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <application>Yahoo Mail</application> and Google's <application>Gmail</application> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <application>Thunderbird</application> is a cross-platform email client that works on Linux and macOS as well as on Windows.
 </simpara>
-      <simpara><application>Thunderbird</application> is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
+      <simpara><application>Thunderbird</application> is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders.
 </simpara>
       <simpara>
 If you use the automatic account configuration, setting up a new account with <application>Thunderbird</application> is easy. All you need to do is provide your username and password for your email provider and your email address. <application>Thunderbird</application> works very nicely with Gmail and even synchronizes messages between <application>Thunderbird</application> on your computer and Gmail. <ulink url="https://www.mozilla.org/en-US/thunderbird">Read more about <application>Thunderbird</application>.</ulink>
@@ -1250,7 +1254,7 @@ LibreOffice Math.
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/bluetooth.png" contentwidth="32px"/></imageobject><textobject>
 Bluetooth.
 </textobject></inlinemediaobject>
-Ubuntu MATE provides the software you need to support Bluetooth connections to headphones, mice, keyboards, or other computing devices. 
+Ubuntu MATE provides the software you need to support Bluetooth connections to headphones, mice, keyboards, or other computing devices.
 </simpara>
       <simpara>
 In order to use a Bluetooth device like a mouse or a headset, you first need to connect (pair) your computer and the device. Before you begin, make sure Bluetooth is enabled. Some computers allow you to disable Bluetooth from BIOS/UEFI. Check your BIOS settings to ensure that, if you have this setting, Bluetooth is enabled. Some laptops have a function key or other button that toggles Bluetooth and/or Wifi on and off. If your computer has this capability, make sure that Bluetooth is enabled in that way as well.
@@ -1269,7 +1273,7 @@ If there are too many devices listed, use the <guimenuitem>Device type</guimenui
 Click <guimenuitem>PIN options</guimenuitem> to set how a PIN will be delivered to the other device.
 <note><title>Note</title><simpara>
 The automatic PIN setting will use a six-digit numerical code. A device with no input keys or screen, such as a mouse or headset, may require a specific PIN such as 0000, or no PIN at all. Check your device's manual for the proper setting.
-</simpara></note>  
+</simpara></note>
 </listitem>
         <listitem>
 Choose an appropriate PIN setting for your device, then click <keycap>Close</keycap>.
@@ -1293,7 +1297,7 @@ A message appears when the connection successfully completes. Click <keycap>Clos
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/caffeine.png" contentwidth="32px"/></imageobject><textobject>
 Caffeine icon.
 </textobject></inlinemediaobject>
-With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal. 
+With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal.
 </simpara>
       <simpara><application>Caffeine</application> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application>Software Boutique</application> for one-click installation.
 </simpara>
@@ -1330,7 +1334,7 @@ Ubuntu MATE makes printing, scanning and saving documents almost easier than cre
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/printer.svg" contentwidth="32px"/></imageobject><textobject>
 Printer icon.
 </textobject></inlinemediaobject>
-Printing on Ubuntu MATE is simple and easy. The most popular printer drivers are already provided in Ubuntu MATE's Linux kernel. In most cases you simply connect your printer via its USB cable and Ubuntu MATE immediately configures it for use. There is nothing to do but start printing. 
+Printing on Ubuntu MATE is simple and easy. The most popular printer drivers are already provided in Ubuntu MATE's Linux kernel. In most cases you simply connect your printer via its USB cable and Ubuntu MATE immediately configures it for use. There is nothing to do but start printing.
 </simpara>
       <simpara>
 If you need to configure a network (or wireless) printer manually, you can follow these simple steps. Before you start, ensure that the printer is turned on and connected to the same network as your computer.
@@ -1340,7 +1344,7 @@ If you need to configure a network (or wireless) printer manually, you can follo
 Open the <application>Printers</application> application at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Administration</guimenuitem><guimenuitem>Printers</guimenuitem></menuchoice>.
 </listitem>
         <listitem>
-Click <keycap>Add</keycap>. 
+Click <keycap>Add</keycap>.
 </listitem>
         <listitem>
 Click on <guimenuitem>Network Printer</guimenuitem> to view the network printers automatically detected by Ubuntu MATE.
@@ -1394,7 +1398,7 @@ The advanced printing utility.
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/scanner.png" contentwidth="32px"/></imageobject><textobject>
 Scanning icon.
 </textobject></inlinemediaobject>
-The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic. 
+The <application>Simple Scan</application> application, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Simple Scan</guimenuitem></menuchoice>, provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic.
 </simpara>
       <note>
         <title>Note</title>
@@ -1414,7 +1418,7 @@ Using <application>Simple Scan</application> is as easy as: load your document, 
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/PDF-export.png" contentwidth="32px"/></imageobject><textobject>
 PDF icon.
 </textobject></inlinemediaobject>
-Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to <guimenuitem>Save As PDF</guimenuitem> or <guimenuitem>Export to PDF</guimenuitem>. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration. 
+Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document. You don't need a special application with Ubuntu MATE. PDF creation is built-in. Most applications provide a menu selection to <guimenuitem>Save As PDF</guimenuitem> or <guimenuitem>Export to PDF</guimenuitem>. If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format. See the illustration.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1497,7 +1501,7 @@ Shotwell icon.
 </textobject></inlinemediaobject><application>Shotwell</application><application>Shotwell</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Graphics</guimenuitem><guimenuitem>Shotwell</guimenuitem></menuchoice>, is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
 </simpara>
       <simpara>
-When you first launch <application>Shotwell</application>, it scans your computer for photos and imports them so that you can use <application>Shotwell</application> to organize them. Once you have all the photos from your computer's hard drive within <application>Shotwell</application>, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the <application>Shotwell</application> window, or by connecting a camera to your computer and choosing to import the photos from there. 
+When you first launch <application>Shotwell</application>, it scans your computer for photos and imports them so that you can use <application>Shotwell</application> to organize them. Once you have all the photos from your computer's hard drive within <application>Shotwell</application>, you can import new files by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Import From Folder</guimenuitem></menuchoice> from the menus, or by dragging and dropping them onto the <application>Shotwell</application> window, or by connecting a camera to your computer and choosing to import the photos from there.
 </simpara>
       <simpara>
 With <application>Shotwell</application>, you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
@@ -1514,7 +1518,7 @@ To learn more about how to use each of the features of <application>Shotwell</ap
       <title>VLC Media Player</title>
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/vlc.png" contentwidth="32px"/></imageobject><textobject>
 VLC icon.
-</textobject></inlinemediaobject><application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
+</textobject></inlinemediaobject><application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP.
 </simpara>
       <simpara><application>VLC</application> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
 </simpara>
@@ -1626,7 +1630,7 @@ Déjà Dup icon.
 Ubuntu MATE comes pre-installed with a backup utility called <application>Déjà Dup</application>. The application is found in the <application>Control Center</application> at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Backups</guimenuitem></menuchoice>. Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables. Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely. You have spent hours on end producing the information that is on your hard drive. You should routinely back up at least your new data files on a weekly basis. "Data" files include databases, documents, spreadsheets, etc. Anything YOU created, imported, or downloaded onto your hard drive is a data file.
 </simpara>
       <simpara>
-If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. <application>Déjà Dup</application> even lets you automate your backups for added convenience and safety. 
+If you are prepared to restore from a backup, then you are far more secure. It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. <application>Déjà Dup</application> even lets you automate your backups for added convenience and safety.
 </simpara>
       <simpara>
 In the event that your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state. For additional help on using this application, see the <ulink url="ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page">Déjà Dup manual</ulink> by pressing <keycap>F1</keycap> while <application>Déjà Dup</application> is open.
@@ -1660,7 +1664,7 @@ Years ago, the only realistic way to perform a backup on a home computer was to 
 On a typical recordable CD, you can store up to 700 megabytes (MB) of information while DVDs can store up to 8.4 gigabytes (GB). Blu-ray discs are a more recent type of optical media. They can hold up to 50GB of data. With the size of files these days, you might get one or two video files on a DVD. If you have a file that is larger than 700MB, like a moderate <application>LibreOffice Impress</application> presentation file, or a <application>Writer</application> document with graphics, an ordinary CD has no hope of holding even one whole file.
 </simpara>
       <simpara>
-When backing-up data files, it is not always necessary to backup every file you have on your hard drive, although it's a good idea to do so monthly. On your Ubuntu MATE computer, few files, if any, outside of your "home" folder need to be backed-up at all. If a disaster were to happen, and you lost your computer or your hard drive, you could simply reinstall the Ubuntu MATE operating system and your applications in well under an hour, then restore the backed-up contents of your "home" folder. Your "home" folder contains the information that you have created yourself, including your mail file, and the settings and preferences for most of your applications. 
+When backing-up data files, it is not always necessary to backup every file you have on your hard drive, although it's a good idea to do so monthly. On your Ubuntu MATE computer, few files, if any, outside of your "home" folder need to be backed-up at all. If a disaster were to happen, and you lost your computer or your hard drive, you could simply reinstall the Ubuntu MATE operating system and your applications in well under an hour, then restore the backed-up contents of your "home" folder. Your "home" folder contains the information that you have created yourself, including your mail file, and the settings and preferences for most of your applications.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1816,13 +1820,13 @@ These are your options for controlling updates to Ubuntu MATE and its applicatio
 You can choose from options to install "Important," "Recommended," "Unsupported" or any combination of these updates.
 </listitem>
         <listitem>
-You can have the updater automatically check for updates every day, every two days, every week, every two weeks, or turn off automatic checking altogether. 
+You can have the updater automatically check for updates every day, every two days, every week, every two weeks, or turn off automatic checking altogether.
 </listitem>
         <listitem>
-You can have the updater automatically download and install security updates, download but not install them or simply display the updates so you can choose whether to download and install. 
+You can have the updater automatically download and install security updates, download but not install them or simply display the updates so you can choose whether to download and install.
 </listitem>
         <listitem>
-For other updates (other than security updates) you can choose to display available updates as soon as they are available, weekly, or every two weeks. 
+For other updates (other than security updates) you can choose to display available updates as soon as they are available, weekly, or every two weeks.
 </listitem>
         <listitem>
 You can also choose to be notified whenever there is a new release of Ubuntu MATE, only when there is a Long-Term-Support (LTS) release, or never.
@@ -1906,7 +1910,7 @@ Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys,
     <sect2 id="accessibility-enable-at-startup">
       <title>Enabling Accessibility at Startup</title>
       <simpara>
-When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both <application>Orca</application>, the screen reader, and <application>Onboard</application>, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again. 
+When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both <application>Orca</application>, the screen reader, and <application>Onboard</application>, the on-screen keyboard, are already installed and running in the background. All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on. You use the same shortcut to turn each application off again.
 </simpara>
       <simpara>
 If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off <application>Orca</application> and <application>Onboard</application>. You can also use <application>Orca</application>'s keyboard shortcut <keycap>Alt</keycap> + <keycap>Super</keycap> + <keycap>S</keycap> to enable the screen reader to assist in the login process.
@@ -2060,7 +2064,7 @@ To switch to the <application>Compiz</application> window manager, from the menu
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/a11y.png" contentwidth="32px"/></imageobject><textobject>
 Accessibility icon.
 </textobject></inlinemediaobject>
-The <application>Control Panel</application> provides preferences for <application>Mouse</application> and <application>Keyboard</application> that each offer settings that will be of interest to users with mobility impairments. 
+The <application>Control Panel</application> provides preferences for <application>Mouse</application> and <application>Keyboard</application> that each offer settings that will be of interest to users with mobility impairments.
 </simpara>
       <simpara><application>Mouse Preferences</application> provide the ability to adjust the <guilabel>Pointer Speed</guilabel> sliders until the pointer motion is comfortable for you. A tab is provided for mouse and touchpad with sliders for each device. You can set different pointer speed for each type of device. For example, you can have one scroll speed for a laptop touchpad and another for a mouse. Sometimes the most comfortable settings for one type of device are not the best for another.
 </simpara>
@@ -2503,7 +2507,7 @@ The Netbook layout.
 Appearancce icon.
 </textobject></inlinemediaobject>
 Most desktop environments allow you to change the background wallpaper by right-clicking
-on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception. 
+on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception.
 </simpara>
     <orderedlist>
       <listitem>Right-click the desktop and choose <guimenuitem>Change Desktop Background</guimenuitem>. If you prefer, you can use the menus: <menuchoice><guimenu>Menu</guimenu><guimenuitem>Control Center</guimenuitem><guimenuitem>Appearance</guimenuitem><guimenuitem>Background</guimenuitem></menuchoice>.</listitem>
@@ -2715,7 +2719,7 @@ The Writer desktop icon.
       </orderedlist>
       <note>
         <title>Note</title>
-        <simpara>If you are using the Brisk menu, the same context menu lets you pin the icon as a shortcut icon to the Favourites menu! You find the Favourites menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Favourites</guimenuitem></menuchoice>. 
+        <simpara>If you are using the Brisk menu, the same context menu lets you pin the icon as a shortcut icon to the Favourites menu! You find the Favourites menu at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Favourites</guimenuitem></menuchoice>.
 </simpara>
       </note>
     </sect2>
@@ -2749,11 +2753,11 @@ MATE Tweak.
       <simpara>
 Ubuntu MATE provides you with the ability to edit the main menu in the top panel. This can be very helpful if, for example, you have created a bash script that you want to launch from the menu like any other application. You can even give it a custom icon.
 </simpara>
-      <simpara>
-        <emphasis>Using a Script:</emphasis>
-      </simpara>
-      <simpara>
-In this example, you'll see how a custom icon can be added to run a script that can be used to toggle on and off 100% screen brightness and a sleep delay. Remember, this is just one example of how you can add something to the menus. You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application. It's up to you. To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the <application>Pluma</application> text editor application. The <application>Pluma</application> theme has been switched to a brighter one using its <guimenuitem>Preferences</guimenuitem> settings to make the text easier to read here.
+<simpara>
+<emphasis>Launching a Script:</emphasis>
+</simpara>
+<simpara>
+In this example, you'll see how a custom icon can be added to run a script that toggles on and off 100% screen brightness and a sleep delay. Remember, this is just one example of how you can add something to the menus. You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application. It's up to you. To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the <application>Pluma</application> text editor application. The <application>Pluma</application> theme has been switched to a brighter one using its <guimenuitem>Preferences</guimenuitem> settings to make the text easier to read here.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -2779,11 +2783,11 @@ Example script.
         <simpara>
 If you are writing scripts, the <application>Pluma</application> editor is an excellent tool to use. As you can see by the colored text in the script above, it is designed for this with text highlighting, and there other similar features built-in.
 </simpara>
-      </note>
-      <note>
-        <title>Note</title>
-        <simpara>
-If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes any file you place in that folder as a potential executable program or script. If you change the file permissions to allow it to run as any other program. Right-click on the file in the <application>File Manager</application>, select <menuchoice><guimenu>Properties</guimenu><guimenuitem>Permissions</guimenuitem><guimenuitem>Allow executing file as program</guimenuitem></menuchoice>.
+</note>
+<note>
+<title>Note</title>
+<simpara>
+If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes any file you place in that folder as a potential executable program or script. To change a file's permissions to allow it to run as any other program: Right-click on the file in the <application>File Manager</application>, select <menuchoice><guimenu>Properties</guimenu><guimenuitem>Permissions</guimenuitem><guimenuitem>Allow executing file as program</guimenuitem></menuchoice>.
 </simpara>
       </note>
       <simpara>
@@ -2981,10 +2985,10 @@ Click on <keycap>Keep This Configuration</keycap> to confirm your changes.
     <sect2 id="display-hidpi">
       <title>High-Resolution Monitors</title>
       <simpara>
-Linux support for high-resolution computer displays (HiDPI or 4K displays) is <ulink url="https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi">still being perfected</ulink>. However, with the 18.04 release, the Ubuntu MATE team has released a utility that automatically detects your 4K display and sets the appropriate screen scaling for you. Without scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use. With HiDPI support, Ubuntu MATE lets you take advantage of the full resolution of your beautiful 4K display and still have everything readable. 
+Linux support for high-resolution computer displays (HiDPI or 4K displays) is <ulink url="https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi">still being perfected</ulink>. However, with the 18.04 release, the Ubuntu MATE team has released a utility that automatically detects your 4K display and sets the appropriate screen scaling for you. Without scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use. With HiDPI support, Ubuntu MATE lets you take advantage of the full resolution of your beautiful 4K display and still have everything readable.
 </simpara>
       <simpara>
-Of course, Ubuntu MATE allows <emphasis>you</emphasis> to make the decision as to whether to use HiDPI scaling or not. Here is how to make changes to the HiDPI settings. 
+Of course, Ubuntu MATE allows <emphasis>you</emphasis> to make the decision as to whether to use HiDPI scaling or not. Here is how to make changes to the HiDPI settings.
 </simpara>
       <orderedlist>
         <listitem>
@@ -2999,12 +3003,12 @@ Open the <application>MATE Tweak</application> application by selecting <menucho
         </listitem>
         <listitem>
           <simpara>
-Choose the <guimenuitem>Windows</guimenuitem> icon in the pane on the left side of the <application>MATE Tweak</application> window. 
+Choose the <guimenuitem>Windows</guimenuitem> icon in the pane on the left side of the <application>MATE Tweak</application> window.
 </simpara>
-        </listitem>
-        <listitem>
-          <simpara>
-In the <guilabel>HiDPI</guilabel> section, adjust the setting labeled <guilabel>Select a window scaling factor</guilabel>. Choose <guimenuitem>Auto-detect</guimenuitem> to have Ubuntu MATE automatically detection and set HiDPI window scaling when it detects a high resolution monitor. Choose <guimenuitem>Regular</guimenuitem> if you never want scaling applied. Choose <guimenuitem>HiDPI</guimenuitem> if you always want scaling applied.
+</listitem>
+<listitem>
+<simpara>
+In the <guilabel>HiDPI</guilabel> section, adjust the setting labeled <guilabel>Select a window scaling factor</guilabel>. Choose <guimenuitem>Auto-detect</guimenuitem> to have Ubuntu MATE automatically detect and set HiDPI window scaling when it detects a high resolution monitor. Choose <guimenuitem>Regular</guimenuitem> if you never want scaling applied. Choose <guimenuitem>HiDPI</guimenuitem> if you always want scaling applied.
 </simpara>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -3379,12 +3383,12 @@ The <emphasis>Raspberry Pi</emphasis> version is for aarch32 (ARMv7) computers, 
       <orderedlist>
         <listitem>
           <simpara>
-Ubuntu MATE releases a new version every six months. Every two years, the release is a Long Term Support Release. 
+Ubuntu MATE releases a new version every six months. Every two years, the release is a Long Term Support Release.
 </simpara>
         </listitem>
         <listitem>
           <simpara>
-Normal support releases are supported for <emphasis>nine months</emphasis> while LTS releases are supported for <emphasis>five years</emphasis>. 
+Normal support releases are supported for <emphasis>nine months</emphasis> while LTS releases are supported for <emphasis>five years</emphasis>.
 </simpara>
         </listitem>
         <listitem>
@@ -3506,12 +3510,12 @@ Completely shut down your computer.
         </listitem>
         <listitem>
           <simpara>
-Insert the USB stick. 
+Insert the USB stick.
 </simpara>
         </listitem>
         <listitem>
           <simpara>
-Start the computer and watch the screen to determine which function key to press to change the boot device. The message flashes by quickly, right at the bottom edge of the screen, but the most frequently used keys are <keycap>F1</keycap>, <keycap>F2</keycap>, <keycap>F4</keycap>, <keycap>F12</keycap> and the <keycap>Del</keycap> key. It depends on your computer's manufacturer. If your computer boots up normally and you don't see Ubuntu MATE startup, shut down and try again. 
+Start the computer and watch the screen to determine which function key to press to change the boot device. The message flashes by quickly, right at the bottom edge of the screen, but the most frequently used keys are <keycap>F1</keycap>, <keycap>F2</keycap>, <keycap>F4</keycap>, <keycap>F12</keycap> and the <keycap>Del</keycap> key. It depends on your computer's manufacturer. If your computer boots up normally and you don't see Ubuntu MATE startup, shut down and try again.
 </simpara>
         </listitem>
         <listitem>
@@ -3545,7 +3549,7 @@ Try Ubuntu MATE.
         </listitem>
         <listitem>
           <simpara>
-Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double-click the installation icon on the desktop. 
+Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double-click the installation icon on the desktop.
 </simpara>
         </listitem>
         <listitem>
@@ -3555,7 +3559,7 @@ You don't need to connect to the Internet to complete the installation of Ubuntu
         </listitem>
         <listitem>
           <simpara>
-To begin the installation, double-click the <application>Install Ubuntu MATE</application> icon on the desktop. 
+To begin the installation, double-click the <application>Install Ubuntu MATE</application> icon on the desktop.
 </simpara>
           <informaltable frame="all">
             <tgroup cols="1">
@@ -3643,12 +3647,12 @@ Enter your full name, a name for your computer, a username, and a password. You 
         </listitem>
         <listitem>
           <simpara>
-Now wait just a few minutes while the installation completes, and updates are downloaded and installed. 
+Now wait just a few minutes while the installation completes, and updates are downloaded and installed.
 </simpara>
         </listitem>
         <listitem>
           <simpara>
-Press the <keycap>Continue Testing</keycap> button if you wish to continue to use the live environment, or press the <keycap>Restart Now</keycap> button to reboot and log into your new installation of Ubuntu MATE! 
+Press the <keycap>Continue Testing</keycap> button if you wish to continue to use the live environment, or press the <keycap>Restart Now</keycap> button to reboot and log into your new installation of Ubuntu MATE!
 </simpara>
         </listitem>
         <listitem>
@@ -3673,10 +3677,10 @@ If you can't find the answer in this guide, many of the answers are available in
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/community.png" contentwidth="32px"/></imageobject><textobject>
 Community icon.
 </textobject></inlinemediaobject>
-The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE. 
+The <application>Ubuntu MATE Guide</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Accessories</guimenuitem><guimenuitem>Ubuntu MATE Guide</guimenuitem></menuchoice>, is for users needing a little extra help while learning to use Ubuntu MATE.
 </simpara>
     <simpara>
-In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. 
+In the early days of home computing, computers came with thorough documentation. They included a set of manuals, detailing every button, port, light, software application and software feature. Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done.
 </simpara>
     <tip>
       <title>Ubuntu MATE's Applications</title>
@@ -3820,7 +3824,7 @@ The <ulink url="https://ubuntu-mate.boutique/"><guilabel>Shop</guilabel></ulink>
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/community.png" contentwidth="32px"/></imageobject><textobject>
 Community icon.
 </textobject></inlinemediaobject>
-Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. 
+Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE.
 </simpara>
     <simpara>
 The <ulink url="https://ubuntu-mate.org/community/">Community page on the Ubuntu MATE website</ulink> provides options in three categories for getting involved.
@@ -3833,11 +3837,12 @@ Join the conversation and get involved. Stop by to share your experiences, ask q
       <simpara>
 Ubuntu MATE also has its own IRC channel, <ulink url="https://ubuntu-mate.org/irc/">#ubuntu-mate</ulink>, on the <ulink url="http://freenode.net/">Freenode</ulink> network. The #ubuntu-mate channel is also home to matey, probably the smartest IRC bot in the world, EVER!
 </simpara>
-    </sect2>
-    <sect2 id="community-social">
-      <title>Social</title>
-      <simpara>
-Ubuntu MATE is active on <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>, and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
+</sect2>
+
+<sect2 id="community-social">
+<title>Social</title>
+<simpara>
+Ubuntu MATE is active on <ulink url="https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ">YouTube</ulink>, <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>, <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>, and <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>.
 </simpara>
     </sect2>
     <sect2 id="community-development">
@@ -3855,10 +3860,10 @@ Found a Bug? This is where you'll find a link to submit your detailed and reprod
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/community.png" contentwidth="32px"/></imageobject><textobject>
 Community icon.
 </textobject></inlinemediaobject>
-If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then the Ubuntu MATE Wiki is a great place to look. 
+If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then the Ubuntu MATE Wiki is a great place to look.
 </simpara>
     <simpara>
-The <ulink url="https://ubuntu-mate.community/wiki">Wiki page on the Ubuntu MATE website</ulink> provides tips, tricks, tutorials, and guides. 
+The <ulink url="https://ubuntu-mate.community/wiki">Wiki page on the Ubuntu MATE website</ulink> provides tips, tricks, tutorials, and guides.
 </simpara>
     <sect2 id="wiki-beginner">
       <title>Beginner's Corner</title>
@@ -4017,7 +4022,7 @@ Topics relating to dual booting with Windows or Mac, BIOS vs. UEFI Booting, and 
     <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/keyboard-shortcuts.png" contentwidth="32px"/></imageobject><textobject>
 Keyboard Shortcuts icon.
 </textobject></inlinemediaobject>
-Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device. This is a comparison of these keyboard shortcuts with those you might have used in your previous operating system. 
+Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device. This is a comparison of these keyboard shortcuts with those you might have used in your previous operating system.
 </simpara>
     <note>
       <title>Note</title>
@@ -4081,225 +4086,190 @@ The Super key just works after you install Ubuntu MATE on most computer hardware
       <simpara>
 These shortcuts apply in most applications.
 </simpara>
-      <informaltable frame="bottom" pgwide="1">
-        <tgroup cols="4" rowsep="1" colsep="1">
-          <colspec colnum="1" colname="col1"/>
-          <colspec colnum="2" colname="col2"/>
-          <colspec colnum="3" colname="col3"/>
-          <colspec colnum="4" colname="col4"/>
-          <thead>
-            <row>
-              <entry align="center">
-                <title>SHORTCUT</title>
-              </entry>
-              <entry align="center">
-                <title>UBUNTU MATE</title>
-              </entry>
-              <entry align="center">
-                <title>MACOS</title>
-              </entry>
-              <entry align="center">
-                <title>WINDOWS 10</title>
-              </entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry namest="col1" nameend="col4" align="center"/>
-            </row>
-            <row>
-              <entry>Meta Key</entry>
-              <entry align="center">
-                <keycap></keycap>
-              </entry>
-              <entry align="center">
-                <keycap>⌘</keycap>
-              </entry>
-              <entry align="center">
-                <keycap>⊞</keycap>
-              </entry>
-            </row>
-            <row>
-              <entry>Copy the selected text/object</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>C</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
-            </row>
-            <row>
-              <entry>Cut the selected text/object</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>X</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
-            </row>
-            <row>
-              <entry>Paste/insert the selected text/object</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>V</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
-            </row>
-            <row>
-              <entry>Paste the selected text without formatting or with options</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
-            </row>
-            <row>
-              <entry>Select all text</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>A</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
-            </row>
-            <row>
-              <entry>Find and replace words</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>F</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
-            </row>
-            <row>
-              <entry>Make the selected text bold</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>B</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
-            </row>
-            <row>
-              <entry>Make the selected text italic</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>I</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
-            </row>
-            <row>
-              <entry>Underline the selected text</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>U</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
-            </row>
-            <row>
-              <entry>Open a new document or window</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>N</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
-            </row>
-            <row>
-              <entry>Save the current document</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>S</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
-            </row>
-            <row>
-              <entry>Open another document</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>O</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
-            </row>
-            <row>
-              <entry>Print the current document</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>P</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
-            </row>
-            <row>
-              <entry>Undo the last change you made</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>Z</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
-            </row>
-            <row>
-              <entry>Redo a change that you just undid</entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
-              <entry align="center"><keycap>Ctrl</keycap>+<keycap>Y</keycap></entry>
-            </row>
-            <row>
-              <entry>Toggle the current application between full-screen and windowed</entry>
-              <entry align="center">
-                <keycap>F11</keycap>
-              </entry>
-              <entry align="center"><keycap>⌘</keycap>+<keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
-              <entry align="center">
-                <keycap>F11</keycap>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-    </sect2>
-    <sect2 id="shortcuts-special">
-      <title>Ubuntu MATE Special Shortcuts</title>
-      <informaltable frame="bottom" pgwide="1">
-        <tgroup cols="4" rowsep="1" colsep="1">
-          <colspec colnum="1" colname="col1"/>
-          <colspec colnum="2" colname="col2"/>
-          <colspec colnum="3" colname="col3"/>
-          <colspec colnum="4" colname="col4"/>
-          <thead>
-            <row>
-              <entry align="center">
-                <title>SHORTCUT</title>
-              </entry>
-              <entry align="center">
-                <title>MATE DOCK APPLET* </title>
-              </entry>
-              <entry align="center">
-                <title>UBUNTU MATE MENUS*</title>
-              </entry>
-              <entry align="center">
-                <title>MATE TERMINAL</title>
-              </entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry namest="col1" nameend="col4" align="center"/>
-            </row>
-            <row>
-              <entry>Launch the first appliation in the dock</entry>
-              <entry align="center"><keycap></keycap>+<keycap>1</keycap></entry>
-              <entry align="center"> </entry>
-              <entry align="center"> </entry>
-            </row>
-            <row>
-              <entry>Launch the second appliation in the dock</entry>
-              <entry align="center"><keycap></keycap>+<keycap>2</keycap></entry>
-              <entry align="center"> </entry>
-              <entry align="center"> </entry>
-            </row>
-            <row>
-              <entry>Launch the third appliation in the dock</entry>
-              <entry align="center"><keycap></keycap>+<keycap>3</keycap></entry>
-              <entry align="center"> </entry>
-              <entry align="center"> </entry>
-            </row>
-            <row>
-              <entry>Open the menu launcher</entry>
-              <entry align="center">
-                <keycap></keycap>
-              </entry>
-              <entry align="center">
-                <keycap></keycap>
-              </entry>
-              <entry align="center"> </entry>
-            </row>
-            <row>
-              <entry>Activate the HUD (Heads-Up-Display)</entry>
-              <entry align="center">
-                <keycap>Alt</keycap>
-              </entry>
-              <entry align="center">
-                <keycap>Alt</keycap>
-              </entry>
-              <entry align="center">
-                <keycap>Alt</keycap>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <note>
-        <title>Notes</title>
-        <simpara>
+<informaltable frame="bottom" pgwide="1">
+<tgroup cols="4" rowsep="1" colsep="1">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<colspec colnum="4" colname="col4"/>
+<thead>
+<row>
+<entry align="center"><title>SHORTCUT</title></entry>
+<entry align="center"><title>UBUNTU MATE</title></entry>
+<entry align="center"><title>MACOS</title></entry>
+<entry align="center"><title>WINDOWS 10</title></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="col1" nameend="col4" align="center"></entry>
+</row>
+<row>
+<entry>Meta Key</entry>
+<entry align="center"><keycap></keycap></entry>
+<entry align="center"><keycap>⌘</keycap></entry>
+<entry align="center"><keycap>⊞</keycap></entry>
+</row>
+<row>
+<entry>Copy the selected text/object</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>C</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>C</keycap></entry>
+</row>
+<row>
+<entry>Cut the selected text/object</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>X</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>X</keycap></entry>
+</row>
+<row>
+<entry>Paste/insert the selected text/object</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>V</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>V</keycap></entry>
+</row>
+<row>
+<entry>Paste the selected text without formatting or with options</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>V</keycap></entry>
+</row>
+<row>
+<entry>Select all text</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>A</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>A</keycap></entry>
+</row>
+<row>
+<entry>Find and replace words</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>F</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+</row>
+<row>
+<entry>Make the selected text bold</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>B</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>B</keycap></entry>
+</row>
+<row>
+<entry>Make the selected text italic</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>I</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>I</keycap></entry>
+</row>
+<row>
+<entry>Underline the selected text</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>U</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>U</keycap></entry>
+</row>
+<row>
+<entry>Open a new document or window</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>N</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>N</keycap></entry>
+</row>
+<row>
+<entry>Save the current document</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>S</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>S</keycap></entry>
+</row>
+<row>
+<entry>Open another document</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>O</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>O</keycap></entry>
+</row>
+<row>
+<entry>Print the current document</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>P</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>P</keycap></entry>
+</row>
+<row>
+<entry>Undo the last change you made</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>Z</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Z</keycap></entry>
+</row>
+<row>
+<entry>Redo a change that you just undid</entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>Shift</keycap>+<keycap>Z</keycap></entry>
+<entry align="center"><keycap>Ctrl</keycap>+<keycap>Y</keycap></entry>
+</row>
+<row>
+<entry>Toggle the current application between full-screen and windowed</entry>
+<entry align="center"><keycap>F11</keycap></entry>
+<entry align="center"><keycap>⌘</keycap>+<keycap>Ctrl</keycap>+<keycap>F</keycap></entry>
+<entry align="center"><keycap>F11</keycap></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</sect2>
+
+<sect2 id="shortcuts-special">
+<title>Ubuntu MATE Special Shortcuts</title>
+<informaltable frame="bottom" pgwide="1">
+<tgroup cols="4" rowsep="1" colsep="1">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<colspec colnum="4" colname="col4"/>
+<thead>
+<row>
+<entry align="center"><title>SHORTCUT</title></entry>
+<entry align="center"><title>MATE DOCK APPLET* </title></entry>
+<entry align="center"><title>UBUNTU MATE MENUS*</title></entry>
+<entry align="center"><title>MATE TERMINAL</title></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="col1" nameend="col4" align="center"></entry>
+</row>
+<row>
+<entry>Launch the first application in the dock</entry>
+<entry align="center"><keycap></keycap>+<keycap>1</keycap></entry>
+<entry align="center"> </entry>
+<entry align="center"> </entry>
+</row>
+<row>
+<entry>Launch the second application in the dock</entry>
+<entry align="center"><keycap></keycap>+<keycap>2</keycap></entry>
+<entry align="center"> </entry>
+<entry align="center"> </entry>
+</row>
+<row>
+<entry>Launch the third application in the dock</entry>
+<entry align="center"><keycap></keycap>+<keycap>3</keycap></entry>
+<entry align="center"> </entry>
+<entry align="center"> </entry>
+</row>
+<row>
+<entry>Open the menu launcher</entry>
+<entry align="center"><keycap></keycap></entry>
+<entry align="center"><keycap></keycap></entry>
+<entry align="center"> </entry>
+</row>
+<row>
+<entry>Activate the HUD (Heads-Up-Display)</entry>
+<entry align="center"><keycap>Alt</keycap></entry>
+<entry align="center"><keycap>Alt</keycap></entry>
+<entry align="center"><keycap>Alt</keycap></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<note>
+<title>Notes</title>
+<simpara>
 The MATE Dock Applet is used in the Mutiny Layout.
 </simpara>
-        <simpara> 
+        <simpara>
 The Ubuntu MATE menus are: MATE Menu, Brisk Menu, MATE Dock Applet.
 </simpara>
       </note>
