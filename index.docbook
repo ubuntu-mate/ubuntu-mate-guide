@@ -67,8 +67,6 @@ Ubuntu MATE banner logo.
 </textobject>
       </mediaobject>
     </simpara>
-    <simpara><application>Ubuntu MATE</application> is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage.
-</simpara>
     <simpara><application>Ubuntu MATE</application> is an operating system -- the core software that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage.
 </simpara>
     <simpara>
@@ -1928,10 +1926,7 @@ With some other Linux distributions, getting <application>Orca</application> to 
 For complete information about using and configuring the <application>Orca</application> screen reader, refer to the website <ulink url="https://help.gnome.org/users/orca/stable/">https://help.gnome.org/users/orca/stable/</ulink>.
 </simpara>
       <simpara>
-The <application>Orca</application> documentation on the website occasionally refers to the "Orca Modifier" key. The key that <application>Orca</application> uses by default as the "Orca Modifier" depends on whether you are using <application>Orca</application>'s "Laptop" keyboard layout or its "Desktop" keyboard layout:
-</simpara>
-      <simpara>
-You can use the "Orca Modifier" key to get to <application>Orca</application>'s help. Press <keycap>Orca Modifier</keycap> + <keycap>H</keycap> to enter "learn mode".
+The <application>Orca</application> documentation on the website occasionally refers to the "Orca Modifier" key. The key that <application>Orca</application> uses by default as the "Orca Modifier" depends on whether you are using <application>Orca</application>'s "Laptop" keyboard layout or its "Desktop" keyboard layout.
 </simpara>
       <tip>
         <title>Orca Modifier</title>
