@@ -1552,25 +1552,6 @@ Minecraft in action.
         </tbody>
       </tgroup>
     </informaltable>
-    <informaltable frame="all">
-      <tgroup cols="1">
-        <colspec colwidth="100%"/>
-        <tbody>
-          <row>
-            <entry>
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="figures/0AD.png" contentwidth="100%"/>
-                </imageobject>
-                <textobject>
-The game 0 A.D. in action.
-</textobject>
-              </mediaobject>
-            </entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
   </sect1>
   <sect1 id="applications-security">
     <title>Security</title>
