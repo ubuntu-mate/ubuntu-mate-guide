@@ -3,7 +3,7 @@
 <article id="index" lang="en">
   <articleinfo>
     <title>Ubuntu MATE Guide</title>
-    <date>2018-04-26</date>
+    <date>2019-09-27</date>
     <authorgroup>
       <author role="maintainer" lang="en">
         <firstname>Larry</firstname>
@@ -16,13 +16,13 @@
     </authorgroup>
     <revhistory>
       <revision>
-        <revnumber>18.04.4</revnumber>
-        <date>2018-04-26</date>
+        <revnumber>19.10.1</revnumber>
+        <date>2019-09-27</date>
         <authorinitials>LB</authorinitials>
       </revision>
     </revhistory>
     <copyright lang="en">
-      <year>2017-2018</year>
+      <year>2017-2019</year>
       <holder>Larry Bushey</holder>
     </copyright>
     <legalnotice>
