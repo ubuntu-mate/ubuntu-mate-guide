@@ -89,25 +89,6 @@ Using Ubuntu MATE provides you with the freedom to run a complete, full-featured
       <simpara>
 Ubuntu MATE is designed with security in mind. Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously. The updates include security patches for Ubuntu MATE and all of its components. Security updates for all of its installed applications are also provided on the same schedule. This ensures that you have the latest protection for all of your computer's software -- as soon as it's available!
 </simpara>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%"/>
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/XPS13.png" contentwidth="100%"/>
-                  </imageobject>
-                  <textobject>
-Dell XPS13 running Ubuntu MATE.
-</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
     </sect2>
   </sect1>
   <sect1 id="page.linux">
