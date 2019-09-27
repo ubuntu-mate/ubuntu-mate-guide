@@ -1494,14 +1494,14 @@ Of course, you can share your photos from <application>Shotwell</application> by
 To learn more about how to use each of the features of <application>Shotwell</application>, see the <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink> by pressing <keycap>F1</keycap> while <application>Shotwell</application> is open.
 </simpara>
     </sect2>
-    <sect2 id="entertainment-mpv">
-      <title>GnomeMpv Media Player</title>
-      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/GnomeMpv.png" contentwidth="32px"/></imageobject><textobject>
-GnomeMpv icon.
-</textobject></inlinemediaobject><application>GnomeMpv</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>GnomeMpv</guimenuitem></menuchoice> media player, is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability. Playlist entries can be added, removed, or rearranged easily with drag and drop operations. 
+    <sect2 id="entertainment-celluloid">
+      <title>Celluloid Media Player</title>
+      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/celluloid.png" contentwidth="32px"/></imageobject><textobject>
+Celluloid icon.
+</textobject></inlinemediaobject><application>Celluloid</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>Celluloid</guimenuitem></menuchoice> is a simple media player that aims to be easy to use while maintaining high level of configurability. Playlist entries can be added, removed, or rearranged easily with drag and drop operations. 
 </simpara>
       <simpara>
-For additional information about <application>GnomeMpv</application> and how to use it, see the Celluloid (Formerly Gnome MPV) <ulink url="https://github.com/celluloid-player/celluloid/blob/master/README.md">README.</ulink>
+For additional information about <application>Celluloid</application> and how to use it, see the Celluloid (formerly GNOME MPV) <ulink url="https://github.com/celluloid-player/celluloid/blob/master/README.md">README.</ulink>
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1511,10 +1511,10 @@ For additional information about <application>GnomeMpv</application> and how to 
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/gnomempv-playing-video.png" contentwidth="100%"/>
+                    <imagedata fileref="figures/celluloid.png" contentwidth="100%"/>
                   </imageobject>
                   <textobject>
-GnomeMpv playing YouTube video.
+Celluloid playing video.
 </textobject>
                 </mediaobject>
               </entry>
