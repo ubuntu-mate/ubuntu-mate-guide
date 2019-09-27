@@ -89,6 +89,25 @@ Using Ubuntu MATE provides you with the freedom to run a complete, full-featured
       <simpara>
 Ubuntu MATE is designed with security in mind. Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously. The updates include security patches for Ubuntu MATE and all of its components. Security updates for all of its installed applications are also provided on the same schedule. This ensures that you have the latest protection for all of your computer's software -- as soon as it's available!
 </simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%"/>
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/XPS13.png" contentwidth="100%"/>
+                  </imageobject>
+                  <textobject>
+Dell XPS13 running Ubuntu MATE.
+</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
     </sect2>
   </sect1>
   <sect1 id="page.linux">
@@ -1170,17 +1189,20 @@ Firefox icon.
 Pre-installed with Ubuntu MATE, <application>Firefox</application> is a popular application on almost any computing platform that delivers safe, easy web browsing. A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. <application>Firefox</application> also provides features such as changing your home page, searching the web, bookmarking a site, and using a private browsing mode. You can also synchronize your <application>Firefox</application> bookmarks, history, passwords and more between your devices.  <ulink url="https://support.mozilla.org/en-US/products/firefox">Read more about Firefox.</ulink>
 </simpara>
     </sect2>
-    <sect2 id="productivity-thunderbird">
-      <title>Thunderbird Email Client</title>
-      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/thunderbird.png" contentwidth="32px"/></imageobject><textobject>
-Thunderbird icon.
+    <sect2 id="productivity-evolution">
+      <title>Evolution Mail and Calendar</title>
+      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/evolution.png" contentwidth="32px"/></imageobject><textobject>
+Evolution icon.
 </textobject></inlinemediaobject>
-Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <application>Yahoo Mail</application> and Google's <application>Gmail</application> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <application>Thunderbird</application> is a cross-platform email client that works on Linux and macOS as well as on Windows.
+Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like <application>Yahoo Mail</application> and Google's <application>Gmail</application> are convenient to use because they allow you to read and send email from any device. The only thing you need to run these is a web browser and an Internet connection. Many ISPs provide email clients that you can use to read and respond to your email off-line as well. Unfortunately, those off-line programs are usually applications for Windows. Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. <application>Evolution</application> allows you to access your personal information like your calendars, mail, address books and tasks in one place.
 </simpara>
-      <simpara><application>Thunderbird</application> is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders.
+      <simpara><application>Evolution</application> is a full-featured email client that makes emailing safer, faster and easy. It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, address book, and offers easy organization of emails with tagging and folders.
 </simpara>
       <simpara>
-If you use the automatic account configuration, setting up a new account with <application>Thunderbird</application> is easy. All you need to do is provide your username and password for your email provider and your email address. <application>Thunderbird</application> works very nicely with Gmail and even synchronizes messages between <application>Thunderbird</application> on your computer and Gmail. <ulink url="https://www.mozilla.org/en-US/thunderbird">Read more about <application>Thunderbird</application>.</ulink>
+If you use the automatic account configuration, setting up a new account with <application>Evolution</application> is easy. The first time you run Evolution, it opens the <application>First-Run Assistant</application>. It helps you set up email accounts and import data from other applications. All you need to do is provide your username and password for your email provider and your email address.
+</simpara>
+      <simpara>
+To learn more about how to use each of the features of <application>Evolution</application>, see the <ulink url="ghelp:/usr/share/help/C/evolution/index.page">Evolution Mail and Calendar Manual</ulink> by pressing <keycap>F1</keycap> while <application>Evolution</application> is open.
 </simpara>
     </sect2>
     <sect2 id="productivity-libreoffice">
@@ -1276,7 +1298,7 @@ Caffeine icon.
 </textobject></inlinemediaobject>
 With a coffee cup for an icon, <application>Caffeine</application> is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle. Simply click on the icon and choose <guimenuitem>Activate</guimenuitem> to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode. Click the icon again and choose <guimenuitem>Deactivate</guimenuitem> to go back to normal.
 </simpara>
-      <simpara><application>Caffeine</application> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application>Software Boutique</application> for one-click installation.
+      <simpara><application>Caffeine</application> is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the <application><xref linkend="software-boutique"/></application> for one-click installation.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1348,7 +1370,7 @@ Print a test page to verify the setup and you are ready to begin using your netw
       <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/hplip.png" contentwidth="32px"/></imageobject><textobject>
 HPLIP icon.
 </textobject></inlinemediaobject>
-For added control, you can install the <application>HP Linux Imaging and Printing</application> (HPLIP) utility from the <application>Ubuntu MATE Welcome</application> application or from the <application>Software Boutique</application>. It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate <application>Simple Scan</application> application described in the next section. <ulink url="http://hplipopensource.com/hplip-web/about.html">Read more about HPLIP</ulink>.
+For added control, you can install the <application>HP Linux Imaging and Printing</application> (HPLIP) utility from the <application>Ubuntu MATE Welcome</application> application or from the <application><xref linkend="software-boutique"/></application>. It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate <application>Simple Scan</application> application described in the next section. <ulink url="http://hplipopensource.com/hplip-web/about.html">Read more about HPLIP</ulink>.
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1491,16 +1513,14 @@ Of course, you can share your photos from <application>Shotwell</application> by
 To learn more about how to use each of the features of <application>Shotwell</application>, see the <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink> by pressing <keycap>F1</keycap> while <application>Shotwell</application> is open.
 </simpara>
     </sect2>
-    <sect2 id="entertainment-vlc">
-      <title>VLC Media Player</title>
-      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/vlc.png" contentwidth="32px"/></imageobject><textobject>
-VLC icon.
-</textobject></inlinemediaobject><application>VLC</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>VLC</guimenuitem></menuchoice> media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. <application>VLC</application> can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP.
-</simpara>
-      <simpara><application>VLC</application> has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file.
+    <sect2 id="entertainment-mpv">
+      <title>GnomeMpv Media Player</title>
+      <simpara><inlinemediaobject><imageobject><imagedata fileref="apps/GnomeMpv.png" contentwidth="32px"/></imageobject><textobject>
+GnomeMpv icon.
+</textobject></inlinemediaobject><application>GnomeMpv</application>, found in the Ubuntu MATE menus at <menuchoice><guimenu>Menu</guimenu><guimenuitem>Sound &amp; Video</guimenuitem><guimenuitem>GnomeMpv</guimenuitem></menuchoice> media player, is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability. Playlist entries can be added, removed, or rearranged easily with drag and drop operations. 
 </simpara>
       <simpara>
-For additional information about <application>VLC</application> and how it works, see VideoLan's <ulink url="https://wiki.videolan.org/Documentation:VLC_for_dummies">VLC Introduction.</ulink>
+For additional information about <application>GnomeMpv</application> and how to use it, see the Celluloid (Formerly Gnome MPV) <ulink url="https://github.com/celluloid-player/celluloid/blob/master/README.md">README.</ulink>
 </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -1510,10 +1530,10 @@ For additional information about <application>VLC</application> and how it works
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/vlc-video.png" contentwidth="100%"/>
+                    <imagedata fileref="figures/gnomempv-playing-video.png" contentwidth="100%"/>
                   </imageobject>
                   <textobject>
-VLC playing video.
+GnomeMpv playing YouTube video.
 </textobject>
                 </mediaobject>
               </entry>
@@ -1545,6 +1565,25 @@ While <application>Steam</application> is a major step forward for gaming on Lin
                 </imageobject>
                 <textobject>
 Minecraft in action.
+</textobject>
+              </mediaobject>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+    <informaltable frame="all">
+      <tgroup cols="1">
+        <colspec colwidth="100%"/>
+        <tbody>
+          <row>
+            <entry>
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="figures/0AD.png" contentwidth="100%"/>
+                </imageobject>
+                <textobject>
+The game 0 A.D. in action.
 </textobject>
               </mediaobject>
             </entry>
@@ -3553,10 +3592,10 @@ If you have an Internet connection, choose the option to download updates while 
                   <entry>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="figures/install-extras.png" contentwidth="100%"/>
+                        <imagedata fileref="figures/select-third-party-drivers.png" contentwidth="100%"/>
                       </imageobject>
                       <textobject>
-Install extras.
+Install third party options.
 </textobject>
                     </mediaobject>
                   </entry>
@@ -3566,8 +3605,35 @@ Install extras.
           </informaltable>
           <tip>
             <title>Minimal Installation</title>
-            <simpara><guilabel>Minimal Installation</guilabel> is a new option for release 18.04. Presented as a checkbox option in the installer, it will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. This is a useful option if you have minimal disk space or you wish to select applications other than the default software provided with Ubuntu MATE.
+            <simpara><guilabel>Minimal Installation</guilabel> is presented as a radio button option in the installer, it will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. This is a useful option if you have minimal disk space or you wish to select applications other than the default software provided with Ubuntu MATE.
 </simpara>
+          </tip>
+          <tip>
+            <title>NVIDIA Drivers</title>
+            <simpara>If you have an NVIDIA GPU connected to your computer and select Install third-party software for graphics and Wi-Fi hardware during installation, the NVIDIA proprietary drivers will be installed.</simpara>
+
+            <simpara>Post install, the proprietary NVIDIA drivers are installed and configured. Ubuntu MATE users with laptops that support hybrid graphics will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
+</simpara>
+          <informaltable frame="all">
+            <tgroup cols="1">
+              <colspec colwidth="100%"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <mediaobject>
+                      <imageobject>
+                        <imagedata fileref="figures/mate-optimus-indicator.png" contentwidth="100%"/>
+                      </imageobject>
+                      <textobject>
+NVIDIA settings indicator.
+</textobject>
+                    </mediaobject>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
           </tip>
         </listitem>
         <listitem>
