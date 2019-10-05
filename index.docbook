@@ -1402,9 +1402,17 @@
     </sect2>
     <sect2 id="terminal-sys-info">
       <title>Display Your System Info Using The Command Line</title>
-      <simpara>Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is</simpara>
+      <simpara>Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is the 
+        <application>inxi</application>
+        command. To install 
+        <application>inxi</application>
+        , type use 
+        <application>apt</application>
+        , as we learned in the previous section:</simpara>
+        <screen>sudo apt install inxi</screen>
+      <simpara>Once the application is installed, to display your system information with a moderate amount of detail, as shown in the illustration below, simply type:</simpara>
       <screen>inxi -F</screen>
-      <simpara>as shown below. For a more verbose set of information, use</simpara>
+      <simpara>For a more verbose set of information, use</simpara>
       <screen>inxi -Frmxx</screen>
       <simpara>For just the very basic info, type simply</simpara>
       <screen>inxi</screen>
@@ -3248,38 +3256,15 @@
           </imageobject>
           <textobject>Accessibility icon.</textobject>
         </inlinemediaobject>
-        If you are a low vision computer user and you require screen magnification, Ubuntu MATE has two magnification options already built in. To turn on or off the default screen magnifier, press
+        If you are a low vision computer user and you require screen magnification, 
+        <application>Magnus</application>
+        is a very simple desktop magnifier, showing the area around the mouse pointer in a separate window magnified two, three, four, or five times. The screen magnifier is also useful for accurate graphical design or detail work. To turn on or off the screen magnifier, press 
         <keycap>Alt</keycap>
         +
         <keycap>Super</keycap>
         +
         <keycap>M</keycap>
-        . Once you have the magnification turned on you can zoom into a portion of the screen by pressing
-        <keycap>Alt</keycap>
-        +
-        <keycap>Super</keycap>
-        +
-        <keycap>+</keycap>
-        . To zoom out, press
-        <keycap>Alt</keycap>
-        +
-        <keycap>Super</keycap>
-        +
-        <keycap>-</keycap>
-        (the minus key).
-      </simpara>
-      <simpara>
-        An alternative screen magnifier is available if you have the
-        <application>Compiz</application>
-        window manager enabled using
-        <application>MATE Tweak</application>
-        .
-        <application>Compiz</application>
-        is preconfigured to allow you to zoom in and out by scrolling while holding down the
-        <keycap>Super</keycap>
-        key. The
-        <application>Compiz</application>
-        screen magnifier is on and available at all times for you to use. No need to toggle the zoom function on and off. It zooms the entire screen at once, not just a small section of the screen. The zoomed screen follows the motion of the mouse so that you can easily move around to any portion of the screen. For these reasons, this may be a better screen magnifier.
+        . 
       </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -3289,40 +3274,15 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/compiz.png" contentwidth="100%" />
+                    <imagedata fileref="figures/magnus.png" contentwidth="100%" />
                   </imageobject>
-                  <textobject>MATE Tweak.</textobject>
+                  <textobject>Magnus screen magnifier.</textobject>
                 </mediaobject>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
-      <simpara>
-        To switch to the
-        <application>Compiz</application>
-        window manager, from the menus select
-        <menuchoice>
-          <guimenu>Menu</guimenu>
-          <guimenuitem>Preferences</guimenuitem>
-          <guimenuitem>MATE Tweak</guimenuitem>
-          <guimenuitem>Windows</guimenuitem>
-        </menuchoice>
-        . For the window manager setting, select
-        <keycap>Compiz (Advanced GPU accelerated desktop effects)</keycap>
-        . Confirm the change when prompted. If the setting is unavailable, your hardware is not capable of the advanced acceleration required to use
-        <application>Compiz</application>
-        and the default screen magnifier is available.
-      </simpara>
-      <note>
-        <title>Note</title>
-        <simpara>
-          <application>Onboard</application>
-          and
-          <application>Orca</application>
-          accessibility features and keyboard shortcuts remain fully available with Compiz enabled.
-        </simpara>
-      </note>
     </sect2>
     <sect2 id="accessibility-mobility">
       <title>Mobility Features</title>
