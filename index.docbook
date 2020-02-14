@@ -3,7 +3,7 @@
 <article id="index" lang="en">
   <articleinfo>
     <title>Ubuntu MATE Guide</title>
-    <date>2019-09-27</date>
+    <date>2020-04-23</date>
     <authorgroup>
       <author role="maintainer" lang="en">
         <firstname>Larry</firstname>
@@ -16,13 +16,13 @@
     </authorgroup>
     <revhistory>
       <revision>
-        <revnumber>19.10.1</revnumber>
-        <date>2019-09-27</date>
+        <revnumber>20.04</revnumber>
+        <date>2020-04-23</date>
         <authorinitials>LB</authorinitials>
       </revision>
     </revhistory>
     <copyright lang="en">
-      <year>2017-2019</year>
+      <year>2017-2020</year>
       <holder>Larry Bushey</holder>
     </copyright>
     <legalnotice>
@@ -31,18 +31,15 @@
     </legalnotice>
     <legalnotice>
       <title>Creative Commons</title>
-      <simpara>
-        Ubuntu MATE Guide is licensed under a
-        <ulink url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</ulink>
-      </simpara>
+      <simpara>Ubuntu MATE Guide is licensed under a
+<ulink url="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License.</ulink>
+</simpara>
     </legalnotice>
     <legalnotice>
       <title>Feedback</title>
       <simpara>
-        To report a bug or make a suggestion regarding Ubuntu MATE, its components or this guide, follow the directions in the Development section of the
-        <ulink url="http://ubuntu-mate.org/community/" type="help">Ubuntu MATE Community Page</ulink>
-        .
-      </simpara>
+To report a bug or make a suggestion regarding Ubuntu MATE, its components, or this guide, follow the directions in the Development section of the <ulink url="http://ubuntu-mate.org/community/" type="help">Ubuntu MATE Community Page</ulink>.
+</simpara>
     </legalnotice>
   </articleinfo>
   <!-- Beginning of Document ================================================ -->
@@ -96,7 +93,7 @@
       <ulink url="https://en.wikipedia.org/wiki/Linux">Linux</ulink>
       operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD, Azure Sphere, or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
     </simpara>
-    <simpara>You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience design, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!</simpara>
+    <simpara>You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!</simpara>
     <simpara>While it is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.</simpara>
     <simpara>With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user. Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files. Let's also include viewing and editing photos, watching videos, listening to music, and subscribing to podcasts. Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications. This is a guide for new users and a reference for all users of Linux.</simpara>
     <sect2 id="windows">
@@ -105,11 +102,11 @@
     </sect2>
     <sect2 id="macos">
       <title>Why Users Switch from macOS</title>
-      <simpara>Switching to Apple's macOS (formerly OSX) doesn't get you off of the treadmill of forking over more and more cash for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts.</simpara>
+      <simpara>Switching to Apple's macOS doesn't get you off of the treadmill of spending more and more money for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts.</simpara>
     </sect2>
     <sect2 id="works">
       <title>Ubuntu MATE Works for You, Not the Other Way Around</title>
-      <simpara>Neither Microsoft nor Apple will let you upgrade that perfectly-functioning computer hardware you purchased a few years ago, even though it has almost the same specs as the newest computers available today. You are told it 'isn't capable' of running modern software. Insultingly, your Windows computer that is supposedly incapable of running more modern software keeps trying to force you to upgrade to the incompatible version! Perhaps you'd rather learn how to optimize Linux than hunt down one more Windows hack or workaround to prevent your computer from doing the things it wants to do -- but you don't want it to be doing. Maybe you just want to use your computer to get things done. Maybe you believe your computer should be doing work for you, and not the other way around. Ubuntu MATE is designed to make all of that a reality!</simpara>
+      <simpara>Neither Microsoft nor Apple will let you upgrade that perfectly-functioning computer hardware you purchased a few years ago, even though it has almost the same specs as the newest computers available today. You are told it 'isn't capable' of running modern software. Insultingly, your Windows computer that is supposedly incapable of running more modern software keeps trying to force you to upgrade to the incompatible version! Perhaps you'd rather learn how to optimize Linux than hunt down one more Windows hack or workaround to prevent your computer from doing things you don't want it to be doing. Maybe you just want to use your computer to get things done. Maybe you believe your computer should be doing work for you, and not the other way around. Ubuntu MATE is designed to make all of that a reality!</simpara>
     </sect2>
   </sect1>
   <sect1 id="page.ubuntu">
@@ -140,8 +137,8 @@
         " is pronounced
         <emphasis>oǒ'boǒntoō</emphasis>
         . According to
-        <ulink url="https://www.ubuntu.com/about/about-ubuntu">The Ubuntu Story</ulink>
-        , "Ubuntu is an ancient African word meaning 'humanity to others'. It also means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers."
+        <ulink url="https://www.ubuntu.com/about">The Ubuntu Story</ulink>
+        , "Ubuntu is an ancient African word meaning 'humanity to others'. It is often described as reminding us that 'I am what I am because of who we all are'. We bring the spirit of Ubuntu to the world of computers and software."
       </simpara>
     </tip>
   </sect1>
@@ -159,7 +156,7 @@
       is:
     </simpara>
     <blockquote>
-      <attribution>Wikipedia (20 Nov 2017)</attribution>
+      <attribution>Wikipedia (16 Oct 2019)</attribution>
       <simpara>...an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...</simpara>
     </blockquote>
     <simpara>
@@ -208,7 +205,7 @@
       This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. In fact, as recently as April of 2018,
       <ulink url="https://www.zdnet.com/article/microsoft-releases-its-first-linux-product/">Microsoft has begun distributing a custom Linux</ulink>
       of their own. The improvements provided by organizations and individuals alike are
-      <ulink url="https://www.linux.com/infographic/25-years-linux-kernel-development">given back to the Linux distribution</ulink>
+      <ulink url="https://www.linuxfoundation.org/2017-linux-kernel-report-landing-page/">given back to the Linux distribution</ulink>
       and the software improves as a result.
     </simpara>
     <simpara>Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.</simpara>
@@ -567,7 +564,7 @@
         window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in
         <application>Pluma</application>
         can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the section
-        <xref linkend="page.shortcuts" />
+        <xref linkend="page.shortcuts" /> 
         for a list of common keyboard shortcuts.
       </simpara>
     </sect2>
@@ -1406,7 +1403,7 @@
         <application>inxi</application>
         command. To install 
         <application>inxi</application>
-        , type use 
+        , use 
         <application>apt</application>
         , as we learned in the previous section:</simpara>
         <screen>sudo apt install inxi</screen>
@@ -1424,7 +1421,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/inxi.gif" contentwidth="100%" />
+                    <imagedata fileref="figures/inxi.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>Screenshot of the inxi output.</textobject>
                 </mediaobject>
@@ -1444,9 +1441,9 @@
         <title>Note</title>
         <simpara>
           How to use terminal and command-line programs is a topic that has been explored in many books. One popular and excellent book on this topic is
-          <ulink url="https://www.amazon.com/dp/1593273894">
-            <emphasis>The Linux Command Line: A Complete Introduction</emphasis>
-          </ulink>
+          <emphasis>
+            <ulink url="https://www.amazon.com/dp/1593273894">The Linux Command Line: A Complete Introduction</ulink>
+          </emphasis>
           by William E. Shotts Jr. Another source of information on using the terminal is the
           <ulink url="ghelp:/usr/share/help/C/mate-terminal/index.docbook">MATE Terminal</ulink>
           manual contained within the MATE Desktop User Guide. It's provided with Ubuntu MATE. To go there directly, open the
@@ -1929,7 +1926,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/writer.png" contentwidth="16px" />
+              <imagedata fileref="apps/writer.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Writer.</textobject>
           </inlinemediaobject>
@@ -1945,7 +1942,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/calc.png" contentwidth="16px" />
+              <imagedata fileref="apps/calc.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Calc.</textobject>
           </inlinemediaobject>
@@ -1961,7 +1958,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/impress.png" contentwidth="16px" />
+              <imagedata fileref="apps/impress.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Impress.</textobject>
           </inlinemediaobject>
@@ -1977,7 +1974,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/draw.png" contentwidth="16px" />
+              <imagedata fileref="apps/draw.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Draw.</textobject>
           </inlinemediaobject>
@@ -1991,7 +1988,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/base.png" contentwidth="16px" />
+              <imagedata fileref="apps/base.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Base.</textobject>
           </inlinemediaobject>
@@ -2005,7 +2002,7 @@
         <listitem>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="apps/math.png" contentwidth="16px" />
+              <imagedata fileref="apps/math.png" contentwidth="24px" />
             </imageobject>
             <textobject>LibreOffice Math.</textobject>
           </inlinemediaobject>
@@ -2082,6 +2079,54 @@
           .
         </listitem>
       </orderedlist>
+    </sect2>
+    <sect2 id="productivity-notifications">
+      <title>Indicator Applet</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/mate-notification-properties.png" contentwidth="32px"/>
+          </imageobject>
+          <textobject>Indicator icon.</textobject>
+        </inlinemediaobject>
+        The 
+        <application>Notification Center</application> 
+        displays text notifications, as well as notifications supplying additional media, such as sounds or icons. offers a “do not disturb” feature. When do not disturb is enabled, notifications will not be displayed but will be captured in the notification center for review. It's also possible to blacklist some notifications, so they are never stored by the notification center.
+      </simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%"/>
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/notification-bell.png" contentwidth="100%"/>
+                  </imageobject>
+                  <textobject>Notification icon.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%"/>
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/notification-settings.png" contentwidth="100%"/>
+                  </imageobject>
+                  <textobject>Notification settings.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
     </sect2>
     <sect2 id="productivity-caffeine">
       <title>Caffeine</title>
@@ -2602,9 +2647,9 @@
             <entry>
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="figures/minecraft-2.png" contentwidth="100%" />
+                  <imagedata fileref="figures/game.png" contentwidth="100%" />
                 </imageobject>
-                <textobject>Minecraft in action.</textobject>
+                <textobject>A Linux game in action.</textobject>
               </mediaobject>
             </entry>
           </row>
@@ -3252,13 +3297,13 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/a11y.png" contentwidth="32px" />
+            <imagedata fileref="apps/magnus.svg" contentwidth="32px" />
           </imageobject>
           <textobject>Accessibility icon.</textobject>
         </inlinemediaobject>
         If you are a low vision computer user and you require screen magnification, 
         <application>Magnus</application>
-        is a very simple desktop magnifier, showing the area around the mouse pointer in a separate window magnified two, three, four, or five times. The screen magnifier is also useful for accurate graphical design or detail work. To turn on or off the screen magnifier, press 
+        is a very simple desktop magnifier, showing the area around the mouse pointer in a separate window. You can select the level of magnification that works for you between two, three, four, and five times. The screen magnifier is also useful for accurate graphical design or detail work. To turn on or off the screen magnifier, press 
         <keycap>Alt</keycap>
         +
         <keycap>Super</keycap>
@@ -3377,7 +3422,7 @@
       . You can also use the
       <application>Software Center</application>
       or the
-      <application>Synaptic</application>
+      <application>Synaptic</application>control-centre
       package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the
       <application>Software Boutique</application>
       returns no results.
@@ -3460,25 +3505,23 @@
       </simpara>
       <simpara>Ubuntu MATE always has security in mind. Regardless of how you choose to install software, you are always asked for your password before anything can be installed. This is a list of some of the most popular software selections available from the repositories:</simpara>
       <itemizedlist>
+        <listitem>Barrier keyboard and mouse sharing application</listitem>
         <listitem>Codecs, libdvdcss2</listitem>
         <listitem>Dropbox for file sharing</listitem>
         <listitem>Gimp advanced image editor</listitem>
         <listitem>The Google Chrome browser</listitem>
-        <listitem>Google Music Manager</listitem>
-        <listitem>InSync Google Drive application</listitem>
-        <listitem>Minecraft</listitem>
+        <listitem>Clementine music manager</listitem>
+        <listitem>Minetest minecraft-inspired game</listitem>
         <listitem>Skype for Linux</listitem>
         <listitem>The Steam gaming platform</listitem>
         <listitem>The Software application</listitem>
-        <listitem>SpiderOakONE offsite backup</listitem>
+        <listitem>Slack collaboration tool for teams</listitem>
         <listitem>Spotify for music</listitem>
         <listitem>Synaptic package manager</listitem>
-        <listitem>Syncthing for file synchronization</listitem>
         <listitem>Telegram messaging app</listitem>
-        <listitem>Ubuntu SDK</listitem>
-        <listitem>Get download manager</listitem>
+        <listitem>uGet download manager</listitem>
         <listitem>VeraCrypt file and folder encryption</listitem>
-        <listitem>VirtualBox 5.0 virtual machine</listitem>
+        <listitem>VirtualBox virtual machine</listitem>
       </itemizedlist>
       <simpara>There is much more available. You can browse by the application's name or by function -- what the application does. Because the vast majority of the software available in the repositories is free, you can try applications and if you don't like them, or if they don't do what you expect them to do, you can uninstall them just as easily.</simpara>
     </sect2>
@@ -3588,7 +3631,7 @@
       <simpara>
         When you first install Ubuntu MATE, you'll be using its own layout, named Familiar. The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "
         <guimenu>Menu</guimenu>
-        ". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows. If you prefer to try something else, you can select a different panel layout using the
+        ". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom. The menu for each appliPanel Lcation appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows. If you prefer to try something else, you can select a different panel layout using the
         <application>MATE Tweak</application>
         "Panel" options.
       </simpara>
@@ -3633,7 +3676,7 @@
     </sect2>
     <sect2 id="panel-layouts-contemporary">
       <title>Contemporary Layout</title>
-      <simpara>The Contemporary layout has the classic look of Ubuntu MATE's default Traditional layout, with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. A significant difference from the Traditional layout is that, in the Contemporary layout, each application's menu always appears in the top panel rather than within the individual application's window. Called the "Global Menu," this feature was introduced for Ubuntu MATE 17.10 and is implemented in the traditional way Apple handles menus for its application windows.</simpara>
+      <simpara>The Contemporary layout has the classic look of Ubuntu MATE's default Familiar layout, with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom. A significant difference from the Familiar layout is that, in the Contemporary layout, each application's menu always appears in the top panel rather than within the individual application's window. Called the "Global Menu," this feature was introduced for Ubuntu MATE 17.10 and is implemented in the traditional way Apple handles menus for its application windows.</simpara>
       <informaltable frame="all">
         <tgroup cols="1">
           <colspec colwidth="100%" />
@@ -3758,65 +3801,125 @@
       </informaltable>
     </sect2>
   </sect1>
+  <sect1 id="personalization-window-controls">
+    <title>Window Controls</title>
+    <simpara></simpara>
+    <sect2 id="window-controls-buttons">>
+      <title>Changing the Location of the Window Controls</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/desktop.png" contentwidth="32px" />
+          </imageobject>
+          <textobject>Appearance icon.</textobject>
+        </inlinemediaobject>
+        Another quick way to adjust the look of your Ubuntu MATE desktop is to change the location of the window controls. You know, the buttons you use to minimize, maximize, and close a window. Ubuntu MATE let's you put them on the left like on macOS or on the right like Windows. You can also include or exclude a button for a menu with more window options. You may notice that the screen shots included in this guide have a mix of button locations. Choose the location that you like best or switch between them as your mood changes.
+      </simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%" />
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/change-buttons.png" contentwidth="100%" />
+                  </imageobject>
+                  <textobject>Changing the window buttons.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+      <simpara>
+      To change the location of the window buttons:
+      </simpara>
+      <orderedlist>
+        <listitem>
+          Open the MATE Tweak application by selecting 
+          <menuchoice>
+            <guimenu>Menu</guimenu>
+            <guimenuitem>Control Center</guimenuitem>
+            <guimenuitem>MATE Tweak</guimenuitem>
+          </menuchoice>
+          .
+        </listitem>
+        <listitem>Choose the 
+          <guimenuitem>Windows</guimenuitem>
+          icon in the pane on the left side of the MATE Tweak window.
+        </listitem>
+        <listitem>
+          Adjust the value for 
+          <guimenuitem>Window control placement</guimenuitem> 
+          .
+        </listitem>
+      </orderedlist>
+    </sect2>
+  </sect1>
   <sect1 id="personalization-background">
     <title>Desktop Background</title>
-    <simpara>
-      <inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="apps/appearance.png" contentwidth="32px" />
-        </imageobject>
-        <textobject>Appearancce icon.</textobject>
-      </inlinemediaobject>
-      Most desktop environments allow you to change the background wallpaper by right-clicking on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception.
-    </simpara>
-    <orderedlist>
-      <listitem>
-        Right-click the desktop and choose
-        <guimenuitem>Change Desktop Background</guimenuitem>
-        . If you prefer, you can use the menus:
-        <menuchoice>
-          <guimenu>Menu</guimenu>
-          <guimenuitem>Control Center</guimenuitem>
-          <guimenuitem>Appearance</guimenuitem>
-          <guimenuitem>Background</guimenuitem>
-        </menuchoice>
-        .
-      </listitem>
-      <listitem>Select the image you want to use.</listitem>
-      <listitem>
-        If you have a picture on your computer's hard drive that you want to use, click the
-        <keycap>Add</keycap>
-        button, locate the file, and then click
-        <keycap>Open</keycap>
-        .
-      </listitem>
-      <listitem>
-        Your background changes immediately. Click
-        <keycap>Close</keycap>
-        .
-      </listitem>
-    </orderedlist>
-    <informaltable frame="all">
-      <tgroup cols="1">
-        <colspec colwidth="100%" />
-        <tbody>
-          <row>
-            <entry>
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="figures/change-background.png" contentwidth="100%" />
-                </imageobject>
-                <textobject>Changing the background.</textobject>
-              </mediaobject>
-            </entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-    <note>
-      <title>Note</title>
-      <simpara>You can use the link on the lower left to download more images from the Internet. Always make sure you use only trusted sites to obtain new background images.</simpara>
-    </note>
+    <simpara></simpara>
+    <sect2 id="backgroud-wallpaper">
+      <title>Changing the Desktop Wallpaper</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/appearance.png" contentwidth="32px" />
+          </imageobject>
+          <textobject>Appearancce icon.</textobject>
+        </inlinemediaobject>
+        Most desktop environments allow you to change the background wallpaper by right-clicking on the desktop itself, then selecting the appropriate option from the context menu that appears. Ubuntu MATE is no exception.
+      </simpara>
+      <orderedlist>
+        <listitem>
+          Right-click the desktop and choose
+          <guimenuitem>Change Desktop Background</guimenuitem>
+          . If you prefer, you can use the menus:
+          <menuchoice>
+            <guimenu>Menu</guimenu>
+            <guimenuitem>Control Center</guimenuitem>
+            <guimenuitem>Appearance</guimenuitem>
+            <guimenuitem>Background</guimenuitem>
+          </menuchoice>
+          .
+        </listitem>
+        <listitem>Select the image you want to use.</listitem>
+        <listitem>
+          If you have a picture on your computer's hard drive that you want to use, click the
+          <keycap>Add</keycap>
+          button, locate the file, and then click
+          <keycap>Open</keycap>
+          .
+        </listitem>
+        <listitem>
+          Your background changes immediately. Click
+          <keycap>Close</keycap>
+          .
+        </listitem>
+      </orderedlist>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%" />
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/change-background.png" contentwidth="100%" />
+                  </imageobject>
+                  <textobject>Changing the background.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+      <note>
+        <title>Note</title>
+        <simpara>You can use the link on the lower left to download more images from the Internet. Always make sure you use only trusted sites to obtain new background images.</simpara>
+      </note>
+    </sect2>
   </sect1>
   <sect1 id="personalization-themes">
     <title>Themes</title>
@@ -4099,7 +4202,7 @@
         </simpara>
       </note>
     </sect2>
-    <sect2 id="personalization-desktop-icons">
+    <sect2 id="icons-system-icons">
       <title>Create System Icons Using MATE Tweak</title>
       <simpara>
         If you want to create System icons for such things as your "Computer," your "Home" folder, the "Trash" icon, an icon to access locations on your "Network," or "Mounted Volumes" like USB drives and DVD drives, then Ubuntu MATE makes that easy for you, too. You simply use the
@@ -4613,8 +4716,8 @@
   </sect1>
   <sect1 id="personalization-screensaver">
     <title>Screensaver</title>
-    <sect2 id="screensaver-battery-life">
-      <title>Strategies for Maximizing Battery Life</title>
+    <sect2 id="screensaver-decoration">
+      <title>Decorating Your Screen</title>
       <simpara>
         <inlinemediaobject>
           <imageobject>
@@ -4891,15 +4994,7 @@
         <listitem>
           <simpara>Click on the link for the file name that ends in ".iso".</simpara>
           <simpara>
-            <screen>
-              <inlinemediaobject>
-                <imageobject>
-                  <imagedata fileref="apps/direct-download.png" contentwidth="25px" />
-                </imageobject>
-                <textobject>Download icon.</textobject>
-              </inlinemediaobject>
-              ubuntu-mate-18.04-desktop-amd64.iso
-            </screen>
+            <screen>ubuntu-mate-20.04-desktop-amd64.iso</screen>
           </simpara>
         </listitem>
         <listitem>
@@ -4923,9 +5018,9 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/dvd.png" contentwidth="32px" />
+            <imagedata fileref="apps/media-removable.png" contentwidth="32px" />
           </imageobject>
-          <textobject>DVD icon.</textobject>
+          <textobject>Removable media icon.</textobject>
         </inlinemediaobject>
         The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing
         <emphasis>anything at all</emphasis>
@@ -4942,7 +5037,12 @@
         using a tool called Rufus.
       </simpara>
       <simpara>
-        A popular cross-platform (Windows, macOS, and Linux) app for creating a "live" USB drive is
+        If you are considering a switch from macOS, this is a link to the official Canonical method for
+        <ulink url="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos">Creating a bootable USB stick on macOS</ulink>
+        using the free and open source tool Etcher.
+      </simpara>
+      <simpara>
+        If you have Windows, macOS, and Linux computers and want to use the same tool across all three, the popular cross-platform (Windows, macOS, and Linux) app for creating a "live" USB drive is
         <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>
         . This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "
         <ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>
@@ -5051,13 +5151,13 @@
           </simpara>
           <informaltable frame="all">
             <tgroup cols="1">
-              <colspec colwidth="100%" />
+              <colspec colwidth="200px" />
               <tbody>
                 <row>
                   <entry>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="figures/install-um.png" contentwidth="100%" />
+                        <imagedata fileref="figures/install-um.png" contentwidth="200px" />
                       </imageobject>
                       <textobject>Install Ubuntu MATE.</textobject>
                     </mediaobject>
@@ -5108,7 +5208,7 @@
             <title>NVIDIA Drivers</title>
             <simpara>If you have an NVIDIA GPU connected to your computer and select Install third-party software for graphics and Wi-Fi hardware during installation, the NVIDIA proprietary drivers will be installed.</simpara>
 
-            <simpara>Post install, the proprietary NVIDIA drivers are installed and configured. Ubuntu MATE users with laptops that support hybrid graphics will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo.</simpara>
+            <simpara>After completion of your installation, the proprietary NVIDIA drivers are installed and configured. Ubuntu MATE users with laptops that support hybrid graphics will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo. MATE Optimus adds support for NVIDIA On-Demand and will prompt users to log out when switching the GPU's profile.</simpara>
             <informaltable frame="all">
               <tgroup cols="1">
                 <colspec colwidth="100%" />
@@ -5203,7 +5303,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/help.png" contentwidth="32px" />
+          <imagedata fileref="apps/help-contents.svg" contentwidth="32px" />
         </imageobject>
         <textobject>Help icon.</textobject>
       </inlinemediaobject>
@@ -5610,11 +5710,13 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/keyboard-shortcuts.png" contentwidth="32px" />
+          <imagedata fileref="apps/preferences-desktop-keyboard-shortcuts.svg" contentwidth="32px" />
         </imageobject>
         <textobject>Keyboard Shortcuts icon.</textobject>
       </inlinemediaobject>
-      Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device. This is a comparison of these keyboard shortcuts with those you might have used in your previous operating system.
+      Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device. You can find more keyboard shortcuts documented in the Getting Started section of 
+        <application>Ubuntu MATE Welcome</application>
+        . This provides a comparison of some of these keyboard shortcuts with those you might have used in your previous operating system.
     </simpara>
     <note>
       <title>Note</title>
@@ -6298,11 +6400,15 @@
               </entry>
             </row>
             <row>
-              <entry>Return window to 'normal' or previous size</entry>
+              <entry>Return (restore) window to 'normal' or previous size</entry>
               <entry align="center">
                 <keycap>Alt</keycap>
                 +
                 <keycap>F5</keycap>
+                or 
+                <keycap></keycap>
+                + 
+                <keycap>↓</keycap>
               </entry>
               <entry align="center"></entry>
               <entry align="center"></entry>
@@ -6347,6 +6453,10 @@
                 <keycap>Alt</keycap>
                 +
                 <keycap>F10</keycap>
+                or 
+                <keycap></keycap>
+                + 
+                <keycap>↑</keycap>
               </entry>
               <entry align="center"></entry>
               <entry align="center"></entry>
@@ -6833,13 +6943,6 @@
         Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are
         <emphasis>unofficial</emphasis>
         builds.
-      </simpara>
-    </sect2>
-    <sect2 id="faq-14.04LTS">
-      <title>Will you be making a 14.04 LTS version of Ubuntu MATE?</title>
-      <simpara>
-        We have, although it is not an official build. We have posted a
-        <ulink url="https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/">HOW-TO for installing your own Ubuntu MATE 14.04 from scratch.</ulink>
       </simpara>
     </sect2>
     <sect2 id="faq-xyz">
