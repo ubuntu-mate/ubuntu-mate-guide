@@ -406,10 +406,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         For more information about how you can use
         <application>Caja</application>
         and the various preferences that you can set, see the
-        <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml">
-          <application>Caja</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml">Caja manual</ulink>
         (Desktop User Guide) by pressing
         <keycap>F1</keycap>
         while
@@ -499,10 +496,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Pluma</title>
       <simpara>
         For help topics on this application, see the
-        <ulink url="ghelp:/usr/share/help/C/pluma/index.docbook">
-          <application>Pluma</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/pluma/index.docbook">Pluma manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -708,10 +702,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Calculator</title>
       <simpara>
         For help topics on this application, see the
-        <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page">
-          <application>MATE Calculator</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/mate-calc/index.page">MATE Calculator manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -783,10 +774,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     <tip>
       <title>Archive Manager</title>
       For help topics on this application, see the
-      <ulink url="ghelp:/usr/share/help/C/engrampa/index.docbook">
-        <application>Archive Manager</application>
-        manual
-      </ulink>
+      <ulink url="ghelp:/usr/share/help/C/engrampa/index.docbook">Archive Manager manual</ulink>
       by pressing
       <keycap>F1</keycap>
       while
@@ -897,10 +885,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Image Viewer</title>
       <simpara>
         For help topics on this application, see the
-        <ulink url="ghelp:/usr/share/help/C/eom/index.docbook">
-          <application>Image Viewer</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/eom/index.docbook">Image Viewer manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -1049,10 +1034,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Atril</title>
       <simpara>
         For help topics on this application, see the
-        <ulink url="ghelp:/usr/share/help/C/atril/index.docbook">
-          <application>Atril Document Viewer</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/atril/index.docbook">Atril Document Viewer manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -1159,10 +1141,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Disk Usage Analyzer</title>
       <simpara>
         For help topics on this application, see the
-        <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook">
-          <application>MATE Disk Usage Analyzer</application>
-          manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook">MATE Disk Usage Analyzer manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -1244,7 +1223,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
           <row>
             <entry>
               <mediaobject>
-                <imageobject>
+                <imageobject>System Monitor
                   <imagedata fileref="figures/sysmon_system.png" contentwidth="100%" />
                 </imageobject>
                 <textobject>The System Monitor window.</textobject>
@@ -1292,7 +1271,9 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         <ulink url="ghelp:/usr/share/help/C/mate-system-monitor/index.docbook">MATE System Monitor manual</ulink>
         by pressing
         <keycap>F1</keycap>
-        while MATE System Monitor is open.
+        while 
+        <application>MATE System Monitor</application> 
+        is open.
       </simpara>
     </tip>
   </sect1>
@@ -2254,7 +2235,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         . It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate
         <application>Simple Scan</application>
         application described in the next section.
-        <ulink url="http://hplipopensource.com/hplip-web/about.html">Read more about HPLIP</ulink>
+        <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">Read more about HPLIP</ulink>
         .
       </simpara>
       <informaltable frame="all">
@@ -2331,10 +2312,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         is as easy as: load your document, press Simple Scan's
         <keycap>Scan</keycap>
         button, then save the image. For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the
-        <ulink url="ghelp:/usr/share/help/C/simple-scan/index">
-          <application>Simple Scan</application>
-          Manual
-        </ulink>
+        <ulink url="ghelp:/usr/share/help/C/simple-scan/index">Simple Scan Manual</ulink>
         by pressing
         <keycap>F1</keycap>
         while
@@ -2623,9 +2601,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       In the last few years, Linux has become a first-class gaming platform thanks to
       <ulink url="http://www.valvesoftware.com/">Valve</ulink>
       bringing the
-      <ulink url="http://store.steampowered.com/">
-        <application>Steam</application>
-      </ulink>
+      <ulink url="http://store.steampowered.com/">Steam</ulink>
       platform to Linux. At the time of writing,
       <application>Steam</application>
       has more than 2000 high-quality indie and AAA titles available for Linux. Ubuntu MATE is fully compatible with
@@ -2813,7 +2789,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     </sect2>
     <sect2 id="security-insurance">
       <title>Backing up Your Computer Is Cheap Disaster Recovery Insurance</title>
-      <simpara>One way to backup inexpensively is to get a large firewire or USB 3.0 external hard drive and copy everything in your "home" folder to it on a regular basis. And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE.</simpara>
+      <simpara>One way to backup inexpensively is to get a large USB external hard drive and copy everything in your "home" folder to it on a regular basis. And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE.</simpara>
       <simpara>
         At least monthly, you should make a complete backup of everything important on your hard drive either by using backup software or by simply copying to a second hard drive or a network drive. Linux applications such as the pre-installed Ubuntu MATE
         <application>Backup</application>
@@ -3631,7 +3607,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         When you first install Ubuntu MATE, you'll be using its own layout, named Familiar. The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "
         <guimenu>Menu</guimenu>
-        ". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom. The menu for each appliPanel Lcation appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows. If you prefer to try something else, you can select a different panel layout using the
+        ". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom. The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows. If you prefer to try something else, you can select a different panel layout using the
         <application>MATE Tweak</application>
         "Panel" options.
       </simpara>
@@ -4824,7 +4800,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         </imageobject>
         <textobject>Nvidia logo.</textobject>
       </inlinemediaobject>
-      Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system. Of course, Ubuntu MATE will run much more efficiently if your computer meets or surpasses the recommended requirements.
+      Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows Vista era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system. Of course, Ubuntu MATE will run much more efficiently if your computer meets or surpasses the recommended requirements. These are the recommendations for Desktop and Laptop computers.
     </simpara>
     <informaltable frame="bottom" pgwide="1">
       <tgroup cols="2" rowsep="1" colsep="1">
@@ -4853,7 +4829,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
             <entry>2 gigabytes (GB) RAM</entry>
           </row>
           <row>
-            <entry>9 gigabytes (GB) of available space on the hard disk</entry>
+            <entry>8 gigabytes (GB) of available space on the hard disk</entry>
             <entry>16 gigabytes (GB) of available space on the hard disk</entry>
           </row>
           <row>
@@ -4865,8 +4841,8 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
             <entry>Keyboard and mouse (or other pointing device)</entry>
           </row>
           <row>
-            <entry>Video adapter and monitor with 1024 x 768 or higher resolution</entry>
-            <entry>3D capable video adaptor and wide screen monitor with 1366 x 768 or higher resolution</entry>
+            <entry>1024 x 768 or higher resolution</entry>
+            <entry>1440 x 900 or higher (with graphics acceleration)</entry>
           </row>
           <row>
             <entry>Sound card</entry>
@@ -4901,7 +4877,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
             <entry>
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="figures/download-selections.jpg" contentwidth="100%" />
+                  <imagedata fileref="figures/download-selections.png" contentwidth="100%" />
                 </imageobject>
                 <textobject>Download selections.</textobject>
               </mediaobject>
@@ -4946,7 +4922,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         </listitem>
       </orderedlist>
       <simpara>
-        <emphasis role="bold">Your second decision is between the version labeled Long Term Support (LTS) release and a normal release. Here is some information about each that will help you choose the right release for you.</emphasis>
+        <emphasis role="bold">Your second decision is between the version labeled Long Term Support (LTS) release and a 'normal' release. Here is some information about each that will help you choose the right release for you.</emphasis>
       </simpara>
       <orderedlist>
         <listitem>
@@ -4985,16 +4961,11 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     </sect2>
     <sect2 id="downloading-download">
       <title>Download</title>
-      <simpara>
-        Once you have determined which version to download, scroll down the web page to the section labeled
-        <guilabel>Download Links</guilabel>
-        .
-      </simpara>
       <orderedlist>
         <listitem>
-          <simpara>Click on the link for the file name that ends in ".iso".</simpara>
-          <simpara>
-            <screen>ubuntu-mate-20.04-desktop-amd64.iso</screen>
+          <simpara>Once you have chosen the version to download, select 
+        <emphasis>Direct Download</emphasis> 
+        to begin downloading the file you will need for the installation. The file you are downloading ends in ".iso".
           </simpara>
         </listitem>
         <listitem>
@@ -5409,19 +5380,23 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>About</title>
       <simpara>
         Click the
-        <ulink url="https://ubuntu-mate.org/about/">
-          <guilabel>About</guilabel>
-        </ulink>
+        <ulink url="https://ubuntu-mate.org/about/">About</ulink>
         link for a page that breaks down what exactly Ubuntu MATE is in easy to understand language.
+      </simpara>
+    </sect2>
+    <sect2 id="website-features">
+      <title>Features</title>
+      <simpara>
+        Click the
+        <ulink url="https://ubuntu-mate.org/features/">Features</ulink>
+        link for a page that lets you to dive under the hood and see the features that make Ubuntu MATE different.
       </simpara>
     </sect2>
     <sect2 id="website-blog">
       <title>Blog</title>
       <simpara>
         The
-        <ulink url="https://ubuntu-mate.org/blog/">
-          <guilabel>Blog</guilabel>
-        </ulink>
+        <ulink url="https://ubuntu-mate.org/blog/">Blog</ulink>
         link reveals the place where the Ubuntu MATE project leaders thank the community for its support of Ubuntu MATE, make announcements, and provide updates on planned releases.
       </simpara>
     </sect2>
@@ -5429,9 +5404,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Community</title>
       <simpara>
         Click the
-        <ulink url="https://ubuntu-mate.org/community/">
-          <guilabel>Community</guilabel>
-        </ulink>
+        <ulink url="https://ubuntu-mate.org/community/">Community</ulink>
         link for ways you can connect with the Ubuntu MATE community. For additional information see
         <xref linkend="page.community" />
         .
@@ -5441,29 +5414,31 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <title>Download</title>
       <simpara>
         Click the
-        <ulink url="https://ubuntu-mate.org/download/">
-          <guilabel>Download</guilabel>
-        </ulink>
+        <ulink url="https://ubuntu-mate.org/download/">Download</ulink>
         link to get the latest release of Ubuntu MATE to install on your computer, or give to your friends to try on their computers.
       </simpara>
     </sect2>
-    <sect2 id="website-team">
-      <title>Team</title>
+    <sect2 id="website-get-involved">
+      <title>Get Involved</title>
       <simpara>
         The
-        <ulink url="https://ubuntu-mate.org/team/">
-          <guilabel>Team</guilabel>
-        </ulink>
-        link lists the troupe of all-star international cabaret artists responsible for making Ubuntu MATE a thing.
+        <ulink url="https://ubuntu-mate.org/get-involved/">Get Involved</ulink>
+        link lets you explore the different ways you can contribute to the development of Ubuntu MATE.
       </simpara>
     </sect2>
-    <sect2 id="website-donate">
-      <title>Donate</title>
+    <sect2 id="website-emporium">
+      <title>Emporium</title>
       <simpara>
         The
-        <ulink url="https://ubuntu-mate.org/donate/">
-          <guilabel>Donate</guilabel>
-        </ulink>
+        <ulink url="https://ubuntu-mate.org/shop/">Emporium</ulink>
+        link reveals the "Ubuntu MATE Emporium" where you can purchase Entroware computers, pre-installed with Ubuntu MATE, books about Ubuntu MATE, shirts, jackets, mugs, and more!
+      </simpara>
+    </sect2>
+    <sect2 id="website-funding">
+      <title>Funding</title>
+      <simpara>
+        The
+        <ulink url="https://ubuntu-mate.org/funding/">Funding</ulink>
         page details a crowdfunding campaign with three main objectives:
       </simpara>
       <orderedlist>
@@ -5478,27 +5453,6 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         </listitem>
       </orderedlist>
     </sect2>
-    <sect2 id="website-wiki">
-      <title>Wiki</title>
-      <simpara>
-        The
-        <ulink url="https://ubuntu-mate.community/wiki">
-          <guilabel>Wiki</guilabel>
-        </ulink>
-        page on the Ubuntu MATE website provides tips, tricks, tutorials, and guides. If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then this is a great place to look. You'll find more about the Ubuntu MATE Wiki later in this guide.
-        <xref linkend="page.wiki" />
-      </simpara>
-    </sect2>
-    <sect2 id="website-shop">
-      <title>Shop</title>
-      <simpara>
-        The
-        <ulink url="https://ubuntu-mate.boutique/">
-          <guilabel>Shop</guilabel>
-        </ulink>
-        link reveals the "Ubuntu MATE Boutique" where you can purchase Entroware computers, pre-installed with Ubuntu MATE, shirts, jackets, mugs, stickers and more!
-      </simpara>
-    </sect2>
   </sect1>
   <sect1 id="page.community">
     <title>The Ubuntu MATE Community</title>
@@ -5509,200 +5463,13 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         </imageobject>
         <textobject>Community icon.</textobject>
       </inlinemediaobject>
-      Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE.
+      Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. Join the conversation and get involved. Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community.
     </simpara>
     <simpara>
       The
       <ulink url="https://ubuntu-mate.org/community/">Community page on the Ubuntu MATE website</ulink>
-      provides options in three categories for getting involved.
+      provides options in three categories. Community, Testimonials, and Desktop Hall of Fame.
     </simpara>
-    <sect2 id="community-discussion">
-      <title>Discussion</title>
-      <simpara>Join the conversation and get involved. Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community.</simpara>
-      <simpara>
-        Ubuntu MATE also has its own IRC channel,
-        <ulink url="https://ubuntu-mate.org/irc/">#ubuntu-mate</ulink>
-        , on the
-        <ulink url="http://freenode.net/">Freenode</ulink>
-        network. The #ubuntu-mate channel is also home to matey, probably the smartest IRC bot in the world, EVER!
-      </simpara>
-    </sect2>
-    <sect2 id="community-social">
-      <title>Social</title>
-      <simpara>
-        Ubuntu MATE is active on
-        <ulink url="https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ">YouTube</ulink>
-        ,
-        <ulink url="https://plus.google.com/communities/108331279007926658904">Google+</ulink>
-        ,
-        <ulink url="https://twitter.com/ubuntu_mate">Twitter</ulink>
-        , and
-        <ulink url="https://www.facebook.com/UbuntuMATEedition/">Facebook</ulink>
-        .
-      </simpara>
-    </sect2>
-    <sect2 id="community-development">
-      <title>Community</title>
-      <simpara>This is where you can get involved with Ubuntu MATE and with MATE Desktop development.</simpara>
-      <simpara>Found a Bug? This is where you'll find a link to submit your detailed and reproducible bug reports to Launchpad so that the relevant developers can fix them in future updates.</simpara>
-    </sect2>
-  </sect1>
-  <sect1 id="page.wiki">
-    <title>The Ubuntu MATE Wiki</title>
-    <simpara>
-      <inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="apps/community.png" contentwidth="32px" />
-        </imageobject>
-        <textobject>Community icon.</textobject>
-      </inlinemediaobject>
-      If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then the Ubuntu MATE Wiki is a great place to look.
-    </simpara>
-    <simpara>
-      The
-      <ulink url="https://ubuntu-mate.community/wiki">Wiki page on the Ubuntu MATE website</ulink>
-      provides tips, tricks, tutorials, and guides.
-    </simpara>
-    <sect2 id="wiki-beginner">
-      <title>Beginner's Corner</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/beginner.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Beginner banner.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>Topics ideal if you are brand new to the world of Linux and Ubuntu MATE, topics related to the installation of Ubuntu MATE, and topics that answer frequently asked questions of common subjects.</simpara>
-    </sect2>
-    <sect2 id="wiki-customization">
-      <title>Customisation</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/customisation.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Customisation banner.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>Topics relating to the background and general look and feel of your computer, topics related to the panels -- the bars (or docks) at the corners of your screen, and topics that involve replacing software with other components from other desktop environments or Linux distributions.</simpara>
-    </sect2>
-    <sect2 id="wiki-window-manager">
-      <title>Window Managers</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/window-manager.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Window Managers banner.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>
-        You can change the window manager in
-        <application>MATE Tweak</application>
-        and this section describes topics related to
-        <application>Marco</application>
-        , the default Window Manager and
-        <application>Compiz</application>
-        , the Window Manager that can provide fancy effects.
-        <application>Marco</application>
-        : This window manager composites using your CPU. On some systems, this can cause screen tearing.
-        <application>Compiz</application>
-        : This window manager composites with your GPU. You can change this option in
-        <application>MATE Tweak</application>
-        , however, older hardware and some graphics cards may not be compatible with this option.
-      </simpara>
-    </sect2>
-    <sect2 id="wiki-extras">
-      <title>Software &amp; Extras</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/software-extras.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Software and Extras banner.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>Topics that offer assistance installing and customizing certain types of software and topics that involve changing parts of your system.</simpara>
-    </sect2>
-    <sect2 id="wiki-raspberry-pi">
-      <title>Raspberry Pi</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/raspberrypi.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Raspberry Pi banner.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>Here are topics that apply specifically to the Raspberry Pi, topics that prepare you to use Ubuntu MATE on your Raspberry Pi, and topics with inspiration around what your Pi can do with Ubuntu MATE.</simpara>
-    </sect2>
-    <sect2 id="wiki-dual-booting">
-      <title>Dual Booting</title>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/dual-booting.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Description.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-      <simpara>Topics relating to dual booting with Windows or Mac, BIOS vs. UEFI Booting, and how to make your Windows session bootable again if you remove Linux.</simpara>
-    </sect2>
   </sect1>
   <!-- Keyboard Shortcuts =================================================== -->
   <sect1 id="page.shortcuts">
@@ -6782,7 +6549,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         All of these shortcuts apply when the
         <application>Compiz</application>
-        is selected as the window manager in the
+        is installed and selected as the window manager in the
         <application>MATE Tweak</application>
         tool and the appropriate effect is enabled.
       </simpara>
@@ -6916,10 +6683,6 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         section in this guide.
       </simpara>
     </sect2>
-    <sect2 id="faq-canonical">
-      <title>Is Ubuntu MATE an official Canonical project?</title>
-      <simpara>No, it is an Ubuntu community project.</simpara>
-    </sect2>
     <sect2 id="faq-who">
       <title>
         OK, so
@@ -6928,7 +6691,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       </title>
       <simpara>
         Take a look at our
-        <ulink url="https://ubuntu-mate.org/team/">team page</ulink>
+        <ulink url="https://ubuntu-mate.org/about/team/">team page</ulink>
         on the website to see the all-star cast who have made Ubuntu MATE possible.
       </simpara>
     </sect2>
@@ -6953,7 +6716,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         <emphasis>abc</emphasis>
         application?
       </title>
-      <simpara>In general, the default application selection follows what shipped in Ubuntu 14.04. The only reason we deviate from the default Ubuntu applications is if they are not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies.</simpara>
+      <simpara>In general, the default application selection follows what shipped in previous versions of Ubuntu. The only reason we deviate from the default Ubuntu applications is if they are not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies.</simpara>
       <simpara>The reason for using the default applications as shipped by Ubuntu is the Ubuntu staff support the default applications. The Ubuntu MATE team is rather small so sharing the support responsibility makes sense, both for us and our users.</simpara>
     </sect2>
     <sect2 id="faq-abc">
@@ -6969,7 +6732,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     <sect2 id="faq-mypc">
       <title>Will Ubuntu MATE run on my computer?</title>
       <simpara>If you have a computer from Entroware, System 76, ZaReason or Think Penguin then Ubuntu MATE will absolutely run on your computer. Computers from major vendors such as Acer, ASUS, Dell, HP, and Lenovo will most likely run Ubuntu MATE just fine too.</simpara>
-      <simpara>Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.</simpara>
+      <simpara>Ubuntu MATE is designed to run on almost any computer hardware. Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine. In fact, an older computer designed during the Windows Vista era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.</simpara>
     </sect2>
     <sect2 id="faq-itunes">
       <title>
