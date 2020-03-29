@@ -6167,20 +6167,6 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
               </entry>
             </row>
             <row>
-              <entry>Return (restore) window to 'normal' or previous size</entry>
-              <entry align="center">
-                <keycap>Alt</keycap>
-                +
-                <keycap>F5</keycap>
-                or 
-                <keycap></keycap>
-                + 
-                <keycap>↓</keycap>
-              </entry>
-              <entry align="center"></entry>
-              <entry align="center"></entry>
-            </row>
-            <row>
               <entry>Move the current window</entry>
               <entry align="center">
                 <keycap>Alt</keycap>
@@ -6191,7 +6177,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
               <entry align="center"></entry>
             </row>
             <row>
-              <entry>Minimize current window</entry>
+              <entry>Resize the current window</entry>
               <entry align="center">
                 <keycap>Alt</keycap>
                 +
@@ -6215,7 +6201,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
               <entry align="center"></entry>
             </row>
             <row>
-              <entry>Maximize current window</entry>
+              <entry>Toggle maximize the current window</entry>
               <entry align="center">
                 <keycap>Alt</keycap>
                 +
@@ -6224,6 +6210,10 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
                 <keycap></keycap>
                 + 
                 <keycap>↑</keycap>
+                /
+                <keycap></keycap>
+                + 
+                <keycap>↓</keycap>
               </entry>
               <entry align="center"></entry>
               <entry align="center"></entry>
