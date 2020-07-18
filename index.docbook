@@ -2169,7 +2169,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/printer.svg" contentwidth="32px" />
+            <imagedata fileref="apps/printer.png" contentwidth="32px" />
           </imageobject>
           <textobject>Printer icon.</textobject>
         </inlinemediaobject>
@@ -2927,7 +2927,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/gufw.svg" contentwidth="32px" />
+            <imagedata fileref="apps/gufw.png" contentwidth="32px" />
           </imageobject>
           <textobject>Firewall icon.</textobject>
         </inlinemediaobject>
@@ -3173,7 +3173,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/onboard.svg" contentwidth="32px" />
+            <imagedata fileref="apps/onboard.png" contentwidth="32px" />
           </imageobject>
           <textobject>Onboard icon.</textobject>
         </inlinemediaobject>
@@ -3273,7 +3273,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/magnus.svg" contentwidth="32px" />
+            <imagedata fileref="apps/magnus.png" contentwidth="32px" />
           </imageobject>
           <textobject>Accessibility icon.</textobject>
         </inlinemediaobject>
@@ -4343,7 +4343,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
             <guibutton>Open</guibutton>
             . For this example, we use a coffee cup icon located here:
           </simpara>
-          <screen>/usr/share/icons/Humanity/categories/48/applications-java.svg</screen>
+          <screen>/usr/share/icons/Humanity/categories/48/applications-java.png</screen>
         </listitem>
         <listitem>
           <simpara>
@@ -4386,7 +4386,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/gnome-display-properties.svg" contentwidth="32px" />
+            <imagedata fileref="apps/gnome-display-properties.png" contentwidth="32px" />
           </imageobject>
           <textobject>Gnome display properties icon.</textobject>
         </inlinemediaobject>
@@ -5274,7 +5274,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/help-contents.svg" contentwidth="32px" />
+          <imagedata fileref="apps/help-contents.png" contentwidth="32px" />
         </imageobject>
         <textobject>Help icon.</textobject>
       </inlinemediaobject>
@@ -5477,7 +5477,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/preferences-desktop-keyboard-shortcuts.svg" contentwidth="32px" />
+          <imagedata fileref="apps/preferences-desktop-keyboard-shortcuts.png" contentwidth="32px" />
         </imageobject>
         <textobject>Keyboard Shortcuts icon.</textobject>
       </inlinemediaobject>
