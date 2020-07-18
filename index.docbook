@@ -368,7 +368,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       can display special icons that allow easy access to your personal Home folder,
       <guiicon>Trash</guiicon>
       , and removable media such as CDs, USB flash drives, and (if your computer is old enough) floppy disks. See how to enable these special desktop icons in the section
-      <xref linkend="personalization-desktop-icons" />
+      <xref linkend="icons-system-icons" />
       .
     </simpara>
     <simpara>

@@ -58,4 +58,24 @@ The `index.docbook` file is simply placed in this location `/usr/share/help/C/ub
 ----------
 ## PDF Conversion
 
-To be completed
+Install these command-line utilities: `pandoc` `texlive-xetex` and `texlive-fonts-extra` (and dependencies) from the Ubuntu MATE repositories and use **pandoc** to convert the docbook file to markdown and then from markdown to pdf:
+
+```
+pandoc -f docbook -t markdown -s index.docbook -o UMGuide.md
+pandoc UMGuide.md  --pdf-engine=xelatex -o UMGuide.pdf
+```
+
+----------
+## HTML Conversion
+
+The `pandoc` application is also used to create the online publication of the Ubuntu MATE Guide at [http://guide.ubuntu-mate.org](http://guide.ubuntu-mate.org).
+
+Further information can be found here: 
+[https://github.com/ubuntu-mate/guide.ubuntu-mate.org](https://github.com/ubuntu-mate/guide.ubuntu-mate.org)
+
+An HTML file can be created from the markdown file with this command:
+
+```
+pandoc -s UMGuide.md -o UMGuide.html
+```
+
