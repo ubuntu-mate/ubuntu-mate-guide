@@ -6,7 +6,7 @@ Written in DocBook XML V4.5 format [DocBook](http://docbook.org/xml/4.5/docbookx
 
 ## History
 
-The version of this guide provided in Ubuntu MATE release 17.10 and earlier was writtten using the [Mallard](http://projectmallard.org/index.html) topic-oriented markup format. Mallard documentation consists of a set of text files for documentation presented to users with the **Yelp** help system pre-installed in Ubuntu MATE. Mallard formatting is used by several Linux applications packaged with Ubuntu MATE.
+The version of this guide provided in Ubuntu MATE release 17.10 and earlier was written using the [Mallard](http://projectmallard.org/index.html) topic-oriented markup format. Mallard documentation consists of a set of text files for documentation presented to users with the **Yelp** help system pre-installed in Ubuntu MATE. Mallard formatting is used by several Linux applications packaged with Ubuntu MATE.
 
 With Ubuntu MATE release 18.10 the documentation has been expanded significantly and now uses the *DocBook* format. *DocBook* is also a markup format for creating documentation presented to users with the **Yelp** help system, however the entire documentation is contained in a single file named `index.docbook`. This format appears to be preferred in documentation produced for applications produced by the MATE project. Although the presentation in the help system is slightly different, both the *DocBook* format and the *Mallard* format for documentation can link to one-another and interact nicely in **Yelp**.
 

@@ -5463,12 +5463,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         </imageobject>
         <textobject>Community icon.</textobject>
       </inlinemediaobject>
-      Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. Join the conversation and get involved. Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community.
-    </simpara>
-    <simpara>
-      The
-      <ulink url="https://ubuntu-mate.org/community/">Community page on the Ubuntu MATE website</ulink>
-      provides options in three categories. Community, Testimonials, and Desktop Hall of Fame.
+      Posing your question to the <ulink url="https://ubuntu-mate.org/community/">Ubuntu MATE Community</ulink> is the fastest and easiest way to get answers about how to use Ubuntu MATE. Join the conversation and get involved. Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community.
     </simpara>
   </sect1>
   <!-- Keyboard Shortcuts =================================================== -->
