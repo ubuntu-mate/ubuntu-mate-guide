@@ -3,7 +3,7 @@
 <article id="index" lang="en">
   <articleinfo>
     <title>Ubuntu MATE Guide</title>
-    <date>2020-04-23</date>
+    <date>2020-10-26</date>
     <authorgroup>
       <author role="maintainer" lang="en">
         <firstname>Larry</firstname>
@@ -16,8 +16,8 @@
     </authorgroup>
     <revhistory>
       <revision>
-        <revnumber>20.04</revnumber>
-        <date>2020-04-23</date>
+        <revnumber>20.10</revnumber>
+        <date>2020-10-26</date>
         <authorinitials>LB</authorinitials>
       </revision>
     </revhistory>
@@ -31,15 +31,16 @@
     </legalnotice>
     <legalnotice>
       <title>Creative Commons</title>
-      <simpara>Ubuntu MATE Guide is licensed under a
-<ulink url="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License.</ulink>
-</simpara>
+      <simpara>
+        Ubuntu MATE Guide is licensed under a 
+        <ulink url="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License.</ulink>
+      </simpara>
     </legalnotice>
     <legalnotice>
       <title>Feedback</title>
       <simpara>
-To report a bug or make a suggestion regarding Ubuntu MATE, its components, or this guide, follow the directions in the Development section of the <ulink url="http://ubuntu-mate.org/community/" type="help">Ubuntu MATE Community Page</ulink>.
-</simpara>
+        To report a bug or make a suggestion regarding Ubuntu MATE, its components, or this guide, follow the directions in the Development section of the <ulink url="http://ubuntu-mate.org/community/" type="help">Ubuntu MATE Community Page</ulink>.
+      </simpara>
     </legalnotice>
   </articleinfo>
   <!-- Beginning of Document ================================================ -->
@@ -66,7 +67,9 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       <application>Ubuntu MATE</application>
       is an operating system -- the core software that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS. Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike. It is a dependable, capable, and modern computer system that rivals all others in popularity and usage.
     </simpara>
-    <simpara>If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.</simpara>
+    <simpara>
+      If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with. You will find that Ubuntu MATE is more similar than different. This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users. This guide has several sections, each of which has additional detail. Click on any link to explore a topic that interests you. You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications.
+    </simpara>
     <sect2 id="modern">
       <title>Modern and Full-Featured</title>
       <simpara>Ubuntu MATE is a free, full-featured, and modern computer operating system, with an attractive and easy to understand user interface. Its update manager keeps both the operating system itself and all of its installed applications updated to the most current, most secure release. The operating system is more secure and better-supported than operating systems that come pre-installed on most home computer hardware today. With modest hardware requirements, Ubuntu MATE is suitable for modern workstations, single board computers and older hardware alike. Ubuntu MATE makes modern computers fast and old computers usable.</simpara>
@@ -3398,7 +3401,7 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
       . You can also use the
       <application>Software Center</application>
       or the
-      <application>Synaptic</application>control-centre
+      <application>Synaptic</application> control-centre
       package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the
       <application>Software Boutique</application>
       returns no results.
@@ -4896,14 +4899,14 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
           <simpara>
             Choose
             <emphasis>64-bit</emphasis>
-            if your computer has more than 3GB of RAM, with a 64-bit capable Intel or AMD processor. This is also a good choice for UEFI PCs booting in CSM mode and for modern Intel-based Apple Macs.
+            (amd64) if your computer has more than 3GB of RAM, with a 64-bit capable Intel or AMD processor. This is also a good choice for UEFI PCs booting in CSM mode and for modern Intel-based Apple Macs.
           </simpara>
         </listitem>
         <listitem>
           <simpara>
             Choose
             <emphasis>32-bit</emphasis>
-            if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for aging PCs with low-RAM resources, and older Intel-based Apple Macintosh systems.
+            (i386) if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for aging PCs with low-RAM resources, and older Intel-based Apple Macintosh systems. Note: i386 has been discontinued and will no longer receive updates after April 2021. This one runs on any 32-bit PC or Intel Mac.
           </simpara>
         </listitem>
         <listitem>
@@ -4916,21 +4919,28 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
         <listitem>
           <simpara>
             The
-            <emphasis>Raspberry Pi</emphasis>
-            version is for aarch32 (ARMv7) computers, like Raspberry Pi 2 and Raspberry Pi 3.
+            <emphasis>Raspberry Pi 64-bit</emphasis>
+            (arm64) is the 64-bit version ideal for users that intend to run complex applications that will benefit from a 64-bit instruction set. Compatible with models B3, B3+, and B4. 
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            The
+            <emphasis>Raspberry Pi 32-bit</emphasis>
+            (armhf) is for the Raspberry Pi and other compatible microcomputers. This one is 32-bit and is compatible with Models B2, B3, B3+, and B4.
           </simpara>
         </listitem>
       </orderedlist>
       <simpara>
-        <emphasis role="bold">Your second decision is between the version labeled Long Term Support (LTS) release and a 'normal' release. Here is some information about each that will help you choose the right release for you.</emphasis>
+        <emphasis role="bold">Your second decision is between the version labeled Long Term Support (LTS) release and a 'normal' or 'interim' release. Here is some information about each that will help you choose the right release for you.</emphasis>
       </simpara>
       <orderedlist>
         <listitem>
-          <simpara>Ubuntu MATE releases a new version every six months. Every two years, the release is a Long Term Support Release.</simpara>
+          <simpara>Ubuntu MATE releases a new version every six months. Every two years, the release is a Long Term Support release. Interim releases are recommended for users desiring the latest features and applications while LTS releases are recommended for stability and mission-critical systems.</simpara>
         </listitem>
         <listitem>
           <simpara>
-            Normal support releases are supported for
+            Normal support releases (interim releases) are supported for
             <emphasis>nine months</emphasis>
             while LTS releases are supported for
             <emphasis>five years</emphasis>
@@ -4993,31 +5003,19 @@ To report a bug or make a suggestion regarding Ubuntu MATE, its components, or t
           </imageobject>
           <textobject>Removable media icon.</textobject>
         </inlinemediaobject>
-        The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that. As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing
+        The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own. You need to put that file in a form that will allow you to install it on your computer. This section describes how to create the installation media (CD, DVD, SD card, or USB drive) that will allow you to do just that. As a note, installable media is often referred to as "bootable" or "live" media because using this method you run Ubuntu MATE directly from the media, live. This allows you to try Ubuntu MATE on your computer without installing, and without changing
         <emphasis>anything at all</emphasis>
-        on your computer. When you shut down and remove the "live" media, your computer is back to normal.
+        on your computer. When you shut down and remove the "bootable" media, your computer is back to normal.
       </simpara>
       <simpara>
-        The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the "
+        To install and try Ubuntu MATE from a USB drive or SD card, you’ll need media with at least 4 GB of memory and have downloaded a <ulink url="https://ubuntu-mate.org/faq/downloads/">compatible copy of Ubuntu MATE</ulink> for your system. You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device. For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the "
         <ulink url="https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD">Burning ISO HowTo</ulink>
         " article on Ubuntu help.
       </simpara>
       <simpara>
-        Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows. This is a link to the official Canonical (parent company behind Ubuntu) method for
-        <ulink url="https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows">Creating a bootable USB stick on Windows</ulink>
-        using a tool called Rufus.
-      </simpara>
-      <simpara>
-        If you are considering a switch from macOS, this is a link to the official Canonical method for
-        <ulink url="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos">Creating a bootable USB stick on macOS</ulink>
-        using the free and open source tool Etcher.
-      </simpara>
-      <simpara>
-        If you have Windows, macOS, and Linux computers and want to use the same tool across all three, the popular cross-platform (Windows, macOS, and Linux) app for creating a "live" USB drive is
-        <ulink url="http://unetbootin.github.io/">UNetbootin</ulink>
-        . This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "
-        <ulink url="https://ubuntu-mate.community/t/how-to-use-unetbootin/672">How to use Unetbootin</ulink>
-        ."
+        Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows. If you are creating the bootable media from Windows, macOS, or a distribution of Linux, the post "
+        <ulink url="https://ubuntu-mate.org/faq/usb-image/">Imaging a USB Drive</ulink>
+        " on the Ubuntu MATE website provides step-by-step instructions. 
       </simpara>
     </sect2>
     <sect2 id="installing-preparation">
