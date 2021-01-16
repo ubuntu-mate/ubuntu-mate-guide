@@ -1,0 +1,46 @@
+#
+# This workflow is adapted from guide.ubuntu-mate.org! Changes made here must
+# be applied to that repository and vice versa.
+#
+name: Publish to Web
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get install pandoc ruby-html-proofer
+
+    - name: Clone Web Repository
+      run: |
+        git clone https://github.com/ubuntu-mate/guide.ubuntu-mate.org --depth=1
+
+    - name: Build
+      run: |
+        cd guide.ubuntu-mate.org/
+        scripts/build.py ../
+
+    - name: Test for errors
+      run: |
+        cd guide.ubuntu-mate.org/
+        scripts/test.sh
+
+    - name: Deploy to server
+      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' }}
+      run: |
+        mkdir -p $HOME/.ssh/
+        chmod 700 $HOME/.ssh/
+        echo -n "${{ secrets.SSH_MATEY }}" > $HOME/.ssh/id_rsa
+        chmod 600 $HOME/.ssh/id_rsa
+
+        cd guide.ubuntu-mate.org/
+        scripts/deploy.sh
