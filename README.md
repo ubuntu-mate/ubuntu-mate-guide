@@ -1,6 +1,6 @@
 # ubuntu-mate-guide
 
-A guide to Ubuntu MATE
+**A guide to Ubuntu MATE**
 
 Written in DocBook XML V4.5 format [DocBook](http://docbook.org/xml/4.5/docbookx.dtd) - a semantic markup language for technical documentation. 
 
@@ -10,7 +10,7 @@ The version of this guide provided in Ubuntu MATE release 17.10 and earlier was 
 
 With Ubuntu MATE release 18.10 the documentation has been expanded significantly and now uses the *DocBook* format. *DocBook* is also a markup format for creating documentation presented to users with the **Yelp** help system, however the entire documentation is contained in a single file named `index.docbook`. This format appears to be preferred in documentation produced for applications produced by the MATE project. Although the presentation in the help system is slightly different, both the *DocBook* format and the *Mallard* format for documentation can link to one-another and interact nicely in **Yelp**.
 
-The most recent update to the guide incorporates new applications and features of Ubuntu MATE release 20.04 LTS.
+The most recent update to the guide incorporates new applications and features of **Ubuntu MATE release 21.04**.
 
 ----------
 ## Translations

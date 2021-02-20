@@ -3,7 +3,7 @@
 <article id="index" lang="en">
   <articleinfo>
     <title>Ubuntu MATE Guide</title>
-    <date>2020-10-26</date>
+    <date>2021-04-22</date>
     <authorgroup>
       <author role="maintainer" lang="en">
         <firstname>Larry</firstname>
@@ -16,13 +16,13 @@
     </authorgroup>
     <revhistory>
       <revision>
-        <revnumber>20.10</revnumber>
-        <date>2020-10-26</date>
+        <revnumber>21.04</revnumber>
+        <date>2021-04-22</date>
         <authorinitials>LB</authorinitials>
       </revision>
     </revhistory>
     <copyright lang="en">
-      <year>2017-2020</year>
+      <year>2017-2021</year>
       <holder>Larry Bushey</holder>
     </copyright>
     <legalnotice>
@@ -97,19 +97,22 @@
       operating system. Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD, Azure Sphere, or even macOS - for quite a while. If so, you are likely looking for new ways to optimize your technology for the way you work.
     </simpara>
     <simpara>You've likely switched to Linux to be able to use software that is like your previous computer's software, only better. By "better" you probably mean: a modern but familiar user experience, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included. You want all of that included and upgradeable at no additional charge. You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications. You don't mind paying for software, but you prefer the "try before you buy" philosophy. Ubuntu MATE gives you all of that and more!</simpara>
-    <simpara>While it is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.</simpara>
-    <simpara>With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user. Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files. Let's also include viewing and editing photos, watching videos, listening to music, and subscribing to podcasts. Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications. This is a guide for new users and a reference for all users of Linux.</simpara>
+    <simpara>While it is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer. That's because of its modern, functionally thought-out design. Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in. Simply put, it provides a practical alternative to other software that can run on your computer.
+    </simpara>
+    <simpara>With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user. Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files. Let's also include viewing and editing photos, watching videos, and listening to music and podcasts. Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications. This is a guide for new users and a reference for all users of Linux.
+    </simpara>
     <sect2 id="windows">
       <title>Why Users Switch from Windows</title>
-      <simpara>In addition to common and well-founded concerns around security, we often receive questions and comments from Windows users who have become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version, or more likely purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative, but those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees. To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and document scanners to replace perfectly functioning older models that require software that is no longer compatible with the 'upgraded' version of the operating system. Because of all this, that promise of a 'free upgrade' from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free. In fact, it can be just as expensive as previous Windows upgrades have been.</simpara>
+      <simpara>In addition to common and well-founded concerns around security, we often receive questions and comments from Windows users who have become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version, or more likely purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative, but those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees. To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and document scanners to replace perfectly functioning older models that require software that is no longer compatible with the 'upgraded' version of the operating system. Because of all this, that promise of a 'free upgrade' from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free. In fact, it can be just as expensive as previous Windows upgrades have been.
+      </simpara>
     </sect2>
     <sect2 id="macos">
       <title>Why Users Switch from macOS</title>
-      <simpara>Switching to Apple's macOS doesn't get you off of the treadmill of spending more and more money for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts.</simpara>
+      <simpara>Switching to Apple's macOS doesn't get you off of the treadmill of spending more and more money for software and hardware upgrades. If anything, it accelerates that treadmill. Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible. Expensive dongles and adapters must be moneymakers for Apple. They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts. Purchasing the latest hardware from Apple has resulted in some older software suddenly being incompatible. Although this is not the first time Apple users have experienced this, it is annoying to have to wait for previously functional applications to be updated just so they work again.</simpara>
     </sect2>
     <sect2 id="works">
       <title>Ubuntu MATE Works for You, Not the Other Way Around</title>
-      <simpara>Neither Microsoft nor Apple will let you upgrade that perfectly-functioning computer hardware you purchased a few years ago, even though it has almost the same specs as the newest computers available today. You are told it 'isn't capable' of running modern software. Insultingly, your Windows computer that is supposedly incapable of running more modern software keeps trying to force you to upgrade to the incompatible version! Perhaps you'd rather learn how to optimize Linux than hunt down one more Windows hack or workaround to prevent your computer from doing things you don't want it to be doing. Maybe you just want to use your computer to get things done. Maybe you believe your computer should be doing work for you, and not the other way around. Ubuntu MATE is designed to make all of that a reality!</simpara>
+      <simpara>Neither Microsoft nor Apple will let you upgrade that perfectly-functioning computer hardware you purchased a few years ago, even though it has almost the same specs as the newest computers available today. You are told it 'isn't capable' of running modern software. Insultingly, your Windows computer that is supposedly incapable of running more modern software keeps trying to force you to upgrade to the incompatible version! Perhaps you'd rather learn how to personalize Linux than hunt down one more Windows hack or workaround to prevent your computer from doing things you don't want it to be doing. Maybe you just want to use your computer to get things done. Maybe you believe your computer should be doing work for you, and not the other way around. Ubuntu MATE is designed to make all of that a reality!</simpara>
     </sect2>
   </sect1>
   <sect1 id="page.ubuntu">
@@ -159,8 +162,8 @@
       is:
     </simpara>
     <blockquote>
-      <attribution>Wikipedia (16 Oct 2019)</attribution>
-      <simpara>...an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...</simpara>
+      <attribution>Wikipedia (15 Feb 2021)</attribution>
+      <simpara>...an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system that share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...</simpara>
     </blockquote>
     <simpara>
       The MATE Desktop is an example of such a desktop environment. It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal. All of these are highly customizable and managed via a control center. You can find complete documentation for the MATE Desktop Environment and its applications in the
@@ -205,13 +208,14 @@
     <simpara>Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE. Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached. For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system. If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions. There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE.</simpara>
     <simpara>Unlike Windows and macOS, Linux is not created and supported by just one company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed to Linux over the last 15 years.</simpara>
     <simpara>
-      This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. In fact, as recently as April of 2018,
-      <ulink url="https://www.zdnet.com/article/microsoft-releases-its-first-linux-product/">Microsoft has begun distributing a custom Linux</ulink>
-      of their own. The improvements provided by organizations and individuals alike are
+      This is how we can continually improve and grow without having to charge our users money. Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products. Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. In fact, Microsoft now offers Ubuntu on Windows.
+       <ulink url="https://docs.microsoft.com/en-us/windows/wsl/">The Windows subsystem for Linux</ulink>
+       provides an Ubuntu userspace for Windows developers. The improvements provided by both individual users and organizations like Microsoft are
       <ulink url="https://www.linuxfoundation.org/2017-linux-kernel-report-landing-page/">given back to the Linux distribution</ulink>
       and the software improves as a result.
     </simpara>
-    <simpara>Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.</simpara>
+    <simpara>Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu. Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat.
+    </simpara>
   </sect1>
   <!-- MATE's Applications ================================================== -->
   <sect1 id="page.mate-apps">
@@ -313,8 +317,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -354,7 +356,7 @@
     </informaltable>
     <simpara>
       Ubuntu MATE allows more than one user to login to the same computer. Each user has a personal Home folder that is labeled with the username chosen during setup. In the illustration, the username and the name of the Home folder is
-      <guiicon>ubuntu</guiicon>
+      <guiicon>lebushey</guiicon>
       . The folder that is actually labeled
       <guiicon>home</guiicon>
       contains the personal Home folders for all users setup on your computer. Normally, there is just one user (you) and so the
@@ -483,8 +485,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -673,8 +673,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -757,8 +755,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -867,8 +863,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -929,7 +923,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/exif-data.jpg" contentwidth="100%" />
+                    <imagedata fileref="figures/exif-data.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>The Image Viewer window.</textobject>
                 </mediaobject>
@@ -983,8 +977,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -1111,8 +1103,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -1212,8 +1202,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -1322,8 +1310,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -1405,7 +1391,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/inxi.jpg" contentwidth="100%" />
+                    <imagedata fileref="figures/inxi.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>Screenshot of the inxi output.</textobject>
                 </mediaobject>
@@ -1444,7 +1430,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/control-centre.png" contentwidth="32px" />
+          <imagedata fileref="apps/control-center.png" contentwidth="32px" />
         </imageobject>
         <textobject>The Control Center icon.</textobject>
       </inlinemediaobject>
@@ -1505,7 +1491,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/synaptic.png" contentwidth="32px" />
+          <imagedata fileref="apps/software.png" contentwidth="32px" />
         </imageobject>
         <textobject>The application package manager icon.</textobject>
       </inlinemediaobject>
@@ -1768,49 +1754,6 @@
       </tip>
     </sect2>
   </sect1>
-  <sect1 id="applications-hud">
-    <title>Heads-Up Display</title>
-    <simpara>
-      <inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="apps/system.png" contentwidth="32px" />
-        </imageobject>
-        <textobject>Ubuntu MATE logo icon.</textobject>
-      </inlinemediaobject>
-      Introduced in Ubuntu MATE 16.10 the heads-up display (HUD) provides a way to search for and run menu-bar commands without your fingers ever leaving the keyboard.
-    </simpara>
-    <simpara>So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit, or Tools on your favorite browser, you can just search for it rather than scrolling through the menus.</simpara>
-    <simpara>Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino, and Mutiny panel layouts.</simpara>
-    <sect2 id="applications-using-hud">
-      <title>Using the HUD</title>
-      <simpara>
-        In order to use the HUD, you must be using one of three panel layouts: Contemporary, Cupertino, or Mutiny. (
-        <xref linkend="personalization-panel-layouts" />
-        ) The HUD is activated by just pressing Left
-        <keycap>Alt</keycap>
-        . The HUD overlays on top of the active application, allowing you to find the menu selection you want by simply typing. When you have found the menu item you want to use, simply press
-        <keycap>Enter</keycap>
-        to activate it.
-      </simpara>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/mate-hud.gif" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>The HUD screen.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-    </sect2>
-  </sect1>
   <sect1 id="applications-productivity">
     <title>Productivity Applications</title>
     <simpara>
@@ -2065,7 +2008,7 @@
       </orderedlist>
     </sect2>
     <sect2 id="productivity-notifications">
-      <title>Indicator Applet</title>
+      <title>Notifications</title>
       <simpara>
         <inlinemediaobject>
           <imageobject>
@@ -2074,8 +2017,12 @@
           <textobject>Indicator icon.</textobject>
         </inlinemediaobject>
         The 
-        <application>Notification Center</application> 
-        displays text notifications, as well as notifications supplying additional media, such as sounds or icons. offers a “do not disturb” feature. When do not disturb is enabled, notifications will not be displayed but will be captured in the notification center for review. It's also possible to blacklist some notifications, so they are never stored by the notification center.
+        <application>Notifications</application> 
+        indicator displays text notifications, as well as notifications supplying additional media, such as sounds or icons. offers a “do not disturb” feature. When do not disturb is enabled, notifications will not be displayed but will be captured in the notification center for review. By selecting 
+        <application>Notifications</application> 
+        from the 
+        <application>Control Center</application> 
+        it's also possible to blacklist some notifications, so they are never stored by the notification center.
       </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -2131,11 +2078,11 @@
       </simpara>
       <simpara>
         <application>Caffeine</application>
-        is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the
+        is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the Software repositories. See: 
         <application>
-          <xref linkend="software-boutique" />
+          <xref linkend="software-software-centers" />
         </application>
-        for one-click installation.
+        for how to enable a software center for access to the repositories.
       </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -2145,7 +2092,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/caffeine-enable.gif" contentwidth="100%" />
+                    <imagedata fileref="figures/caffeine-enable.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>Using Caffeine.</textobject>
                 </mediaobject>
@@ -2178,7 +2125,23 @@
         </inlinemediaobject>
         Printing on Ubuntu MATE is simple and easy. The most popular printer drivers are already provided in Ubuntu MATE's Linux kernel. In most cases you simply connect your printer via its USB cable and Ubuntu MATE immediately configures it for use. There is nothing to do but start printing.
       </simpara>
-      <simpara>If you need to configure a network (or wireless) printer manually, you can follow these simple steps. Before you start, ensure that the printer is turned on and connected to the same network as your computer.</simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%" />
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/printer.png" contentwidth="100%" />
+                  </imageobject>
+                  <textobject>Printers Dialog.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>      <simpara>If you need to configure a network (or wireless) printer manually, you can follow these simple steps. Before you start, ensure that the printer is turned on and connected to the same network as your computer.</simpara>
       <orderedlist>
         <listitem>
           Open the
@@ -2217,47 +2180,6 @@
       <simpara>
         <ulink url="https://help.ubuntu.com/community/Printers">Read more about printing.</ulink>
       </simpara>
-    </sect2>
-    <sect2 id="document-management-advanced-printing">
-      <title>Advanced Printing Utility</title>
-      <simpara>
-        <inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="apps/hplip.png" contentwidth="32px" />
-          </imageobject>
-          <textobject>HPLIP icon.</textobject>
-        </inlinemediaobject>
-        For added control, you can install the
-        <application>HP Linux Imaging and Printing</application>
-        (HPLIP) utility from the
-        <application>Ubuntu MATE Welcome</application>
-        application or from the
-        <application>
-          <xref linkend="software-boutique" />
-        </application>
-        . It gives you access to additional drivers and provides more options for managing your printers. For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads. For multi-function devices, you can change fax header information and other settings for the fax functionality. Scanning functions are supported by the separate
-        <application>Simple Scan</application>
-        application described in the next section.
-        <ulink url="https://developers.hp.com/hp-linux-imaging-and-printing/features">Read more about HPLIP</ulink>
-        .
-      </simpara>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/hplip-window.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>The advanced printing utility.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
     </sect2>
     <sect2 id="document-management-scanning">
       <title>Scanning</title>
@@ -2302,8 +2224,6 @@
           <xref linkend="panel-layouts-traditional" />
           . The
           <xref linkend="panel-layouts-netbook" />
-          ,
-          <xref linkend="panel-layouts-mutiny" />
           and
           <xref linkend="panel-layouts-cupertino" />
           have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -2388,8 +2308,6 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        ,
-        <xref linkend="panel-layouts-mutiny" />
         and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
@@ -2581,7 +2499,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/celluloid.jpg" contentwidth="100%" />
+                    <imagedata fileref="figures/celluloid.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>Celluloid playing video.</textobject>
                 </mediaobject>
@@ -2746,9 +2664,9 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/copy-to-NAS.png" contentwidth="100%" />
+                    <imagedata fileref="figures/copy-to-drive.png" contentwidth="100%" />
                   </imageobject>
-                  <textobject>Copy to network attached storage (NAS).</textobject>
+                  <textobject>Copy to an external drive.</textobject>
                 </mediaobject>
               </entry>
             </row>
@@ -2756,13 +2674,13 @@
         </tgroup>
       </informaltable>
       <simpara>
-        If you have a home network you may be lucky enough to own a multi-terabyte hard drive accessible to any computer on the network. Large external hard drives have become so inexpensive that it is wise to include an external hard drive in your budget when you are buying a new computer. Ubuntu MATE's
+        Large external hard drives have become so inexpensive that it is wise to include an external hard drive in your budget when you are buying a new computer. Ubuntu MATE's
         <application>Caja</application>
-        file manager is shown in the illustration above, copying the "home" folder to an external 3TB NAS drive shared on a home network.
+        file manager is shown in the illustration above, copying the "home" folder to an external storage device.
       </simpara>
       <simpara>Instead of being stored on your computer's hard drive, the files you copy to an external or networked drive are stored safely off of your computer. That way, if something happens to your computer's internal hard drive, or if you have your laptop stolen, all your files are safely stored on an external device.</simpara>
       <simpara>
-        An equivalent to a network drive (well, sort of...) is an online (off-site) storage service like
+        An alternative to a physical drive is an online (off-site) storage service like
         <application>Dropbox</application>
         ,
         <application>Box</application>
@@ -2771,6 +2689,11 @@
         , or
         <application>SpiderOak</application>
         . The advantage to this kind of backup is that your files are stored on the Internet. Even if the worst were to happen, and you lost everything to a fire or flood, your backups would be safe. And if you copy your files to online storage, you will also likely be able to access them from another computer, a tablet or smartphone!
+      </simpara>
+    </sect2>
+    <sect2 id="security-insurance">
+      <title>Backing up Your Computer Is Cheap Disaster Recovery Insurance</title>
+      <simpara>One way to backup inexpensively is to get a large USB external hard drive and copy everything in your "home" folder to it on a regular basis. And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE.
       </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -2789,10 +2712,6 @@
           </tbody>
         </tgroup>
       </informaltable>
-    </sect2>
-    <sect2 id="security-insurance">
-      <title>Backing up Your Computer Is Cheap Disaster Recovery Insurance</title>
-      <simpara>One way to backup inexpensively is to get a large USB external hard drive and copy everything in your "home" folder to it on a regular basis. And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE.</simpara>
       <simpara>
         At least monthly, you should make a complete backup of everything important on your hard drive either by using backup software or by simply copying to a second hard drive or a network drive. Linux applications such as the pre-installed Ubuntu MATE
         <application>Backup</application>
@@ -3401,7 +3320,7 @@
       . You can also use the
       <application>Software Center</application>
       or the
-      <application>Synaptic</application> control-centre
+      <application>Synaptic</application> control-center
       package manager. When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories. Ubuntu MATE conveniently gives you the option to install one when your search in the
       <application>Software Boutique</application>
       returns no results.
@@ -3511,7 +3430,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/control-centre.png" contentwidth="32px" />
+          <imagedata fileref="apps/control-center.png" contentwidth="32px" />
         </imageobject>
         <textobject>Software Center icon.</textobject>
       </inlinemediaobject>
@@ -3730,27 +3649,6 @@
                     <imagedata fileref="figures/pantheon-layout.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>The Pantheon layout.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-    </sect2>
-    <sect2 id="panel-layouts-mutiny">
-      <title>Mutiny Layout</title>
-      <simpara>If you have tried other Ubuntu flavors and you like the look of the Unity desktop, you'll find the Mutiny layout familiar. It mimics, as closely as possible, the Unity 7 interface used in traditional Ubuntu through 2017. Mutiny uses the Global Menu which displays application menus in the top panel and not in the application windows. Mutiny also has a dock of icons on the left of the screen to launch applications, show pinned applications, and show running applications.</simpara>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/mutiny-layout.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>The Mutiy layout.</textobject>
                 </mediaobject>
               </entry>
             </row>
@@ -4346,7 +4244,7 @@
             <guibutton>Open</guibutton>
             . For this example, we use a coffee cup icon located here:
           </simpara>
-          <screen>/usr/share/icons/Humanity/categories/48/applications-java.png</screen>
+          <screen>/usr/share/icons/hicolor/48x48/apps/caffeine.png</screen>
         </listitem>
         <listitem>
           <simpara>
@@ -4678,7 +4576,7 @@
               <entry>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="figures/tlp-stat.jpg" contentwidth="100%" />
+                    <imagedata fileref="figures/tlp-stat.png" contentwidth="100%" />
                   </imageobject>
                   <textobject>TLP status.</textobject>
                 </mediaobject>
