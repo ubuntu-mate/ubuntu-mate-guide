@@ -112,7 +112,7 @@
     </sect2>
     <sect2 id="chromeos">
       <title>Why Users Switch from ChromeOS</title>
-      <simpara>Google's ChromeOS has seen a surge in usage recently as students look for affordable computers to take classes online. As users acquire inexpensive Chromebooks, many are finding that the hardware is sluggish as compared with more capable PC hardware. Doing everything within the Chrome browser, relying on browser performance-reducing plug-ins, doesn't meet their expectations. Sometimes you just need to run a dedicated application on your computer's operating system to get things done! Google has discontinued support and security updates for the oldest Chromebooks and 
+      <simpara>Google's ChromeOS has seen a surge in usage recently as students look for affordable computers to take classes online. As users acquire inexpensive Chromebooks, many are finding that they are sluggish as compared with more capable PC hardware. They also find that doing everything within the Chrome browser, relying on browser performance-reducing plug-ins, doesn't meet their expectations. Sometimes you just need to run a dedicated application on your computer's operating system to get things done! Google has discontinued support and security updates for the oldest Chromebooks and 
       <ulink url="https://killedbygoogle.com/">they famously kill their apps, software, and hardware offerings</ulink>
        with little notice. As a result, users may wonder how soon they'll lose access to the software and hardware they rely on for their daily computing needs.</simpara>
     </sect2>
@@ -321,9 +321,11 @@
         <guimenu>Applications</guimenu>
         is the first item for the
         <xref linkend="panel-layouts-traditional" />
-        . The
+        . The 
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -491,7 +493,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -679,7 +683,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -761,7 +767,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -869,7 +877,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -983,7 +993,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -1004,7 +1016,7 @@
       (the minus key). You can also hold the
       <keycap>Ctrl</keycap>
       key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including
-      <guibutton>Fit Page Width</guibutton>
+      <guibutton>Fit Width</guibutton>
       and
       <guibutton>Best Fit</guibutton>
       among others.
@@ -1109,7 +1121,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -1208,7 +1222,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -1316,7 +1332,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -1763,6 +1781,12 @@
   <sect1 id="applications-productivity">
     <title>Productivity Applications</title>
     <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/to-do-app.png" contentwidth="32px" />
+          </imageobject>
+          <textobject>To Do icon.</textobject>
+        </inlinemediaobject>
       Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the
       <application>Software Boutique</application>
       or by using one of Ubuntu MATE's other software management applications, then you can install it from there. See the topic
@@ -2120,6 +2144,37 @@
       </inlinemediaobject>
       Ubuntu MATE makes printing, scanning and saving documents almost easier than creating them. All the software you are likely to need is pre-installed for most popular printers and scanners, so setting up your hardware is easy, too.
     </simpara>
+    <note>
+      <title>Note</title>
+      <simpara>
+        Your first Ubuntu MATE menu choice depends on which of the
+        <xref linkend="personalization-panel-layouts" />
+        you have selected.
+      </simpara>
+      <simpara>
+        If you chose the default
+        <xref linkend="panel-layouts-familiar" />
+        , the first menu item is
+        <guimenu>Menu</guimenu>
+        . It is also the first menu item for
+        <xref linkend="panel-layouts-contemporary" />
+        ,
+        <xref linkend="panel-layouts-redmond" />
+        , and
+        <xref linkend="panel-layouts-pantheon" />
+        .
+        <guimenu>Applications</guimenu>
+        is the first item for the
+        <xref linkend="panel-layouts-traditional" />
+        . The
+        <xref linkend="panel-layouts-netbook" />
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
+        <xref linkend="panel-layouts-cupertino" />
+        have no label and simply display the Ubuntu MATE logo to represent the menu.
+      </simpara>
+    </note>
     <sect2 id="document-management-printing">
       <title>Printing</title>
       <simpara>
@@ -2147,7 +2202,9 @@
             </row>
           </tbody>
         </tgroup>
-      </informaltable>      <simpara>If you need to configure a network (or wireless) printer manually, you can follow these simple steps. Before you start, ensure that the printer is turned on and connected to the same network as your computer.</simpara>
+      </informaltable>      
+      <simpara>If you need to configure a network (or wireless) printer manually, you can follow these simple steps. Before you start, ensure that the printer is turned on and connected to the same network as your computer.
+      </simpara>
       <orderedlist>
         <listitem>
           Open the
@@ -2206,35 +2263,6 @@
         </menuchoice>
         , provides a simple and easy way to scan your documents. Once your scanner is connected via USB or over the network, configuration is usually automatic.
       </simpara>
-      <note>
-        <title>Note</title>
-        <simpara>
-          Your first Ubuntu MATE menu choice depends on which of the
-          <xref linkend="personalization-panel-layouts" />
-          you have selected.
-        </simpara>
-        <simpara>
-          If you chose the default
-          <xref linkend="panel-layouts-familiar" />
-          , the first menu item is
-          <guimenu>Menu</guimenu>
-          . It is also the first menu item for
-          <xref linkend="panel-layouts-contemporary" />
-          ,
-          <xref linkend="panel-layouts-redmond" />
-          , and
-          <xref linkend="panel-layouts-pantheon" />
-          .
-          <guimenu>Applications</guimenu>
-          is the first item for the
-          <xref linkend="panel-layouts-traditional" />
-          . The
-          <xref linkend="panel-layouts-netbook" />
-          and
-          <xref linkend="panel-layouts-cupertino" />
-          have no label and simply display the Ubuntu MATE logo to represent the menu.
-        </simpara>
-      </note>
       <simpara>
         Using
         <application>Simple Scan</application>
@@ -2286,6 +2314,12 @@
   <sect1 id="applications-entertainment">
     <title>Entertainment Applications</title>
     <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/entertainment.png" contentwidth="32px" />
+          </imageobject>
+          <textobject>Entertainment icon.</textobject>
+        </inlinemediaobject>
       Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the
       <xref linkend="software-software-centers" />
       offer many, many more to choose from.
@@ -2293,7 +2327,7 @@
     <note>
       <title>Note</title>
       <simpara>
-        For each of the applications, below, your first Ubuntu MATE menu choice depends on which of the
+        Your first Ubuntu MATE menu choice depends on which of the
         <xref linkend="personalization-panel-layouts" />
         you have selected.
       </simpara>
@@ -2314,7 +2348,9 @@
         <xref linkend="panel-layouts-traditional" />
         . The
         <xref linkend="panel-layouts-netbook" />
-        and
+        ,
+        <xref linkend="panel-layouts-mutiny" />
+        , and
         <xref linkend="panel-layouts-cupertino" />
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
@@ -3662,9 +3698,32 @@
         </tgroup>
       </informaltable>
     </sect2>
+    <sect2 id="panel-layouts-mutiny">
+      <title>Mutiny Layout</title>
+      <simpara>If you have tried other Ubuntu flavors and you like the look of the Unity desktop, you'll find the Mutiny layout familiar. It mimics, as closely as possible, the Unity 7 interface used in traditional Ubuntu through 2017. Mutiny has a dock of icons on the left of the screen to launch applications, show pinned applications, and show running applications. A unique feature of the Mutiny Layout is the menu icon at the top of the dock which displays a full-screen pane of application icons listed in categories. Each application's menu appears at the top of that application's window. 
+      </simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%" />
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/mutiny-layout.png" contentwidth="100%" />
+                  </imageobject>
+                  <textobject>The Mutiy layout.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect2>
     <sect2 id="panel-layouts-netbook">
       <title>Netbook Layout</title>
-      <simpara>Designed specifically for small screens, the compact Netbook layout has a single taskbar, menu, clock, and list of open applications at the top of the screen. There is no dock or panel at the bottom. That way everything is accessible no matter how small your screen.</simpara>
+      <simpara>Designed specifically for small screens, the compact Netbook layout has a single taskbar, menu, clock, and list of open applications at the top of the screen. There is no dock or panel at the bottom. That way everything is accessible no matter how small your screen.
+      </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
           <colspec colwidth="100%" />
