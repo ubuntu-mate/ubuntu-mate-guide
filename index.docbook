@@ -88,7 +88,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/tux_small.png" contentwidth="32px" />
+          <imagedata fileref="apps/tux_small.png" contentwidth="48px" />
         </imageobject>
         <textobject>Tux, the Linux mascot.</textobject>
       </inlinemediaobject>
@@ -126,7 +126,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/ubuntu.png" contentwidth="32px" />
+          <imagedata fileref="apps/ubuntu.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Ubuntu logo icon.</textobject>
       </inlinemediaobject>
@@ -159,7 +159,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/mate.png" contentwidth="32px" />
+          <imagedata fileref="apps/mate.png" contentwidth="48px" />
         </imageobject>
         <textobject>The MATE icon.</textobject>
       </inlinemediaobject>
@@ -229,7 +229,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/mate.png" contentwidth="32px" />
+          <imagedata fileref="apps/mate.png" contentwidth="48px" />
         </imageobject>
         <textobject>The MATE logo icon.</textobject>
       </inlinemediaobject>
@@ -283,7 +283,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/file-manager.png" contentwidth="32px" />
+          <imagedata fileref="apps/file-manager.png" contentwidth="48px" />
         </imageobject>
         <textobject>The File Browser icon.</textobject>
       </inlinemediaobject>
@@ -433,7 +433,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/text-editor.png" contentwidth="32px" />
+          <imagedata fileref="apps/text-editor.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Text Editor icon.</textobject>
       </inlinemediaobject>
@@ -645,7 +645,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/calculator.png" contentwidth="32px" />
+          <imagedata fileref="apps/calculator.png" contentwidth="48px" />
         </imageobject>
         <textobject>The MATE Calculator icon.</textobject>
       </inlinemediaobject>
@@ -729,7 +729,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/engrampa.png" contentwidth="32px" />
+          <imagedata fileref="apps/engrampa.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Archive Manager icon.</textobject>
       </inlinemediaobject>
@@ -839,7 +839,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/eom.png" contentwidth="32px" />
+          <imagedata fileref="apps/eom.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Eye of MATE icon.</textobject>
       </inlinemediaobject>
@@ -955,7 +955,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/atril.png" contentwidth="32px" />
+          <imagedata fileref="apps/atril.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Atril icon.</textobject>
       </inlinemediaobject>
@@ -1083,7 +1083,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/disk-usage-analyzer.png" contentwidth="32px" />
+          <imagedata fileref="apps/disk-usage-analyzer.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Disk Usage Analyzer icon.</textobject>
       </inlinemediaobject>
@@ -1182,7 +1182,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/system-monitor.png" contentwidth="32px" />
+          <imagedata fileref="apps/system-monitor.png" contentwidth="48px" />
         </imageobject>
         <textobject>The System Monitor icon.</textobject>
       </inlinemediaobject>
@@ -1295,7 +1295,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/terminal.png" contentwidth="32px" />
+          <imagedata fileref="apps/terminal.png" contentwidth="48px" />
         </imageobject>
         <textobject>The MATE Terminal icon.</textobject>
       </inlinemediaobject>
@@ -1454,7 +1454,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/control-center.png" contentwidth="32px" />
+          <imagedata fileref="apps/control-center.png" contentwidth="48px" />
         </imageobject>
         <textobject>The Control Center icon.</textobject>
       </inlinemediaobject>
@@ -1515,7 +1515,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/software.png" contentwidth="32px" />
+          <imagedata fileref="apps/software.png" contentwidth="48px" />
         </imageobject>
         <textobject>The application package manager icon.</textobject>
       </inlinemediaobject>
@@ -1534,7 +1534,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/system.png" contentwidth="32px" />
+          <imagedata fileref="apps/system.png" contentwidth="48px" />
         </imageobject>
         <textobject>Image description.</textobject>
       </inlinemediaobject>
@@ -1783,7 +1783,7 @@
     <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/to-do-app.png" contentwidth="32px" />
+            <imagedata fileref="apps/to-do-app.png" contentwidth="48px" />
           </imageobject>
           <textobject>To Do icon.</textobject>
         </inlinemediaobject>
@@ -1799,7 +1799,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/firefox.png" contentwidth="32px" />
+            <imagedata fileref="apps/firefox.png" contentwidth="48px" />
           </imageobject>
           <textobject>Firefox icon.</textobject>
         </inlinemediaobject>
@@ -1818,7 +1818,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/evolution.png" contentwidth="32px" />
+            <imagedata fileref="apps/evolution.png" contentwidth="48px" />
           </imageobject>
           <textobject>Evolution icon.</textobject>
         </inlinemediaobject>
@@ -1858,7 +1858,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/libreoffice.png" contentwidth="32px" />
+            <imagedata fileref="apps/libreoffice.png" contentwidth="48px" />
           </imageobject>
           <textobject>LibreOffice icon.</textobject>
         </inlinemediaobject>
@@ -1977,7 +1977,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/bluetooth.png" contentwidth="32px" />
+            <imagedata fileref="apps/bluetooth.png" contentwidth="48px" />
           </imageobject>
           <textobject>Bluetooth.</textobject>
         </inlinemediaobject>
@@ -2042,17 +2042,21 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/mate-notification-properties.png" contentwidth="32px"/>
+            <imagedata fileref="apps/mate-notification-properties.png" contentwidth="48px"/>
           </imageobject>
           <textobject>Indicator icon.</textobject>
         </inlinemediaobject>
         The 
         <application>Notifications</application> 
         indicator displays text notifications, as well as notifications supplying additional media, such as sounds or icons. offers a “do not disturb” feature. When do not disturb is enabled, notifications will not be displayed but will be captured in the notification center for review. By selecting 
-        <application>Notifications</application> 
+        <application>Indicators</application> 
         from the 
+        <application>Look and Feel</application> 
+        section of the 
         <application>Control Center</application> 
-        it's also possible to blacklist some notifications, so they are never stored by the notification center.
+        , then choosing 
+        <guimenuitem>Date and Time</guimenuitem> 
+        in the left pane of the window, it's also possible to blacklist some notifications, so they are never stored by the notification center.
       </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
@@ -2089,12 +2093,67 @@
         </tgroup>
       </informaltable>
     </sect2>
+    <sect2 id="date-and-time">
+      <title>Date and Time Settings</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/ayatana-settings.png" contentwidth="48px"/>
+          </imageobject>
+          <textobject>Indicator icon.</textobject>
+        </inlinemediaobject>
+        Beginning in release 21.04, Ubuntu MATE returns to a graphical method of setting what appears in the clock indicator. The setting is in the 
+        <application>Control Center</application> 
+        .
+    </simpara>
+    <orderedlist>
+        <listitem>        
+        Open the         
+        <application>Control Center</application> 
+        .
+        </listitem>
+        <listitem>
+        Open the 
+        <application>Indicators</application> 
+        in the 
+        <application>Look and Feel</application> 
+        section. This opens 
+        <application>Ayatana Indicators Settings</application>
+        .
+        </listitem>
+        <listitem>
+        Select 
+        <guimenuitem>Date and Time</guimenuitem> 
+        in the left pane of the window and the settings for the clock appear in the right pane.
+        </listitem>
+        <listitem>
+        Here you can turn on and off the Year, Month and Date, Day of the Week, and Number of Seconds on the indicator in the panel. You can also modify some setting for the menu that appears when you click on the time in the panel.
+        </listitem>
+      </orderedlist>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%"/>
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/date-and-time-settings.png" contentwidth="100%"/>
+                  </imageobject>
+                  <textobject>Ayatana Date and Time Setings.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect2>
     <sect2 id="productivity-caffeine">
       <title>Caffeine</title>
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/caffeine.png" contentwidth="32px" />
+            <imagedata fileref="apps/caffeine.png" contentwidth="48px" />
           </imageobject>
           <textobject>Caffeine icon.</textobject>
         </inlinemediaobject>
@@ -2138,7 +2197,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/document.png" contentwidth="32px" />
+          <imagedata fileref="apps/document.png" contentwidth="48px" />
         </imageobject>
         <textobject>Document icon.</textobject>
       </inlinemediaobject>
@@ -2180,7 +2239,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/printer.png" contentwidth="32px" />
+            <imagedata fileref="apps/printer.png" contentwidth="48px" />
           </imageobject>
           <textobject>Printer icon.</textobject>
         </inlinemediaobject>
@@ -2249,7 +2308,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/scanner.png" contentwidth="32px" />
+            <imagedata fileref="apps/scanner.png" contentwidth="48px" />
           </imageobject>
           <textobject>Scanning icon.</textobject>
         </inlinemediaobject>
@@ -2282,7 +2341,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/PDF-export.png" contentwidth="32px" />
+            <imagedata fileref="apps/PDF-export.png" contentwidth="48px" />
           </imageobject>
           <textobject>PDF icon.</textobject>
         </inlinemediaobject>
@@ -2316,7 +2375,7 @@
     <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/entertainment.png" contentwidth="32px" />
+            <imagedata fileref="apps/entertainment.png" contentwidth="48px" />
           </imageobject>
           <textobject>Entertainment icon.</textobject>
         </inlinemediaobject>
@@ -2360,7 +2419,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/rhythmbox.png" contentwidth="32px" />
+            <imagedata fileref="apps/rhythmbox.png" contentwidth="48px" />
           </imageobject>
           <textobject>Rhythmbox icon.</textobject>
         </inlinemediaobject>
@@ -2455,7 +2514,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/shotwell.png" contentwidth="32px" />
+            <imagedata fileref="apps/shotwell.png" contentwidth="48px" />
           </imageobject>
           <textobject>Shotwell icon.</textobject>
         </inlinemediaobject>
@@ -2514,7 +2573,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/celluloid.png" contentwidth="32px" />
+            <imagedata fileref="apps/celluloid.png" contentwidth="48px" />
           </imageobject>
           <textobject>Celluloid icon.</textobject>
         </inlinemediaobject>
@@ -2557,7 +2616,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/steam.png" contentwidth="32px" />
+          <imagedata fileref="apps/steam.png" contentwidth="48px" />
         </imageobject>
         <textobject>Steam icon.</textobject>
       </inlinemediaobject>
@@ -2601,7 +2660,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/security.png" contentwidth="32px" />
+          <imagedata fileref="apps/security.png" contentwidth="48px" />
         </imageobject>
         <textobject>Security icon.</textobject>
       </inlinemediaobject>
@@ -2639,7 +2698,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/deja-dup.png" contentwidth="32px" />
+            <imagedata fileref="apps/deja-dup.png" contentwidth="48px" />
           </imageobject>
           <textobject>Déjà Dup icon.</textobject>
         </inlinemediaobject>
@@ -2778,7 +2837,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/system-software-update.png" contentwidth="32px" />
+            <imagedata fileref="apps/system-software-update.png" contentwidth="48px" />
           </imageobject>
           <textobject>Updater icon.</textobject>
         </inlinemediaobject>
@@ -2891,7 +2950,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/gufw.png" contentwidth="32px" />
+            <imagedata fileref="apps/gufw.png" contentwidth="48px" />
           </imageobject>
           <textobject>Firewall icon.</textobject>
         </inlinemediaobject>
@@ -2943,7 +3002,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/a11y.png" contentwidth="32px" />
+          <imagedata fileref="apps/a11y.png" contentwidth="48px" />
         </imageobject>
         <textobject>Accessibility icon.</textobject>
       </inlinemediaobject>
@@ -3012,7 +3071,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/gnome-orca.png" contentwidth="32px" />
+            <imagedata fileref="apps/gnome-orca.png" contentwidth="48px" />
           </imageobject>
           <textobject>Orca icon.</textobject>
         </inlinemediaobject>
@@ -3137,7 +3196,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/onboard.png" contentwidth="32px" />
+            <imagedata fileref="apps/onboard.png" contentwidth="48px" />
           </imageobject>
           <textobject>Onboard icon.</textobject>
         </inlinemediaobject>
@@ -3237,7 +3296,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/magnus.png" contentwidth="32px" />
+            <imagedata fileref="apps/magnus.png" contentwidth="48px" />
           </imageobject>
           <textobject>Accessibility icon.</textobject>
         </inlinemediaobject>
@@ -3274,7 +3333,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/a11y.png" contentwidth="32px" />
+            <imagedata fileref="apps/a11y.png" contentwidth="48px" />
           </imageobject>
           <textobject>Accessibility icon.</textobject>
         </inlinemediaobject>
@@ -3349,7 +3408,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/ubuntu-software-center.png" contentwidth="32px" />
+          <imagedata fileref="apps/ubuntu-software-center.png" contentwidth="48px" />
         </imageobject>
         <textobject>Software Center icon.</textobject>
       </inlinemediaobject>
@@ -3472,7 +3531,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/control-center.png" contentwidth="32px" />
+          <imagedata fileref="apps/control-center.png" contentwidth="48px" />
         </imageobject>
         <textobject>Software Center icon.</textobject>
       </inlinemediaobject>
@@ -3518,7 +3577,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/desktop.png" contentwidth="32px" />
+            <imagedata fileref="apps/desktop.png" contentwidth="48px" />
           </imageobject>
           <textobject>Desktop icon.</textobject>
         </inlinemediaobject>
@@ -3751,7 +3810,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/desktop.png" contentwidth="32px" />
+            <imagedata fileref="apps/desktop.png" contentwidth="48px" />
           </imageobject>
           <textobject>Appearance icon.</textobject>
         </inlinemediaobject>
@@ -3807,7 +3866,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/appearance.png" contentwidth="32px" />
+            <imagedata fileref="apps/appearance.png" contentwidth="48px" />
           </imageobject>
           <textobject>Appearancce icon.</textobject>
         </inlinemediaobject>
@@ -3871,7 +3930,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/appearance.png" contentwidth="32px" />
+            <imagedata fileref="apps/appearance.png" contentwidth="48px" />
           </imageobject>
           <textobject>Appearance icon.</textobject>
         </inlinemediaobject>
@@ -3925,7 +3984,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/desktop.png" contentwidth="32px" />
+            <imagedata fileref="apps/desktop.png" contentwidth="48px" />
           </imageobject>
           <textobject>Desktop icon.</textobject>
         </inlinemediaobject>
@@ -4031,7 +4090,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/desktop.png" contentwidth="32px" />
+            <imagedata fileref="apps/desktop.png" contentwidth="48px" />
           </imageobject>
           <textobject>Desktop icon.</textobject>
         </inlinemediaobject>
@@ -4352,7 +4411,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/gnome-display-properties.png" contentwidth="32px" />
+            <imagedata fileref="apps/gnome-display-properties.png" contentwidth="48px" />
           </imageobject>
           <textobject>Gnome display properties icon.</textobject>
         </inlinemediaobject>
@@ -4528,7 +4587,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/mate-power-manager.png" contentwidth="32px" />
+            <imagedata fileref="apps/mate-power-manager.png" contentwidth="48px" />
           </imageobject>
           <textobject>Power management icon.</textobject>
         </inlinemediaobject>
@@ -4680,7 +4739,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/screensaver.png" contentwidth="32px" />
+            <imagedata fileref="apps/screensaver.png" contentwidth="48px" />
           </imageobject>
           <textobject>Screensaver icon.</textobject>
         </inlinemediaobject>
@@ -4724,7 +4783,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/system.png" contentwidth="32px" />
+          <imagedata fileref="apps/system.png" contentwidth="48px" />
         </imageobject>
         <textobject>Ubuntu MATE logo.</textobject>
       </inlinemediaobject>
@@ -4751,7 +4810,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/system.png" contentwidth="32px" />
+          <imagedata fileref="apps/system.png" contentwidth="48px" />
         </imageobject>
         <textobject>Ubuntu MATE icon.</textobject>
       </inlinemediaobject>
@@ -4773,13 +4832,13 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/intel.png" contentwidth="32px" />
+          <imagedata fileref="apps/intel.png" contentwidth="48px" />
         </imageobject>
         <textobject>Intel logo.</textobject>
       </inlinemediaobject>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/nvidia.png" contentwidth="32px" />
+          <imagedata fileref="apps/nvidia.png" contentwidth="48px" />
         </imageobject>
         <textobject>Nvidia logo.</textobject>
       </inlinemediaobject>
@@ -4844,7 +4903,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/direct-download.png" contentwidth="32px" />
+          <imagedata fileref="apps/direct-download.png" contentwidth="48px" />
         </imageobject>
         <textobject>Download icon.</textobject>
       </inlinemediaobject>
@@ -4979,7 +5038,7 @@
       <simpara>
         <inlinemediaobject>
           <imageobject>
-            <imagedata fileref="apps/media-removable.png" contentwidth="32px" />
+            <imagedata fileref="apps/media-removable.png" contentwidth="48px" />
           </imageobject>
           <textobject>Removable media icon.</textobject>
         </inlinemediaobject>
@@ -5252,7 +5311,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/help-contents.png" contentwidth="32px" />
+          <imagedata fileref="apps/help-contents.png" contentwidth="48px" />
         </imageobject>
         <textobject>Help icon.</textobject>
       </inlinemediaobject>
@@ -5266,7 +5325,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/community.png" contentwidth="32px" />
+          <imagedata fileref="apps/community.png" contentwidth="48px" />
         </imageobject>
         <textobject>Community icon.</textobject>
       </inlinemediaobject>
@@ -5329,7 +5388,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/community.png" contentwidth="32px" />
+          <imagedata fileref="apps/community.png" contentwidth="48px" />
         </imageobject>
         <textobject>Community icon.</textobject>
       </inlinemediaobject>
@@ -5437,7 +5496,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/community.png" contentwidth="32px" />
+          <imagedata fileref="apps/community.png" contentwidth="48px" />
         </imageobject>
         <textobject>Community icon.</textobject>
       </inlinemediaobject>
@@ -5450,7 +5509,7 @@
     <simpara>
       <inlinemediaobject>
         <imageobject>
-          <imagedata fileref="apps/preferences-desktop-keyboard-shortcuts.png" contentwidth="32px" />
+          <imagedata fileref="apps/preferences-desktop-keyboard-shortcuts.png" contentwidth="48px" />
         </imageobject>
         <textobject>Keyboard Shortcuts icon.</textobject>
       </inlinemediaobject>
