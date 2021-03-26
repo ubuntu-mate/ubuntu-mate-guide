@@ -2379,7 +2379,7 @@
           </imageobject>
           <textobject>Entertainment icon.</textobject>
         </inlinemediaobject>
-      Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. The fourth listed here, an additional music player, can be installed via the Software Centers. If you need even more, the
+      Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need even more, the
       <xref linkend="software-software-centers" />
       offer many, many options to choose from.
     </simpara>
@@ -2607,30 +2607,6 @@
         while
         <application>Rhythmbox</application>
         is open.
-      </simpara>
-    </sect2>
-    <sect2 id="entertainment-lollypop">
-      <title>Lollypop Music Player</title>
-      <simpara>
-        <inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="apps/lollypop.png" contentwidth="48px" />
-          </imageobject>
-          <textobject>Lollypop icon.</textobject>
-        </inlinemediaobject>
-        <application>Lollypop</application>
-        , found in the Ubuntu MATE menus at
-        <menuchoice>
-          <guimenu>Menu</guimenu>
-          <guimenuitem>Sound &amp; Video</guimenuitem>
-          <guimenuitem>Lollypop</guimenuitem>
-        </menuchoice>
-        , is a modern music player.
-        <application>Lollypop</application>
-         is a lightweight modern music player designed to work excellently on the GNOME desktop environment. 
-      </simpara>
-      <simpara>
-The application also features a party mode which will automatically select party-related playlists to play, a full-screen view with HiDPI support that lets you visually access the player from your couch, and native support for replay gain.
       </simpara>
     </sect2>
   </sect1>
@@ -3719,7 +3695,7 @@ The application also features a party mode which will automatically select party
     </sect2>
     <sect2 id="panel-layouts-redmond">
       <title>Redmond Layout</title>
-      <simpara>The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen. Each application's menu appears at the top of that application's window in the traditional Windows way. Another distinctive feature of the Redmond layout is the "advanced menu" that provides a configurable list of favorite applications as well as an optional simple list of all applications. This will be familiar to users of the Linux Mint distribution.</simpara>
+      <simpara>The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen. Each application's menu bar appears at the top of that application's window in the traditional Windows way. The name "Redmond" is a sly reference to the US city where Microsoft's headquarters is located. The Redmond layout’s "Menu" button provides a list of your applications in the bottom left corner. You will find this familiar if you've ever used Windows or the Linux Mint distribution. </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
           <colspec colwidth="100%" />
