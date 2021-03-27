@@ -2113,7 +2113,7 @@
         .
         </listitem>
         <listitem>
-        Open the 
+        Open 
         <application>Indicators</application> 
         in the 
         <application>Look and Feel</application> 
@@ -2379,9 +2379,9 @@
           </imageobject>
           <textobject>Entertainment icon.</textobject>
         </inlinemediaobject>
-      Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need more, the
+      Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions. If you need even more, the
       <xref linkend="software-software-centers" />
-      offer many, many more to choose from.
+      offer many, many options to choose from.
     </simpara>
     <note>
       <title>Note</title>
@@ -2414,6 +2414,106 @@
         have no label and simply display the Ubuntu MATE logo to represent the menu.
       </simpara>
     </note>
+    <sect2 id="entertainment-shotwell">
+      <title>Shotwell Digital Photo Organizer</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/shotwell.png" contentwidth="48px" />
+          </imageobject>
+          <textobject>Shotwell icon.</textobject>
+        </inlinemediaobject>
+        <application>Shotwell</application>
+        , found in the Ubuntu MATE menus at
+        <menuchoice>
+          <guimenu>Menu</guimenu>
+          <guimenuitem>Graphics</guimenuitem>
+          <guimenuitem>Shotwell</guimenuitem>
+        </menuchoice>
+        , is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
+      </simpara>
+      <simpara>
+        When you first launch
+        <application>Shotwell</application>
+        , it scans your computer for photos and imports them so that you can use
+        <application>Shotwell</application>
+        to organize them. Once you have all the photos from your computer's hard drive within
+        <application>Shotwell</application>
+        , you can import new files by choosing
+        <menuchoice>
+          <guimenu>File</guimenu>
+          <guimenuitem>Import From Folder</guimenuitem>
+        </menuchoice>
+        from the menus, or by dragging and dropping them onto the
+        <application>Shotwell</application>
+        window, or by connecting a camera to your computer and choosing to import the photos from there.
+      </simpara>
+      <simpara>
+        With
+        <application>Shotwell</application>
+        , you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
+        <application>Shotwell</application>
+        also provides the ability to edit the photos themselves. You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle.
+      </simpara>
+      <simpara>
+        Of course, you can share your photos from
+        <application>Shotwell</application>
+        by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.
+      </simpara>
+      <simpara>
+        To learn more about how to use each of the features of
+        <application>Shotwell</application>
+        , see the
+        <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink>
+        by pressing
+        <keycap>F1</keycap>
+        while
+        <application>Shotwell</application>
+        is open.
+      </simpara>
+    </sect2>
+    <sect2 id="entertainment-celluloid">
+      <title>Celluloid Media Player</title>
+      <simpara>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="apps/celluloid.png" contentwidth="48px" />
+          </imageobject>
+          <textobject>Celluloid icon.</textobject>
+        </inlinemediaobject>
+        <application>Celluloid</application>
+        , found in the Ubuntu MATE menus at
+        <menuchoice>
+          <guimenu>Menu</guimenu>
+          <guimenuitem>Sound &amp; Video</guimenuitem>
+          <guimenuitem>Celluloid</guimenuitem>
+        </menuchoice>
+        is a simple media player that aims to be easy to use while maintaining high level of configurability. Playlist entries can be added, removed, or rearranged easily with drag and drop operations.
+      </simpara>
+      <simpara>
+        For additional information about
+        <application>Celluloid</application>
+        and how to use it, see the Celluloid (formerly GNOME MPV)
+        <ulink url="https://github.com/celluloid-player/celluloid/blob/master/README.md">README.</ulink>
+      </simpara>
+      <informaltable frame="all">
+        <tgroup cols="1">
+          <colspec colwidth="100%" />
+          <tbody>
+            <row>
+              <entry>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="figures/celluloid.png" contentwidth="100%" />
+                  </imageobject>
+                  <textobject>Celluloid playing video.</textobject>
+                </mediaobject>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect2>
     <sect2 id="entertainment-rhythmbox">
       <title>Rhythmbox Music and Podcast Manager</title>
       <simpara>
@@ -2508,107 +2608,6 @@
         <application>Rhythmbox</application>
         is open.
       </simpara>
-    </sect2>
-    <sect2 id="entertainment-shotwell">
-      <title>Shotwell Digital Photo Organizer</title>
-      <simpara>
-        <inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="apps/shotwell.png" contentwidth="48px" />
-          </imageobject>
-          <textobject>Shotwell icon.</textobject>
-        </inlinemediaobject>
-        <application>Shotwell</application>
-        <application>Shotwell</application>
-        , found in the Ubuntu MATE menus at
-        <menuchoice>
-          <guimenu>Menu</guimenu>
-          <guimenuitem>Graphics</guimenuitem>
-          <guimenuitem>Shotwell</guimenuitem>
-        </menuchoice>
-        , is a digital photo organizer. It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others. It is able to manage photos in many different image formats, also including raw CR2 files.
-      </simpara>
-      <simpara>
-        When you first launch
-        <application>Shotwell</application>
-        , it scans your computer for photos and imports them so that you can use
-        <application>Shotwell</application>
-        to organize them. Once you have all the photos from your computer's hard drive within
-        <application>Shotwell</application>
-        , you can import new files by choosing
-        <menuchoice>
-          <guimenu>File</guimenu>
-          <guimenuitem>Import From Folder</guimenuitem>
-        </menuchoice>
-        from the menus, or by dragging and dropping them onto the
-        <application>Shotwell</application>
-        window, or by connecting a camera to your computer and choosing to import the photos from there.
-      </simpara>
-      <simpara>
-        With
-        <application>Shotwell</application>
-        , you have several features to help you organize your photos. You can group photos that were taken at the same time into events, then rename, merge and sort events. Flag photos to mark them as special, or to work with them as a set. You can also search for, rate, tag, and title your photos.
-        <application>Shotwell</application>
-        also provides the ability to edit the photos themselves. You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle.
-      </simpara>
-      <simpara>
-        Of course, you can share your photos from
-        <application>Shotwell</application>
-        by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.
-      </simpara>
-      <simpara>
-        To learn more about how to use each of the features of
-        <application>Shotwell</application>
-        , see the
-        <ulink url="ghelp:/usr/share/help/C/shotwell/index.page">Shotwell Photo Manager Manual</ulink>
-        by pressing
-        <keycap>F1</keycap>
-        while
-        <application>Shotwell</application>
-        is open.
-      </simpara>
-    </sect2>
-    <sect2 id="entertainment-celluloid">
-      <title>Celluloid Media Player</title>
-      <simpara>
-        <inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="apps/celluloid.png" contentwidth="48px" />
-          </imageobject>
-          <textobject>Celluloid icon.</textobject>
-        </inlinemediaobject>
-        <application>Celluloid</application>
-        , found in the Ubuntu MATE menus at
-        <menuchoice>
-          <guimenu>Menu</guimenu>
-          <guimenuitem>Sound &amp; Video</guimenuitem>
-          <guimenuitem>Celluloid</guimenuitem>
-        </menuchoice>
-        is a simple media player that aims to be easy to use while maintaining high level of configurability. Playlist entries can be added, removed, or rearranged easily with drag and drop operations.
-      </simpara>
-      <simpara>
-        For additional information about
-        <application>Celluloid</application>
-        and how to use it, see the Celluloid (formerly GNOME MPV)
-        <ulink url="https://github.com/celluloid-player/celluloid/blob/master/README.md">README.</ulink>
-      </simpara>
-      <informaltable frame="all">
-        <tgroup cols="1">
-          <colspec colwidth="100%" />
-          <tbody>
-            <row>
-              <entry>
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="figures/celluloid.png" contentwidth="100%" />
-                  </imageobject>
-                  <textobject>Celluloid playing video.</textobject>
-                </mediaobject>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
     </sect2>
   </sect1>
   <sect1 id="applications-games">
@@ -3696,7 +3695,7 @@
     </sect2>
     <sect2 id="panel-layouts-redmond">
       <title>Redmond Layout</title>
-      <simpara>The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen. Each application's menu appears at the top of that application's window in the traditional Windows way. Another distinctive feature of the Redmond layout is the "advanced menu" that provides a configurable list of favorite applications as well as an optional simple list of all applications. This will be familiar to users of the Linux Mint distribution.</simpara>
+      <simpara>The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen. Each application's menu bar appears at the top of that application's window in the traditional Windows way. The name "Redmond" is a sly reference to the US city where Microsoft's headquarters is located. The Redmond layout’s "Menu" button provides a list of your applications in the bottom left corner. You will find this familiar if you've ever used Windows or the Linux Mint distribution. </simpara>
       <informaltable frame="all">
         <tgroup cols="1">
           <colspec colwidth="100%" />
