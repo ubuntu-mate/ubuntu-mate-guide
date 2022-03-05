@@ -114,7 +114,7 @@
     <sect2 id="windows">
       <title>Why Users Switch from Windows</title>
       <simpara>
-        In addition to common and well-founded concerns around security, I often receive questions and comments from Windows users who have, over time, become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version of Windows or, more likely, after purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative. But those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees! 
+        In addition to common and well-founded concerns around security, we often receive questions and comments from Windows users who have, over time, become more and more dissatisfied with Microsoft's operating system. It seems that after purchasing and installing a new version of Windows or, more likely, after purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows. Switching to online, cloud-based software applications might at first seem to be a practical alternative. But those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees! 
       </simpara>
       <simpara>
         To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and document scanners to replace perfectly functioning older models that require software that is no longer compatible with the "upgraded" version of the operating system. They are disappointed that the promise of a "free upgrade" from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free. In fact, they tell me, it can be at least as expensive as previous Windows upgrades have been.
@@ -135,7 +135,7 @@
     <sect2 id="chromeos">
       <title>Why Users Switch from ChromeOS</title>
       <simpara>
-        Google's ChromeOS has seen a surge in usage recently as students look for affordable computers to take classes online. As users acquire inexpensive Chromebooks, many are finding that the device's performance is sluggish as compared with more capable PC hardware. They also find that doing everything within the Chrome browser and relying on performance-reducing browser plug-ins doesn't meet their expectations. Sometimes you just need to run a dedicated application on your computer's operating system to get things done! Disappointingly, Google has discontinued support and security updates for the oldest Chromebooks and 
+        Google's ChromeOS has seen a surge in usage recently as computer users look for an economical way to take classes online and work from home. As users acquire inexpensive Chromebooks, many are finding that the device's performance is sluggish as compared with more capable PC hardware. They also find that doing everything within the Chrome browser and relying on performance-reducing browser plug-ins doesn't meet their expectations. Sometimes you just need to run a dedicated application on your computer's operating system to get things done! Disappointingly, Google has discontinued support and security updates for the oldest Chromebooks and 
       <ulink url="https://killedbygoogle.com/">they famously kill their apps, software, and hardware offerings</ulink>
        with little notice. As a result, users may wonder how soon they'll lose access to the software and hardware they rely on for their daily computing and need to switch to a fully-functional operating system.
        </simpara>
@@ -2095,56 +2095,32 @@
       </simpara>
       <orderedlist>
         <listitem>
-          Right-click the
+          Click the
           <guiicon>Bluetooth</guiicon>
           icon in the upper panel and select
-          <guimenuitem>Set Up New Device</guimenuitem>
-          .
-        </listitem>
-        <listitem>
-          Make the other Bluetooth device discoverable or visible and place it within 30 feet (about 10 meters) of your computer. Click
-          <keycap>Continue</keycap>
-          . Your computer will begin searching for devices.
-        </listitem>
-        <listitem>
-          If there are too many devices listed, use the
-          <guimenuitem>Device type</guimenuitem>
-          drop-down to display only a single type of device in the list.
-        </listitem>
-        <listitem>
-          Click
-          <guimenuitem>PIN options</guimenuitem>
-          to set how a PIN will be delivered to the other device.
-          <note>
-            <title>Note</title>
-            <simpara>The automatic PIN setting will use a six-digit numerical code. A device with no input keys or screen, such as a mouse or headset, may require a specific PIN such as 0000, or no PIN at all. Check your device's manual for the proper setting.</simpara>
-          </note>
-        </listitem>
-        <listitem>
-          Choose an appropriate PIN setting for your device, then click
-          <keycap>Close</keycap>
+          <guimenuitem>Devices</guimenuitem>
           .
         </listitem>
         <listitem>
           Click
-          <keycap>Continue</keycap>
-          to proceed. If you did not choose a preset PIN, the PIN will be displayed on the screen.
+          <keycap>Search</keycap>
+          in the panel just below the menus. Your computer will begin searching for devices.
         </listitem>
         <listitem>
-          If required, confirm the PIN on your other device. The device should show you the PIN you see on your computer screen or may prompt you to enter the PIN. Confirm the PIN on the device, then click
-          <keycap>Matches</keycap>
-          .
-          <note>
-            <title>Note</title>
-            <simpara>You need to finish your entry within about 20 seconds on most devices, or the connection will not be completed. If that happens, return to the device list and start again.</simpara>
-          </note>
+          Right-click on the device you want to pair and select
+          <guimenuitem>Connect</guimenuitem>
+          . The pairing should happen automatically.
         </listitem>
         <listitem>
-          A message appears when the connection successfully completes. Click
-          <keycap>Close</keycap>
-          .
+          In the notification area, click
+          <keycap>Confirm</keycap>
+          to accept the pairing request.
         </listitem>
       </orderedlist>
+      <note>
+          <title>Note</title>
+          <simpara>You need to finish your connection within about 20 seconds on most devices, or the connection will not be completed. If that happens, return to the device list and start again.</simpara>
+      </note>
     </sect2>
     <sect2 id="productivity-notifications">
       <title>Notifications</title>
@@ -3564,7 +3540,7 @@
         <application>Software Boutique</application>
         is the main graphical application you will use to install software. Thousands of applications not available in the Software Boutique are available to explore in the full Ubuntu software catalog (
         <xref linkend="software-software-centers" />
-        )and from the the unique Snap Store, located at 
+        ) and from the the unique Snap Store, located at 
         <ulink url="https://snapcraft.io/store"> https://snapcraft.io/store</ulink>
         .  You have full access to the entire library at any time using the command line, but in order to obtain software from the complete software catalog using a graphical application that lets you browse through it, you will need to enable one or more of the software center applications from within the
         <application>Software Boutique</application>
@@ -5010,12 +4986,12 @@
             <entry namest="col1" nameend="col2" align="center" />
           </row>
           <row>
-            <entry>Pentium M 1.0 gigahertz</entry>
-            <entry>Core 2 Duo 1.6 gigahertz</entry>
+            <entry>Core 2 Duo</entry>
+            <entry>Core i3</entry>
           </row>
           <row>
             <entry>1 gigabyte (GB) of RAM</entry>
-            <entry>2 gigabytes (GB) RAM</entry>
+            <entry>4 gigabytes (GB) RAM</entry>
           </row>
           <row>
             <entry>8 gigabytes (GB) of available space on the hard disk</entry>
@@ -5023,11 +4999,7 @@
           </row>
           <row>
             <entry>Bootable DVD-ROM drive</entry>
-            <entry>Bootable USB flash drive</entry>
-          </row>
-          <row>
-            <entry>Keyboard and mouse (or other pointing device)</entry>
-            <entry>Keyboard and mouse (or other pointing device)</entry>
+            <entry>Bootable DVD-ROM or USB flash drive</entry>
           </row>
           <row>
             <entry>1024 x 768 or higher resolution</entry>
@@ -5091,13 +5063,6 @@
         <listitem>
           <simpara>
             Choose
-            <emphasis>32-bit</emphasis>
-            (i386) if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for aging PCs with low-RAM resources, and older Intel-based Apple Macintosh systems. Note: i386 has been discontinued and will no longer receive updates after April 2021. This one runs on any 32-bit PC or Intel Mac.
-          </simpara>
-        </listitem>
-        <listitem>
-          <simpara>
-            Choose
             <emphasis>PowerPC</emphasis>
             if you have an older generation PowerPC-based hardware, like Apple Macintosh G3, G4 and G5; Apple iBooks and PowerBooks; and IBM OpenPower 7xx Machines.
           </simpara>
@@ -5126,10 +5091,10 @@
         </listitem>
         <listitem>
           <simpara>
-            Normal support releases (interim releases) are supported for
+            Ubuntu MATE's normal support releases (interim releases) are supported for
             <emphasis>nine months</emphasis>
             while LTS releases are supported for
-            <emphasis>five years</emphasis>
+            <emphasis>three years</emphasis>
             .
           </simpara>
         </listitem>
@@ -5463,7 +5428,7 @@
         <textobject>Help icon.</textobject>
       </inlinemediaobject>
       If you can't find the answer in this guide, many of the answers are available in the vast resource that is the Ubuntu MATE website. Often, the fastest and easiest way to get answers to your questions about how to use Ubuntu MATE is to ask the friendly and helpful
-      <ulink url="https://ubuntu-mate.org/community/">Ubuntu MATE community</ulink>
+      <ulink url="https://ubuntu-mate.community">Ubuntu MATE community</ulink>
       . The next few topics in this guide describe using this guide, the website, the community, and the wiki, and provide a bit more detail about the kind of support each can provide.
     </simpara>
   </sect1>
@@ -5553,7 +5518,7 @@
                 <imageobject>
                   <imagedata fileref="figures/website.png" contentwidth="100%" />
                 </imageobject>
-                <textobject>Community website.</textobject>
+                <textobject>Ubuntu MATE website.</textobject>
               </mediaobject>
             </entry>
           </row>
@@ -6795,7 +6760,7 @@
       <title>I've got a question. Where do I ask?</title>
       <simpara>
         Ask the
-        <ulink url="https://ubuntu-mate.org/community/">Ubuntu MATE community</ulink>
+        <ulink url="https://ubuntu-mate.community">Ubuntu MATE community</ulink>
         .
       </simpara>
     </sect2>
