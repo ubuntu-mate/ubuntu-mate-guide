@@ -27,11 +27,7 @@ Most text editors, like **Pluma**, have the ability to set the "Highlight Mode" 
 When you save the file with the `.docbook` extension, the next time you open the file in the text editor, it will be highlighted correctly so that you can continue editing.
 
 ### Clone the files
-
-    mkdir ~/ubuntu-mate-guide
-    cd ~/ubuntu-mate-guide
-    git clone git@bitbucket.org:ubuntu-mate/ubuntu-guide.git
-
+    git clone git@github.com:ubuntu-mate/ubuntu-mate-guide.git
 ----------
 ## Reducing the size of graphics files
 
