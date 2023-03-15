@@ -28,9 +28,15 @@ When you save the file with the `.docbook` extension, the next time you open the
 
 ### Clone the files
 
-    mkdir ~/ubuntu-mate-guide
-    cd ~/ubuntu-mate-guide
-    git clone git@bitbucket.org:ubuntu-mate/ubuntu-guide.git
+```shell
+git clone git@github.com:ubuntu-mate/ubuntu-mate-guide.git
+```
+
+or if you prefer to use `gh`
+
+```shell
+gh repo clone ubuntu-mate/ubuntu-mate-guide
+```
 
 ----------
 ## Reducing the size of graphics files
