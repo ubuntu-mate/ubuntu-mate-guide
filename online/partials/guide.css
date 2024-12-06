@@ -1,0 +1,516 @@
+/************************************
+  Base
+************************************/
+body {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 22px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+#docbook {
+    max-width: 36em;
+    margin: auto;
+    margin-top: 66px;
+}
+
+#guide-viewer {
+    margin-left: 300px;
+    margin-top: 50px;
+    transition: opacity 1s, visibility 1s;
+}
+
+/* Hidden at first as it will fade in when ready */
+#guide-viewer.loading {
+    cursor: wait;
+    opacity: 0;
+}
+
+/************************************
+  Sidebar
+************************************/
+#guide-sidebar {
+    position: fixed;
+    top: 66px;
+    left: 0;
+    bottom: 0;
+    align-self: start;
+    width: 300px;
+}
+
+#sidebar-contents {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+
+#sidebar-contents::after {
+    content: " ";
+    display: block;
+    height: 30px;
+}
+
+.nav-item {
+    cursor: pointer;
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.nav-chapter {
+    border-color: #a9a9a9;
+    color: black;
+    text-transform: capitalize;
+}
+
+.nav-separator {
+    height: 15px;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    background: #cedbb9;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:active {
+    background: #abc087;
+    color: #000;
+    outline-color: #abc087;
+    transition: none;
+}
+
+.nav-item.active {
+    background-color: #87a556;
+    color: #fff;
+}
+
+.sidebar-info {
+    padding: 15px;
+    opacity: 0.5;
+}
+
+#nav-page-faq {
+    text-transform: uppercase;
+}
+
+#sidebar-buttons {
+    display: flex;
+    margin: 10px;
+}
+
+#sidebar-buttons button {
+    flex: 1;
+    margin: 0 4px;
+}
+
+#sidebar-buttons svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+#sidebar-buttons svg path {
+    fill: #87A556;
+}
+
+/************************************
+  Site Header
+************************************/
+#site-header {
+    background: #87a556;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 8px 12px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+#back-to-top {
+    margin-right: auto;
+}
+
+#site-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.site-nav {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    background: #9fb876;
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-nav:active {
+    background: #abc087;
+    outline-color: #abc087;
+}
+
+.site-nav.disabled {
+    cursor: not-allowed;
+    opacity: 0.25;
+    pointer-events: none;
+}
+
+.site-nav svg {
+    height: 16px;
+    width: 16px;
+    vertical-align: text-top;
+}
+
+.site-nav svg path {
+    fill: white;
+}
+
+/************************************
+  Guide
+************************************/
+#title-block-header {
+    background: #f4f4f4;
+    margin: -15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+#title-block-header .author,
+#title-block-header .date {
+    opacity: 0.5;
+}
+
+/* Match styling from Docbook render */
+h1, h2 {
+    color: #4b4b49;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    /* Jump to (hash) */
+    margin-top: -60px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #c0bfbc;
+    color: #4b4b49;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+blockquote {
+    /* Used for notes and tips, missing icon! */
+    background: #f4f4f4;
+    border: 1px solid #eaeae9;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+pre {
+    display: block;
+    background-color: #ededed;
+    color: #000;
+    font-size: 14px;
+    padding: 15px;
+    margin: 15px 0;
+    white-space: pre-wrap;
+    line-break: anywhere;
+}
+
+pre,
+pre code {
+    font-family: "Ubuntu Mono", "Roboto Mono", monospace;
+}
+
+.menuchoice {
+    color: #4b4b49;
+    font-style: italic;
+}
+
+/* Figure images */
+p > img,
+p > embed {
+    display: block;
+    max-width: 680px;
+    margin: 10px auto;
+}
+
+@media (max-width: 680px) {
+    p > img,
+    p > embed {
+        max-width: 100%;
+    }
+}
+
+/* Images underneath headings are icons */
+h1 + p > img,
+h2 + p > img {
+    display: inline-block;
+    max-height: 48px;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+/* Navigation links (from main site) */
+a {
+    color: #758a53;
+}
+
+/* Tables (from main site) */
+table {
+    table-layout: fixed;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border-spacing: 0;
+    border-collapse: collapse;
+    padding: 8px;
+    max-width: 400px;
+}
+
+tr {
+    font-size: 0.9em;
+    border-bottom: 1px solid #c9c6c3;
+    background-color: #fff;
+}
+
+tr:first-child, tr:nth-child(2n+3) {
+    background-color: #f9f9f9;
+}
+
+/* Mark external links */
+.external {
+    color: #45a7e7;
+}
+
+/* Embed Ubuntu font if not present on system */
+@font-face {
+    font-family: "Ubuntu-Embed";
+    src: local('Ubuntu'), url("/assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Embed";
+    src: local('Ubuntu Bold'), url("/assets/fonts/Ubuntu-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/************************************
+  Dark mode
+************************************/
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #222222;
+        color: #fff;
+    }
+
+    #title-block-header,
+    blockquote,
+    pre {
+        background: #4e4c46;
+        border-color: #000;
+        color: #fff;
+    }
+
+    .menuchoice {
+        color: #9b9b9b;
+    }
+
+    h1, h2 {
+        color: #9b9b9b;
+    }
+
+    a:not(.external) {
+        color: #9ab270;
+    }
+
+    .nav-chapter {
+        color: #fff !important;
+    }
+
+    .nav-chapter:hover,
+    .nav-chapter:focus {
+        color: #000 !important;
+    }
+
+    .site-nav {
+        color: #fff !important;
+    }
+
+    tr, td, th {
+        background-color: transparent;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #404040;
+    }
+
+    tr:nth-child(even) {
+        background-color: #2f2f2f;
+    }
+}
+
+/************************************
+  Mobile Responsive
+************************************/
+/* Only visible on mobile */
+.mobile-only {
+    display: none;
+}
+
+@media screen and (max-width: 940px) {
+    p > img,
+    p > embed {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #guide-viewer {
+        margin: 0;
+    }
+
+    a {
+        line-break: anywhere;
+    }
+
+    #guide-content {
+        width: calc(100% - 30px);
+        max-width: none;
+    }
+
+    #sidebar-contents {
+        height: 100%;
+    }
+
+    /* Hide header items */
+    .site-nav {
+        display: none;
+    }
+
+    /* Collapse sidebar into toggle button */
+    #guide-sidebar {
+        background: white;
+        position: fixed;
+        bottom: 0;
+        left: 10vw;
+        right: 0;
+        width: 90vw;
+        box-shadow: -5px -0 10px gray;
+        z-index: 5;
+    }
+
+    #sidebar-invisible {
+        background: rgba(255,255,255,0.9);
+        cursor: pointer;
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 66px;
+        bottom: 0;
+        width: 10vw;
+    }
+
+    #sidebar-close {
+        display: block;
+        transform: rotate(180deg);
+        margin: auto;
+        height: 1em;
+        width: 1em;
+    }
+
+    #sidebar-close path {
+        fill: black;
+    }
+
+    #guide-viewer #guide-sidebar {
+        display: none;
+    }
+
+    #mobile-nav-btn {
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+
+    #mobile-nav-btn svg {
+        margin: auto;
+    }
+
+    #mobile-nav-btn path {
+        fill: white;
+    }
+
+    #mobile-nav-toggle:checked ~ #guide-viewer #guide-sidebar {
+        display: block;
+    }
+
+    #mobile-nav-toggle:checked ~ #site-header #mobile-nav-btn {
+        background: white;
+    }
+
+    #mobile-nav-toggle:checked ~ #site-header #mobile-nav-btn path {
+        fill: black;
+    }
+
+    #sidebar-buttons {
+        display: none;
+    }
+
+    .site-nav svg {
+        height: 24px;
+        width: 24px;
+        vertical-align: top;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) and (prefers-color-scheme: dark) {
+    #sidebar-invisible {
+        background: rgba(0,0,0,0.9);
+    }
+
+    #guide-sidebar,
+    #mobile-nav-toggle:checked ~ #site-header #mobile-nav-btn {
+        background: black;
+    }
+
+    #mobile-nav-toggle:checked ~ #site-header #mobile-nav-btn path,
+    #sidebar-close path  {
+        fill: white;
+    }
+}

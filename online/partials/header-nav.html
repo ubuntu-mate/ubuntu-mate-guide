@@ -1,0 +1,98 @@
+<!--
+The source code for this website is available on GitHub:
+https://github.com/ubuntu-mate/ubuntu-mate-guide
+-->
+<input id="mobile-nav-toggle" type="checkbox" style="appearance:none; display:none"/>
+
+<noscript>
+    <style>
+        #guide-viewer {
+            cursor: default !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            margin-left: 0 !important;
+        }
+        #guide-sidebar {
+            display: none !important;
+        }
+        #loading-text {
+            display: none !important;
+        }
+    </style>
+</noscript>
+
+<header id="site-header">
+    <a id="back-to-top" href="/">
+        <img id="site-logo" src="/assets/logo-white.svg" alt="Ubuntu MATE logo mono"/>
+    </a>
+    <a class="site-nav" href="https://ubuntu-mate.org">
+        <!-- FontAwesome 5: external-link-alt.svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"></path>
+        </svg>
+        <span>Website</span>
+    </a>
+    <a class="site-nav" href="https://ubuntu-mate.community">
+        <!-- FontAwesome 5: external-link-alt.svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"></path>
+        </svg>
+        <span>Community</span>
+    </a>
+    <a class="site-nav" href="https://ubuntu-mate.org/shop/books/">
+        <!-- FontAwesome 5: shopping-cart.svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
+        </svg>
+        <span>Buy Books</span>
+    </a>
+    <a id="prev-section-mobile" class="site-nav mobile-only" onclick="prevSection()">
+        <!-- FontAwesome 5: chevron-up.svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"/></svg>
+    </a>
+    <a id="next-section-mobile" class="site-nav mobile-only" onclick="nextSection()">
+        <!-- FontAwesome 5: chevron-down.svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+    </a>
+    <label id="mobile-nav-btn" for="mobile-nav-toggle" class="mobile-only">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+            <path id="path2" style="stroke-width:.043822" d="m22.094 3.5575h-20.188c-.4983 0-.906.3999-.906.8886v1.7774c0 .4888.4077.8887.9060.8887h20.188c.498 0 .906-0.4.906-.8887v-1.7774c0-.4887-.408-.8886-.906-.8886zm0 13.33h-20.188c-.4983 0-.906 0.4-.906.889v1.7773c0 .48879.40772.88867.90602.88867h20.188c.498 0 .906-0.4.906-.889v-1.7773c0-.48879-.40772-.88866-.90602-.88866zm0-6.6653h-20.188c-.4983 0-.906.399-.906.888v1.7773c0 .48878.40772.88866.90602.88866h20.188c.498 0 .906-0.4.906-.888v-1.7773c0-.48878-.40772-.88866-.90602-.88866z"></path>
+        </svg>
+    </label>
+</header>
+
+<div id="guide-viewer" class="loading">
+    <nav id="guide-sidebar">
+        <noscript>
+            <div class="sidebar-info">
+                In order to use the sidebar navigation, please enable JavaScript.
+            </div>
+        </noscript>
+        <div id="sidebar-buttons">
+            <button id="prev-section" onclick="prevSection()" disabled>
+                <!-- FontAwesome 5: chevron-up.svg -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"/></svg>
+                <span>Previous</span>
+            </button>
+            <button id="next-section" onclick="nextSection()" disabled>
+                <!-- FontAwesome 5: chevron-down.svg -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+                <span>Next</span>
+            </button>
+        </div>
+        <ul id="sidebar-contents">
+            <div class="sidebar-info" id="loading-text">
+                Loading...
+                <br><br>
+                If you're using an old browser and nothing appears,
+                please disable JavaScript and refresh this page.
+            </div>
+        </ul>
+        <div id="sidebar-invisible" class="mobile-only">
+            <!-- FontAwesome 5: chevron-left.svg -->
+            <svg id="sidebar-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"/>
+            </svg>
+        </div>
+    </nav>
+</div>
