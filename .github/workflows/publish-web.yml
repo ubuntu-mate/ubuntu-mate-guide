@@ -34,13 +34,12 @@ jobs:
         cd guide.ubuntu-mate.org/
         scripts/test.sh
 
-    # Disabled because deploying via this workflow break the deploy aliases in CF
-    #- name: Publish to Cloudflare Pages
-    #  if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' }}
-    #  uses: cloudflare/pages-action@v1
-    #  with:
-    #    apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-    #    accountId: e6fe5e31e8183c8192347f15af553766
-    #    projectName: guide-ubuntu-mate-org
-    #    directory: guide.ubuntu-mate.org/build
-    #    gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish to Cloudflare Pages
+      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' }}
+      uses: cloudflare/pages-action@v1
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: e6fe5e31e8183c8192347f15af553766
+        projectName: guide-ubuntu-mate-org
+        directory: guide.ubuntu-mate.org/build
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
