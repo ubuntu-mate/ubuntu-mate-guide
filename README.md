@@ -1,6 +1,6 @@
-# ubuntu-mate-guide
+# Ubuntu MATE Guide
 
-## A guide to Ubuntu MATE
+**A guide to Ubuntu MATE**
 
 Written in DocBook XML V4.5 format [DocBook](http://docbook.org/xml/4.5/docbookx.dtd) - a semantic markup language for technical documentation.
 
@@ -12,15 +12,13 @@ With Ubuntu MATE release 18.10 the documentation has been expanded significantly
 
 The most recent update to the guide incorporates new applications and features of **Ubuntu MATE release 22.04**.
 
-----------
-
 ## Translations
 
 The documentation is only in English at the moment.
 
-----------
+## Contributing
 
-## Setting up the DocBook Writing Environment
+### Setting up the DocBook Writing Environment
 
 First, as long as you have a text editor, you have all the tools you need to create the documentation.
 
@@ -40,9 +38,7 @@ or if you prefer to use `gh`
 gh repo clone ubuntu-mate/ubuntu-mate-guide
 ```
 
-----------
-
-## Reducing the size of graphics files
+### Reducing the size of graphics files
 
 Graphics files contained in the /apps and /figures folders. To reduce the size of png and jpg files, use these two commands:
 
@@ -51,9 +47,7 @@ jpegoptim --strip-all -t *.jpg
 optipng -strip all -o7 *.png
 ```
 
-----------
-
-## Testing the index.docbook file
+### Testing the index.docbook file
 
 The entire ubuntu-mate-guide is contained in the file `index.docbook`, with graphics files contained in the /apps and /figures folders. To test the file, open it in **Yelp**:
 
@@ -61,19 +55,20 @@ The entire ubuntu-mate-guide is contained in the file `index.docbook`, with grap
 yelp index.docbook
 ```
 
-----------
-
-## File location in Ubuntu MATE
+### File location in Ubuntu MATE
 
 The `index.docbook` file is simply placed in this location:
 
-`/usr/share/help/C/ubuntu-mate-guide/index.docbook`
+    /usr/share/help/C/ubuntu-mate-guide/index.docbook
 
- Translations are placed in `/usr/share/help/<language>/ubuntu-mate-guide/index.docbook` ( where `<language>` is the standard two-letter language code).
+Translations are placed in `/usr/share/help/<language>/ubuntu-mate-guide/index.docbook` (where `<language>` is the standard two-letter language code).
 
-----------
+It is available to install via the [ubuntu-mate-guide package](https://packages.ubuntu.com/noble/ubuntu-mate-guide) in the Ubuntu repositories.
 
-## PDF Conversion
+
+## Testing
+
+### PDF Conversion
 
 Install these command-line utilities: `pandoc` `texlive-xetex` and `texlive-fonts-extra` (and dependencies) from the Ubuntu MATE repositories and use **pandoc** to convert the docbook file to markdown and then from markdown to pdf:
 
@@ -82,15 +77,9 @@ pandoc -f docbook -t markdown -s index.docbook -o UMGuide.md
 pandoc UMGuide.md  --pdf-engine=xelatex -o UMGuide.pdf
 ```
 
-----------
+### HTML Conversion
 
-## HTML Conversion
-
-The `pandoc` application is also used to create the online publication of the Ubuntu MATE Guide at [http://guide.ubuntu-mate.org](http://guide.ubuntu-mate.org).
-
-Further information can be found here:
-
-[https://github.com/ubuntu-mate/guide.ubuntu-mate.org](https://github.com/ubuntu-mate/guide.ubuntu-mate.org)
+The `pandoc` application can also used to create a HTML version used as the basis for the online version at [http://guide.ubuntu-mate.org](http://guide.ubuntu-mate.org).
 
 An HTML file can be created from the markdown file with this command:
 
@@ -98,3 +87,16 @@ An HTML file can be created from the markdown file with this command:
 pandoc -s UMGuide.md -o UMGuide.html
 ```
 
+## guide.ubuntu-mate.org
+
+An online version is published at <https://guide.ubuntu-mate.org>.
+
+The [guide.ubuntu-mate.org](https://github.com/ubuntu-mate/guide.ubuntu-mate.org)
+repository contains additional code for viewing this publication of the guide.
+
+Changes made to this repository on the `master` branch will be automatically published.
+
+
+## License
+
+[Creative Commons Attribution 4.0 International (CC-BY-4.0)](LICENSE)
