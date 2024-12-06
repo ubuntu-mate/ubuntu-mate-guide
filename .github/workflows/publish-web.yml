@@ -41,5 +41,5 @@ jobs:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: e6fe5e31e8183c8192347f15af553766
         projectName: guide-ubuntu-mate-org
-        directory: build
+        directory: guide.ubuntu-mate.org/build
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
