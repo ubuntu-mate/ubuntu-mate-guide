@@ -53,7 +53,7 @@
     </mediaobject>
   </simpara>
   <!-- Overview ============================================================= -->
-  <sect1 id="page.overview">
+  <sect1 id="page-overview">
     <title>• • • OVERVIEW • • •</title>
     <simpara>
       <mediaobject>
@@ -89,7 +89,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.linux">
+  <sect1 id="page-linux">
     <title>Ubuntu MATE Is Linux!</title>
     <simpara>
       <inlinemediaobject>
@@ -147,7 +147,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.ubuntu">
+  <sect1 id="page-ubuntu">
     <title>Ubuntu</title>
     <simpara>
       <inlinemediaobject>
@@ -180,7 +180,7 @@
       </simpara>
     </tip>
   </sect1>
-  <sect1 id="page.mate-desktop">
+  <sect1 id="page-mate-desktop">
     <title>The MATE Desktop</title>
     <simpara>
       <inlinemediaobject>
@@ -228,7 +228,7 @@
       </simpara>
     </tip>
   </sect1>
-  <sect1 id="page.open-source">
+  <sect1 id="page-open-source">
     <title>Open Source</title>
     <simpara>
       <inlinemediaobject>
@@ -257,7 +257,7 @@
     </simpara>
   </sect1>
   <!-- MATE's Applications ================================================== -->
-  <sect1 id="page.mate-apps">
+  <sect1 id="page-mate-apps">
     <title>• • • MATE'S APPLICATIONS • • •</title>
     <simpara>
       <inlinemediaobject>
@@ -270,48 +270,48 @@
     </simpara>
     <itemizedlist>
       <listitem>
-        <xref linkend="page.caja" />
+        <xref linkend="page-caja" />
         Organize files and folders, both on your computer and online.
       </listitem>
       <listitem>
-        <xref linkend="page.pluma" />
+        <xref linkend="page-pluma" />
         Create and edit text files.
       </listitem>
       <listitem>
-        <xref linkend="page.calculator" />
+        <xref linkend="page-calculator" />
         A simple calculator with some advanced features.
       </listitem>
       <listitem>
-        <xref linkend="page.engrampa" />
+        <xref linkend="page-engrampa" />
         Create, view, modify, or unpack zipped files or compressed archive files.
       </listitem>
       <listitem>
-        <xref linkend="page.eom" />
+        <xref linkend="page-eom" />
         View single photos or image files, as well as large image collections.
       </listitem>
       <listitem>
-        <xref linkend="page.atril" />
+        <xref linkend="page-atril" />
         View documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
       </listitem>
       <listitem>
-        <xref linkend="page.baobab" />
+        <xref linkend="page-baobab" />
         MATE's disk usage analyzer.
       </listitem>
       <listitem>
-        <xref linkend="page.system-monitor" />
+        <xref linkend="page-system-monitor" />
         Display basic system information and monitor system processes, usage of system resources and file systems, and modify the behavior of your system.
       </listitem>
       <listitem>
-        <xref linkend="page.terminal" />
+        <xref linkend="page-terminal" />
         Access a UNIX shell in the MATE environment and type commands at a command line prompt.
       </listitem>
       <listitem>
-        <xref linkend="page.control-center" />
+        <xref linkend="page-control-center" />
         A single window from which to launch all of the MATE preference tools.
       </listitem>
     </itemizedlist>
   </sect1>
-  <sect1 id="page.caja">
+  <sect1 id="page-caja">
     <title>File Browser (Caja)</title>
     <simpara>
       <inlinemediaobject>
@@ -471,7 +471,7 @@
       </simpara>
     </tip>
   </sect1>
-  <sect1 id="page.pluma">
+  <sect1 id="page-pluma">
     <title>Text Editor (Pluma)</title>
     <simpara>
       <inlinemediaobject>
@@ -616,7 +616,7 @@
         window, a popup menu appears containing the most common text editing commands. Like other MATE applications, actions in
         <application>Pluma</application>
         can be performed with the menu, with the toolbar, or with keyboard shortcuts. See the section
-        <xref linkend="page.shortcuts" /> 
+        <xref linkend="page-shortcuts" />
         for a list of common keyboard shortcuts.
       </simpara>
     </sect2>
@@ -685,7 +685,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.calculator">
+  <sect1 id="page-calculator">
     <title>MATE Calculator</title>
     <simpara>
       <inlinemediaobject>
@@ -769,7 +769,7 @@
       </simpara>
     </tip>
   </sect1>
-  <sect1 id="page.engrampa">
+  <sect1 id="page-engrampa">
     <title>Archive Manager (Engrampa)</title>
     <simpara>
       <inlinemediaobject>
@@ -881,7 +881,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.eom">
+  <sect1 id="page-eom">
     <title>Image Viewer (Eye of MATE)</title>
     <simpara>
       <inlinemediaobject>
@@ -999,7 +999,7 @@
       </informaltable>
     </sect2>
   </sect1>
-  <sect1 id="page.atril">
+  <sect1 id="page-atril">
     <title>Document Viewer (Atril)</title>
     <simpara>
       <inlinemediaobject>
@@ -1127,7 +1127,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.baobab">
+  <sect1 id="page-baobab">
     <title>MATE Disk Usage Analyzer (Baobab)</title>
     <simpara>
       <inlinemediaobject>
@@ -1228,7 +1228,7 @@
       </simpara>
     </sect2>
   </sect1>
-  <sect1 id="page.system-monitor">
+  <sect1 id="page-system-monitor">
     <title>MATE System Monitor</title>
     <simpara>
       <inlinemediaobject>
@@ -1341,7 +1341,7 @@
       </simpara>
     </tip>
   </sect1>
-  <sect1 id="page.terminal">
+  <sect1 id="page-terminal">
     <title>MATE Terminal</title>
     <simpara>
       <inlinemediaobject>
@@ -1552,7 +1552,7 @@
       </note>
     </sect2>
   </sect1>
-  <sect1 id="page.control-center">
+  <sect1 id="page-control-center">
     <title>MATE Control Center</title>
     <simpara>
       <inlinemediaobject>
@@ -1613,7 +1613,7 @@
     </tip>
   </sect1>
   <!-- Ubuntu MATE's Applications =========================================== -->
-  <sect1 id="page.applications">
+  <sect1 id="page-applications">
     <title>• • • UBUNTU MATE'S APPLICATIONS • • •</title>
     <simpara>
       <inlinemediaobject>
@@ -3135,7 +3135,7 @@
     </informaltable>
     <simpara>
       Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility. For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards. The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key. Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo. On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key. On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square. For additional information about keyboard shortcuts and enabling the Super key on some computer hardware, see the section:
-      <xref linkend="page.shortcuts" />
+      <xref linkend="page-shortcuts" />
       .
     </simpara>
     <sect2 id="accessibility-enable-at-startup">
@@ -4901,7 +4901,7 @@
     </sect2>
   </sect1>
   <!-- About the Ubuntu MATE Project ======================================== -->
-  <sect1 id="page.about">
+  <sect1 id="page-about">
     <title>• • • ABOUT THE UBUNTU MATE PROJECT • • •</title>
     <simpara>
       <inlinemediaobject>
@@ -5418,7 +5418,7 @@
     </sect2>
   </sect1>
   <!-- Support ============================================================== -->
-  <sect1 id="page.support">
+  <sect1 id="page-support">
     <title>• • • SUPPORT • • •</title>
     <simpara>
       <inlinemediaobject>
@@ -5563,7 +5563,7 @@
         Click the
         <ulink url="https://ubuntu-mate.org/support/">Support</ulink>
         link for ways you can get support from the Ubuntu MATE community, a link to the online version of this guide, and other resources. For additional information about the community, see
-        <xref linkend="page.community" />
+        <xref linkend="page-community" />
         .
       </simpara>
     </sect2>
@@ -5603,7 +5603,7 @@
       </orderedlist>
     </sect2>
   </sect1>
-  <sect1 id="page.community">
+  <sect1 id="page-community">
     <title>The Ubuntu MATE Community</title>
     <simpara>
       <inlinemediaobject>
@@ -5633,7 +5633,7 @@
     </informaltable>
   </sect1>
   <!-- Keyboard Shortcuts =================================================== -->
-  <sect1 id="page.shortcuts">
+  <sect1 id="page-shortcuts">
     <title>• • • KEYBOARD SHORTCUTS • • •</title>
     <simpara>
       <inlinemediaobject>
@@ -6653,7 +6653,7 @@
     </sect2>
   </sect1>
   <!-- FAQ ================================================================== -->
-  <sect1 id="page.faq">
+  <sect1 id="page-faq">
     <title>• • • FAQ • • •</title>
     <simpara>
       <mediaobject>
@@ -6667,7 +6667,7 @@
       <title>What is Ubuntu MATE exactly?</title>
       <simpara>
         See the
-        <xref linkend="page.overview" />
+        <xref linkend="page-overview" />
         section in this guide.
       </simpara>
     </sect2>
