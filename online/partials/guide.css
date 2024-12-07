@@ -1,11 +1,10 @@
-/************************************
-  Base
-************************************/
 body {
+    background: var(--background);
+    color: var(--text-color);
     display: flex;
-    margin: auto;
     padding: 0;
     margin: 0;
+    margin-left: var(--sidebar-width);
     line-height: 22px;
     overflow-x: hidden;
 }
@@ -14,63 +13,117 @@ body {
     font-family: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
 
-#docbook {
-    max-width: 36em;
-    margin: auto;
-    margin-top: 66px;
+/************************************
+  Colours & Variables
+************************************/
+:root {
+    --sidebar-width: 300px;
+    --page-width: 50em;
+    --header-full-height: 60px; /* height + padding */
+
+    --background: #f4f4f4;
+    --text-color: black;
+
+    --grey-border: #d5d5d5;
+    --grey-color: #9b9b9b;
+
+    --sidebar-bg: white;
+    --item-border: #d7d7d7;
+    --item-hover: #f4f4f4;
+    --item-active: #abc087;
+
+    --accent: #87a556;
+    --accent-hover: #9fb876;
+    --text-on-accent: white;
+    --accent-link: #758a53;
+
+    --quote-bg: #EDEDED;
+    --quote-border: #eaeae9;
+    --quote-text: black;
+
+    --title-color: #4b4b49;
+    --title-border: #c0bfbc;
+
+    --table-border: #c9c6c3;
+    --table-alt-row: #ececec;
 }
 
-#guide-viewer {
-    margin-left: 300px;
-    margin-top: 50px;
-    transition: opacity 1s, visibility 1s;
-}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #222222;
+        --text-color: white;
 
-/* Hidden at first as it will fade in when ready */
-#guide-viewer.loading {
-    cursor: wait;
-    opacity: 0;
+        --grey-color: #909090;
+
+        --sidebar-bg: #363636;
+        --item-border: #242424;
+        --item-hover: #2e2e2e;
+        --item-active: #abc087;
+
+        --accent-link: #87a556;
+
+        --quote-bg: #4e4c46;
+        --quote-border: #403e39;
+        --quote-text: white;
+
+        --title-color: #9b9b9b;
+        --table-border: #404040;
+        --table-alt-row: #2f2f2f;
+    }
+
+    /* Docbook: Cheap way to invert light OS logo for the dark background */
+    #page-overview + p > img,
+    #page-faq + p > img {
+        filter: invert(1) grayscale(1) brightness(3);
+    }
 }
 
 /************************************
-  Sidebar
+  Layout & Sidebar
 ************************************/
+#docbook {
+    max-width: var(--page-width);
+    margin: auto;
+    margin-top: var(--header-full-height);
+    padding: 16px;
+}
+
 #guide-sidebar {
+    align-self: start;
+    background: var(--sidebar-bg);
     position: fixed;
-    top: 66px;
+    top: var(--header-full-height);
     left: 0;
     bottom: 0;
-    align-self: start;
-    width: 300px;
+    height: calc(100vh - var(--header-full-height));
+    width: var(--sidebar-width);
 }
 
 #sidebar-contents {
     list-style: none;
     padding: 0;
     margin: 0;
-    height: calc(100% - 50px);
+    height: calc(100% - 40px);
     overflow-y: scroll;
 }
 
-#sidebar-contents::after {
-    content: " ";
-    display: block;
-    height: 30px;
+#sidebar-contents .nav-separator:first-child {
+    display: none;
 }
 
 .nav-item {
     cursor: pointer;
     display: block;
     padding: 5px 10px;
-    border-bottom: 1px solid #d7d7d7;
+    border-bottom: 1px solid var(--item-border);
     font-size: 15px;
     text-decoration: none;
     transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
 .nav-chapter {
-    border-color: #a9a9a9;
-    color: black;
+    border-color: var(--item-border);
+    color: var(--text-color);
     text-transform: capitalize;
 }
 
@@ -80,21 +133,21 @@ body {
 
 .nav-item:hover,
 .nav-item:focus {
-    background: #cedbb9;
-    color: #000;
+    background: var(--item-hover);
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .nav-item:active {
-    background: #abc087;
-    color: #000;
-    outline-color: #abc087;
+    background: var(--item-active);
+    color: var(--text-color);
+    outline-color: var(--item-active);
     transition: none;
 }
 
 .nav-item.active {
-    background-color: #87a556;
-    color: #fff;
+    background-color: var(--accent);
+    color: var(--text-on-accent);
 }
 
 .sidebar-info {
@@ -108,35 +161,43 @@ body {
 
 #sidebar-buttons {
     display: flex;
-    margin: 10px;
+    margin: 6px;
 }
 
 #sidebar-buttons button {
+    display: flex;
     flex: 1;
-    margin: 0 4px;
+    margin: 1px 4px;
 }
 
 #sidebar-buttons svg {
     height: 20px;
     width: 20px;
-    vertical-align: middle;
+    margin: auto;
+    margin-right: 0;
 }
 
 #sidebar-buttons svg path {
-    fill: #87A556;
+    fill: var(--accent);
+}
+
+#sidebar-buttons span {
+    display: inline-flex;
+    margin: auto;
+    margin-left: 4px;
 }
 
 /************************************
   Site Header
 ************************************/
 #site-header {
-    background: #87a556;
+    background: var(--accent);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    padding: 8px 12px;
+    height: 48px;
+    padding: 6px 12px;
     z-index: 10;
     display: flex;
     flex-direction: row;
@@ -147,29 +208,29 @@ body {
 }
 
 #site-logo {
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 }
 
 .site-nav {
     display: block;
-    color: #fff;
+    color: var(--text-on-accent);
     cursor: pointer;
-    padding: 15px;
-    font-size: 15px;
+    padding: 14px;
+    font-size: 14px;
     text-decoration: none;
 }
 
 .site-nav:hover,
 .site-nav:focus {
-    background: #9fb876;
-    color: #fff;
+    background: var(--accent-hover);
+    color: var(--text-on-accent);
     text-decoration: none;
 }
 
 .site-nav:active {
-    background: #abc087;
-    outline-color: #abc087;
+    background: var(--item-active);
+    outline-color: var(--item-active);
 }
 
 .site-nav.disabled {
@@ -189,23 +250,29 @@ body {
 }
 
 /************************************
-  Guide
+  Guide Content
 ************************************/
+/* Docbook shows the OS logo twice, hide the first one */
+#docbook > header + p {
+    display: none;
+}
+
+/* Style the title of the book */
 #title-block-header {
-    background: #f4f4f4;
-    margin: -15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid var(--grey-border);
 }
 
 #title-block-header .author,
 #title-block-header .date {
-    opacity: 0.5;
+    color: var(--grey-color);
 }
 
-/* Match styling from Docbook render */
+/* Headings */
 h1, h2 {
-    color: #4b4b49;
+    color: var(--title-color);
     line-height: 36px;
     text-transform: capitalize;
 
@@ -216,28 +283,35 @@ h1, h2 {
 }
 
 h2 {
-    border-bottom: 1px solid #c0bfbc;
-    color: #4b4b49;
+    border-bottom: 1px solid var(--title-border);
+    color: var(--title-color);
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 10px;
 }
 
-blockquote {
-    /* Used for notes and tips, missing icon! */
-    background: #f4f4f4;
-    border: 1px solid #eaeae9;
-    margin: 10px auto;
-    padding: 5px 10px;
+/* Quotes, notes and code blocks */
+blockquote,
+.note {
+    background: var(--quote-bg);
+    border: 1px solid var(--quote-border);
+    border-left: 5px solid var(--accent);
+    margin: 12px auto;
+    padding: 16px;
+    clear: both;
+}
+
+.note .title {
+    font-weight: bold;
 }
 
 pre {
     display: block;
-    background-color: #ededed;
-    color: #000;
-    font-size: 14px;
-    padding: 15px;
-    margin: 15px 0;
+    background-color: var(--quote-bg);
+    border: 1px solid var(--quote-border);
+    color: var(--text-color);
+    padding: 16px;
+    margin: 12px 0;
     white-space: pre-wrap;
     line-break: anywhere;
 }
@@ -247,43 +321,33 @@ pre code {
     font-family: "Ubuntu Mono", "Roboto Mono", monospace;
 }
 
+/* File -> Example -> Save As... */
 .menuchoice {
-    color: #4b4b49;
+    color: var(--title-color);
     font-style: italic;
 }
 
-/* Figure images */
-p > img,
-p > embed {
+/* Images underneath headings are icons */
+.app-icon {
+    float: left;
+    margin: 12px;
+    margin-left: 0;
+    margin-top: 4px;
+}
+
+/* Figure images, usually screenshots */
+.figure {
     display: block;
-    max-width: 680px;
+    max-width: calc(var(--page-width) - 12em - 20px);
     margin: 10px auto;
 }
 
-@media (max-width: 680px) {
-    p > img,
-    p > embed {
-        max-width: 100%;
-    }
-}
-
-/* Images underneath headings are icons */
-h1 + p > img,
-h2 + p > img {
-    display: inline-block;
-    max-height: 48px;
-    margin: 0;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    vertical-align: middle;
-}
-
-/* Navigation links (from main site) */
+/* Navigation links */
 a {
-    color: #758a53;
+    color: var(--accent-link);
 }
 
-/* Tables (from main site) */
+/* Tables */
 table {
     table-layout: fixed;
     margin: 0;
@@ -298,21 +362,46 @@ th, td {
     max-width: 400px;
 }
 
-tr {
-    font-size: 0.9em;
-    border-bottom: 1px solid #c9c6c3;
-    background-color: #fff;
+/* Common keyboard shortcuts table onwards */
+#shortcuts-common ~ table thead {
+    /* Hidden, content is lots of dots */
+    display: none;
 }
 
-tr:first-child, tr:nth-child(2n+3) {
-    background-color: #f9f9f9;
+#shortcuts-common ~ table tr {
+    border-bottom: 1px solid var(--table-border);
 }
 
-/* Mark external links */
-.external {
-    color: #45a7e7;
+#shortcuts-common ~ table .even {
+    background-color: var(--table-alt-row);
 }
 
+/************************************
+  Docbook Tweaks
+************************************/
+/* In the first section, center align the OS logo */
+/* Also, any image that's in a paragraph of its own */
+#page-overview + p > img,
+#page-faq + p > img {
+    display: block;
+    margin: 20px auto;
+    height: 48px;
+    max-width: unset;
+}
+
+/* "The MATE Desktop" has an icon and few words due to the blockquote */
+#page-mate-desktop + p {
+    margin-bottom: 0;
+}
+
+#page-mate-desktop + p .app-icon {
+    float: none;
+    vertical-align: middle;
+}
+
+/************************************
+  Fonts
+************************************/
 /* Embed Ubuntu font if not present on system */
 @font-face {
     font-family: "Ubuntu-Embed";
@@ -327,77 +416,24 @@ tr:first-child, tr:nth-child(2n+3) {
 }
 
 /************************************
-  Dark mode
-************************************/
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #222222;
-        color: #fff;
-    }
-
-    #title-block-header,
-    blockquote,
-    pre {
-        background: #4e4c46;
-        border-color: #000;
-        color: #fff;
-    }
-
-    .menuchoice {
-        color: #9b9b9b;
-    }
-
-    h1, h2 {
-        color: #9b9b9b;
-    }
-
-    a:not(.external) {
-        color: #9ab270;
-    }
-
-    .nav-chapter {
-        color: #fff !important;
-    }
-
-    .nav-chapter:hover,
-    .nav-chapter:focus {
-        color: #000 !important;
-    }
-
-    .site-nav {
-        color: #fff !important;
-    }
-
-    tr, td, th {
-        background-color: transparent;
-    }
-
-    tr:nth-child(odd) {
-        background-color: #404040;
-    }
-
-    tr:nth-child(even) {
-        background-color: #2f2f2f;
-    }
-}
-
-/************************************
-  Mobile Responsive
+  Mobile View
 ************************************/
 /* Only visible on mobile */
 .mobile-only {
     display: none;
 }
 
-@media screen and (max-width: 940px) {
+@media (max-width: 940px) {
+    body {
+        margin: 0;
+    }
+
     p > img,
     p > embed {
         max-width: 100%;
     }
-}
 
-@media screen and (max-width: 768px) {
-    #guide-viewer {
+    #guide-sidebar {
         margin: 0;
     }
 
@@ -405,13 +441,13 @@ tr:first-child, tr:nth-child(2n+3) {
         line-break: anywhere;
     }
 
-    #guide-content {
-        width: calc(100% - 30px);
-        max-width: none;
+    .figure {
+        max-width: 90%;
     }
 
     #sidebar-contents {
         height: 100%;
+        max-width: 500px;
     }
 
     /* Hide header items */
@@ -421,44 +457,29 @@ tr:first-child, tr:nth-child(2n+3) {
 
     /* Collapse sidebar into toggle button */
     #guide-sidebar {
-        background: white;
         position: fixed;
         bottom: 0;
-        left: 10vw;
-        right: 0;
-        width: 90vw;
-        box-shadow: -5px -0 10px gray;
+        left: 40vw;
+        width: 60vw;
         z-index: 5;
     }
 
     #sidebar-invisible {
-        background: rgba(255,255,255,0.9);
+        background: rgba(255,255,255,0.8);
         cursor: pointer;
-        display: flex;
         position: fixed;
         left: 0;
-        top: 66px;
+        width: 40vw;
+        top: var(--header-full-height);
         bottom: 0;
-        width: 10vw;
     }
 
-    #sidebar-close {
-        display: block;
-        transform: rotate(180deg);
-        margin: auto;
-        height: 1em;
-        width: 1em;
-    }
-
-    #sidebar-close path {
-        fill: black;
-    }
-
-    #guide-viewer #guide-sidebar {
+    #guide-sidebar {
         display: none;
     }
 
     #mobile-nav-btn {
+        cursor: pointer;
         display: flex;
         height: 50px;
         width: 50px;
@@ -472,7 +493,7 @@ tr:first-child, tr:nth-child(2n+3) {
         fill: white;
     }
 
-    #mobile-nav-toggle:checked ~ #guide-viewer #guide-sidebar {
+    #mobile-nav-toggle:checked ~ #guide-sidebar {
         display: block;
     }
 
@@ -499,12 +520,11 @@ tr:first-child, tr:nth-child(2n+3) {
     }
 }
 
-@media screen and (max-width: 768px) and (prefers-color-scheme: dark) {
+@media (max-width: 940px) and (prefers-color-scheme: dark) {
     #sidebar-invisible {
         background: rgba(0,0,0,0.9);
     }
 
-    #guide-sidebar,
     #mobile-nav-toggle:checked ~ #site-header #mobile-nav-btn {
         background: black;
     }
