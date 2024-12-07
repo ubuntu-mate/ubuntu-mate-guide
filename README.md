@@ -89,12 +89,16 @@ pandoc -s UMGuide.md -o UMGuide.html
 
 ## guide.ubuntu-mate.org
 
-An online version is published at <https://guide.ubuntu-mate.org>.
+The code for generating the online version of the guide is stored in the `online` folder.
+Successful builds will be published at <https://guide.ubuntu-mate.org> for immediate viewing.
 
-The [guide.ubuntu-mate.org](https://github.com/ubuntu-mate/guide.ubuntu-mate.org)
-repository contains additional code for viewing this publication of the guide.
+To build from the repository folder, run:
 
-Changes made to this repository on the `master` branch will be automatically published.
+    ./online/build.sh
+
+Then, open the resulting `online/build/index.html` in your web browser.
+
+Changes merged into this repository (against the `master` branch) will be automatically published.
 
 
 ## License
