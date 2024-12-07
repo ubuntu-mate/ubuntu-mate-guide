@@ -1,187 +1,164 @@
 
-const sidebar = document.getElementById("sidebar-contents");
+const sidebar = document.getElementById("guide-sidebar");
+const sidebarContents = document.getElementById("sidebar-contents");
 const headings = document.querySelectorAll("h1");
-const sidebar_toggle = document.getElementById("mobile-nav-toggle");
-const sidebar_btn = document.getElementById("sidebar-invisible");
-const btn_prev = document.getElementById("prev-section");
-const btn_prev_2 = document.getElementById("prev-section-mobile");
-const btn_next = document.getElementById("next-section");
-const btn_next_2 = document.getElementById("next-section-mobile");
+const btnPrev = document.getElementById("prev-section");
+const btnNext = document.getElementById("next-section");
 
-var ready = false;
-var scroll_timeout = null;
+const sidebarMobileToggle = document.getElementById("mobile-nav-toggle");
+const sidebarMobileBtn = document.getElementById("sidebar-invisible");
+const btnPrevMobile = document.getElementById("prev-section-mobile");
+const btnNextMobile = document.getElementById("next-section-mobile");
 
-// ScrollSpy - track current position in sidebar
+let scrollTimeout = null;
+
+// Track current position in sidebar
 function refreshSidebar(event) {
-    clearTimeout(scroll_timeout);
-    scroll_timeout = setTimeout(_refreshSidebar, 100);
-}
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(function() {
+        const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+        let id = null;
 
-function _refreshSidebar() {
-    const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+        for (h = 1; h < headings.length; h++ ) {
+            let header = headings[h];
 
-    if (ready === false)
-        return;
-
-    var id = null;
-
-    for (h = 1; h < headings.length; h++ ) {
-        let header = headings[h];
-
-        if (header.offsetTop <= scrollPos + 100) {
-            id = header.id;
+            if (header.offsetTop <= scrollPos + 100) {
+                id = header.id;
+            }
         }
-    }
 
-    var active = document.querySelector(".active");
-    var target = document.getElementById(`nav-${id}`);
+        const active = document.querySelector(".active") || sidebarContents.childNodes[1];
+        const target = document.getElementById(`nav-${id}`) || sidebarContents.querySelector(".nav-item");
 
-    if (active == null || active == undefined) {
-        active = sidebar.childNodes[1];
-        active.classList.add("active");
-    }
+        active.classList.remove("active");
+        target.classList.add("active");
+        target.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
 
-    if (target == null || target == undefined) {
-        target = sidebar.querySelector(".nav-item");
-    }
+        // Keep the hash in the address bar up-to-date
+        if (id)
+            history.replaceState(null, null, `#${id}`);
 
-    active.classList.remove("active");
-    target.classList.add("active");
-    target.scrollIntoView({
-        behavior: "smooth",
-        block: "center"
-    });
-
-    // TODO: Keep the hash in the address bar up-to-date
-    //window.location.hash = "#" + id;
-
-    // Disable next/prev buttons accordingly
-    _updateNextPrevButtons();
+        // Disable next/prev buttons accordingly
+        _updateNextPrevButtons();
+    }, 100);
 }
 
 window.addEventListener("DOMContentLoaded", function() {
     try {
         // Populate sidebar with topics
-        var buffer = "";
+        const buffer = [];
         for (h = 1; h < headings.length; h++) {
-            var heading = headings[h];
+            const heading = headings[h];
 
             if (heading.tagName.toLowerCase() == "h1") {
-                var is_new_chapter = heading.innerText.search('•') == 0 ? true : false;
-                var text = heading.innerText;
+                const isNewChapter = heading.innerText.search('•') == 0;
+                let text = heading.innerText;
 
-                if (is_new_chapter === true) {
+                if (isNewChapter) {
                     text = text.split('•').join("").toLowerCase().replace("mate", "MATE");
-                    buffer += "<div class='nav-separator'></div>";
+                    buffer.push("<div class='nav-separator'></div>");
                 }
 
-                buffer += `<a id="nav-${heading.id}" class="nav-item ${is_new_chapter ? 'nav-chapter' : ''} ${h == 1 ? 'active' : ''}" href="#${heading.id}">${text}</a>`;
+                buffer.push(`<a id="nav-${heading.id}" class="nav-item ${isNewChapter ? 'nav-chapter' : ''} ${h == 1 ? 'active' : ''}" href="#${heading.id}">${text}</a>`);
 
-                if (is_new_chapter === true) {
+                if (isNewChapter === true)
                     heading.innerText = heading.innerText.split('•').join("").toLowerCase().replace("mate", "MATE");
-                }
             }
         }
-        sidebar.innerHTML = buffer;
+        sidebarContents.innerHTML = buffer.join("");
 
         // If returning to the page and a hash in the URL, jump!
         if (window.location.href.search("#") != -1) {
-            let href = window.location.href.split("#")[1];
-            let btn = document.getElementById("nav-" + href);
-
-            if (btn != null || btn != undefined) {
+            const href = window.location.href.split("#")[1];
+            const btn = document.getElementById(`nav-${href}`);
+            if (btn)
                 btn.click();
-            }
         }
 
         // Some headings are linked within articles. Make sure those links don't have a class.
-        let chapter_links = document.querySelectorAll(".nav-chapter");
-        for (c = 0; c < chapter_links.length; c++) {
-            let link = chapter_links[c];
-            if (link.parentElement.tagName.toLowerCase() == "p") {
+        const chapterLinks = document.querySelectorAll(".nav-chapter");
+        for (c = 0; c < chapterLinks.length; c++) {
+            const link = chapterLinks[c];
+            if (link.parentElement.tagName.toLowerCase() == "p")
                 link.classList.remove("nav-chapter");
-            }
         }
 
         // On mobile, clicking a topic closes the menu.
-        sidebar.addEventListener("click", function() {
-            sidebar_toggle.checked = false;
+        sidebarContents.addEventListener("click", function() {
+            sidebarMobileToggle.checked = false;
         });
-
-        document.getElementById("guide-viewer").classList.remove("loading");
 
         // Set up triggers
         window.onscroll = refreshSidebar;
 
         // Ready!
-        ready = true;
-        btn_prev.disabled = false;
-        btn_next.disabled = false;
-        btn_prev_2.classList.add("disabled");
-        btn_next_2.classList.add("disabled");
+        btnPrev.disabled = false;
+        btnNext.disabled = false;
+        btnPrevMobile.classList.add("disabled");
+        btnNextMobile.classList.add("disabled");
         refreshSidebar();
 
     } catch(e) {
         console.error(e);
-        document.getElementById("guide-viewer").classList.remove("loading");
-        window.alert("There was an error loading the guide. Your mileage may vary.\n\nDetails:\n " + e);
+        window.alert("There was an error loading the page. The interactive sidebar may not work.\n\nDetails:\n " + e);
     }
 });
 
 // Set up mobile menu
-sidebar_btn.addEventListener("click", function() {
-    sidebar_toggle.checked = false;
+sidebarMobileBtn.addEventListener("click", function() {
+    sidebarMobileToggle.checked = false;
 });
 
 // Buttons for jumping forward/backwards from sections
 function prevSection() {
-    var active = document.querySelector(".active");
-    var target = active.previousSibling;
+    const active = document.querySelector(".active");
+    let target = active.previousSibling;
 
-    if (target == null)
+    if (!target)
         return null;
 
-    if (target.className == "nav-separator") {
+    if (target.className == "nav-separator")
         target = target.previousSibling;
-    }
 
-    if (target == null)
+    if (!target)
         return null;
 
     target.click();
 }
 
 function nextSection() {
-    var active = document.querySelector(".active");
-    var target = active.nextSibling;
+    const active = document.querySelector(".active");
+    let target = active.nextSibling;
 
-    if (target == null)
+    if (!target)
         return null;
 
-    if (target.className == "nav-separator") {
+    if (target.className == "nav-separator")
         target = target.nextSibling;
-    }
 
-    if (target == null)
+    if (!target)
         return null;
 
     target.click();
 }
 
 function _updateNextPrevButtons() {
-    var active = document.querySelector(".active");
-    btn_prev.disabled = false;
-    btn_next.disabled = false;
-    btn_prev_2.classList.remove("disabled");
-    btn_next_2.classList.remove("disabled");
+    const active = document.querySelector(".active");
+    btnPrev.disabled = false;
+    btnNext.disabled = false;
+    btnPrevMobile.classList.remove("disabled");
+    btnNextMobile.classList.remove("disabled");
 
-    if (active.previousSibling.previousSibling == null) {
-        btn_prev.disabled = true;
-        btn_prev_2.classList.add("disabled");
+    if (!active.previousSibling.previousSibling) {
+        btnPrev.disabled = true;
+        btnPrevMobile.classList.add("disabled");
     }
 
-    if (active.nextSibling == null) {
-        btn_next.disabled = true;
-        btn_next_2.classList.add("disabled");
+    if (!active.nextSibling) {
+        btnNext.disabled = true;
+        btnNextMobile.classList.add("disabled");
     }
 }
