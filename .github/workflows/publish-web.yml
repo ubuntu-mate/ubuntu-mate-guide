@@ -2,44 +2,31 @@
 # This workflow is adapted from guide.ubuntu-mate.org! Changes made here must
 # be applied to that repository and vice versa.
 #
-name: Publish to Web
+name: CI
 
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
-    runs-on: ubuntu-20.04
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Install Dependencies
+    - name: Install dependencies
       run: |
-        sudo apt-get install pandoc ruby-html-proofer
-
-    - name: Clone Web Repository
-      run: |
-        git clone https://github.com/ubuntu-mate/guide.ubuntu-mate.org --depth=1
+        sudo apt-get install pandoc
 
     - name: Build
       run: |
-        cd guide.ubuntu-mate.org/
-        scripts/build.py ../
-
-    - name: Test for errors
-      run: |
-        cd guide.ubuntu-mate.org/
-        scripts/test.sh
+        online/build.sh
 
     - name: Publish to Cloudflare Pages
-      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' }}
+      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' && github.ref == 'refs/heads/master' }}
       uses: cloudflare/pages-action@v1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: e6fe5e31e8183c8192347f15af553766
         projectName: guide-ubuntu-mate-org
-        directory: guide.ubuntu-mate.org/build
+        directory: online/build
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
