@@ -30,3 +30,23 @@ jobs:
         projectName: guide-ubuntu-mate-org
         directory: online/build
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+  test:
+    name: Proofing
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get install pandoc ruby-html-proofer
+
+    - name: Check links
+      run: |
+        pandoc -f docbook -t html -s -o ubuntu-mate-guide.html index.docbook
+        htmlproofer --only-4xx ubuntu-mate-guide.html
+
+    - name: Test for errors
+      run: |
+        cd guide.ubuntu-mate.org/
+        scripts/test.sh
