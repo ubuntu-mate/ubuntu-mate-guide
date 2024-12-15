@@ -5178,7 +5178,7 @@
       </simpara>
       <simpara>
         Back up any important data to another storage device before you start to install in case something goes horribly wrong! Save all of your important files and folders to an external USB drive or a 2nd hard drive. DO NOT save anything to the same drive you intend to use for Ubuntu MATE. Once you start, there is no going back! Here is an article with some considerations around backups:
-        <ulink url="http://goinglinux.com/articles/Backups.html">Backup Strategies For Your Computer</ulink>
+        <ulink url="https://goinglinux.com/backup-strategies-for-your-computer/">Backup Strategies For Your Computer</ulink>
       </simpara>
       <simpara>
         Step two:
@@ -5707,16 +5707,6 @@
       <keycap>L</keycap>
       key combinations are recognized as screen lock keyboard shortcuts in Ubuntu MATE.
     </simpara>
-    <tip>
-      <title>Do you need to enable the Super key?</title>
-      <simpara>
-        The Super key just works after you install Ubuntu MATE on most computer hardware. However, when you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key. Details are available from Dell's support website in a knowledge base article entitled, "
-        <emphasis>
-          <ulink url="http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en">How to enable the Ubuntu super key on Dell OEM Ubuntu installations</ulink>
-        </emphasis>
-        ." Check your hardware manufacturer's documentation or website to determine if your computer's Super key requires similar setup.
-      </simpara>
-    </tip>
     <sect2 id="shortcuts-common">
       <title>Common Application Shortcuts</title>
       <simpara>These shortcuts apply in most applications.</simpara>
