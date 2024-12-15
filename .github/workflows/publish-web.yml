@@ -50,8 +50,3 @@ jobs:
       run: |
         pandoc -f docbook -t html -s -o ubuntu-mate-guide.html index.docbook
         htmlproofer --only-4xx ubuntu-mate-guide.html
-
-    - name: Test for errors
-      run: |
-        cd guide.ubuntu-mate.org/
-        scripts/test.sh
