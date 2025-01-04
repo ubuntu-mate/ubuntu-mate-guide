@@ -31,11 +31,6 @@ jobs:
         directory: online/build
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Purge Cloudflare Cache
-      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' && github.ref == 'refs/heads/master' }}
-      run: |
-        curl -X POST --fail-with-body https://api.cloudflare.com/client/v4/zones/${{secrets.CLOUDFLARE_ZONE_ID}}/purge_cache -H "Authorization: Bearer ${{secrets.CLOUDFLARE_API_TOKEN}}" -H "Content-Type: application/json" --data '{"purge_everything":true}'
-
   test:
     name: Proofing
     runs-on: ubuntu-latest
