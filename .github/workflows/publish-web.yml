@@ -9,9 +9,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   publish:
     name: Publish
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
 
     - name: Install dependencies
       run: |
@@ -23,19 +23,18 @@ jobs:
 
     - name: Publish to Cloudflare Pages
       if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate-guide' && github.ref == 'refs/heads/master' }}
-      uses: cloudflare/pages-action@v1
+      uses: cloudflare/wrangler-action@v4
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: e6fe5e31e8183c8192347f15af553766
-        projectName: guide-ubuntu-mate-org
-        directory: online/build
+        command: pages deploy online/build --project-name=guide-ubuntu-mate-org --branch=master
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
   test:
     name: Proofing
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
 
     - name: Install dependencies
       run: |
